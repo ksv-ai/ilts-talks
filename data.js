@@ -2015,6 +2015,10 @@ window.ieltsData = {
                         "text": "Claim -> Because -> Result."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Starting early guarantees native-like linguistic proficiency."
                     },
@@ -2065,6 +2069,10 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Subject + verb-ing + allowing + result."
+                    },
+                    {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint)"
                     },
                     {
                         "label": "Claim",
@@ -2119,6 +2127,10 @@ window.ieltsData = {
                         "text": "If -> by -> As a result -> Therefore."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Free university yields substantial long-term macroeconomic dividends."
                     },
@@ -2171,6 +2183,10 @@ window.ieltsData = {
                         "text": "Not only... but also... allowing... consequently."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Integrating AI into medicine will save countless lives."
                     },
@@ -2221,6 +2237,10 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Subject + verb-ing + therefore + result."
+                    },
+                    {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint)"
                     },
                     {
                         "label": "Claim",
@@ -2286,6 +2306,10 @@ window.ieltsData = {
                         "text": "By + verb-ing... can... As a result."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Careful Planning)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Careful planning is the most reliable foundation for long-term success."
                     },
@@ -2340,6 +2364,10 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Because -> can -> consequently."
+                    },
+                    {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Children Choosing)"
                     },
                     {
                         "label": "Claim",
@@ -2398,6 +2426,10 @@ window.ieltsData = {
                         "text": "Although... ... Therefore."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Zoos Help Conservation)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Zoos are critical institutions for global environmental conservation."
                     },
@@ -2454,6 +2486,10 @@ window.ieltsData = {
                         "text": "By -> allow -> consequently."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Physical Stores)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Physical stores will endure because they offer a tangible shopping experience."
                     },
@@ -2508,6 +2544,10 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "This is because... By + verb-ing... As a result."
+                    },
+                    {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Economic Harm)"
                     },
                     {
                         "label": "Claim",
@@ -2569,6 +2609,10 @@ window.ieltsData = {
                         "text": "This is because... By + verb-ing... As a result."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Disadvantages)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Permanent remote work causes profound social isolation and hampers collaboration."
                     },
@@ -2623,6 +2667,10 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Because... By + verb-ing... As a result."
+                    },
+                    {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Disadvantages)"
                     },
                     {
                         "label": "Claim",
@@ -2681,6 +2729,10 @@ window.ieltsData = {
                         "text": "This is because... By living in... For instance... Therefore."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Disadvantages)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Urbanization severely damages the physical health of city residents."
                     },
@@ -2737,6 +2789,10 @@ window.ieltsData = {
                         "text": "Claim -> Because -> By + verb-ing -> For example -> As a result."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Disadvantages)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Heavy reliance on social networks inflicts severe psychological detriment."
                     },
@@ -2791,6 +2847,10 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Because -> by employing -> for example -> as a result."
+                    },
+                    {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Disadvantages)"
                     },
                     {
                         "label": "Claim",
@@ -2856,6 +2916,10 @@ window.ieltsData = {
                         "text": "Claim -> Because -> By + verb-ing -> For example -> Consequently."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Solutions)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Governments must heavily invest in mass transit infrastructure."
                     },
@@ -2910,6 +2974,10 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Claim -> This is because... By + verb-ing... For instance -> Consequently."
+                    },
+                    {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Solutions)"
                     },
                     {
                         "label": "Claim",
@@ -2968,6 +3036,10 @@ window.ieltsData = {
                         "text": "Claim -> Because... By + verb-ing... For example -> As a result."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Solutions)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Universities must integrate mandatory corporate apprenticeship programs into all degrees."
                     },
@@ -3024,6 +3096,10 @@ window.ieltsData = {
                         "text": "Because -> by prioritizing -> for instance -> as a result."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Solutions)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "The government must intervene by heavily taxing plastic production."
                     },
@@ -3078,6 +3154,10 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Claim -> This is because... By + verb-ing... For example -> Consequently."
+                    },
+                    {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Solutions)"
                     },
                     {
                         "label": "Claim",
@@ -3143,6 +3223,10 @@ window.ieltsData = {
                         "text": "Claim -> This is because... By + verb-ing... For example -> Consequently."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Is it a good idea?)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "Taking a gap year is an excellent idea because it accelerates real-world maturity."
                     },
@@ -3197,6 +3281,10 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Because -> by agreeing -> for instance -> consequently."
+                    },
+                    {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Is it fair?)"
                     },
                     {
                         "label": "Claim",
@@ -3255,6 +3343,10 @@ window.ieltsData = {
                         "text": "Claim -> This is because... By + verb-ing... For example -> Consequently."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Who should pay?)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "The national government must bear the primary financial responsibility for restoration and upkeep."
                     },
@@ -3311,6 +3403,10 @@ window.ieltsData = {
                         "text": "Direct result -> because -> by leveraging -> as a result."
                     },
                     {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Is it justified?)"
+                    },
+                    {
                         "label": "Claim",
                         "text": "The exorbitant wages paid to elite athletes are completely justified."
                     },
@@ -3365,6 +3461,10 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Claim -> This is because... By + verb-ing... For example -> Consequently."
+                    },
+                    {
+                        "isHeading": true,
+                        "text": "(Body Paragraph 2 Blueprint - Is it a waste?)"
                     },
                     {
                         "label": "Claim",

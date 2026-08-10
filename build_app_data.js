@@ -150,14 +150,20 @@ function parseTask2Files() {
             const convMatch = exContent.match(/THE CONVERSATION.*?\n([\s\S]*?)(?=\n\nBAND 9 ESSAY:)/);
             let conversation = [];
             if (convMatch) {
-                const lines = convMatch[1].split('\n').filter(line => line.trim().startsWith('*'));
-                conversation = lines.map(line => {
-                    let text = line.replace('*', '').trim();
-                    let parts = text.split(':');
-                    if(parts.length > 1) {
-                        return { label: parts[0].trim(), text: parts.slice(1).join(':').trim() };
+                const rawLines = convMatch[1].split('\n').map(l => l.trim()).filter(l => l);
+                rawLines.forEach(line => {
+                    if (line.startsWith('THE CONVERSATION') || line.includes('Blueprint')) {
+                        const heading = line.replace('THE CONVERSATION', '').replace(':', '').trim();
+                        conversation.push({ isHeading: true, text: heading });
+                    } else if (line.startsWith('*')) {
+                        let text = line.replace('*', '').trim();
+                        let parts = text.split(':');
+                        if (parts.length > 1) {
+                            conversation.push({ label: parts[0].trim(), text: parts.slice(1).join(':').trim() });
+                        } else {
+                            conversation.push({ label: "Note", text: text });
+                        }
                     }
-                    return { label: "Note", text: text };
                 });
             }
 

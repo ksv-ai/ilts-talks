@@ -259,7 +259,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="blueprint-box" style="margin-bottom: 20px;">
                     <strong>THE CONVERSATION:</strong><br/>
-                    ${ex.conversation.map(c => `<div class="blueprint-step"><span class="blueprint-label">${c.label}:</span> ${c.text}</div>`).join('')}
+                    ${ex.conversation.map(c => {
+                        if (c.isHeading) {
+                            return `<div class="blueprint-section-title" style="font-weight: 700; margin-top: 15px; margin-bottom: 8px; color: var(--accent-color); border-bottom: 1px dashed var(--border-color); padding-bottom: 4px; font-size: 0.95rem;">${c.text}</div>`;
+                        }
+                        return `<div class="blueprint-step" style="margin-left: 10px; margin-bottom: 4px;"><span class="blueprint-label" style="font-weight: 600;">${c.label}:</span> ${c.text}</div>`;
+                    }).join('')}
                 </div>
                 <div class="essay-text">
                     <strong>BAND 9 ESSAY:</strong><br/>
