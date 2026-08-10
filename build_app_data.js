@@ -72,9 +72,6 @@ function parseTask1Files() {
                         overflow: hidden !important;
                         height: 100% !important;
                         width: 100% !important;
-                        display: flex !important;
-                        justify-content: center !important;
-                        align-items: center !important;
                     }
                     /* Hide redundant headings and prompts inside the iframe */
                     h2, .prompt, h3 { display: none !important; }
@@ -84,10 +81,7 @@ function parseTask1Files() {
                     
                     /* Show only the target container */
                     .chart-container:nth-of-type(${exampleNum}), .table-container:nth-of-type(${exampleNum}) { 
-                        display: flex !important; 
-                        flex-direction: column !important;
-                        justify-content: center !important;
-                        align-items: center !important;
+                        display: block !important; 
                         margin: 0 !important; 
                         box-shadow: none !important; 
                         width: 100% !important; 
@@ -97,19 +91,19 @@ function parseTask1Files() {
                         overflow: hidden !important;
                     }
                     
-                    /* Scale content down to fit perfectly within the 380px boundary */
+                    /* Scale content down slightly to fit comfortably without scrollbars */
                     .chart-container > *:not(h2):not(.prompt), 
                     .table-container > *:not(h2):not(.prompt),
                     .map-row, 
                     .pie-row,
                     table {
-                        transform: scale(0.72) !important;
-                        transform-origin: center center !important;
+                        transform: scale(0.88) !important;
+                        transform-origin: top center !important;
                         margin: 0 auto !important;
                     }
                     
                     canvas {
-                        max-height: 350px !important;
+                        max-height: 440px !important;
                         max-width: 100% !important;
                     }
                 </style>
