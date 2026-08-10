@@ -55,6 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
             renderTask1(data.task1[chartType]);
         } else if (target === 'task2-playbook') {
             renderPlaybook(data.task2.playbook);
+        } else if (target === 'task2-lenses') {
+            renderLenses(data.task2.lenses);
         } else if (target.startsWith('lens-')) {
             const lensType = target.split('-')[1];
             renderSingleLens(data.task2.lenses[lensType], lensType);
@@ -139,6 +141,41 @@ document.addEventListener('DOMContentLoaded', () => {
         contentBody.innerHTML = html;
     }
 
+    function renderLenses(lenses) {
+        if(!lenses) return;
+        pageTitle.innerText = "Idea Bank (Lenses)";
+        pageSubtitle.innerText = "Master Idea Trees and Mechanism Chains by Topic";
+
+        let html = `
+        <div class="card" style="margin-bottom: 20px;">
+            <p style="color: var(--text-secondary); margin: 0;">Select a lens below to explore its core concepts, logical chains, high-band collocations, and pre-written Band 9 paragraphs.</p>
+        </div>
+        <div class="grid-2">
+        `;
+
+        Object.keys(lenses).forEach(key => {
+            const topic = lenses[key];
+            html += `
+            <div class="card interactive-card" style="cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;" onclick="window.loadIeltsContent('lens-${key}')">
+                <h3 style="font-size: 1.25rem; margin-bottom: 8px; color: var(--accent-color); display: flex; align-items: center; gap: 10px;">
+                    <i class="fa-solid fa-network-wired"></i> ${topic.name}
+                </h3>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.4;">
+                    <strong>Concepts:</strong> ${topic.concepts.join(', ')}
+                </p>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span class="badge" style="background: rgba(52, 152, 219, 0.1); color: var(--accent-color); font-weight: 600;">
+                        ${topic.chains.length} Chains
+                    </span>
+                    <span style="font-size: 0.8rem; color: var(--accent-color); font-weight: 500;">Explore <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </div>`;
+        });
+
+        html += `</div>`;
+        contentBody.innerHTML = html;
+    }
+
     function renderSingleLens(topic, id) {
         if(!topic) {
             contentBody.innerHTML = '<p>Lens data being compiled...</p>';
@@ -148,6 +185,11 @@ document.addEventListener('DOMContentLoaded', () => {
         pageSubtitle.innerText = "Master Idea Trees and Mechanism Chains";
 
         let html = `
+        <div style="margin-bottom: 20px;">
+            <button class="btn" style="background: var(--card-bg); border: 1px solid var(--border-color); padding: 8px 16px; border-radius: 6px; cursor: pointer; color: var(--text-primary); font-weight: 600; display: inline-flex; align-items: center; gap: 8px;" onclick="window.loadIeltsContent('task2-lenses')">
+                <i class="fa-solid fa-arrow-left"></i> Back to Lenses
+            </button>
+        </div>
         <div class="card">
             <h3 style="font-size: 1.5rem;"><i class="fa-solid fa-network-wired"></i> Core Concepts</h3>
             <p>${topic.concepts.map(c => `<span class="badge">${c}</span>`).join('')}</p>
@@ -180,6 +222,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         contentBody.innerHTML = html;
     }
+
+    // Expose loadContent globally so dashboard onclick can trigger it
+    window.loadIeltsContent = loadContent;
 
     function renderTask2Essays(data) {
         if(!data) return;
