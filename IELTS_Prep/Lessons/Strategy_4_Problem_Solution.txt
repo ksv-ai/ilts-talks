@@ -12,6 +12,14 @@ PROMPT: In many cities, traffic congestion has become a serious problem. What ar
 LENS: Infrastructure & Environmental
 KEY COLLOCATIONS: explosive population growth, inadequate public transport, prohibitive taxation, reliable alternatives
 
+THE CONVERSATION (Body Paragraph 1 Blueprint - Causes):
+* Claim: Urban gridlock is primarily caused by excessive reliance on private vehicles driven by rapid urbanization.
+* Why?: Because existing public transport is notoriously slow, overcrowded, and unreliable, forcing citizens to buy cars.
+* How?: By pouring millions of independent vehicles onto highways simultaneously during rush hour.
+* Example: Jakarta or Los Angeles lacking comprehensive subway systems, leaving highways overwhelmed.
+* Result: The road infrastructure is completely overwhelmed, leading to daily crippling traffic jams.
+* Architecture Pattern: Claim -> Because -> By + verb-ing -> For example -> Consequently.
+
 THE CONVERSATION (Body Paragraph 2 Blueprint - Solutions):
 * Claim: Governments must heavily invest in mass transit infrastructure.
 * Why?: Because people will only abandon their cars if a faster, cheaper alternative exists.
@@ -44,6 +52,14 @@ THE CONVERSATION (Body Paragraph 1 Blueprint - Causes):
 * Result: They fail to burn off the calories they consume, leading to rapid, dangerous weight gain.
 * Architecture Pattern: Claim -> This is because... By + verb-ing... For instance -> Consequently.
 
+THE CONVERSATION (Body Paragraph 2 Blueprint - Solutions):
+* Claim: Childhood obesity can be reversed through strict food legislation and mandatory physical education.
+* Why?: Because kids must burn more calories than they consume, and unhealthy choices must be financially suppressed.
+* How?: By taxing sugary snacks, banning fast food TV ads, and mandating daily sports in schools.
+* Example: Taxing junk food forces price increases, while schools make one hour of daily physical sports compulsory.
+* Result: It artificially suppresses bad eating habits and guarantees daily physical exertion.
+* Architecture Pattern: Firstly -> by making -> if educational institutions -> ultimately.
+
 BAND 9 ESSAY:
 The alarming escalation of obesity rates among children has become a major public health crisis in numerous developed nations. This epidemic is primarily caused by the normalization of highly sedentary lifestyles and the overconsumption of processed foods, but it can be addressed through strict legislative intervention and improved school curriculums.
 
@@ -68,6 +84,14 @@ THE CONVERSATION (Body Paragraph 1 Blueprint - Causes):
 * Result: Employers refuse to hire them because they require months of expensive, basic training.
 * Architecture Pattern: Claim -> Because... By + verb-ing... For example -> As a result.
 
+THE CONVERSATION (Body Paragraph 2 Blueprint - Solutions):
+* Claim: Universities must integrate mandatory corporate apprenticeship programs into all degrees.
+* Why?: Because hands-on experience bridge the theoretical skills gap and prepares graduates for actual corporate demands.
+* How?: By partnering with private companies to require a six-month internship before graduation.
+* Example: Students working in companies to learn industry-standard tech and office operations.
+* Result: Graduates possess the precise practical experience employers demand, making them immediately hirable.
+* Architecture Pattern: If -> during these -> consequently.
+
 BAND 9 ESSAY:
 In the contemporary global economy, a significant number of university graduates face severe difficulties in securing stable, well-remunerated employment. This crisis is primarily caused by a fundamental structural mismatch between outdated university curriculums and modern industry demands, a problem that can only be resolved by aggressively expanding vocational apprenticeship programs.
 
@@ -83,6 +107,14 @@ PROMPT: Plastic waste is a growing environmental problem worldwide. What causes 
 
 LENS: Environmental & Consumerism
 KEY COLLOCATIONS: single-use convenience culture, non-biodegradable, exorbitant taxation, sustainable alternatives
+
+THE CONVERSATION (Body Paragraph 1 Blueprint - Causes):
+* Claim: The plastic waste crisis is fundamentally driven by the global normalization of a single-use convenience culture.
+* Why?: Because consumers demand portable, disposable products, and plastic is cheap and highly durable for packaging.
+* How?: By prioritizing minor conveniences, purchasing and immediately discarding billions of plastic packaging items daily.
+* Example: An office worker buying a plastic cup of coffee and immediately throwing it away.
+* Result: Mountains of non-biodegradable plastic accumulate, contaminating oceans and harming wildlife.
+* Architecture Pattern: Because -> by prioritizing -> for instance -> as a result.
 
 THE CONVERSATION (Body Paragraph 2 Blueprint - Solutions):
 * Claim: The government must intervene by heavily taxing plastic production.
@@ -109,12 +141,20 @@ LENS: Economic & Health
 KEY COLLOCATIONS: demographic shift, shrinking tax base, catastrophic healthcare deficit, mandatory retirement age
 
 THE CONVERSATION (Body Paragraph 1 Blueprint - Causes/Problems):
-* Claim: An aging demographic triggers a catastrophic healthcare deficit.
-* Why?: Because the elderly require vastly more medical attention than the youth.
-* How?: By constantly drawing upon state-funded hospitals for chronic, age-related treatments while the working-class shrinks.
-* Example: A nation like Japan struggling to fund dementia care as its tax-paying youth population plummets.
-* Result: The government's financial reserves are drained, leading to national economic instability.
+* Claim: An aging demographic triggers a catastrophic deficit in healthcare funding.
+* Why?: Because the elderly require vastly more medical attention, surgeries, and long-term care than younger citizens.
+* How?: By constantly drawing upon hospital resources while the tax-paying, working-class demographic shrinks.
+* Example: Japan or Italy spending billions on dementia care while having fewer young workers to fund it through taxes.
+* Result: The government's financial reserves are rapidly drained, threatening economic stability.
 * Architecture Pattern: Claim -> This is because... By + verb-ing... For example -> Consequently.
+
+THE CONVERSATION (Body Paragraph 2 Blueprint - Solutions):
+* Claim: Governments must resolve this crisis by raising the mandatory retirement age.
+* Why?: Because modern medicine has drastically improved longevity and physical capability.
+* How?: By extending the retirement age to 70 or 72, keeping capable older citizens in the tax-paying workforce.
+* Example: Older employees contributing to income tax longer instead of immediately drawing pensions.
+* Result: The government expands its active tax base and secures the funds required to support healthcare.
+* Architecture Pattern: By legally extending -> if older -> as a result.
 
 BAND 9 ESSAY:
 A significant demographic shift is currently occurring in many developed nations, characterized by a rapidly expanding elderly population and a shrinking youth demographic. This imbalance creates severe economic problems, most notably a catastrophic deficit in healthcare funding, which must be addressed by fundamentally restructuring the national retirement age.

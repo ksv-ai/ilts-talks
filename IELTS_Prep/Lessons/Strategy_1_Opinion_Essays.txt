@@ -20,6 +20,13 @@ THE CONVERSATION (Body Paragraph 1 Blueprint):
 * Result: They develop superior problem-solving skills and long-term linguistic proficiency.
 * Architecture Pattern: Claim -> Because -> Result.
 
+THE CONVERSATION (Body Paragraph 2 Blueprint):
+* Claim: Starting early guarantees native-like linguistic proficiency.
+* Why?: Because young children acquire language subconsciously through imitation and play.
+* How?: By practicing and internalizing vocabulary before facing academic pressures.
+* Result: They graduate with genuine fluency that is extremely difficult to replicate in adulthood.
+* Architecture Pattern: If -> then -> consequently.
+
 BAND 9 ESSAY:
 It is often debated whether foreign language instruction should commence in primary education or be delayed until secondary school. I strongly agree that introducing languages at an early age is highly beneficial, as it significantly enhances cognitive development and ensures greater long-term linguistic fluency.
 
@@ -43,6 +50,13 @@ THE CONVERSATION (Body Paragraph 1 Blueprint):
 * Example: A teenager volunteering at a local homeless shelter.
 * Result: They develop profound empathy and become active, caring citizens.
 * Architecture Pattern: Subject + verb-ing + allowing + result.
+
+THE CONVERSATION (Body Paragraph 2 Blueprint):
+* Claim: Community service equips students with essential career interpersonal skills.
+* Why?: Because volunteering requires practical, collaborative teamwork rather than classroom theory.
+* How?: By organizing charity drives or coordinating community clean-ups.
+* Result: They practice leadership and communication, graduating with crucial professional soft skills.
+* Architecture Pattern: While -> by -> as a result.
 
 BAND 9 ESSAY:
 There is an ongoing discussion regarding whether high schools should mandate unpaid community service for all students. I completely agree with this proposition, as mandatory volunteering actively fosters civic responsibility and equips teenagers with crucial interpersonal skills.
@@ -68,6 +82,13 @@ THE CONVERSATION (Body Paragraph 1 Blueprint):
 * Result: It promotes social mobility and reduces generational poverty.
 * Architecture Pattern: If -> by -> As a result -> Therefore.
 
+THE CONVERSATION (Body Paragraph 2 Blueprint):
+* Claim: Free university yields substantial long-term macroeconomic dividends.
+* Why?: Because national prosperity depends on innovation driven by a highly skilled workforce.
+* How?: By subsidizing higher learning so a larger percentage of citizens graduate in STEM fields.
+* Result: It attracts corporate investment, drives technological advancements, and avoids stagnation.
+* Architecture Pattern: If -> consequently -> thereby.
+
 BAND 9 ESSAY:
 The question of whether governments should fully subsidize university education for all citizens is a subject of significant debate. I strongly agree that tertiary education should be free, as it promotes absolute equality of opportunity and ultimately generates immense long-term economic benefits for the nation.
 
@@ -92,6 +113,13 @@ THE CONVERSATION (Body Paragraph 1 Blueprint):
 * Result: Human employees can focus on creative, high-level strategic work.
 * Architecture Pattern: Not only... but also... allowing... consequently.
 
+THE CONVERSATION (Body Paragraph 2 Blueprint):
+* Claim: Integrating AI into medicine will save countless lives.
+* Why?: Because algorithms identify patterns in complex scans faster than human eyes.
+* How?: By cross-referencing patient scans against millions of historical records.
+* Result: Doctors can identify early-stage tumors and start treatments much sooner.
+* Architecture Pattern: By -> making them -> as a result.
+
 BAND 9 ESSAY:
 The rapid advancement of artificial intelligence has sparked widespread concern that it may ultimately bring more detriment than benefit to human society. I firmly disagree with this pessimistic view, as I believe AI will fundamentally revolutionize workplace efficiency and drive unprecedented medical advancements.
 
@@ -107,6 +135,14 @@ PROMPT: Plastic waste is a growing environmental problem worldwide. Some people 
 
 LENS: Environmental & Consumerism
 KEY COLLOCATIONS: sweeping legislative power, corporate accountability, consumer demand, mitigate plastic pollution
+
+THE CONVERSATION (Body Paragraph 1 Blueprint):
+* Claim: Governments hold the legislative power necessary to force environmental change.
+* Why?: Because national laws can mandate compliance and ban harmful products.
+* How?: By implementing mandatory levies or bans on plastic bags and single-use packaging.
+* Example: Immediate drop in bag usage in Europe following mandatory levies.
+* Result: Widespread compliance stops plastic pollution at the source.
+* Architecture Pattern: Subject + verb-ing + therefore + result.
 
 THE CONVERSATION (Body Paragraph 2 Blueprint):
 * Claim: Consumer behavior dictates the production of plastic.

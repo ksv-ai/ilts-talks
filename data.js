@@ -1012,6 +1012,26 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Claim -> Because -> Result."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Starting early guarantees native-like linguistic proficiency."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because young children acquire language subconsciously through imitation and play."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By practicing and internalizing vocabulary before facing academic pressures."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "They graduate with genuine fluency that is extremely difficult to replicate in adulthood."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "If -> then -> consequently."
                     }
                 ],
                 "essay": "It is often debated whether foreign language instruction should commence in primary education or be delayed until secondary school. I strongly agree that introducing languages at an early age is highly beneficial, as it significantly enhances cognitive development and ensures greater long-term linguistic fluency.\n\nOne major reason to support early language learning is its profound impact on cognitive development. This is because the neurological development of young children makes their brains highly adaptable and uniquely receptive to acquiring new information. By absorbing phonetic sounds and grammatical structures naturally during their primary school years, children develop enhanced neural pathways. For example, studies have consistently shown that students who participate in bilingual education from the age of six demonstrate superior problem-solving abilities and critical thinking skills compared to their monolingual peers. As a result, early language exposure provides mental benefits that extend far beyond mere communication.\n\nFurthermore, introducing foreign languages in primary school guarantees a much higher level of long-term linguistic proficiency. Unlike older students, young children learn language subconsciously through play and imitation, which allows them to master native-like pronunciation effortlessly. If governments mandate early language programs, students will have several additional years to practice and internalize the vocabulary before facing the academic pressures of secondary school. Consequently, they graduate with a genuine fluency that is incredibly difficult to achieve when starting at a later age.\n\nIn conclusion, I firmly believe that foreign language education must begin in primary school. Doing so not only takes advantage of a child's natural cognitive flexibility but also lays the foundation for advanced, effortless fluency in adulthood. (273 words)"
@@ -1044,6 +1064,26 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Subject + verb-ing + allowing + result."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Community service equips students with essential career interpersonal skills."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because volunteering requires practical, collaborative teamwork rather than classroom theory."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By organizing charity drives or coordinating community clean-ups."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "They practice leadership and communication, graduating with crucial professional soft skills."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "While -> by -> as a result."
                     }
                 ],
                 "essay": "There is an ongoing discussion regarding whether high schools should mandate unpaid community service for all students. I completely agree with this proposition, as mandatory volunteering actively fosters civic responsibility and equips teenagers with crucial interpersonal skills.\n\nThe primary benefit of enforcing community service is that it instills a deep sense of civic responsibility in young adults. This is because mandated volunteering forces teenagers to step outside their comfort zones and confront real-world societal challenges firsthand. By regularly interacting with marginalized communities, students learn to understand the difficulties faced by others, thereby developing profound empathy. For instance, a teenager who spends their weekends helping at a local homeless shelter will naturally gain a broader, more compassionate perspective on poverty. Consequently, these experiences transform passive students into proactive citizens who care deeply about the welfare of their local communities.\n\nIn addition to moral development, compulsory community service provides students with invaluable interpersonal skills that are essential for their future careers. While traditional classroom education focuses heavily on academic theory, volunteering requires practical, collaborative action. By organizing charity drives or coordinating community clean-ups, students are forced to practice teamwork, leadership, and effective communication under real pressure. As a result, they graduate not only with academic knowledge but also with the practical life skills necessary to thrive in collaborative workplace environments. \n\nIn conclusion, I strongly support making unpaid community service a compulsory element of the high school curriculum. It is an incredibly effective mechanism for building empathetic, socially responsible citizens while simultaneously developing the vital soft skills required for future professional success. (269 words)"
@@ -1076,6 +1116,26 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "If -> by -> As a result -> Therefore."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Free university yields substantial long-term macroeconomic dividends."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because national prosperity depends on innovation driven by a highly skilled workforce."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By subsidizing higher learning so a larger percentage of citizens graduate in STEM fields."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "It attracts corporate investment, drives technological advancements, and avoids stagnation."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "If -> consequently -> thereby."
                     }
                 ],
                 "essay": "The question of whether governments should fully subsidize university education for all citizens is a subject of significant debate. I strongly agree that tertiary education should be free, as it promotes absolute equality of opportunity and ultimately generates immense long-term economic benefits for the nation.\n\nThe most compelling argument for government-funded university education is that it ensures equal opportunity for individuals from all socioeconomic backgrounds. Currently, exorbitant tuition fees act as an insurmountable financial barrier for many capable students. By completely eliminating these costs, governments can ensure that admission is based entirely on academic merit rather than financial privilege. For example, a highly intelligent student from a working-class family would be able to pursue a demanding medical degree without the fear of accumulating decades of crippling debt. As a result, free education facilitates upward social mobility and actively dismantles cycles of generational poverty.\n\nFurthermore, from a macroeconomic perspective, investing in free university education yields substantial long-term dividends for the state. In the modern global economy, a nation's prosperity relies heavily on innovation and technological advancement, both of which require a highly skilled workforce. If a government subsidizes higher education, a much larger percentage of the population will graduate with specialized degrees in fields such as engineering, sciences, and technology. Consequently, this vast pool of qualified professionals will drive innovation, attract international corporate investment, and prevent national economic stagnation. \n\nIn conclusion, I completely agree that university education should be provided free of charge by the state. It is not merely a social moral obligation to ensure equal access to learning, but also a vital strategic investment in a country's future economic dominance. (279 words)"
@@ -1108,6 +1168,26 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Not only... but also... allowing... consequently."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Integrating AI into medicine will save countless lives."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because algorithms identify patterns in complex scans faster than human eyes."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By cross-referencing patient scans against millions of historical records."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Doctors can identify early-stage tumors and start treatments much sooner."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "By -> making them -> as a result."
                     }
                 ],
                 "essay": "The rapid advancement of artificial intelligence has sparked widespread concern that it may ultimately bring more detriment than benefit to human society. I firmly disagree with this pessimistic view, as I believe AI will fundamentally revolutionize workplace efficiency and drive unprecedented medical advancements.\n\nThe primary reason to embrace artificial intelligence is its capacity to drastically improve global economic productivity. This is because AI systems possess the ability to automate repetitive, time-consuming tasks with absolute precision and without fatigue. By taking over mundane administrative duties, AI frees human workers from mechanical labor. For instance, modern AI software can instantly analyze thousands of complex financial documents and generate reports in seconds—a process that would traditionally take human accountants weeks to complete. Consequently, corporations can reallocate their human employees to focus entirely on creative problem-solving and high-level strategic planning, thereby maximizing overall operational efficiency.\n\nMoreover, the integration of artificial intelligence into the healthcare sector promises to save countless lives. AI algorithms are extraordinarily adept at recognizing microscopic patterns in massive datasets, making them invaluable for early disease detection. By cross-referencing patient scans against millions of historical medical records, AI diagnostic tools can identify early-stage tumors that human doctors might easily overlook. As a result, medical professionals can begin life-saving treatments much earlier, drastically improving patient survival rates and ultimately revolutionizing the standard of global healthcare.\n\nIn conclusion, I strongly disagree with the notion that artificial intelligence is inherently dangerous. While any disruptive technology requires careful regulation, the profound benefits AI offers in terms of economic productivity and medical diagnostics undeniably outweigh the hypothetical risks to society. (270 words)"
@@ -1117,6 +1197,30 @@ window.ieltsData = {
                 "prompt": "Plastic waste is a growing environmental problem worldwide. Some people think the government is solely responsible for solving this issue. To what extent do you agree or disagree?",
                 "lens": "Environmental & Consumerism",
                 "conversation": [
+                    {
+                        "label": "Claim",
+                        "text": "Governments hold the legislative power necessary to force environmental change."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because national laws can mandate compliance and ban harmful products."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By implementing mandatory levies or bans on plastic bags and single-use packaging."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Immediate drop in bag usage in Europe following mandatory levies."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Widespread compliance stops plastic pollution at the source."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "Subject + verb-ing + therefore + result."
+                    },
                     {
                         "label": "Claim",
                         "text": "Consumer behavior dictates the production of plastic."
@@ -1158,6 +1262,30 @@ window.ieltsData = {
                 "conversation": [
                     {
                         "label": "Claim",
+                        "text": "Taking risks is essential for achieving extraordinary, unprecedented opportunities."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because playing it safe and sticking strictly to routines leads to stagnation and mediocrity."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By daring to step into the unknown and gambling on unproven, innovative ideas."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Tech billionaires dropping out of college to pursue unproven software ideas."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "They discover breakthrough solutions and tap into unexploited markets."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "By + verb-ing... can... As a result."
+                    },
+                    {
+                        "label": "Claim",
                         "text": "Careful planning is the most reliable foundation for long-term success."
                     },
                     {
@@ -1190,6 +1318,30 @@ window.ieltsData = {
                 "conversation": [
                     {
                         "label": "Claim",
+                        "text": "Parents should guide career choices to guarantee long-term financial security."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because teenagers lack real-world experience and naively pursue economically unstable passions."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By leveraging parents' mature understanding of the global economy to select high-demand, stable professions."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Forcing a child to study computer science to guarantee immediate starting salaries."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "It protects children from future financial hardship and ensures a stable career."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "Because -> can -> consequently."
+                    },
+                    {
+                        "label": "Claim",
                         "text": "Allowing children to select their own careers fosters intrinsic motivation."
                     },
                     {
@@ -1213,7 +1365,7 @@ window.ieltsData = {
                         "text": "If... by... As a result... Therefore."
                     }
                 ],
-                "essay": "The question of who should dictate a child's future profession is highly controversial. While some argue that experienced parents are best equipped to make this monumental decision, others insist that children must have the autonomy to choose their own paths. I firmly believe that allowing children to select their own careers is essential for their long-term happiness and professional success.\n\nThose who believe parents should dictate career choices often base their argument on financial security. Because teenagers generally lack real-world experience, they may naively pursue passions that offer very little economic stability, such as acting or music. Parents, possessing a mature understanding of the global economy, can guide their children toward highly lucrative and stable professions, such as medicine or engineering. For example, a parent who insists their child study computer science ensures that the child will graduate into a high-demand job market with an excellent starting salary. Consequently, parental intervention is seen as a necessary measure to protect children from future financial hardship.\n\nHowever, I strongly side with those who argue that children must be allowed to choose their own vocations, as autonomy fosters intrinsic motivation. This is because individuals are naturally driven to excel only in fields they are genuinely passionate about. When students are forced into demanding academic paths against their will, they frequently suffer from severe stress and professional burnout. Conversely, if a teenager who loves painting is supported in becoming a graphic designer, they will willingly dedicate countless hours to perfecting their craft without feeling burdened. As a result, they are far more likely to achieve elite mastery in their field and experience profound, lifelong job satisfaction. \n\nIn conclusion, while parents understandably want to guarantee their children's financial security, forcing a career upon them is a deeply flawed approach. Autonomy is crucial, as genuine passion is the ultimate prerequisite for achieving true excellence and happiness in one's professional life. (324 words)"
+                "essay": "The question of who should dictate a child's future profession is highly controversial. While some argue that experienced parents are best equipped to make this monumental decision, others insist that children must have the autonomy to choose their own paths. I firmly believe that allowing children to select their own careers is essential for their long-term happiness and professional success.\n\nThose who believe parents should dictate career choices often base their argument on financial security. Because teenagers generally lack real-world experience, they may naively pursue passions that offer very little economic stability, such as acting or music. Parents, possessing a mature understanding of the global economy, can guide their children toward highly lucrative and stable professions, such as medicine or engineering. For example, a parent who insists their child study computer science ensures that the child will graduate into a high-demand job market with an excellent starting salary. Consequently, parental intervention is seen as a necessary measure to protect children from future financial hardship.\n\nSubsequent to this, I strongly side with those who argue that children must be allowed to choose their own vocations, as autonomy fosters intrinsic motivation. This is because individuals are naturally driven to excel only in fields they are genuinely passionate about. When students are forced into demanding academic paths against their will, they frequently suffer from severe stress and professional burnout. Conversely, if a teenager who loves painting is supported in becoming a graphic designer, they will willingly dedicate countless hours to perfecting their craft without feeling burdened. As a result, they are far more likely to achieve elite mastery in their field and experience profound, lifelong job satisfaction. \n\nIn conclusion, while parents understandably want to guarantee their children's financial security, forcing a career upon them is a deeply flawed approach. Autonomy is crucial, as genuine passion is the ultimate prerequisite for achieving true excellence and happiness in one's professional life. (324 words)"
             },
             {
                 "title": "ZOOS",
@@ -1243,6 +1395,30 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Although... ... Therefore."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Zoos are critical institutions for global environmental conservation."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because deforestation and poaching have driven endangered species to the brink of extinction."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By running successful captive breeding programs in predator-free environments with expert veterinary care."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Successfully breeding and reintroducing Giant Pandas and Amur Leopards to wild reserves."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Zoos act as a genetic lifeboat, preserving global biodiversity."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "By -> can -> consequently."
                     }
                 ],
                 "essay": "The existence of zoos has become a highly polarizing issue in modern society. While some individuals passionately argue that keeping animals in captivity is an unethical practice that must be abolished, others maintain that zoos are vital institutions for global conservation. In my opinion, although past zoological practices were often cruel, modern, highly regulated zoos are absolutely essential for preventing the extinction of endangered species.\n\nOpponents of zoos argue that confining wild animals is inherently cruel and unnatural. This is because artificial enclosures, regardless of their size, can never adequately replicate the vast, complex ecosystems that these creatures evolved to inhabit. By trapping animals behind glass and depriving them of their natural hunting, migrating, and social behaviors, zoos inflict immense trauma. For instance, large predators like tigers or polar bears are frequently observed pacing nervously back and forth in their cages—a recognized symptom of severe psychological distress caused by extreme boredom and confinement. Therefore, many conclude that treating sentient beings as mere public entertainment is fundamentally immoral.\n\nConversely, supporters of modern zoological parks emphasize their critical role in global environmental conservation, a view I strongly share. Today, rampant deforestation and illegal poaching have driven countless species to the absolute brink of extinction in the wild. Zoos counteract this ecological disaster by managing highly successful captive breeding programs. By providing safe, predator-free environments and expert veterinary care, scientists can successfully breed endangered species, such as the Giant Panda or the Amur Leopard, and eventually reintroduce them into protected wild reserves. Consequently, these institutions act as a vital genetic lifeboat for the planet's most vulnerable animals.\n\nIn conclusion, while the ethical concerns regarding animal confinement are entirely valid and must be addressed with stricter welfare regulations, closing all zoos would be an ecological catastrophe. Their unparalleled ability to breed and protect endangered species makes them an indispensable tool in the fight to preserve global biodiversity. (321 words)"
@@ -1252,6 +1428,30 @@ window.ieltsData = {
                 "prompt": "Some believe that traditional shops will eventually disappear as online shopping grows, while others think physical stores will always have a place. Discuss both views and give your own opinion.",
                 "lens": "Technological/Economic vs. Psychological/Social",
                 "conversation": [
+                    {
+                        "label": "Claim",
+                        "text": "Online shopping will dominate due to unparalleled convenience and economic efficiency."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because online retailers avoid massive overhead costs like real estate rent and sales staff salaries."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By utilizing global logistics networks to deliver goods directly to consumers' homes."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "E-commerce giants like Amazon offering cheap prices and next-day delivery."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Small, independent physical shops cannot compete and are driven out of business."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "By -> allow -> consequently."
+                    },
                     {
                         "label": "Claim",
                         "text": "Physical stores will endure because they offer a tangible shopping experience."
@@ -1307,6 +1507,26 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "This is because... By + verb-ing... As a result."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Universally reducing working hours would trigger severe economic contraction."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because labor-intensive sectors like manufacturing and healthcare tie operational output directly to staffed hours."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By reducing operating hours, output drops, forcing companies to hire extra shift workers and skyrocketing overhead costs."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "The increased expenses drive smaller businesses into bankruptcy, causing economic downturns."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "If -> to maintain -> consequently."
                     }
                 ],
                 "essay": "The concept of implementing a shorter workweek has generated significant controversy. While some argue that reducing working hours would act as a catalyst for increased productivity, critics warn that such a policy would trigger severe economic damage. In my view, while a drastic reduction in hours might harm certain labor-intensive industries, moderately shortening the workweek generally boosts overall efficiency by significantly improving employee mental health.\n\nAdvocates of shorter working hours argue that it is a powerful tool for enhancing employee efficiency. This is because providing workers with adequate rest completely eliminates the psychological burnout and chronic fatigue that plague modern corporate environments. By having an extra day to relax, spend time with family, or pursue personal hobbies, individuals return to the office with renewed mental clarity. For example, when several major software companies in Iceland trialed a four-day workweek without reducing pay, they discovered that their programmers actually produced 20% more usable code. As a result, when workers are well-rested, they achieve a state of hyper-focused productivity, easily accomplishing more high-quality work in a shorter timeframe.\n\nConversely, many economists caution that universally reducing working hours would devastate national economies. They argue that not all sectors rely on mental focus; many industries are entirely dependent on continuous physical operation. In manufacturing, healthcare, or hospitality, a business's output is directly tied to the number of hours the facility is staffed. If a factory is forced to reduce its operating hours by 20%, it will physically manufacture 20% fewer goods. To maintain their current operational output, companies would be forced to hire thousands of additional shift workers, skyrocketing their financial overheads. Consequently, this massive increase in operational costs could drive smaller businesses into bankruptcy and trigger a severe economic contraction.\n\nIn conclusion, the impact of a shorter workweek is highly dependent on the industry in question. While I believe that reducing hours is incredibly beneficial for creative and knowledge-based professions due to enhanced mental focus, I concede that implementing this policy universally across manufacturing and service sectors would likely be economically destructive. (351 words)"
@@ -1346,9 +1566,33 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "This is because... By + verb-ing... As a result."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Permanent remote work causes profound social isolation and hampers collaboration."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because human beings require daily face-to-face contact to thrive."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By confining workers to home offices and depriving them of spontaneous boardroom interactions."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Creative teams struggling to innovate without physical brainstorming sessions."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Professionals suffer from severe loneliness and reduced corporate synergy."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "Consequently... Furthermore... Without the ability to."
                     }
                 ],
-                "essay": "The modern corporate landscape has experienced a massive shift, with an increasing number of professionals electing to work remotely rather than commuting to traditional offices. While this trend offers undeniable benefits regarding personal flexibility and financial savings, it also presents significant drawbacks, primarily concerning social isolation and diminished team collaboration.\n\nThe most prominent advantage of working from home is that it significantly improves an employee's overall quality of life. This is because remote work provides unprecedented flexibility over their daily schedule and drastically reduces wasted time. By completely eliminating the exhausting, time-consuming daily commute, individuals reclaim hours of their day. For example, a working parent can effortlessly reallocate two hours of previous travel time to engage in physical exercise, prepare healthy meals, or assist with childcare. As a result, remote employees generally achieve an optimal work-life balance, experiencing vastly reduced psychological stress and higher levels of daily satisfaction.\n\nDespite these personal benefits, the primary disadvantage of this trend is the profound social isolation it inflicts upon workers. Humans are inherently social creatures who thrive on daily interpersonal interaction. When employees are permanently confined to their home offices, they miss out on the organic, spontaneous conversations that naturally occur in a physical workplace. Consequently, professionals who work remotely for extended periods frequently report suffering from severe loneliness and a disconnect from their company's culture. Furthermore, this lack of face-to-face interaction can severely severely damage collaborative synergy. Without the ability to brainstorm together in a boardroom, creative teams often struggle to innovate, ultimately hampering a company's overall productivity.\n\nIn conclusion, the transition towards remote working carries both substantial merits and critical flaws. While it undeniably offers workers a far superior work-life balance by removing the burden of commuting, it simultaneously threatens their mental well-being by fostering deep social isolation and reducing collaborative efficiency. (312 words)"
+                "essay": "The modern corporate landscape has experienced a massive shift, with an increasing number of professionals electing to work remotely rather than commuting to traditional offices. While this trend offers undeniable benefits regarding personal flexibility and financial savings, it also presents significant drawbacks, primarily concerning social isolation and diminished team collaboration.\n\nThe most prominent advantage of working from home is that it significantly improves an employee's overall quality of life. This is because remote work provides unprecedented flexibility over their daily schedule and drastically reduces wasted time. By completely eliminating the exhausting, time-consuming daily commute, individuals reclaim hours of their day. For example, a working parent can effortlessly reallocate two hours of previous travel time to engage in physical exercise, prepare healthy meals, or assist with childcare. As a result, remote employees generally achieve an optimal work-life balance, experiencing vastly reduced psychological stress and higher levels of daily satisfaction.\n\nDespite these personal benefits, the primary disadvantage of this trend is the profound social isolation it inflicts upon workers. Humans are inherently social creatures who thrive on daily interpersonal interaction. When employees are permanently confined to their home offices, they miss out on the organic, spontaneous conversations that naturally occur in a physical workplace. Consequently, professionals who work remotely for extended periods frequently report suffering from severe loneliness and a disconnect from their company's culture. Furthermore, this lack of face-to-face interaction can severely damage collaborative synergy. Without the ability to brainstorm together in a boardroom, creative teams often struggle to innovate, ultimately hampering a company's overall productivity.\n\nIn conclusion, the transition towards remote working carries both substantial merits and critical flaws. While it undeniably offers workers a far superior work-life balance by removing the burden of commuting, it simultaneously threatens their mental well-being by fostering deep social isolation and reducing collaborative efficiency. (312 words)"
             },
             {
                 "title": "STUDYING ABROAD",
@@ -1378,6 +1622,30 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Because... By + verb-ing... As a result."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Studying abroad imposes an exorbitant financial and emotional burden."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because foreign tuition fees are inflated and living away from home isolates students from support networks."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By requiring massive debt accumulation for flights/visas while inducing severe psychological homesickness."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Separated students suffering from intense loneliness and anxiety, leading to academic struggles."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "The experience damages student mental health and triggers severe debt stress."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "However -> when combined -> furthermore."
                     }
                 ],
                 "essay": "In recent years, it has become increasingly common for students to pursue their higher education in foreign nations rather than remaining in their home countries. While this decision offers immense benefits in terms of cultural development and career prospects, it also carries significant disadvantages, particularly regarding financial strain and emotional distress.\n\nThe most substantial advantage of studying internationally is that it develops profound cultural awareness. Because international students are forced to live and study in entirely unfamiliar social environments, they must rapidly adapt to new customs. By interacting daily with foreign peers, navigating different academic systems, and experiencing diverse traditions firsthand, students naturally expand their worldviews. For example, an Asian student completing their degree in a European university must learn to communicate effectively across deep cultural divides. As a result, these individuals discard preconceived stereotypes and adopt a highly valuable, globalized perspective, which makes them incredibly attractive to multinational employers upon graduation.\n\nHowever, the primary disadvantage of an international education is the exorbitant financial burden it places on students and their families. Compared to domestic institutions, foreign universities typically charge vastly inflated tuition fees for international applicants. When combined with the high cost of international flights, visas, and living expenses in expensive foreign cities, the total debt accumulated can be staggering. Furthermore, studying abroad often triggers severe psychological challenges, most notably crippling homesickness. Being separated from the crucial emotional support network of family and childhood friends can cause international students to suffer from intense loneliness and anxiety, which can ultimately lead to academic failure.\n\nIn conclusion, deciding to pursue higher education overseas is a complex choice. While it undeniably provides students with an elite cultural education and a broadened global perspective, these benefits must be carefully weighed against the severe financial costs and the intense emotional isolation that often accompany the experience. (316 words)"
@@ -1387,6 +1655,30 @@ window.ieltsData = {
                 "prompt": "Many countries are experiencing rapid growth in urban populations. What are the advantages and disadvantages of living in a big city?",
                 "lens": "Economic/Social vs. Environmental/Health",
                 "conversation": [
+                    {
+                        "label": "Claim",
+                        "text": "Big cities offer unrivaled professional opportunities and social mobility."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because metropolitan hubs host the majority of corporate headquarters, financial institutions, and specialized firms."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By creating a massive, diverse job market with instant access to high-paying positions."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "An ambitious programmer immediately finding jobs at software firms in London or Silicon Valley."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Residing in an urban center accelerates career progression and upward social mobility."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "This is because... By living in... For instance... Therefore."
+                    },
                     {
                         "label": "Claim",
                         "text": "Urbanization severely damages the physical health of city residents."
@@ -1412,7 +1704,7 @@ window.ieltsData = {
                         "text": "This is because... By + verb-ing... Consequently."
                     }
                 ],
-                "essay": "Across the globe, populations are increasingly migrating from rural areas into massive metropolitan centers. While living in a large city offers undeniable benefits regarding career advancement and cultural amenities, it simultaneously presents severe disadvantages, primarily concerning environmental degradation and the deterioration of public health.\n\nThe primary advantage of residing in a major city is the unrivaled professional opportunities it provides. This is because metropolitan areas serve as the economic engines of a nation, housing the vast majority of corporate headquarters, financial institutions, and specialized industries. By living in these urban hubs, individuals have immediate access to a massive, diverse job market that simply does not exist in rural villages. For instance, an ambitious software developer living in a tech hub like Silicon Valley or London will encounter hundreds of high-paying tech firms actively seeking to hire. Therefore, big cities act as a powerful catalyst for rapid career progression and upward social mobility.\n\nDespite these economic benefits, the most critical disadvantage of urban living is the severe damage it inflicts upon public health. This is largely because the massive concentration of infrastructure creates catastrophic air pollution. By constantly packing millions of vehicles onto congested roads and operating industrial factories within city limits, urban centers trap toxic exhaust fumes in densely populated areas. For example, citizens living in megacities such as Delhi or Beijing are subjected to dangerously high levels of smog on a daily basis. Consequently, long-term city residents suffer from a significantly increased risk of developing chronic respiratory illnesses, such as asthma or lung cancer, which drastically reduces their overall life expectancy.\n\nIn conclusion, the decision to live in a sprawling metropolis involves a significant trade-off. While big cities undeniably offer residents the best possible avenues for economic success and professional development, they also force citizens to endure toxic, polluted environments that critically endanger their long-term physical health. (324 words)"
+                "essay": "Across the globe, populations are increasingly migrating from rural areas into massive metropolitan centers. While living in a large city offers undeniable benefits regarding career advancement and cultural amenities, it simultaneously presents severe disadvantages, primarily concerning environmental degradation and the deterioration of public health.\n\nThe primary advantage of residing in a major city is the unrivaled professional opportunities it provides. This is because metropolitan areas serve as the economic engines of a nation, housing the vast majority of corporate headquarters, financial institutions, and specialized industries. By living in these urban hubs, individuals have immediate access to a massive, diverse job market that simply does not exist in rural villages. For instance, an ambitious software developer living in a tech hub like Silicon Valley or London will encounter hundreds of high-paying tech firms actively seeking to hire. Therefore, big cities act as a powerful catalyst for rapid career progression and upward social mobility.\n\nDespite these economic benefits, the most critical disadvantage of urban living is the severe damage it inflicts upon public health. This is largely because the massive concentration of infrastructure creates catastrophic air pollution. By constantly packing millions of vehicles onto congested roads and operating industrial factories within city limits, urban centers trap toxic exhaust fumes in densely populated areas. For example, citizens living in megacities such as Delhi or Beijing are subjected to dangerously high levels of smog on a daily basis. Consequently, long-term city residents suffer from a significantly increased risk of developing chronic respiratory illnesses, such as asthma or lung cancer, which drastically reduces their overall life expectancy.\n\nIn conclusion, the decision to live in a sprawling metropolis involves a significant trade-off. While big cities &ndash; undeniably offer residents the best possible avenues for economic success and professional development, they also force citizens to endure toxic, polluted environments that critically endanger their long-term physical health. (324 words)"
             },
             {
                 "title": "SOCIAL MEDIA",
@@ -1442,6 +1734,30 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Claim -> Because -> By + verb-ing -> For example -> As a result."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Heavy reliance on social networks inflicts severe psychological detriment."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because algorithms showcase only the highly curated, edited highlights of other people's lives."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By trapping users in a cycle of making unrealistic comparisons with perfect lifestyles and bodies."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Teenagers viewing digitally altered modeling images on Instagram."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "It triggers skyrocketing rates of youth anxiety, depression, and plummeting self-esteem."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "However -> this occurs because -> by constantly -> consequently."
                     }
                 ],
                 "essay": "The advent of social media has fundamentally transformed how humanity interacts, enabling instant global connectivity. While this technological revolution offers remarkable advantages in terms of maintaining relationships and sharing information, it also brings profound disadvantages, particularly concerning mental health and the distortion of reality.\n\nThe most significant advantage of social media platforms is that they facilitate unprecedented borderless communication. Because these applications operate entirely online, they completely eradicate traditional geographical barriers that once hindered global interaction. By allowing users to instantly share messages, photographs, and live video feeds across the globe at virtually no cost, social networks keep people connected. For example, a professional who has emigrated to Australia for work can effortlessly maintain daily face-to-face contact with their parents in Europe via platforms like WhatsApp or Facebook. As a result, social media serves as a vital tool for sustaining crucial emotional bonds and preventing isolation among families separated by vast distances.\n\nHowever, the primary disadvantage of these platforms is the severe psychological detriment they inflict, especially upon younger users. This occurs because social media algorithms are designed to highlight only the most glamorous, highly edited highlights of a person’s life. By constantly consuming feeds filled with wealthy influencers, flawless physical appearances, and luxurious holidays, ordinary users are forced into making unrealistic comparisons. For instance, a teenager constantly viewing digitally altered images of models on Instagram will inevitably begin to feel inadequate about their own appearance. Consequently, heavy reliance on social media has been directly linked to skyrocketing rates of anxiety, depression, and plummeting self-esteem among the younger generation.\n\nIn conclusion, the global connectivity provided by social media is a double-edged sword. While it undeniably enriches lives by allowing families to maintain strong relationships across continents, its tendency to promote unrealistic, highly curated realities poses a massive and growing threat to the psychological well-being of its users. (322 words)"
@@ -1451,6 +1767,30 @@ window.ieltsData = {
                 "prompt": "Some employers now use artificial intelligence to screen job applicants before human interviews take place. What are the advantages and disadvantages of this practice?",
                 "lens": "Economic/Efficiency vs. Ethical/Social",
                 "conversation": [
+                    {
+                        "label": "Claim",
+                        "text": "Utilizing AI in recruitment offers unprecedented logistical efficiency to corporations."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because reviewing thousands of resumes manually is impossible for human HR departments."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By using AI algorithms to instantly scan documents for qualifications and experience."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "An AI system filtering 5,000 resumes down to the top 50 qualified candidates overnight."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Companies drastically accelerate hiring timelines and reduce administrative overhead costs."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "Because -> by employing -> for example -> as a result."
+                    },
                     {
                         "label": "Claim",
                         "text": "AI screening systems can perpetuate algorithmic discrimination."
@@ -1490,6 +1830,30 @@ window.ieltsData = {
                 "prompt": "In many cities, traffic congestion has become a serious problem. What are the causes of this issue, and what measures can be taken to solve it?",
                 "lens": "Infrastructure & Environmental",
                 "conversation": [
+                    {
+                        "label": "Claim",
+                        "text": "Urban gridlock is primarily caused by excessive reliance on private vehicles driven by rapid urbanization."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because existing public transport is notoriously slow, overcrowded, and unreliable, forcing citizens to buy cars."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By pouring millions of independent vehicles onto highways simultaneously during rush hour."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Jakarta or Los Angeles lacking comprehensive subway systems, leaving highways overwhelmed."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "The road infrastructure is completely overwhelmed, leading to daily crippling traffic jams."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "Claim -> Because -> By + verb-ing -> For example -> Consequently."
+                    },
                     {
                         "label": "Claim",
                         "text": "Governments must heavily invest in mass transit infrastructure."
@@ -1545,6 +1909,30 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Claim -> This is because... By + verb-ing... For instance -> Consequently."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Childhood obesity can be reversed through strict food legislation and mandatory physical education."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because kids must burn more calories than they consume, and unhealthy choices must be financially suppressed."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By taxing sugary snacks, banning fast food TV ads, and mandating daily sports in schools."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Taxing junk food forces price increases, while schools make one hour of daily physical sports compulsory."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "It artificially suppresses bad eating habits and guarantees daily physical exertion."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "Firstly -> by making -> if educational institutions -> ultimately."
                     }
                 ],
                 "essay": "The alarming escalation of obesity rates among children has become a major public health crisis in numerous developed nations. This epidemic is primarily caused by the normalization of highly sedentary lifestyles and the overconsumption of processed foods, but it can be addressed through strict legislative intervention and improved school curriculums.\n\nThe fundamental reason behind the surge in childhood weight gain is the drastic shift toward highly sedentary modern lifestyles. This is because children today spend the vast majority of their leisure time consuming digital entertainment rather than engaging in physical activity. By sitting completely motionless for hours in front of video games, smartphones, and televisions, young people burn very few calories. For instance, rather than playing football in the local park after school, a modern teenager is far more likely to spend the entire evening sitting on a sofa scrolling through social media. Consequently, when this lack of physical exertion is combined with high-calorie diets, children rapidly accumulate excess body fat, leading directly to clinical obesity.\n\nTo reverse this dangerous trend, governments must implement strict legislative interventions aimed at the junk food industry, while schools must take responsibility for physical education. Firstly, authorities should impose heavy taxation on sugary snacks and legally ban the advertisement of fast food during children's television programming. By making unhealthy food more expensive and less visible, governments can artificially suppress consumer demand. Furthermore, schools must actively combat sedentary behavior by making daily physical education classes compulsory. If educational institutions force students to participate in at least one hour of rigorous sports every day, they guarantee that children are burning essential calories regardless of their habits at home. Ultimately, these combined measures will foster healthier daily routines.\n\nIn conclusion, the childhood obesity crisis is a direct consequence of technological inactivity and poor dietary environments. However, by strictly regulating the junk food market and enforcing mandatory daily exercise in schools, society can successfully protect the physical health of the next generation. (336 words)"
@@ -1577,6 +1965,30 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Claim -> Because... By + verb-ing... For example -> As a result."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Universities must integrate mandatory corporate apprenticeship programs into all degrees."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because hands-on experience bridge the theoretical skills gap and prepares graduates for actual corporate demands."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By partnering with private companies to require a six-month internship before graduation."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Students working in companies to learn industry-standard tech and office operations."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Graduates possess the precise practical experience employers demand, making them immediately hirable."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "If -> during these -> consequently."
                     }
                 ],
                 "essay": "In the contemporary global economy, a significant number of university graduates face severe difficulties in securing stable, well-remunerated employment. This crisis is primarily caused by a fundamental structural mismatch between outdated university curriculums and modern industry demands, a problem that can only be resolved by aggressively expanding vocational apprenticeship programs.\n\nThe root cause of widespread graduate unemployment is the profound disconnect between what academic institutions teach and what the corporate sector actually requires. This is because traditional universities focus far too heavily on abstract, theoretical academia rather than imparting practical, marketable skills. By forcing students to write extensive theoretical essays while entirely neglecting to teach them the modern software, data analysis, or commercial skills actually utilized in offices, universities are producing unemployable graduates. For example, a student may graduate with high honors in Philosophy, yet possess zero ability to operate basic accounting software or manage a digital marketing campaign. As a result, corporations refuse to hire these graduates, as employing them would require companies to waste months of time and capital providing basic, foundational training.\n\nTo solve this systemic issue, the educational paradigm must be shifted toward practical experience by heavily integrating mandatory apprenticeship programs into all university degrees. This requires educational institutions to partner directly with private corporations. If universities mandate that every student must complete a six-month, hands-on internship at a relevant company before they are allowed to graduate, the skills gap will vanish. During these apprenticeships, students will learn exactly how a real business operates, how to use industry-standard technology, and how to communicate in a corporate environment. Consequently, when these students finally receive their diplomas, they will already possess the precise, practical experience that employers demand, making them immediately hirable and drastically reducing youth unemployment rates.\n\nIn conclusion, the inability of young adults to find work is directly tied to the theoretical nature of modern university education. By abandoning purely abstract learning and forcing students to complete practical, corporate apprenticeships, we can ensure that graduates are perfectly equipped to enter the workforce successfully. (349 words)"
@@ -1586,6 +1998,30 @@ window.ieltsData = {
                 "prompt": "Plastic waste is a growing environmental problem worldwide. What causes this issue, and what can be done to reduce it?",
                 "lens": "Environmental & Consumerism",
                 "conversation": [
+                    {
+                        "label": "Claim",
+                        "text": "The plastic waste crisis is fundamentally driven by the global normalization of a single-use convenience culture."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because consumers demand portable, disposable products, and plastic is cheap and highly durable for packaging."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By prioritizing minor conveniences, purchasing and immediately discarding billions of plastic packaging items daily."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "An office worker buying a plastic cup of coffee and immediately throwing it away."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Mountains of non-biodegradable plastic accumulate, contaminating oceans and harming wildlife."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "Because -> by prioritizing -> for instance -> as a result."
+                    },
                     {
                         "label": "Claim",
                         "text": "The government must intervene by heavily taxing plastic production."
@@ -1620,27 +2056,51 @@ window.ieltsData = {
                 "conversation": [
                     {
                         "label": "Claim",
-                        "text": "An aging demographic triggers a catastrophic healthcare deficit."
+                        "text": "An aging demographic triggers a catastrophic deficit in healthcare funding."
                     },
                     {
                         "label": "Why?",
-                        "text": "Because the elderly require vastly more medical attention than the youth."
+                        "text": "Because the elderly require vastly more medical attention, surgeries, and long-term care than younger citizens."
                     },
                     {
                         "label": "How?",
-                        "text": "By constantly drawing upon state-funded hospitals for chronic, age-related treatments while the working-class shrinks."
+                        "text": "By constantly drawing upon hospital resources while the tax-paying, working-class demographic shrinks."
                     },
                     {
                         "label": "Example",
-                        "text": "A nation like Japan struggling to fund dementia care as its tax-paying youth population plummets."
+                        "text": "Japan or Italy spending billions on dementia care while having fewer young workers to fund it through taxes."
                     },
                     {
                         "label": "Result",
-                        "text": "The government's financial reserves are drained, leading to national economic instability."
+                        "text": "The government's financial reserves are rapidly drained, threatening economic stability."
                     },
                     {
                         "label": "Architecture Pattern",
                         "text": "Claim -> This is because... By + verb-ing... For example -> Consequently."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Governments must resolve this crisis by raising the mandatory retirement age."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because modern medicine has drastically improved longevity and physical capability."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By extending the retirement age to 70 or 72, keeping capable older citizens in the tax-paying workforce."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Older employees contributing to income tax longer instead of immediately drawing pensions."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "The government expands its active tax base and secures the funds required to support healthcare."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "By legally extending -> if older -> as a result."
                     }
                 ],
                 "essay": "A significant demographic shift is currently occurring in many developed nations, characterized by a rapidly expanding elderly population and a shrinking youth demographic. This imbalance creates severe economic problems, most notably a catastrophic deficit in healthcare funding, which must be addressed by fundamentally restructuring the national retirement age.\n\nThe most critical problem generated by an aging population is the overwhelming financial strain it places on state-funded healthcare systems. This is because elderly individuals naturally require vastly more medical attention, surgeries, and long-term care than younger citizens. By constantly drawing upon hospital resources to treat chronic, age-related illnesses while the size of the tax-paying, working-class demographic simultaneously shrinks, the economic mathematics fail. For example, in nations with highly aged populations like Japan or Italy, the government is forced to spend billions on dementia and cardiovascular treatments, while having fewer young workers to actually pay the taxes that fund those treatments. Consequently, the government's financial reserves are rapidly drained, leaving fewer funds available for vital infrastructure or education, threatening the entire nation's economic stability.\n\nTo solve this impending financial crisis, governments must be brave enough to significantly raise the mandatory retirement age. Because modern medicine has drastically improved human longevity and physical vitality, a 65-year-old today is far healthier and more capable than a 65-year-old a century ago. By legally extending the retirement age to 70 or 72, the state can instantly alleviate the economic pressure. If older, capable citizens are kept in the workforce for an additional five to seven years, they continue to pay income tax rather than immediately drawing a state pension. As a result, the government massively expands its active tax base and secures the billions of dollars required to properly fund the healthcare system without bankrupting the nation.\n\nIn conclusion, while a disproportionately elderly population threatens to cripple national healthcare budgets due to a shrinking tax base, the solution lies in adapting to modern longevity. By extending the legal working age, nations can ensure economic equilibrium and comfortably support their senior citizens. (343 words)"
@@ -1680,15 +2140,63 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Claim -> This is because... By + verb-ing... For example -> Consequently."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Taking a gap year is an excellent idea because it accelerates real-world maturity."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because secondary school teaches theoretical concepts but rarely teaches independence and survival skills."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By forcing teenagers to navigate unfamiliar environments and solve problems without parental assistance."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Working a job to budget finances, manage time, and practice interpersonal communication."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Students enter university as self-sufficient adults fully equipped to handle their responsibilities."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "While -> if a teenager -> as a result."
                     }
                 ],
-                "essay": "The trend of high school graduates taking a 'gap year'—a twelve-month break before commencing university education—has become increasingly prevalent worldwide. Students primarily choose this path to recover from severe academic burnout, and I firmly believe it is an excellent idea because it fosters real-world maturity and independence.\n\nThe fundamental reason young adults opt for a gap year is the desperate need to escape severe academic burnout. This is because, by the age of eighteen, most teenagers have just endured over a decade of intense, unrelenting, and highly stressful schooling. By stepping completely away from textbooks, rigid schedules, and exam pressure, they give their minds an essential rest. For example, an exhausted high school graduate who chooses to spend six months backpacking across Europe or volunteering abroad is removed from the high-pressure academic environment. Consequently, this extended mental break allows the student to completely recharge psychologically, ensuring they enter university with renewed energy and enthusiasm rather than chronic fatigue.\n\nRegarding whether this is a positive trend, I strongly believe it is a fantastic idea because it accelerates a young person's real-world maturity. While secondary school teaches theoretical knowledge, it rarely teaches independence or survival skills. A gap year forces teenagers to navigate unfamiliar environments and solve problems without parental assistance. If a teenager spends a year working a full-time job to fund a trip, they must instantly learn how to budget finances, manage their time, and practice professional interpersonal communication. As a result, when these students finally arrive at university, they are no longer dependent children; they are self-sufficient adults who are far better equipped to handle the personal and academic responsibilities of higher education.\n\nIn conclusion, the decision to delay university is largely driven by a psychological necessity to recover from the exhaustion of secondary education. I consider this a highly beneficial practice, as the independence gained during a gap year transforms students into mature, capable adults ready to maximize their university experience. (340 words)"
+                "essay": "The trend of high school graduates taking a 'gap year'—a twelve-month break before commencing university education—has become increasingly prevalent worldwide. Students primarily choose this path to recover from severe academic burnout, and I firmly believe it is an excellent idea because it fosters real-world maturity and independence.\n\nLooking first at the reasons for this trend, the fundamental cause is the desperate need to escape severe academic burnout. This is because, by the age of eighteen, most teenagers have just endured over a decade of intense, unrelenting, and highly stressful schooling. By stepping completely away from textbooks, rigid schedules, and exam pressure, they give their minds an essential rest. For example, an exhausted high school graduate who chooses to spend six months backpacking across Europe or volunteering abroad is removed from the high-pressure academic environment. Consequently, this extended mental break allows the student to completely recharge psychologically, ensuring they enter university with renewed energy and enthusiasm rather than chronic fatigue.\n\nRegarding whether this is a positive trend, I strongly believe it is a fantastic idea because it accelerates a young person's real-world maturity. While secondary school teaches theoretical knowledge, it rarely teaches independence or survival skills. A gap year forces teenagers to navigate unfamiliar environments and solve problems without parental assistance. If a teenager spends a year working a full-time job to fund a trip, they must instantly learn how to budget finances, manage their time, and practice professional interpersonal communication. As a result, when these students finally arrive at university, they are no longer dependent children; they are self-sufficient adults who are far better equipped to handle the personal and academic responsibilities of higher education.\n\nIn conclusion, the decision to delay university is largely driven by a psychological necessity to recover from the exhaustion of secondary education. I consider this a highly beneficial practice, as the independence gained during a gap year transforms students into mature, capable adults ready to maximize their university experience. (340 words)"
             },
             {
                 "title": "UNPAID INTERNSHIPS",
                 "prompt": "Unpaid internships are becoming common for young graduates. Why are they so popular, and is this a fair practice?",
                 "lens": "Economic & Ethical",
                 "conversation": [
+                    {
+                        "label": "Claim",
+                        "text": "Unpaid internships are popular because graduates need to differentiate themselves in a hyper-competitive market."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because university degrees alone are rarely sufficient, and employers demand practical industry experience."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By agreeing to work without financial compensation to bypass strict hiring requirements and enter top firms."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "A marketing graduate working six months at a top-tier advertising agency for free."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "They gain essential resume padding that makes them vastly more employable for future paid corporate roles."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "Because -> by agreeing -> for instance -> consequently."
+                    },
                     {
                         "label": "Claim",
                         "text": "Unpaid internships are fundamentally unfair because they create systemic financial exclusion."
@@ -1744,6 +2252,30 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Claim -> This is because... By + verb-ing... For example -> Consequently."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "The national government must bear the primary financial responsibility for restoration and upkeep."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because historical buildings are public assets that benefit the nation, specifically generating tourism revenue."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By using public tax funds to heavily subsidize maintenance costs that private owners cannot afford."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Restored monuments attracting millions of international tourists, bringing foreign capital into hospitality."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "The government protects key assets and easily recovers expenditures through tourism-related tax revenues."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "This is because -> if private -> by utilizing -> therefore."
                     }
                 ],
                 "essay": "The maintenance and restoration of ancient architecture requires immense financial expenditure. Nevertheless, preserving these structures is absolutely essential because they represent a nation’s tangible cultural heritage, and I believe the financial burden of their upkeep must be borne primarily by the national government.\n\nThe fundamental reason we must fiercely protect historical buildings is that they are the physical embodiment of a nation's cultural heritage. While history books can describe the past, ancient architecture provides a visceral, physical connection to previous generations that text simply cannot replicate. By protecting these structures from demolition, societies allow modern citizens to walk through the exact spaces their ancestors built, preserving a priceless architectural legacy. For example, walking through the meticulously preserved ancient temples of Kyoto or the medieval castles of Europe gives visitors a profound, immediate understanding of the artistic and spiritual values of those bygone eras. Consequently, preserving these buildings fosters a deep, unifying sense of national identity and historical continuity among the population.\n\nRegarding the immense costs of restoration, I strongly argue that the national government must be the primary financial provider. This is because historical buildings are public assets that benefit the entire country, particularly through the generation of immense tourism revenue. If private owners or local councils are forced to bear the multi-million-dollar restoration costs alone, they will inevitably fail, leading to the collapse of the structure. By utilizing public tax funds to heavily subsidize maintenance, the government guarantees the survival of the site. Furthermore, this investment is highly lucrative; fully restored historical monuments attract millions of international tourists annually. Therefore, the government easily recovers its restoration expenditures through the massive influx of foreign capital into the local hospitality and retail sectors.\n\nIn conclusion, historical architecture must be saved from ruin because it is the irreplaceable, physical soul of a country's history. Because these sites generate massive national tourism revenue and belong to the public, the state government has both a moral and economic duty to fully fund their preservation. (344 words)"
@@ -1753,6 +2285,30 @@ window.ieltsData = {
                 "prompt": "Professional athletes often earn millions of dollars. Why are their salaries so high, and is this justified?",
                 "lens": "Economic & Social",
                 "conversation": [
+                    {
+                        "label": "Claim",
+                        "text": "Astronomical athlete salaries result from the massive economic scale and commercialization of modern sports."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because sports are global entertainment empires, and top-tier players are the primary assets generating revenue."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By selling lucrative broadcasting rights, securing massive sponsorships, and driving merchandise sales."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "A single global superstar like Lionel Messi bringing in hundreds of millions in ticket and merchandise revenue."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Athletes rightfully command a proportionate share of the massive revenue they generate for clubs."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "Direct result -> because -> by leveraging -> as a result."
+                    },
                     {
                         "label": "Claim",
                         "text": "The exorbitant wages paid to elite athletes are completely justified."
@@ -1808,6 +2364,30 @@ window.ieltsData = {
                     {
                         "label": "Architecture Pattern",
                         "text": "Claim -> This is because... By + verb-ing... For example -> Consequently."
+                    },
+                    {
+                        "label": "Claim",
+                        "text": "Space exploration is a catastrophic waste of public funds when Earth faces immediate, existential crises."
+                    },
+                    {
+                        "label": "Why?",
+                        "text": "Because solving terrestrial crises like poverty, healthcare deficits, and climate change requires direct funding."
+                    },
+                    {
+                        "label": "How?",
+                        "text": "By diverting vast tax capitals toward rocket manufacturing and theoretical Mars missions instead of social programs."
+                    },
+                    {
+                        "label": "Example",
+                        "text": "Reallocating NASA/space agency billions could easily fund public housing, health care, or green energy shifts."
+                    },
+                    {
+                        "label": "Result",
+                        "text": "Prioritizing dead planets while millions of citizens suffer and experience environmental degradation is unethical."
+                    },
+                    {
+                        "label": "Architecture Pattern",
+                        "text": "Strongly argue -> this is because -> by diverting -> therefore."
                     }
                 ],
                 "essay": "The allocation of billions of dollars toward space exploration programs remains a highly contentious issue. Governments primarily engage in this massive expenditure to secure geopolitical and technological superiority; however, I firmly believe that spending such exorbitant sums is a monumental squandering of resources when severe terrestrial crises remain unsolved.\n\nThe fundamental reason nations pour billions into space agencies is the strategic desire to achieve technological and military dominance. In the modern era, controlling the orbital environment is absolutely vital for national security and economic power. By aggressively launching highly advanced communication, GPS, and surveillance satellites into orbit, a country secures a massive tactical advantage over its rivals. For example, global superpowers such as the United States and China invest astronomical sums into their respective space programs specifically to ensure they control the satellite infrastructure that dictates global telecommunications and military intelligence. Consequently, space exploration is viewed by governments not merely as scientific curiosity, but as an essential mechanism for maintaining supreme global influence.\n\nDespite these strategic benefits, I strongly argue that spending billions on space exploration is a catastrophic waste of public funds. This is because humanity is currently facing immediate, existential crises on Earth that desperately require financial intervention. By diverting vast amounts of capital toward building rockets and planning theoretical missions to Mars, governments are actively starving crucial domestic sectors. If a government redirected the fifty billion dollars spent annually on a space agency, it could easily eradicate national homelessness, revolutionize public healthcare, or fund the rapid transition to renewable energy to halt climate change. Therefore, it is deeply unethical to prioritize exploring a dead, uninhabitable planet when millions of citizens are suffering from poverty and environmental degradation on our own world.\n\nIn conclusion, governments are driven to fund space programs by an aggressive desire for technological supremacy and satellite dominance. However, I consider this expenditure to be deeply irresponsible. Until we have successfully eradicated poverty, disease, and the climate crisis on Earth, looking to the stars is an unjustifiable financial luxury. (346 words)"

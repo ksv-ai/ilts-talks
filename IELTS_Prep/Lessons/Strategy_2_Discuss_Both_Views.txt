@@ -12,7 +12,15 @@ PROMPT: Some people think that success in life comes from taking risks, while ot
 LENS: Psychological vs. Educational/Professional
 KEY COLLOCATIONS: calculated risks, unprecedented opportunities, mitigate potential disasters, sustainable achievement
 
-THE CONVERSATION (Body Paragraph 2 Blueprint - Planning):
+THE CONVERSATION (Body Paragraph 1 Blueprint - Taking Risks):
+* Claim: Taking risks is essential for achieving extraordinary, unprecedented opportunities.
+* Why?: Because playing it safe and sticking strictly to routines leads to stagnation and mediocrity.
+* How?: By daring to step into the unknown and gambling on unproven, innovative ideas.
+* Example: Tech billionaires dropping out of college to pursue unproven software ideas.
+* Result: They discover breakthrough solutions and tap into unexploited markets.
+* Architecture Pattern: By + verb-ing... can... As a result.
+
+THE CONVERSATION (Body Paragraph 2 Blueprint - Careful Planning):
 * Claim: Careful planning is the most reliable foundation for long-term success.
 * Why?: Because it allows individuals to mitigate potential disasters before they occur.
 * How?: By creating structured roadmaps and anticipating future challenges.
@@ -36,6 +44,14 @@ PROMPT: Some people think parents should decide their children's careers, while 
 LENS: Social/Economic vs. Psychological
 KEY COLLOCATIONS: lucrative professions, financial stability, intrinsic motivation, professional burnout
 
+THE CONVERSATION (Body Paragraph 1 Blueprint - Parents Choosing):
+* Claim: Parents should guide career choices to guarantee long-term financial security.
+* Why?: Because teenagers lack real-world experience and naively pursue economically unstable passions.
+* How?: By leveraging parents' mature understanding of the global economy to select high-demand, stable professions.
+* Example: Forcing a child to study computer science to guarantee immediate starting salaries.
+* Result: It protects children from future financial hardship and ensures a stable career.
+* Architecture Pattern: Because -> can -> consequently.
+
 THE CONVERSATION (Body Paragraph 2 Blueprint - Children Choosing):
 * Claim: Allowing children to select their own careers fosters intrinsic motivation.
 * Why?: Because individuals are naturally driven to succeed in fields they are passionate about.
@@ -49,7 +65,7 @@ The question of who should dictate a child's future profession is highly controv
 
 Those who believe parents should dictate career choices often base their argument on financial security. Because teenagers generally lack real-world experience, they may naively pursue passions that offer very little economic stability, such as acting or music. Parents, possessing a mature understanding of the global economy, can guide their children toward highly lucrative and stable professions, such as medicine or engineering. For example, a parent who insists their child study computer science ensures that the child will graduate into a high-demand job market with an excellent starting salary. Consequently, parental intervention is seen as a necessary measure to protect children from future financial hardship.
 
-However, I strongly side with those who argue that children must be allowed to choose their own vocations, as autonomy fosters intrinsic motivation. This is because individuals are naturally driven to excel only in fields they are genuinely passionate about. When students are forced into demanding academic paths against their will, they frequently suffer from severe stress and professional burnout. Conversely, if a teenager who loves painting is supported in becoming a graphic designer, they will willingly dedicate countless hours to perfecting their craft without feeling burdened. As a result, they are far more likely to achieve elite mastery in their field and experience profound, lifelong job satisfaction. 
+Subsequent to this, I strongly side with those who argue that children must be allowed to choose their own vocations, as autonomy fosters intrinsic motivation. This is because individuals are naturally driven to excel only in fields they are genuinely passionate about. When students are forced into demanding academic paths against their will, they frequently suffer from severe stress and professional burnout. Conversely, if a teenager who loves painting is supported in becoming a graphic designer, they will willingly dedicate countless hours to perfecting their craft without feeling burdened. As a result, they are far more likely to achieve elite mastery in their field and experience profound, lifelong job satisfaction. 
 
 In conclusion, while parents understandably want to guarantee their children's financial security, forcing a career upon them is a deeply flawed approach. Autonomy is crucial, as genuine passion is the ultimate prerequisite for achieving true excellence and happiness in one's professional life. (324 words)
 
@@ -68,6 +84,14 @@ THE CONVERSATION (Body Paragraph 1 Blueprint - Zoos are Cruel):
 * Result: Animals suffer from severe psychological distress and reduced lifespans.
 * Architecture Pattern: Although... ... Therefore.
 
+THE CONVERSATION (Body Paragraph 2 Blueprint - Zoos Help Conservation):
+* Claim: Zoos are critical institutions for global environmental conservation.
+* Why?: Because deforestation and poaching have driven endangered species to the brink of extinction.
+* How?: By running successful captive breeding programs in predator-free environments with expert veterinary care.
+* Example: Successfully breeding and reintroducing Giant Pandas and Amur Leopards to wild reserves.
+* Result: Zoos act as a genetic lifeboat, preserving global biodiversity.
+* Architecture Pattern: By -> can -> consequently.
+
 BAND 9 ESSAY:
 The existence of zoos has become a highly polarizing issue in modern society. While some individuals passionately argue that keeping animals in captivity is an unethical practice that must be abolished, others maintain that zoos are vital institutions for global conservation. In my opinion, although past zoological practices were often cruel, modern, highly regulated zoos are absolutely essential for preventing the extinction of endangered species.
 
@@ -83,6 +107,14 @@ PROMPT: Some believe that traditional shops will eventually disappear as online 
 
 LENS: Technological/Economic vs. Psychological/Social
 KEY COLLOCATIONS: overhead costs, unparalleled convenience, tangible shopping experience, immediate gratification
+
+THE CONVERSATION (Body Paragraph 1 Blueprint - Online Shopping):
+* Claim: Online shopping will dominate due to unparalleled convenience and economic efficiency.
+* Why?: Because online retailers avoid massive overhead costs like real estate rent and sales staff salaries.
+* How?: By utilizing global logistics networks to deliver goods directly to consumers' homes.
+* Example: E-commerce giants like Amazon offering cheap prices and next-day delivery.
+* Result: Small, independent physical shops cannot compete and are driven out of business.
+* Architecture Pattern: By -> allow -> consequently.
 
 THE CONVERSATION (Body Paragraph 2 Blueprint - Physical Stores):
 * Claim: Physical stores will endure because they offer a tangible shopping experience.
@@ -115,6 +147,13 @@ THE CONVERSATION (Body Paragraph 1 Blueprint - Improving Productivity):
 * Example: A software company in Iceland implementing a 4-day workweek and seeing a 20% rise in coding output.
 * Result: Employees achieve hyper-focused productivity, accomplishing more in less time.
 * Architecture Pattern: This is because... By + verb-ing... As a result.
+
+THE CONVERSATION (Body Paragraph 2 Blueprint - Economic Harm):
+* Claim: Universally reducing working hours would trigger severe economic contraction.
+* Why?: Because labor-intensive sectors like manufacturing and healthcare tie operational output directly to staffed hours.
+* How?: By reducing operating hours, output drops, forcing companies to hire extra shift workers and skyrocketing overhead costs.
+* Result: The increased expenses drive smaller businesses into bankruptcy, causing economic downturns.
+* Architecture Pattern: If -> to maintain -> consequently.
 
 BAND 9 ESSAY:
 The concept of implementing a shorter workweek has generated significant controversy. While some argue that reducing working hours would act as a catalyst for increased productivity, critics warn that such a policy would trigger severe economic damage. In my view, while a drastic reduction in hours might harm certain labor-intensive industries, moderately shortening the workweek generally boosts overall efficiency by significantly improving employee mental health.
