@@ -52,11 +52,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (target.startsWith('task1-')) {
             const chartType = target.split('-')[1];
-            renderTask1(data.task1[chartType], chartType);
+            renderTask1(data.task1[chartType]);
         } else if (target === 'task2-playbook') {
             renderPlaybook(data.task2.playbook);
-        } else if (target === 'task2-lenses') {
-            renderLenses(data.task2.lenses);
+        } else if (target.startsWith('lens-')) {
+            const lensType = target.split('-')[1];
+            renderSingleLens(data.task2.lenses[lensType], lensType);
         } else if (target.startsWith('task2-')) {
             const essayType = target.split('-')[1];
             renderTask2Essays(data.task2.essays[essayType]);
@@ -65,31 +66,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function renderTask1(data, chartType) {
+    function renderTask1(data) {
         if(!data) return;
         pageTitle.innerText = data.title;
         pageSubtitle.innerText = data.subtitle;
 
-        const figureMap = {
-            'line': '1_Line_Graphs.html',
-            'bar': '2_Bar_Charts.html',
-            'pie': '3_Pie_Charts.html',
-            'table': '4_Tables.html',
-            'multi': '5_Multiple_Charts.html',
-            'map': '6_Maps.html',
-            'process': '7_Processes.html'
-        };
-
-        let html = '';
-
-        if (figureMap[chartType]) {
-            html += `
-            <div class="card" style="padding: 0; overflow: hidden; height: 750px;">
-                <iframe src="IELTS_Prep/Figures/${figureMap[chartType]}" style="width: 100%; height: 100%; border: none;"></iframe>
-            </div>`;
-        }
-
-        html += `<div class="card">
+        let html = `<div class="card">
             <h3>Core Strategy</h3>
             <ul>${data.strategy.map(s => `<li>${s}</li>`).join('')}</ul>
         </div>`;
@@ -98,7 +80,16 @@ document.addEventListener('DOMContentLoaded', () => {
             html += `
             <div class="card">
                 <h3>Example ${index + 1}: ${ex.title}</h3>
-                <div class="prompt"><strong>PROMPT:</strong> ${ex.prompt}</div>
+                <div class="prompt"><strong>PROMPT:</strong> ${ex.prompt}</div>`;
+                
+            if (ex.figureUrl) {
+                html += `
+                <div style="margin: 20px 0; height: 500px; overflow: hidden; border: 1px solid var(--border-color); border-radius: 8px;">
+                    <iframe src="IELTS_Prep/Figures/Individual/${ex.figureUrl}" style="width: 100%; height: 100%; border: none;"></iframe>
+                </div>`;
+            }
+
+            html += `
                 <div class="blueprint-box">
                     <strong>PLANNING NOTE:</strong><br/>
                     ${ex.planning.map(p => `<div>${p}</div>`).join('')}
@@ -148,42 +139,42 @@ document.addEventListener('DOMContentLoaded', () => {
         contentBody.innerHTML = html;
     }
 
-    function renderLenses(data) {
-        if(!data) return;
-        pageTitle.innerText = "Knowledge Network";
+    function renderSingleLens(topic, id) {
+        if(!topic) {
+            contentBody.innerHTML = '<p>Lens data being compiled...</p>';
+            return;
+        }
+        pageTitle.innerText = topic.name + " LENS";
         pageSubtitle.innerText = "Master Idea Trees and Mechanism Chains";
 
-        let html = '';
-        data.topics.forEach(topic => {
+        let html = `
+        <div class="card">
+            <h3 style="font-size: 1.5rem;"><i class="fa-solid fa-network-wired"></i> Core Concepts</h3>
+            <p>${topic.concepts.map(c => `<span class="badge">${c}</span>`).join('')}</p>
+        </div>`;
+            
+        topic.chains.forEach((chain, index) => {
             html += `
             <div class="card">
-                <h3 style="font-size: 1.5rem;"><i class="fa-solid fa-network-wired"></i> LENS: ${topic.name}</h3>
-                <p><strong>Core Concepts:</strong> ${topic.concepts.map(c => `<span class="badge">${c}</span>`).join('')}</p>
-                <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 20px 0;">
-                
-                ${topic.chains.map((chain, index) => `
-                    <div style="margin-bottom: 30px;">
-                        <h4 style="color: var(--text-primary); margin-bottom: 10px;">Chain ${index + 1}: ${chain.title}</h4>
-                        <div class="grid-2">
-                            <div class="blueprint-box" style="margin:0;">
-                                <strong>Mechanism Learning:</strong><br/>
-                                ${chain.steps.map((step, i) => `
-                                    <div style="margin-left: ${i*10}px;">${i===0 ? '' : '↳ '} ${step}</div>
-                                `).join('')}
-                            </div>
-                            <div>
-                                <div class="essay-text" style="margin-bottom: 10px; font-size: 0.95rem;">
-                                    <strong>Band 9 Paragraph:</strong><br/>
-                                    ${chain.paragraph}
-                                </div>
-                                <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 5px;">
-                                    <strong>Collocations:</strong><br/>
-                                    ${chain.collocations.map(c => `<span style="display:inline-block; margin-right:10px; color: var(--accent-color);">✓ ${c}</span>`).join('')}
-                                </div>
-                            </div>
+                <h4 style="color: var(--text-primary); margin-bottom: 20px; font-size: 1.3rem;">Chain ${index + 1}: ${chain.title}</h4>
+                <div class="grid-2">
+                    <div class="blueprint-box" style="margin:0;">
+                        <strong>Mechanism Learning:</strong><br/>
+                        ${chain.steps.map((step, i) => `
+                            <div style="margin-left: ${i*10}px;">${i===0 ? '' : '↳ '} ${step}</div>
+                        `).join('')}
+                    </div>
+                    <div>
+                        <div class="essay-text" style="margin-bottom: 15px; font-size: 0.95rem;">
+                            <strong>Band 9 Paragraph:</strong><br/>
+                            ${chain.paragraph}
+                        </div>
+                        <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px;">
+                            <strong style="display:block; margin-bottom:10px;">High-Band Collocations:</strong>
+                            ${chain.collocations.map(c => `<span style="display:inline-block; margin-right:15px; margin-bottom:5px; color: var(--accent-color);">✓ ${c}</span>`).join('')}
                         </div>
                     </div>
-                `).join('')}
+                </div>
             </div>`;
         });
 
