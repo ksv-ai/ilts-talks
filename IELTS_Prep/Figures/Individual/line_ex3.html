@@ -3,6 +3,7 @@
 <head>
     <title>Line Graph Figures (Extended)</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
         .chart-container { width: 80%; max-width: 800px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
@@ -82,6 +83,18 @@
     </div>
 
     <script>
+        Chart.register(ChartDataLabels);
+        Chart.defaults.set('plugins.datalabels', {
+            color: '#2c3e50',
+            anchor: 'end',
+            align: 'top',
+            offset: 2,
+            font: {
+                weight: 'bold',
+                size: 10
+            }
+        });
+
         // Chart 1
         new Chart(document.getElementById('chart1'), {
             type: 'line',
