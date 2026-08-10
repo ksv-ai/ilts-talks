@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maps Figures</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
+        .chart-container { width: 90%; max-width: 900px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; }
+        .prompt { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; }
+        .map-row { display: flex; justify-content: space-around; margin-top: 20px; }
+        .map-box { width: 45%; height: 250px; background: #ecf0f1; border: 2px solid #bdc3c7; position: relative; border-radius: 4px; overflow: hidden;}
+        .map-title { text-align: center; font-weight: bold; padding: 10px 0; background: #ecf0f1;}
+        
+        /* Elements for Map 1 */
+        .green-area { background: #a2d9a2; border: 1px solid #7cb342; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; text-align: center;}
+        .grey-area { background: #d0d3d4; border: 1px solid #95a5a6; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; text-align: center;}
+        .orange-area { background: #ffcc80; border: 1px solid #f57c00; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; text-align: center;}
+        
+        /* Map 1: 1990 */
+        .m1-farm { top: 10%; left: 5%; width: 40%; height: 80%; }
+        .m1-houses { top: 30%; right: 5%; width: 30%; height: 30%; }
+        .m1-post { top: 40%; left: 50%; width: 15%; height: 15%; font-size: 10px;}
+        .m1-shop { top: 40%; left: 66%; width: 10%; height: 15%; font-size: 10px;}
+        .m1-forest { top: 5%; left: 50%; width: 40%; height: 20%; }
+
+        /* Map 1: 2010 */
+        .m2-golf { top: 10%; left: 5%; width: 40%; height: 80%; }
+        .m2-houses { top: 20%; right: 5%; width: 40%; height: 50%; }
+        .m2-post { top: 40%; left: 50%; width: 15%; height: 15%; font-size: 10px;}
+        .m2-supermarket { top: 40%; left: 66%; width: 25%; height: 15%; font-size: 10px;}
+        .m2-school { top: 5%; left: 50%; width: 40%; height: 20%; }
+        
+        /* Site Selection Elements */
+        .road { background: #555; position: absolute; color: white; display: flex; align-items: center; justify-content: center; font-size: 10px;}
+        .train { background: repeating-linear-gradient(90deg, #333, #333 10px, #fff 10px, #fff 20px); position: absolute; }
+        .town-center { background: #ffb74d; border-radius: 50%; position: absolute; display: flex; align-items: center; justify-content: center; font-weight: bold; text-align: center;}
+    </style>
+</head>
+<body>
+
+    <div class="chart-container">
+        <h2>Figure 1: Past vs Present (Village of Ryden)</h2>
+        <div class="prompt">PROMPT: The maps below show the village of Ryden in 1990 and 2010. Summarise the information.</div>
+        
+        <div class="map-row">
+            <div>
+                <div class="map-title">1990</div>
+                <div class="map-box">
+                    <div class="green-area m1-farm">Farmland</div>
+                    <div class="orange-area m1-houses">Small Housing Estate</div>
+                    <div class="grey-area m1-post">Post Office</div>
+                    <div class="orange-area m1-shop">Shop</div>
+                    <div class="green-area m1-forest">Forest</div>
+                </div>
+            </div>
+            <div>
+                <div class="map-title">2010</div>
+                <div class="map-box">
+                    <div class="green-area m2-golf">Golf Course</div>
+                    <div class="orange-area m2-houses">Large Housing Estate</div>
+                    <div class="grey-area m2-post">Post Office</div>
+                    <div class="grey-area m2-supermarket">Supermarket</div>
+                    <div class="grey-area m2-school">School</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 2: Site Selection (Town of Garlsdon)</h2>
+        <div class="prompt">PROMPT: The map below shows two possible sites (S1 and S2) for a new shopping mall in the town of Garlsdon. Summarise the information.</div>
+        
+        <div style="width: 100%; display: flex; justify-content: center;">
+            <div class="map-box" style="width: 80%; height: 300px;">
+                <!-- Town Center -->
+                <div class="town-center" style="top: 30%; left: 30%; width: 40%; height: 40%;">Garlsdon Town Center<br>(Housing / No roads)</div>
+                <!-- Site 2 -->
+                <div class="orange-area" style="top: 45%; left: 45%; width: 10%; height: 10%; background: red; color: white;">S2</div>
+                
+                <!-- A4 Road -->
+                <div class="road" style="top: 10%; left: 0; width: 100%; height: 10%;">A4 Main Road</div>
+                
+                <!-- Railway -->
+                <div class="train" style="top: 0; left: 80%; width: 5%; height: 100%;"></div>
+                
+                <!-- Site 1 -->
+                <div class="orange-area" style="top: 5%; left: 65%; width: 10%; height: 10%; background: red; color: white; z-index: 10;">S1</div>
+                
+                <!-- Labels -->
+                <div style="position: absolute; bottom: 10px; right: 20px; font-size: 12px; font-weight: bold; background: white; padding: 5px; border: 1px solid black;">Countryside</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

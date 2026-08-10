@@ -1,24 +1,23 @@
 IELTS TASK 1 STRATEGY: MULTIPLE CHARTS
 --------------------------------------------------
-
 1. CORE STRATEGY & WHAT TO COMPARE:
-When you get two different charts (e.g., a Bar Chart + a Pie Chart), the task looks scary, but it is actually easier because the structure is already decided for you.
-
-What you MUST compare:
-- You must find the main feature of Chart 1, and the main feature of Chart 2.
-- DO NOT try to connect the data between the two charts unless there is a very obvious, undeniable link. Usually, they just show two different aspects of the same topic.
-
-How to group your data (Body Paragraphs):
-- Body Paragraph 1: Analyze only the first chart.
-- Body Paragraph 2: Analyze only the second chart.
-- This prevents you from jumping back and forth and confusing the examiner.
+* Do NOT panic. Multiple charts are actually easier because the structure is given to you.
+* Never try to force a connection between the two charts unless it is incredibly obvious (e.g., one shows total sales, the other shows sales by region).
+* Dedicate Body Paragraph 1 entirely to Chart A.
+* Dedicate Body Paragraph 2 entirely to Chart B.
 
 --------------------------------------------------
-2. BAND 9 EXAMPLE ESSAY
+EXAMPLE 1: TABLE + PIE CHART
+(Focus: Discussing two completely different types of data)
+
+CHART DATA (Ashdown Museum Refurbishment):
+Table (Total Visitors): Year Before (74k) | Year After (92k)
+Pie (Satisfaction before): Very Dissatisfied (10%), Dissatisfied (40%), Satisfied (30%), Very Satisfied (15%), No Response (5%)
+Pie (Satisfaction after): Very Dissatisfied (5%), Dissatisfied (15%), Satisfied (40%), Very Satisfied (35%), No Response (5%)
 
 PROMPT: The table below shows the number of visitors to Ashdown Museum during the year before and the year after it was refurbished. The charts show the result of surveys asking visitors how satisfied they were with their visit, during the same two periods.
 
-ESSAY:
+BAND 9 ESSAY:
 The provided table details the total number of visitors to the Ashdown Museum in the year preceding and the year following its refurbishment, while the two pie charts compare visitor satisfaction survey results during those same two periods.
 
 Overall, it is clear that the refurbishment led to a significant increase in the total number of visitors to the museum. Furthermore, the surveys reveal that visitor satisfaction improved dramatically after the renovations were completed.
@@ -26,3 +25,41 @@ Overall, it is clear that the refurbishment led to a significant increase in the
 Looking first at the total attendance data in the table, the museum experienced substantial growth. In the year prior to the refurbishment, the museum received 74,000 visitors. Following the renovations, this figure surged by roughly 25%, reaching a total of 92,000 visitors in the subsequent year.
 
 Turning to the satisfaction surveys in the pie charts, the positive impact of the refurbishment is evident. Before the changes, half of all visitors were either 'dissatisfied' (40%) or 'very dissatisfied' (10%). However, after the refurbishment, the proportion of 'very dissatisfied' visitors dropped to just 5%, and the 'dissatisfied' group shrank to 15%. Consequently, the percentage of visitors who reported being 'very satisfied' more than doubled, climbing from 15% to 35%, while the 'satisfied' group also saw an increase from 30% to 40%. (204 words)
+
+--------------------------------------------------
+EXAMPLE 2: LINE GRAPH + BAR CHART
+(Focus: Describing time trends alongside categorical data)
+
+CHART DATA (Train Passengers and Delays):
+Line (Total Passengers in millions): 2000 (10) | 2005 (15) | 2010 (12) | 2015 (18) | 2020 (22)
+Bar (% experiencing delays): 2000 (5%) | 2005 (12%) | 2010 (8%) | 2015 (15%) | 2020 (25%)
+
+PROMPT: The line graph below shows the number of train passengers in a major city from 2000 to 2020. The bar chart shows the percentage of those passengers who experienced delays during the same period.
+
+BAND 9 ESSAY:
+The line graph illustrates the total number of individuals utilizing the train network in a major city between the years 2000 and 2020, while the accompanying bar chart details the percentage of these passengers who faced travel delays over the same two-decade period.
+
+Overall, there was a general upward trend in both the number of train passengers and the proportion of people experiencing delays. Notably, years with higher passenger volumes consistently correlated with a higher percentage of delayed journeys.
+
+Analyzing the passenger numbers first, the network began the period with 10 million users in 2000. This figure rose to 15 million by 2005 before experiencing a brief dip to 12 million in 2010. Following this, the number of passengers recovered and climbed steadily, reaching 18 million in 2015 and peaking at 22 million by the end of the period in 2020.
+
+Turning to the bar chart, the frequency of delays mirrored the fluctuations in passenger volume. In 2000, only 5% of passengers were delayed. This proportion more than doubled to 12% in 2005, before falling back to 8% in 2010, matching the drop in ridership. However, as passenger numbers surged in the final decade, delays worsened significantly, affecting 15% of travelers in 2015 and reaching a peak of 25% by 2020. (216 words)
+
+--------------------------------------------------
+EXAMPLE 3: PIE CHART + BAR CHART
+(Focus: Cause and Effect / Related Data)
+
+CHART DATA (Agricultural Land Degradation):
+Pie (Causes of degradation globally): Over-grazing (35%) | Deforestation (30%) | Over-cultivation (28%) | Other (7%)
+Bar (Degraded land by region): North America (5%) | Europe (23%) | Oceania (13%)
+
+PROMPT: The pie chart below shows the main reasons why agricultural land becomes less productive. The bar chart shows how these causes affected three regions of the world during the 1990s.
+
+BAND 9 ESSAY:
+The pie chart delineates the primary global causes of agricultural land degradation, while the accompanying bar chart compares the total percentage of degraded land across three specific regions (North America, Europe, and Oceania) during the 1990s.
+
+Overall, it is evident that over-grazing, deforestation, and over-cultivation were the three leading causes of land degradation globally. Furthermore, Europe suffered from a significantly higher proportion of degraded land compared to Oceania and North America.
+
+Looking first at the global causes detailed in the pie chart, over-grazing was the most detrimental activity, responsible for 35% of all land degradation. Deforestation was the second most significant factor, accounting for 30%. Closely following this was over-cultivation, which caused 28% of the damage. A small minority of degradation, making up the final 7%, was attributed to other, unspecified causes.
+
+Turning to the regional impact shown in the bar chart, Europe was the most severely affected area, with 23% of its total agricultural land suffering from degradation during the 1990s. Oceania experienced a moderate level of damage, with exactly 13% of its land becoming less productive. In stark contrast, North America was the least affected region by a considerable margin, recording a degradation rate of a mere 5%. (199 words)

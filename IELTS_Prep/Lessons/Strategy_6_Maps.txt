@@ -1,0 +1,63 @@
+IELTS TASK 1 STRATEGY: MAPS
+--------------------------------------------------
+1. CORE STRATEGY & WHAT TO COMPARE:
+* Maps test your vocabulary of LOCATION (north, south, adjacent to, opposite) and CHANGE (demolished, constructed, expanded, replaced).
+* Look for what was added, what was removed, and what stayed the same.
+* Group by geography (e.g., Body 1 = the north side of town, Body 2 = the south side) OR by category (Body 1 = housing, Body 2 = infrastructure/roads).
+
+--------------------------------------------------
+EXAMPLE 1: PAST VS PRESENT (Town Development)
+(Focus: Passive voice in the past tense - e.g., "was demolished", "were constructed")
+
+MAP DATA (Village of Ryden, 1990 vs 2010):
+1990: West (Farmland), East (Small housing estate), Center (Post Office & small shop), North (Forest)
+2010: West (Golf course), East (Large housing estate - expanded), Center (Post Office remains, shop replaced by Supermarket), North (Forest cut down, replaced by a school)
+
+PROMPT: The maps below show the village of Ryden in 1990 and 2010. Summarise the information.
+
+BAND 9 ESSAY:
+The two maps illustrate the extensive development and modernization that took place in the village of Ryden over a twenty-year period, comparing its layout in 1990 to that in 2010.
+
+Overall, it is immediately apparent that Ryden transformed from a rural, agricultural village into a significantly more residential and developed area. The most notable changes include the loss of farmland and woodland, which were replaced by recreational facilities and educational infrastructure.
+
+Looking first at the western and northern sections of the village, major environmental changes occurred. In 1990, the western side was dominated by agricultural farmland; however, by 2010, this entire area had been converted into a large golf course. Similarly, the forest that previously stood in the north was completely cut down, and a new school was constructed in its place.
+
+Turning to the eastern and central areas, the village became far more commercialized and populated. The small housing estate located in the east in 1990 was significantly expanded by 2010 to accommodate more residents. In the center of the village, while the post office remained in its original location, the small shop adjacent to it was demolished and replaced by a much larger supermarket. (197 words)
+
+--------------------------------------------------
+EXAMPLE 2: PRESENT VS FUTURE (Proposals)
+(Focus: Future passive grammar - e.g., "is planned to be built", "will be relocated")
+
+MAP DATA (University Campus, Present vs Proposed Future Layout):
+Present: North (Car park), Center (Library), South (Science block & Arts block), East (Open green space)
+Future: North (Car park expanded), Center (Library demolished, new Student Union built), South (Arts block remains, Science block expanded), East (Green space replaced by new Library)
+
+PROMPT: The maps show the current layout of a university campus and the proposed changes for the future. Summarise the information.
+
+BAND 9 ESSAY:
+The provided maps depict the current infrastructure of a university campus and outline the proposed developments planned for its future layout.
+
+Overall, the campus is slated to undergo significant redevelopment, prioritizing the expansion of academic and student facilities. This will primarily involve the relocation of the library and the sacrifice of existing green spaces.
+
+Analyzing the northern and eastern sections of the campus, major construction is proposed. The existing car park located in the north is planned to be substantially expanded to accommodate more vehicles. Meanwhile, the large, open green space currently situated on the eastern side of the campus will be completely built over. According to the plans, a brand-new, larger library will be constructed on this site.
+
+Regarding the central and southern areas, further modernizations are scheduled. The original library, which currently sits in the center of the campus, will be demolished. In its place, a new Student Union building will be erected. Looking to the south, the Arts block is the only structure that will remain entirely unchanged. However, the Science block situated next to it will undergo an extension, significantly increasing its footprint on the campus. (192 words)
+
+--------------------------------------------------
+EXAMPLE 3: SITE SELECTION (Comparing two locations)
+(Focus: Comparing advantages and geographical placement)
+
+MAP DATA (Proposed sites for a new shopping mall in the town of Garlsdon):
+Site 1 (S1): North of town, surrounded by countryside, near a main road (A4) and a railway line.
+Site 2 (S2): Center of town, surrounded by housing, no main roads, pedestrian access only.
+
+PROMPT: The map below shows two possible sites (S1 and S2) for a new shopping mall in the town of Garlsdon. Summarise the information.
+
+BAND 9 ESSAY:
+The provided map displays the town of Garlsdon and highlights two potential locations, designated as S1 and S2, that are currently being considered for the construction of a new shopping mall.
+
+Overall, the two sites offer vastly different geographical advantages. While S1 is situated on the outskirts of the town with excellent transport links, S2 is located directly in the town center, offering closer proximity to residential areas but limited vehicular access.
+
+Looking first at Site 1, it is located in the northern countryside, entirely outside the main residential zones of Garlsdon. However, its primary advantage lies in its accessibility for commuters. The site is situated immediately adjacent to a major arterial road, the A4, and is also positioned alongside the town’s railway line. This would make it highly accessible for shoppers traveling from outside the immediate area via car or train.
+
+In contrast, Site 2 proposes a completely different retail environment. It is located squarely in the center of Garlsdon, completely surrounded by housing estates, making it easily accessible on foot for local residents. However, unlike S1, there are no major transport links nearby. The area is entirely pedestrianized, meaning the site cannot be accessed directly by road or rail. (201 words)
