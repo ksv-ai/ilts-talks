@@ -14,6 +14,14 @@
     </style>
 
                 <style>
+                    html, body { 
+                        margin: 0 !important; 
+                        padding: 0 !important; 
+                        background: #ffffff !important; 
+                        overflow: hidden !important;
+                        height: 100% !important;
+                        width: 100% !important;
+                    }
                     /* Hide all containers */
                     .chart-container, .table-container { display: none !important; }
                     /* Show only the target container */
@@ -22,11 +30,15 @@
                         margin: 0 !important; 
                         box-shadow: none !important; 
                         width: 100% !important; 
-                        max-width: 100% !important; 
-                        padding: 10px !important; 
+                        height: 100% !important;
+                        padding: 15px !important; 
                         box-sizing: border-box !important; 
+                        overflow: hidden !important;
                     }
-                    body { margin: 10px !important; padding: 0 !important; background: transparent !important; }
+                    canvas {
+                        max-height: 380px !important;
+                        max-width: 100% !important;
+                    }
                 </style>
                 
 </head>
