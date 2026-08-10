@@ -592,7 +592,11 @@ window.ieltsData = {
                     "provide peace of mind",
                     "improve emotional well-being"
                 ],
-                "paragraph": "Saving money improves psychological well-being by building an emergency fund that prepares individuals for unexpected situations. This increases financial security and significantly reduces financial stress, providing greater peace of mind. Consequently, people experience improved emotional well-being and enjoy higher overall life satisfaction."
+                "paragraph": "Saving money improves psychological well-being by building an emergency fund that prepares individuals for unexpected situations. This increases financial security and significantly reduces financial stress, providing greater peace of mind. Consequently, people experience improved emotional well-being and enjoy higher overall life satisfaction.",
+                "architecture": [
+                    "by + Verb-ing",
+                    "Consequently"
+                ]
             },
             {
                 "title": "Achievement → Self-Confidence",
@@ -612,7 +616,13 @@ window.ieltsData = {
                     "encourage lifelong learning",
                     "achieve personal growth"
                 ],
-                "paragraph": "Learning new skills promotes personal development by allowing individuals to gain valuable experience and improve competence. As they become more capable, they naturally develop self-confidence, which increases motivation and encourages lifelong learning. Consequently, they are better equipped to achieve long-term personal and professional goals."
+                "paragraph": "Learning new skills promotes personal development by allowing individuals to gain valuable experience and improve competence. As they become more capable, they naturally develop self-confidence, which increases motivation and encourages lifelong learning. Consequently, they are better equipped to achieve long-term personal and professional goals.",
+                "architecture": [
+                    "Since / As",
+                    "by + Verb-ing",
+                    "Consequently",
+                    "allowing (Participle)"
+                ]
             },
             {
                 "title": "Social Support → Emotional Stability",
@@ -632,7 +642,12 @@ window.ieltsData = {
                     "manage stress more effectively",
                     "maintain better mental health"
                 ],
-                "paragraph": "Strong social relationships improve mental health by allowing individuals to receive emotional support during difficult times. Sharing personal challenges helps reduce feelings of loneliness and improves emotional resilience. Consequently, people manage stress more effectively, maintain better mental health, and experience greater overall well-being."
+                "paragraph": "Strong social relationships improve mental health by allowing individuals to receive emotional support during difficult times. Sharing personal challenges helps reduce feelings of loneliness and improves emotional resilience. Consequently, people manage stress more effectively, maintain better mental health, and experience greater overall well-being.",
+                "architecture": [
+                    "by + Verb-ing",
+                    "Consequently",
+                    "allowing (Participle)"
+                ]
             },
             {
                 "title": "Work-Life Balance → Reduced Burnout",
@@ -652,7 +667,10 @@ window.ieltsData = {
                     "foster positive mindset",
                     "prevent professional burnout"
                 ],
-                "paragraph": "Limiting professional responsibilities helps individuals prioritize personal time, which is essential for alleviating mental fatigue. This directly improves sleep quality and fosters a positive mindset. Consequently, employees prevent professional burnout, maintain emotional stability, and perform better in their careers."
+                "paragraph": "Limiting professional responsibilities helps individuals prioritize personal time, which is essential for alleviating mental fatigue. This directly improves sleep quality and fosters a positive mindset. Consequently, employees prevent professional burnout, maintain emotional stability, and perform better in their careers.",
+                "architecture": [
+                    "Consequently"
+                ]
             },
             {
                 "title": "Mindfulness Practice → Stress Reduction",
@@ -672,7 +690,11 @@ window.ieltsData = {
                     "enhance mental clarity",
                     "reduce daily anxiety"
                 ],
-                "paragraph": "Engaging in mindfulness practices allows people to regulate their emotional responses to stress, which lowers cortisol levels. This improves concentration and enhances mental clarity in high-pressure situations. As a result, individuals reduce daily anxiety, boost their emotional resilience, and enjoy peace of mind."
+                "paragraph": "Engaging in mindfulness practices allows people to regulate their emotional responses to stress, which lowers cortisol levels. This improves concentration and enhances mental clarity in high-pressure situations. As a result, individuals reduce daily anxiety, boost their emotional resilience, and enjoy peace of mind.",
+                "architecture": [
+                    "Since / As",
+                    "As a result"
+                ]
             },
             {
                 "title": "Creative Outlets → Self-Expression",
@@ -692,7 +714,10 @@ window.ieltsData = {
                     "enhance self-worth",
                     "improve mood regulation"
                 ],
-                "paragraph": "Pursuing creative hobbies like painting or music allows individuals to express complex emotions that are hard to verbalize. This helps release accumulated tension and boosts dopamine levels in the brain. Consequently, creative expression enhances self-worth and plays a critical role in long-term mood regulation."
+                "paragraph": "Pursuing creative hobbies like painting or music allows individuals to express complex emotions that are hard to verbalize. This helps release accumulated tension and boosts dopamine levels in the brain. Consequently, creative expression enhances self-worth and plays a critical role in long-term mood regulation.",
+                "architecture": [
+                    "Consequently"
+                ]
             }
         ]
     },
@@ -725,7 +750,12 @@ window.ieltsData = {
                     "mitigate climate change",
                     "promote sustainable development"
                 ],
-                "paragraph": "Renewable energy protects the environment by reducing dependence on fossil fuels, which are a major source of greenhouse gas emissions. This helps lower carbon emissions and improve air quality, thereby protecting public health. Consequently, countries can mitigate climate change, promote sustainable development, and preserve natural resources for future generations."
+                "paragraph": "Renewable energy protects the environment by reducing dependence on fossil fuels, which are a major source of greenhouse gas emissions. This helps lower carbon emissions and improve air quality, thereby protecting public health. Consequently, countries can mitigate climate change, promote sustainable development, and preserve natural resources for future generations.",
+                "architecture": [
+                    "by + Verb-ing",
+                    "Consequently",
+                    "Thereby + Verb-ing"
+                ]
             },
             {
                 "title": "Recycling → Waste Reduction",
@@ -744,7 +774,13 @@ window.ieltsData = {
                     "reduce energy consumption",
                     "minimize environmental pollution"
                 ],
-                "paragraph": "Recycling benefits the environment by reducing household waste, thereby decreasing the amount of rubbish sent to landfills. This helps conserve natural resources and reduce energy consumption, since manufacturing products from recycled materials often requires fewer resources. Consequently, recycling minimizes environmental pollution, protects ecosystems, and supports sustainable living."
+                "paragraph": "Recycling benefits the environment by reducing household waste, thereby decreasing the amount of rubbish sent to landfills. This helps conserve natural resources and reduce energy consumption, since manufacturing products from recycled materials often requires fewer resources. Consequently, recycling minimizes environmental pollution, protects ecosystems, and supports sustainable living.",
+                "architecture": [
+                    "Since / As",
+                    "by + Verb-ing",
+                    "Consequently",
+                    "Thereby + Verb-ing"
+                ]
             },
             {
                 "title": "Reforestation → Biodiversity Preservation",
@@ -765,7 +801,11 @@ window.ieltsData = {
                     "support diverse ecosystems",
                     "preserve global biodiversity"
                 ],
-                "paragraph": "Reforestation efforts restore native woodlands, which absorb vast amounts of atmospheric carbon dioxide. This process creates critical natural habitats and prevents soil erosion during heavy rains. As a result, planting trees supports diverse ecosystems and helps preserve global biodiversity from extinction."
+                "paragraph": "Reforestation efforts restore native woodlands, which absorb vast amounts of atmospheric carbon dioxide. This process creates critical natural habitats and prevents soil erosion during heavy rains. As a result, planting trees supports diverse ecosystems and helps preserve global biodiversity from extinction.",
+                "architecture": [
+                    "Since / As",
+                    "As a result"
+                ]
             },
             {
                 "title": "Sustainable Agriculture → Soil Conservation",
@@ -785,7 +825,11 @@ window.ieltsData = {
                     "protect groundwater quality",
                     "ensure long-term food security"
                 ],
-                "paragraph": "Adopting organic farming practices eliminates the dependency on synthetic pesticides, thereby enriching natural soil nutrients. This prevents toxic chemical runoff into nearby streams, which protects groundwater quality. Consequently, sustainable agriculture preserves arable land and ensures long-term food security."
+                "paragraph": "Adopting organic farming practices eliminates the dependency on synthetic pesticides, thereby enriching natural soil nutrients. This prevents toxic chemical runoff into nearby streams, which protects groundwater quality. Consequently, sustainable agriculture preserves arable land and ensures long-term food security.",
+                "architecture": [
+                    "Consequently",
+                    "Thereby + Verb-ing"
+                ]
             },
             {
                 "title": "Green Transportation → Clean Air",
@@ -805,7 +849,10 @@ window.ieltsData = {
                     "improve public health",
                     "mitigate global warming"
                 ],
-                "paragraph": "Promoting electric vehicles accelerates the transition away from fossil-fuel combustion engines, thereby eliminating harmful tailpipe emissions. This reduces urban smog and improves public health in congested cities. Ultimately, adopting green transportation mitigates global warming and supports clean air initiatives."
+                "paragraph": "Promoting electric vehicles accelerates the transition away from fossil-fuel combustion engines, thereby eliminating harmful tailpipe emissions. This reduces urban smog and improves public health in congested cities. Ultimately, adopting green transportation mitigates global warming and supports clean air initiatives.",
+                "architecture": [
+                    "Thereby + Verb-ing"
+                ]
             },
             {
                 "title": "Eco-Tourism → Habitat Protection",
@@ -825,7 +872,14 @@ window.ieltsData = {
                     "provide alternative local incomes",
                     "protect fragile ecosystems"
                 ],
-                "paragraph": "Encouraging responsible travel through eco-tourism funds vital conservation projects in developing countries. This discourages illegal wildlife poaching by providing alternative local incomes for communities. Consequently, ecological travel protects fragile ecosystems while minimizing the carbon footprint of tourists."
+                "paragraph": "Encouraging responsible travel through eco-tourism funds vital conservation projects in developing countries. This discourages illegal wildlife poaching by providing alternative local incomes for communities. Consequently, ecological travel protects fragile ecosystems while minimizing the carbon footprint of tourists.",
+                "architecture": [
+                    "by + Verb-ing",
+                    "through",
+                    "Consequently",
+                    "minimizing (Participle)",
+                    "While"
+                ]
             }
         ]
     },
@@ -858,7 +912,10 @@ window.ieltsData = {
                     "drive technological innovation",
                     "stimulate national economic growth"
                 ],
-                "paragraph": "Governments should heavily subsidize tertiary education to eliminate financial barriers and allow students from all backgrounds to study. This cultivates a highly skilled workforce, which is essential for attracting corporate investment and driving technological innovation. Consequently, a highly educated population stimulates long-term national economic growth and prosperity."
+                "paragraph": "Governments should heavily subsidize tertiary education to eliminate financial barriers and allow students from all backgrounds to study. This cultivates a highly skilled workforce, which is essential for attracting corporate investment and driving technological innovation. Consequently, a highly educated population stimulates long-term national economic growth and prosperity.",
+                "architecture": [
+                    "Consequently"
+                ]
             },
             {
                 "title": "Infrastructure Development → Job Creation",
@@ -877,7 +934,12 @@ window.ieltsData = {
                     "boost consumer spending",
                     "strengthen the local economy"
                 ],
-                "paragraph": "Investing heavily in public infrastructure, such as new railways or airports, directly stimulates the construction sector. This generates thousands of immediate employment opportunities, substantially reducing national unemployment rates. As a result, newly employed citizens boost consumer spending, thereby strengthening the entire local economy."
+                "paragraph": "Investing heavily in public infrastructure, such as new railways or airports, directly stimulates the construction sector. This generates thousands of immediate employment opportunities, substantially reducing national unemployment rates. As a result, newly employed citizens boost consumer spending, thereby strengthening the entire local economy.",
+                "architecture": [
+                    "Since / As",
+                    "As a result",
+                    "Thereby + Verb-ing"
+                ]
             },
             {
                 "title": "Small Business Subsidies → Entrepreneurial Innovation",
@@ -897,7 +959,10 @@ window.ieltsData = {
                     "generate niche employment",
                     "stimulate economic dynamism"
                 ],
-                "paragraph": "Subsidizing start-up companies reduces the initial financial barriers for entrepreneurs, which fosters healthy market competition. This drives local innovation and generates niche employment opportunities. Consequently, supporting small businesses stimulates overall economic dynamism and community wealth."
+                "paragraph": "Subsidizing start-up companies reduces the initial financial barriers for entrepreneurs, which fosters healthy market competition. This drives local innovation and generates niche employment opportunities. Consequently, supporting small businesses stimulates overall economic dynamism and community wealth.",
+                "architecture": [
+                    "Consequently"
+                ]
             },
             {
                 "title": "Trade Deregulation → Global Market Expansion",
@@ -917,7 +982,12 @@ window.ieltsData = {
                     "stimulate international investment",
                     "accelerate economic integration"
                 ],
-                "paragraph": "Lowering import tariffs facilitates cross-border trade, allowing domestic businesses to expand their customer bases globally. This increases business revenues and stimulates international investment in manufacturing sectors. As a result, trade deregulation accelerates economic integration and boosts national gross domestic product."
+                "paragraph": "Lowering import tariffs facilitates cross-border trade, allowing domestic businesses to expand their customer bases globally. This increases business revenues and stimulates international investment in manufacturing sectors. As a result, trade deregulation accelerates economic integration and boosts national gross domestic product.",
+                "architecture": [
+                    "Since / As",
+                    "As a result",
+                    "allowing (Participle)"
+                ]
             },
             {
                 "title": "Vocational Training Programs → Skilled Labor Supply",
@@ -937,7 +1007,10 @@ window.ieltsData = {
                     "attract manufacturing firms",
                     "bolster industrial growth"
                 ],
-                "paragraph": "Funding practical apprenticeship programs bridges the skills gap in technical fields, thereby increasing youth employment rates. This enhances overall labor productivity and attracts foreign manufacturing firms. Ultimately, a steady supply of skilled technicians bolsters industrial growth and raises household incomes."
+                "paragraph": "Funding practical apprenticeship programs bridges the skills gap in technical fields, thereby increasing youth employment rates. This enhances overall labor productivity and attracts foreign manufacturing firms. Ultimately, a steady supply of skilled technicians bolsters industrial growth and raises household incomes.",
+                "architecture": [
+                    "Thereby + Verb-ing"
+                ]
             },
             {
                 "title": "Green Technology Investment → Sustainable Industries",
@@ -957,7 +1030,10 @@ window.ieltsData = {
                     "improve corporate sustainability",
                     "stimulate modern industries"
                 ],
-                "paragraph": "Investing in clean technology creates high-paying green jobs and encourages companies to reduce manufacturing wastes. This helps lower energy expenses over time, which improves corporate sustainability. Consequently, green investments stimulate modern, future-proof industries that align with global climate goals."
+                "paragraph": "Investing in clean technology creates high-paying green jobs and encourages companies to reduce manufacturing wastes. This helps lower energy expenses over time, which improves corporate sustainability. Consequently, green investments stimulate modern, future-proof industries that align with global climate goals.",
+                "architecture": [
+                    "Consequently"
+                ]
             }
         ]
     },
@@ -989,7 +1065,12 @@ window.ieltsData = {
                     "maximize corporate efficiency",
                     "increase profit margins"
                 ],
-                "paragraph": "Implementing automated AI systems allows companies to execute repetitive administrative tasks instantly while eliminating costly human errors. By streamlining these operational workflows, businesses maximize corporate efficiency and reduce overhead costs. Therefore, technology is an indispensable tool for increasing overall profit margins in modern industries."
+                "paragraph": "Implementing automated AI systems allows companies to execute repetitive administrative tasks instantly while eliminating costly human errors. By streamlining these operational workflows, businesses maximize corporate efficiency and reduce overhead costs. Therefore, technology is an indispensable tool for increasing overall profit margins in modern industries.",
+                "architecture": [
+                    "by + Verb-ing",
+                    "Therefore",
+                    "While"
+                ]
             },
             {
                 "title": "Digital Communication → Global Connectivity",
@@ -1007,7 +1088,13 @@ window.ieltsData = {
                     "maintain international relationships",
                     "prevent social isolation"
                 ],
-                "paragraph": "Social media platforms have eradicated geographical barriers by facilitating instant, free communication across the globe. This allows families separated by vast distances to effortlessly maintain international relationships via video calls. As a result, technology prevents social isolation and sustains crucial emotional bonds regardless of physical location."
+                "paragraph": "Social media platforms have eradicated geographical barriers by facilitating instant, free communication across the globe. This allows families separated by vast distances to effortlessly maintain international relationships via video calls. As a result, technology prevents social isolation and sustains crucial emotional bonds regardless of physical location.",
+                "architecture": [
+                    "Since / As",
+                    "by + Verb-ing",
+                    "via",
+                    "As a result"
+                ]
             },
             {
                 "title": "Telemedicine → Healthcare Accessibility",
@@ -1027,7 +1114,10 @@ window.ieltsData = {
                     "streamline medical resources",
                     "provide universal healthcare"
                 ],
-                "paragraph": "Implementing virtual consultations allows doctors to bypass geographical distances and reach patients in remote areas. This reduces hospital wait times and helps diagnose mild ailments quickly without in-person visits. Consequently, telemedicine streamlines medical resources and moves society closer to universal healthcare access."
+                "paragraph": "Implementing virtual consultations allows doctors to bypass geographical distances and reach patients in remote areas. This reduces hospital wait times and helps diagnose mild ailments quickly without in-person visits. Consequently, telemedicine streamlines medical resources and moves society closer to universal healthcare access.",
+                "architecture": [
+                    "Consequently"
+                ]
             },
             {
                 "title": "E-Learning Platforms → Democratic Education",
@@ -1047,7 +1137,10 @@ window.ieltsData = {
                     "promote lifelong learning",
                     "bridge educational inequality"
                 ],
-                "paragraph": "Publishing educational resources online eliminates commuting expenses and allows students to engage in self-paced learning. This helps democratize academic access for disadvantaged demographics globally. Consequently, e-learning platforms promote lifelong learning and bridge the gap of educational inequality."
+                "paragraph": "Publishing educational resources online eliminates commuting expenses and allows students to engage in self-paced learning. This helps democratize academic access for disadvantaged demographics globally. Consequently, e-learning platforms promote lifelong learning and bridge the gap of educational inequality.",
+                "architecture": [
+                    "Consequently"
+                ]
             },
             {
                 "title": "Smart Cities → Energy Conservation",
@@ -1067,7 +1160,11 @@ window.ieltsData = {
                     "enhance urban sustainability",
                     "lower public utility costs"
                 ],
-                "paragraph": "Integrating smart grid sensors allows municipalities to optimize electricity distribution based on real-time demand. This reduces power line waste and minimizes the carbon footprint of city buildings. Therefore, smart cities enhance urban sustainability while lowering public utility costs for residents."
+                "paragraph": "Integrating smart grid sensors allows municipalities to optimize electricity distribution based on real-time demand. This reduces power line waste and minimizes the carbon footprint of city buildings. Therefore, smart cities enhance urban sustainability while lowering public utility costs for residents.",
+                "architecture": [
+                    "Therefore",
+                    "While"
+                ]
             },
             {
                 "title": "Data Analytics → Personalized Services",
@@ -1087,7 +1184,11 @@ window.ieltsData = {
                     "improve customer retention",
                     "optimize marketing expenditures"
                 ],
-                "paragraph": "Analyzing consumer patterns with advanced algorithms allows businesses to identify custom preferences and deliver tailored experiences. This maximizes user engagement and improves customer retention. As a result, leveraging data analytics optimizes marketing expenditures and drives corporate profits."
+                "paragraph": "Analyzing consumer patterns with advanced algorithms allows businesses to identify custom preferences and deliver tailored experiences. This maximizes user engagement and improves customer retention. As a result, leveraging data analytics optimizes marketing expenditures and drives corporate profits.",
+                "architecture": [
+                    "Since / As",
+                    "As a result"
+                ]
             }
         ]
     },
@@ -1117,7 +1218,11 @@ window.ieltsData = {
                     "bridge the skills gap",
                     "enhance graduate employability"
                 ],
-                "paragraph": "Incorporating vocational training into university curriculums allows students to simulate real-world corporate challenges. This develops practical competencies, such as software proficiency or project management, which directly bridges the skills gap between academia and industry. Consequently, this hands-on experience drastically enhances graduate employability in a competitive market."
+                "paragraph": "Incorporating vocational training into university curriculums allows students to simulate real-world corporate challenges. This develops practical competencies, such as software proficiency or project management, which directly bridges the skills gap between academia and industry. Consequently, this hands-on experience drastically enhances graduate employability in a competitive market.",
+                "architecture": [
+                    "Since / As",
+                    "Consequently"
+                ]
             },
             {
                 "title": "Critical Thinking Skills → Independent Problem Solving",
@@ -1137,7 +1242,11 @@ window.ieltsData = {
                     "avoid media manipulation",
                     "foster intellectual independence"
                 ],
-                "paragraph": "Encouraging analytical debate in classrooms forces students to evaluate conflicting arguments rather than memorizing facts. This develops critical thinking skills, allowing students to make reasoned judgments in daily life. Consequently, critical education helps citizens avoid media manipulation and fosters intellectual independence."
+                "paragraph": "Encouraging analytical debate in classrooms forces students to evaluate conflicting arguments rather than memorizing facts. This develops critical thinking skills, allowing students to make reasoned judgments in daily life. Consequently, critical education helps citizens avoid media manipulation and fosters intellectual independence.",
+                "architecture": [
+                    "Consequently",
+                    "allowing (Participle)"
+                ]
             },
             {
                 "title": "Inclusion of Arts → Creative Innovation",
@@ -1157,7 +1266,10 @@ window.ieltsData = {
                     "complement academic studies",
                     "promote holistic development"
                 ],
-                "paragraph": "Integrating creative arts into school curricula nurtures divergent thinking and enhances emotional intelligence in children. This inspires out-of-the-box ideas that complement traditional academic studies. Consequently, including arts in school promotes holistic development and prepares students for innovative careers."
+                "paragraph": "Integrating creative arts into school curricula nurtures divergent thinking and enhances emotional intelligence in children. This inspires out-of-the-box ideas that complement traditional academic studies. Consequently, including arts in school promotes holistic development and prepares students for innovative careers.",
+                "architecture": [
+                    "Consequently"
+                ]
             },
             {
                 "title": "Bilingual Education → Cognitive Flexibility",
@@ -1177,7 +1289,8 @@ window.ieltsData = {
                     "enhance communication skills",
                     "broaden career horizons"
                 ],
-                "paragraph": "Introducing foreign languages in primary school stimulates neurological pathways and improves multitasking abilities in children. This fosters cognitive flexibility, which enhances communication skills in multicultural societies. Ultimately, bilingual education broadens career horizons and improves long-term memory."
+                "paragraph": "Introducing foreign languages in primary school stimulates neurological pathways and improves multitasking abilities in children. This fosters cognitive flexibility, which enhances communication skills in multicultural societies. Ultimately, bilingual education broadens career horizons and improves long-term memory.",
+                "architecture": []
             },
             {
                 "title": "Universal Primary Education → Illiteracy Eradication",
@@ -1197,7 +1310,11 @@ window.ieltsData = {
                     "dismantle gender inequality",
                     "empower marginalized communities"
                 ],
-                "paragraph": "Subsidizing primary schools in impoverished regions ensures classroom access for every child. This is the most effective way to eradicate youth illiteracy and promote basic numeracy. As a result, universal education dismantles gender inequality, empowers marginalized communities, and reduces global poverty."
+                "paragraph": "Subsidizing primary schools in impoverished regions ensures classroom access for every child. This is the most effective way to eradicate youth illiteracy and promote basic numeracy. As a result, universal education dismantles gender inequality, empowers marginalized communities, and reduces global poverty.",
+                "architecture": [
+                    "Since / As",
+                    "As a result"
+                ]
             },
             {
                 "title": "Civic Education → Social Responsibility",
@@ -1217,7 +1334,8 @@ window.ieltsData = {
                     "encourage voting participation",
                     "build active citizens"
                 ],
-                "paragraph": "Teaching civic rights and duties helps students understand democratic processes and appreciate public services. This fosters social responsibility, encouraging active voting participation when they reach adulthood. Ultimately, civic education builds active citizens who contribute positively to their communities."
+                "paragraph": "Teaching civic rights and duties helps students understand democratic processes and appreciate public services. This fosters social responsibility, encouraging active voting participation when they reach adulthood. Ultimately, civic education builds active citizens who contribute positively to their communities.",
+                "architecture": []
             }
         ]
     },
@@ -1247,7 +1365,12 @@ window.ieltsData = {
                     "alleviate pressure on hospitals",
                     "reduce national healthcare expenditures"
                 ],
-                "paragraph": "Governments must promote preventive healthcare by encouraging regular physical exercise and healthy diets among citizens. This proactive approach significantly lowers the incidence of chronic diseases, such as obesity or diabetes, thereby alleviating immense pressure on public hospitals. Ultimately, a healthier population drastically reduces national healthcare expenditures."
+                "paragraph": "Governments must promote preventive healthcare by encouraging regular physical exercise and healthy diets among citizens. This proactive approach significantly lowers the incidence of chronic diseases, such as obesity or diabetes, thereby alleviating immense pressure on public hospitals. Ultimately, a healthier population drastically reduces national healthcare expenditures.",
+                "architecture": [
+                    "Since / As",
+                    "by + Verb-ing",
+                    "Thereby + Verb-ing"
+                ]
             },
             {
                 "title": "Sugar Taxation → Reduced Obesity Rates",
@@ -1267,7 +1390,11 @@ window.ieltsData = {
                     "lower childhood obesity rates",
                     "prevent chronic illnesses"
                 ],
-                "paragraph": "Imposing sugar taxes on processed products artificially inflates soft drink prices, discouraging unhealthy purchases by consumers. This reduces daily sugar intake, leading to lower childhood obesity rates. Consequently, fiscal healthcare policies help prevent chronic illnesses like diabetes and heart disease."
+                "paragraph": "Imposing sugar taxes on processed products artificially inflates soft drink prices, discouraging unhealthy purchases by consumers. This reduces daily sugar intake, leading to lower childhood obesity rates. Consequently, fiscal healthcare policies help prevent chronic illnesses like diabetes and heart disease.",
+                "architecture": [
+                    "Consequently",
+                    "leading to (Participle)"
+                ]
             },
             {
                 "title": "Physical Education → Cardio Fitness",
@@ -1287,7 +1414,8 @@ window.ieltsData = {
                     "prevent sedentary diseases",
                     "foster lifetime fitness habits"
                 ],
-                "paragraph": "Mandating daily physical education in schools promotes movement and improves cardiovascular fitness among children. This burns excess calories, which is essential to prevent sedentary diseases like obesity. Ultimately, school sports programs foster lifetime fitness habits and support physical health."
+                "paragraph": "Mandating daily physical education in schools promotes movement and improves cardiovascular fitness among children. This burns excess calories, which is essential to prevent sedentary diseases like obesity. Ultimately, school sports programs foster lifetime fitness habits and support physical health.",
+                "architecture": []
             },
             {
                 "title": "Mental Health Campaigns → Reduced Social Stigma",
@@ -1307,7 +1435,11 @@ window.ieltsData = {
                     "reduce depression rates",
                     "improve public well-being"
                 ],
-                "paragraph": "Funding public mental health campaigns increases psychological literacy, helping to dismantle social stigma surrounding counseling. This encourages citizens to seek help early when experiencing distress, reducing chronic depression rates. As a result, public awareness drives improve the overall well-being of communities."
+                "paragraph": "Funding public mental health campaigns increases psychological literacy, helping to dismantle social stigma surrounding counseling. This encourages citizens to seek help early when experiencing distress, reducing chronic depression rates. As a result, public awareness drives improve the overall well-being of communities.",
+                "architecture": [
+                    "Since / As",
+                    "As a result"
+                ]
             },
             {
                 "title": "Clean Water Initiatives → Disease Prevention",
@@ -1327,7 +1459,10 @@ window.ieltsData = {
                     "reduce infant mortality",
                     "support public hygiene"
                 ],
-                "paragraph": "Installing clean water filtration infrastructure eliminates waterborne pathogens in rural areas. This directly prevents cholera outbreaks and improves local sanitation standards. Consequently, access to clean water reduces infant mortality rates and supports the baseline public hygiene of developing nations."
+                "paragraph": "Installing clean water filtration infrastructure eliminates waterborne pathogens in rural areas. This directly prevents cholera outbreaks and improves local sanitation standards. Consequently, access to clean water reduces infant mortality rates and supports the baseline public hygiene of developing nations.",
+                "architecture": [
+                    "Consequently"
+                ]
             },
             {
                 "title": "Sleep Hygiene Education → Sleep Quality",
@@ -1347,7 +1482,10 @@ window.ieltsData = {
                     "enhance daytime productivity",
                     "promote physical health"
                 ],
-                "paragraph": "Teaching sleep hygiene practices helps individuals regulate circadian rhythms and improve sleep quality. Better rest boosts immune systems, which enhances daytime productivity and focus. Therefore, educating the public on sleep hygiene is a simple yet powerful way to promote long-term physical health."
+                "paragraph": "Teaching sleep hygiene practices helps individuals regulate circadian rhythms and improve sleep quality. Better rest boosts immune systems, which enhances daytime productivity and focus. Therefore, educating the public on sleep hygiene is a simple yet powerful way to promote long-term physical health.",
+                "architecture": [
+                    "Therefore"
+                ]
             }
         ]
     },
@@ -1377,7 +1515,11 @@ window.ieltsData = {
                     "cultivate civic responsibility",
                     "create a cohesive society"
                 ],
-                "paragraph": "Mandating community service in high schools exposes youth directly to real-world societal challenges, such as poverty or homelessness. Interacting with vulnerable populations fosters deep empathy and cultivates a profound sense of civic responsibility. As a result, these programs are instrumental in creating a more cohesive, compassionate society."
+                "paragraph": "Mandating community service in high schools exposes youth directly to real-world societal challenges, such as poverty or homelessness. Interacting with vulnerable populations fosters deep empathy and cultivates a profound sense of civic responsibility. As a result, these programs are instrumental in creating a more cohesive, compassionate society.",
+                "architecture": [
+                    "Since / As",
+                    "As a result"
+                ]
             },
             {
                 "title": "Public Parks → Community Cohesion",
@@ -1397,7 +1539,10 @@ window.ieltsData = {
                     "foster neighborhood trust",
                     "improve community cohesion"
                 ],
-                "paragraph": "Constructing green public parks provides free recreational spaces that encourage outdoor interactions among diverse groups. This facilitates local community events and helps foster neighborhood trust. Consequently, green urban planning is highly effective at improving community cohesion and reducing crime."
+                "paragraph": "Constructing green public parks provides free recreational spaces that encourage outdoor interactions among diverse groups. This facilitates local community events and helps foster neighborhood trust. Consequently, green urban planning is highly effective at improving community cohesion and reducing crime.",
+                "architecture": [
+                    "Consequently"
+                ]
             },
             {
                 "title": "Youth Clubs → Decreased Delinquency",
@@ -1417,7 +1562,11 @@ window.ieltsData = {
                     "reduce juvenile delinquency",
                     "promote safe environments"
                 ],
-                "paragraph": "Funding youth sports clubs occupies adolescents' free time with positive, structured activities that teach discipline and teamwork. This discourages anti-social behaviors and reduces juvenile delinquency in high-risk neighborhoods. As a result, local investments build safer environments for families."
+                "paragraph": "Funding youth sports clubs occupies adolescents' free time with positive, structured activities that teach discipline and teamwork. This discourages anti-social behaviors and reduces juvenile delinquency in high-risk neighborhoods. As a result, local investments build safer environments for families.",
+                "architecture": [
+                    "Since / As",
+                    "As a result"
+                ]
             },
             {
                 "title": "Inclusive Workplaces → Social Mobility",
@@ -1437,7 +1586,10 @@ window.ieltsData = {
                     "support social mobility",
                     "reduce wealth inequality"
                 ],
-                "paragraph": "Promoting inclusive hiring practices helps dismantle corporate glass ceilings and empowers marginalized demographics to build careers. This increases household incomes, thereby supporting upward social mobility. Ultimately, equal employment opportunities reduce systemic wealth inequality and foster social justice."
+                "paragraph": "Promoting inclusive hiring practices helps dismantle corporate glass ceilings and empowers marginalized demographics to build careers. This increases household incomes, thereby supporting upward social mobility. Ultimately, equal employment opportunities reduce systemic wealth inequality and foster social justice.",
+                "architecture": [
+                    "Thereby + Verb-ing"
+                ]
             },
             {
                 "title": "Volunteering Programs → Social Integration",
@@ -1457,7 +1609,10 @@ window.ieltsData = {
                     "reduce social isolation",
                     "strengthen support networks"
                 ],
-                "paragraph": "Organizing community volunteering connects diverse demographics who would otherwise never interact. This bridges generational divides and fosters mutual understanding among residents. Consequently, public volunteering programs reduce social isolation and strengthen local support networks."
+                "paragraph": "Organizing community volunteering connects diverse demographics who would otherwise never interact. This bridges generational divides and fosters mutual understanding among residents. Consequently, public volunteering programs reduce social isolation and strengthen local support networks.",
+                "architecture": [
+                    "Consequently"
+                ]
             },
             {
                 "title": "Universal Design → Accessibility",
@@ -1477,7 +1632,11 @@ window.ieltsData = {
                     "promote social inclusion",
                     "guarantee equal access"
                 ],
-                "paragraph": "Implementing universal design principles in architecture forces builders to install ramps and elevators. This enables independent mobility for disabled citizens, allowing them to navigate spaces without assistance. Therefore, structural accessibility changes promote social inclusion and guarantee equal access to public life."
+                "paragraph": "Implementing universal design principles in architecture forces builders to install ramps and elevators. This enables independent mobility for disabled citizens, allowing them to navigate spaces without assistance. Therefore, structural accessibility changes promote social inclusion and guarantee equal access to public life.",
+                "architecture": [
+                    "Therefore",
+                    "allowing (Participle)"
+                ]
             }
         ]
     },
@@ -1507,7 +1666,11 @@ window.ieltsData = {
                     "adopt a globalized perspective",
                     "promote international tolerance"
                 ],
-                "paragraph": "Immersing oneself in foreign environments through international travel or study forces individuals to navigate complex cultural differences. This direct interaction effectively dismantles preconceived stereotypes and encourages students to adopt a globalized perspective. Therefore, cross-cultural exposure is highly effective at promoting international tolerance and understanding."
+                "paragraph": "Immersing oneself in foreign environments through international travel or study forces individuals to navigate complex cultural differences. This direct interaction effectively dismantles preconceived stereotypes and encourages students to adopt a globalized perspective. Therefore, cross-cultural exposure is highly effective at promoting international tolerance and understanding.",
+                "architecture": [
+                    "through",
+                    "Therefore"
+                ]
             },
             {
                 "title": "Heritage Preservation → Cultural Identity",
@@ -1527,7 +1690,11 @@ window.ieltsData = {
                     "foster national pride",
                     "combat cultural homogenization"
                 ],
-                "paragraph": "Restoring historical monuments and protecting traditional crafts helps communities preserve their unique cultural identity. This allows elders to pass down oral histories to younger generations, fostering a strong sense of national pride. Consequently, active heritage preservation combats cultural homogenization in a globalized world."
+                "paragraph": "Restoring historical monuments and protecting traditional crafts helps communities preserve their unique cultural identity. This allows elders to pass down oral histories to younger generations, fostering a strong sense of national pride. Consequently, active heritage preservation combats cultural homogenization in a globalized world.",
+                "architecture": [
+                    "Consequently",
+                    "fostering (Participle)"
+                ]
             },
             {
                 "title": "Cultural Festivals → Intercultural Harmony",
@@ -1547,7 +1714,11 @@ window.ieltsData = {
                     "foster intercultural harmony",
                     "dismantle racial prejudices"
                 ],
-                "paragraph": "Sponsoring multicultural festivals celebrates ethnic diversity and showcases traditional arts within a city. This promotes mutual respect among different ethnic groups and fosters intercultural harmony. As a result, public cultural events are essential tools to dismantle racial prejudices and build tolerant societies."
+                "paragraph": "Sponsoring multicultural festivals celebrates ethnic diversity and showcases traditional arts within a city. This promotes mutual respect among different ethnic groups and fosters intercultural harmony. As a result, public cultural events are essential tools to dismantle racial prejudices and build tolerant societies.",
+                "architecture": [
+                    "Since / As",
+                    "As a result"
+                ]
             },
             {
                 "title": "Language Revitalization → Indigenous Heritage",
@@ -1567,7 +1738,8 @@ window.ieltsData = {
                     "preserve indigenous heritage",
                     "enrich linguistic diversity"
                 ],
-                "paragraph": "Funding language immersion programs allows educators to teach endangered languages to young children. This revitalizes ancestral wisdom and strengthens community identity in indigenous regions. Ultimately, language preservation protects precious heritage and enriches global linguistic diversity."
+                "paragraph": "Funding language immersion programs allows educators to teach endangered languages to young children. This revitalizes ancestral wisdom and strengthens community identity in indigenous regions. Ultimately, language preservation protects precious heritage and enriches global linguistic diversity.",
+                "architecture": []
             },
             {
                 "title": "Museum Subsidies → Public Education",
@@ -1587,7 +1759,10 @@ window.ieltsData = {
                     "foster scientific curiosity",
                     "promote national heritage"
                 ],
-                "paragraph": "Subsidizing historical museums allows them to offer free public admission, drastically increasing cultural literacy among families. This helps educate children on historical events and fosters scientific curiosity outside the classroom. Therefore, museum subsidies are key investments in promoting national heritage and public education."
+                "paragraph": "Subsidizing historical museums allows them to offer free public admission, drastically increasing cultural literacy among families. This helps educate children on historical events and fosters scientific curiosity outside the classroom. Therefore, museum subsidies are key investments in promoting national heritage and public education.",
+                "architecture": [
+                    "Therefore"
+                ]
             },
             {
                 "title": "Global Exchange Programs → International Collaboration",
@@ -1607,7 +1782,11 @@ window.ieltsData = {
                     "solve global challenges",
                     "promote peaceful diplomacy"
                 ],
-                "paragraph": "Sponsoring student exchange programs exposes young scholars to different educational perspectives, fostering lifelong international friendships. These networks later facilitate joint research and collaborative business ventures. Consequently, global exchanges help solve transnational challenges and promote peaceful diplomacy."
+                "paragraph": "Sponsoring student exchange programs exposes young scholars to different educational perspectives, fostering lifelong international friendships. These networks later facilitate joint research and collaborative business ventures. Consequently, global exchanges help solve transnational challenges and promote peaceful diplomacy.",
+                "architecture": [
+                    "Consequently",
+                    "fostering (Participle)"
+                ]
             }
         ]
     },
@@ -1637,7 +1816,10 @@ window.ieltsData = {
                     "force behavioral change",
                     "achieve public policy goals"
                 ],
-                "paragraph": "Governments can effectively combat issues like junk food consumption or plastic waste by implementing prohibitive taxation. This artificially inflates the prices of harmful goods, which naturally suppresses mass consumer demand. By targeting the public's financial habits, authorities can force rapid behavioral change and successfully achieve public policy goals."
+                "paragraph": "Governments can effectively combat issues like junk food consumption or plastic waste by implementing prohibitive taxation. This artificially inflates the prices of harmful goods, which naturally suppresses mass consumer demand. By targeting the public's financial habits, authorities can force rapid behavioral change and successfully achieve public policy goals.",
+                "architecture": [
+                    "by + Verb-ing"
+                ]
             },
             {
                 "title": "Subsidies → Clean Energy Adoption",
@@ -1657,7 +1839,10 @@ window.ieltsData = {
                     "cut carbon footprints",
                     "accelerate energy transition"
                 ],
-                "paragraph": "Subsidizing solar panels lowers the initial purchase costs for households, encouraging residential installations. This reduces demand on the national electric grid and cuts carbon footprints at the neighborhood level. Consequently, government financial incentives successfully accelerate the transition to clean energy."
+                "paragraph": "Subsidizing solar panels lowers the initial purchase costs for households, encouraging residential installations. This reduces demand on the national electric grid and cuts carbon footprints at the neighborhood level. Consequently, government financial incentives successfully accelerate the transition to clean energy.",
+                "architecture": [
+                    "Consequently"
+                ]
             },
             {
                 "title": "Fines → Industrial Regulation",
@@ -1677,7 +1862,10 @@ window.ieltsData = {
                     "protect local ecosystems",
                     "improve corporate responsibility"
                 ],
-                "paragraph": "Imposing heavy fines on industrial polluters enforces strict environmental laws and discourages illegal waste dumping in rivers. This forces corporate compliance with safety regulations, thereby protecting local ecosystems. Ultimately, punitive regulations improve corporate responsibility and shield communities from pollution."
+                "paragraph": "Imposing heavy fines on industrial polluters enforces strict environmental laws and discourages illegal waste dumping in rivers. This forces corporate compliance with safety regulations, thereby protecting local ecosystems. Ultimately, punitive regulations improve corporate responsibility and shield communities from pollution.",
+                "architecture": [
+                    "Thereby + Verb-ing"
+                ]
             },
             {
                 "title": "Welfare Benefits → Reduced Poverty Rates",
@@ -1697,7 +1885,12 @@ window.ieltsData = {
                     "boost local economies",
                     "promote social security"
                 ],
-                "paragraph": "Distributing monthly social security benefits directly to low-income families helps eliminate absolute poverty. This guarantees secure access to basic nutrition and housing, which improves health outcomes. As a result, financial welfare cushions boost local economies by increasing the spending power of citizens."
+                "paragraph": "Distributing monthly social security benefits directly to low-income families helps eliminate absolute poverty. This guarantees secure access to basic nutrition and housing, which improves health outcomes. As a result, financial welfare cushions boost local economies by increasing the spending power of citizens.",
+                "architecture": [
+                    "Since / As",
+                    "by + Verb-ing",
+                    "As a result"
+                ]
             },
             {
                 "title": "Public Infrastructure Funding → Traffic Reduction",
@@ -1717,7 +1910,11 @@ window.ieltsData = {
                     "reduce traffic congestion",
                     "improve commute times"
                 ],
-                "paragraph": "Allocating public funds to expand railway networks provides citizens with reliable commuting alternatives. This discourages car dependence in growing metropolitan zones, thereby reducing traffic congestion. Consequently, government infrastructure investments improve daily commute times and decrease air pollution."
+                "paragraph": "Allocating public funds to expand railway networks provides citizens with reliable commuting alternatives. This discourages car dependence in growing metropolitan zones, thereby reducing traffic congestion. Consequently, government infrastructure investments improve daily commute times and decrease air pollution.",
+                "architecture": [
+                    "Consequently",
+                    "Thereby + Verb-ing"
+                ]
             },
             {
                 "title": "Mandatory Labeling → Consumer Awareness",
@@ -1737,7 +1934,11 @@ window.ieltsData = {
                     "discourage junk food buying",
                     "reduce obesity rates"
                 ],
-                "paragraph": "Mandating clear nutrition labeling on food packages displays sugar and fat contents clearly at the point of sale. This informs consumer purchases and promotes healthier diets among families. As a result, mandatory labeling regulations discourage junk food buying and play a role in reducing obesity rates."
+                "paragraph": "Mandating clear nutrition labeling on food packages displays sugar and fat contents clearly at the point of sale. This informs consumer purchases and promotes healthier diets among families. As a result, mandatory labeling regulations discourage junk food buying and play a role in reducing obesity rates.",
+                "architecture": [
+                    "Since / As",
+                    "As a result"
+                ]
             }
         ]
     },
@@ -1767,7 +1968,10 @@ window.ieltsData = {
                     "reduce private vehicle dependency",
                     "alleviate urban traffic congestion"
                 ],
-                "paragraph": "By heavily subsidizing underground mass transit networks, cities provide citizens with faster, reliable alternatives to driving. This incentivizes shared mobility and drastically reduces private vehicle dependency during rush hours. Consequently, expanding public transport is the most effective method for permanently alleviating urban traffic congestion."
+                "paragraph": "By heavily subsidizing underground mass transit networks, cities provide citizens with faster, reliable alternatives to driving. This incentivizes shared mobility and drastically reduces private vehicle dependency during rush hours. Consequently, expanding public transport is the most effective method for permanently alleviating urban traffic congestion.",
+                "architecture": [
+                    "Consequently"
+                ]
             },
             {
                 "title": "Bicycle Lanes → Sustainable Commuting",
@@ -1787,7 +1991,12 @@ window.ieltsData = {
                     "improve air quality",
                     "promote physical fitness"
                 ],
-                "paragraph": "Constructing dedicated bicycle lanes ensures cyclist safety and encourages citizens to cycle instead of driving. This reduces traffic volumes in city centers, thereby improving local air quality. Consequently, cycle infrastructure supports sustainable commuting while promoting physical fitness among residents."
+                "paragraph": "Constructing dedicated bicycle lanes ensures cyclist safety and encourages citizens to cycle instead of driving. This reduces traffic volumes in city centers, thereby improving local air quality. Consequently, cycle infrastructure supports sustainable commuting while promoting physical fitness among residents.",
+                "architecture": [
+                    "Consequently",
+                    "Thereby + Verb-ing",
+                    "While"
+                ]
             },
             {
                 "title": "Affordable Housing → Reduced Homelessness",
@@ -1807,7 +2016,8 @@ window.ieltsData = {
                     "stabilize households",
                     "support social welfare"
                 ],
-                "paragraph": "Building affordable public housing and subsidizing rent expenses secures shelter for low-income families. This directly reduces street homelessness, providing a stable environment where children can study. Ultimately, housing infrastructure projects stabilize vulnerable households and support overall social welfare."
+                "paragraph": "Building affordable public housing and subsidizing rent expenses secures shelter for low-income families. This directly reduces street homelessness, providing a stable environment where children can study. Ultimately, housing infrastructure projects stabilize vulnerable households and support overall social welfare.",
+                "architecture": []
             },
             {
                 "title": "Pedestrian Zones → Retail Growth",
@@ -1827,7 +2037,11 @@ window.ieltsData = {
                     "boost local retail sales",
                     "promote city tourism"
                 ],
-                "paragraph": "Pedestrianizing downtown shopping streets eliminates vehicle traffic and creates safe walking spaces for families. This encourages window shopping and boosts local retail sales as pedestrian foot traffic increases. Consequently, pedestrian infrastructure revitalizes city centers and promotes tourism."
+                "paragraph": "Pedestrianizing downtown shopping streets eliminates vehicle traffic and creates safe walking spaces for families. This encourages window shopping and boosts local retail sales as pedestrian foot traffic increases. Consequently, pedestrian infrastructure revitalizes city centers and promotes tourism.",
+                "architecture": [
+                    "Since / As",
+                    "Consequently"
+                ]
             },
             {
                 "title": "Renewable Grids → Energy Independence",
@@ -1847,7 +2061,12 @@ window.ieltsData = {
                     "secure power grids",
                     "combat climate change"
                 ],
-                "paragraph": "Constructing wind turbines and integrating clean energy grids reduces a nation's dependence on foreign fossil fuel imports. This lowers national energy bills and secures the power grid against resource shortages. As a result, renewable infrastructure supports energy independence while helping to combat global climate change."
+                "paragraph": "Constructing wind turbines and integrating clean energy grids reduces a nation's dependence on foreign fossil fuel imports. This lowers national energy bills and secures the power grid against resource shortages. As a result, renewable infrastructure supports energy independence while helping to combat global climate change.",
+                "architecture": [
+                    "Since / As",
+                    "As a result",
+                    "While"
+                ]
             },
             {
                 "title": "Waste Management Systems → Environmental Protection",
@@ -1867,7 +2086,8 @@ window.ieltsData = {
                     "prevent soil contamination",
                     "support circular economies"
                 ],
-                "paragraph": "Upgrading municipal waste management systems allows cities to implement organic composting programs. This diverts trash from landfills, reducing harmful methane emissions. Ultimately, advanced waste infrastructure prevents soil contamination and supports sustainable, circular economies."
+                "paragraph": "Upgrading municipal waste management systems allows cities to implement organic composting programs. This diverts trash from landfills, reducing harmful methane emissions. Ultimately, advanced waste infrastructure prevents soil contamination and supports sustainable, circular economies.",
+                "architecture": []
             }
         ]
     },
@@ -1897,7 +2117,11 @@ window.ieltsData = {
                     "enforce corporate accountability",
                     "drive market innovation"
                 ],
-                "paragraph": "When consumers actively boycott unethical or polluting products, they exert immense financial pressure directly on manufacturers. Because businesses rely entirely on consumer demand, they are forced to adopt sustainable manufacturing processes to survive. Thus, ethical purchasing is a powerful tool for enforcing corporate accountability and driving market innovation."
+                "paragraph": "When consumers actively boycott unethical or polluting products, they exert immense financial pressure directly on manufacturers. Because businesses rely entirely on consumer demand, they are forced to adopt sustainable manufacturing processes to survive. Thus, ethical purchasing is a powerful tool for enforcing corporate accountability and driving market innovation.",
+                "architecture": [
+                    "Because",
+                    "Thus / Hence"
+                ]
             },
             {
                 "title": "Mass Advertising → Emotional Unsatisfaction",
@@ -1917,7 +2141,11 @@ window.ieltsData = {
                     "accumulate personal debt",
                     "cause psychological stress"
                 ],
-                "paragraph": "Mass advertising manufactures consumer desires by constantly promoting luxury lifestyles. This fosters feelings of inadequacy among citizens who cannot afford these goods, driving impulsive spending. As a result, consumers accumulate personal debt, causing severe psychological stress and dissatisfaction."
+                "paragraph": "Mass advertising manufactures consumer desires by constantly promoting luxury lifestyles. This fosters feelings of inadequacy among citizens who cannot afford these goods, driving impulsive spending. As a result, consumers accumulate personal debt, causing severe psychological stress and dissatisfaction.",
+                "architecture": [
+                    "Since / As",
+                    "As a result"
+                ]
             },
             {
                 "title": "Fast Fashion → Environmental Destruction",
@@ -1937,7 +2165,8 @@ window.ieltsData = {
                     "skyrocket carbon emissions",
                     "deplete raw resources"
                 ],
-                "paragraph": "The fast fashion industry produces cheap synthetic clothing, encouraging a throwaway culture where garments are discarded after few wears. This increases textile waste in landfills and pollutes water systems with microplastics. Ultimately, cheap manufacturing habits skyrocket carbon emissions and deplete raw resources."
+                "paragraph": "The fast fashion industry produces cheap synthetic clothing, encouraging a throwaway culture where garments are discarded after few wears. This increases textile waste in landfills and pollutes water systems with microplastics. Ultimately, cheap manufacturing habits skyrocket carbon emissions and deplete raw resources.",
+                "architecture": []
             },
             {
                 "title": "Buy Local Campaigns → Regional Prosperity",
@@ -1957,7 +2186,12 @@ window.ieltsData = {
                     "foster community relations",
                     "strengthen regional economies"
                 ],
-                "paragraph": "Buying local encourages citizens to support independent neighborhood businesses, keeping capital inside the community. This creates regional jobs and reduces transportation emissions by minimizing shipping distances. Consequently, buy local campaigns foster community relations and strengthen regional economies."
+                "paragraph": "Buying local encourages citizens to support independent neighborhood businesses, keeping capital inside the community. This creates regional jobs and reduces transportation emissions by minimizing shipping distances. Consequently, buy local campaigns foster community relations and strengthen regional economies.",
+                "architecture": [
+                    "by + Verb-ing",
+                    "Consequently",
+                    "minimizing (Participle)"
+                ]
             },
             {
                 "title": "Minimalist Lifestyles → Financial Freedom",
@@ -1977,7 +2211,10 @@ window.ieltsData = {
                     "achieve financial freedom",
                     "reduce carbon footprints"
                 ],
-                "paragraph": "Embracing minimalist lifestyles helps individuals curb impulse buying and reduce household clutter. This significantly increases monthly savings, allowing families to achieve financial freedom and avoid debt. Ultimately, buying less reduces personal carbon footprints and encourages mindful living."
+                "paragraph": "Embracing minimalist lifestyles helps individuals curb impulse buying and reduce household clutter. This significantly increases monthly savings, allowing families to achieve financial freedom and avoid debt. Ultimately, buying less reduces personal carbon footprints and encourages mindful living.",
+                "architecture": [
+                    "allowing (Participle)"
+                ]
             },
             {
                 "title": "Single-Use Bans → Plastic Waste Reduction",
@@ -1997,7 +2234,10 @@ window.ieltsData = {
                     "protect aquatic wildlife",
                     "encourage green behaviors"
                 ],
-                "paragraph": "Banning single-use plastic cups and straws forces supermarkets to promote reusable shopping bags. This reduces plastic bag usage and minimizes marine pollution in coastal zones. Consequently, single-use bans protect aquatic wildlife and encourage green behaviors among the public."
+                "paragraph": "Banning single-use plastic cups and straws forces supermarkets to promote reusable shopping bags. This reduces plastic bag usage and minimizes marine pollution in coastal zones. Consequently, single-use bans protect aquatic wildlife and encourage green behaviors among the public.",
+                "architecture": [
+                    "Consequently"
+                ]
             }
         ]
     }

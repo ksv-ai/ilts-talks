@@ -220,20 +220,28 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="card">
                 <h4 style="color: var(--text-primary); margin-bottom: 20px; font-size: 1.3rem;">Chain ${index + 1}: ${chain.title}</h4>
                 <div class="grid-2">
-                    <div class="blueprint-box" style="margin:0;">
-                        <strong>Mechanism Learning:</strong><br/>
-                        ${chain.steps.map((step, i) => `
-                            <div style="margin-left: ${i*10}px;">${i===0 ? '' : '↳ '} ${step}</div>
-                        `).join('')}
+                    <!-- Left Column -->
+                    <div style="display: flex; flex-direction: column; gap: 15px;">
+                        <div class="blueprint-box" style="margin:0; flex: 1;">
+                            <strong>Mechanism Learning:</strong><br/>
+                            ${chain.steps.map((step, i) => `
+                                <div style="margin-left: ${i*10}px; margin-bottom: 4px;">${i===0 ? '' : '↳ '} ${step}</div>
+                            `).join('')}
+                        </div>
+                        <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border: 1px solid var(--border-color);">
+                            <strong style="display:block; margin-bottom:10px;"><i class="fa-solid fa-feather"></i> High-Band Collocations:</strong>
+                            ${chain.collocations.map(c => `<span style="display:inline-block; margin-right:15px; margin-bottom:5px; color: var(--accent-color); font-size: 0.9rem;">✓ ${c}</span>`).join('')}
+                        </div>
                     </div>
-                    <div>
-                        <div class="essay-text" style="margin-bottom: 15px; font-size: 0.95rem;">
-                            <strong>Band 9 Paragraph:</strong><br/>
+                    <!-- Right Column -->
+                    <div style="display: flex; flex-direction: column; gap: 15px;">
+                        <div class="essay-text" style="margin:0; font-size: 0.95rem; flex: 1; line-height: 1.6;">
+                            <strong style="display:block; margin-bottom: 10px;">Band 9 Paragraph:</strong>
                             ${chain.paragraph}
                         </div>
-                        <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px;">
-                            <strong style="display:block; margin-bottom:10px;">High-Band Collocations:</strong>
-                            ${chain.collocations.map(c => `<span style="display:inline-block; margin-right:15px; margin-bottom:5px; color: var(--accent-color);">✓ ${c}</span>`).join('')}
+                        <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border: 1px solid var(--border-color);">
+                            <strong style="display:block; margin-bottom:10px;"><i class="fa-solid fa-code-branch"></i> Connecting Sentence Architecture:</strong>
+                            ${chain.architecture && chain.architecture.length ? chain.architecture.map(a => `<span class="badge" style="margin-right:10px; margin-bottom:5px; background: rgba(56, 189, 248, 0.15); color: var(--accent-color); font-weight:600; display:inline-block;">${a}</span>`).join('') : `<span style="color: var(--text-secondary);">Standard linking structure</span>`}
                         </div>
                     </div>
                 </div>

@@ -1112,6 +1112,60 @@ const lensesData = {
     }
 };
 
+function extractArchitecture(paragraph) {
+    if (!paragraph) return [];
+    const patterns = [
+        { name: "Because", regex: /\bbecause\b/i },
+        { name: "This is because", regex: /\bthis is because\b/i },
+        { name: "One of the main reasons", regex: /\bone of the main reasons\b/i },
+        { name: "Since / As", regex: /\b(since|as)\b/i },
+        { name: "Owing to / Due to", regex: /\b(owing to|due to)\b/i },
+        { name: "On the grounds that", regex: /\bon the grounds that\b/i },
+        { name: "by + Verb-ing", regex: /\bby\s+\w+ing\b/i },
+        { name: "through", regex: /\bthrough\b/i },
+        { name: "via", regex: /\bvia\b/i },
+        { name: "By means of", regex: /\bby means of\b/i },
+        { name: "With the aid of", regex: /\bwith the aid of\b/i },
+        { name: "Through the implementation", regex: /\bthrough the implementation\b/i },
+        { name: "By leveraging", regex: /\bby leveraging\b/i },
+        { name: "As a result", regex: /\bas a result\b/i },
+        { name: "Consequently", regex: /\bconsequently\b/i },
+        { name: "Therefore", regex: /\btherefore\b/i },
+        { name: "Thus / Hence", regex: /\b(thus|hence)\b/i },
+        { name: "As a direct consequence", regex: /\bas a direct consequence\b/i },
+        { name: "Which in turn leads to", regex: /\bwhich in turn leads to\b/i },
+        { name: "Thereby + Verb-ing", regex: /\bthereby\s+\w+ing\b/i },
+        { name: "With the result that", regex: /\bwith the result that\b/i },
+        { name: "allowing (Participle)", regex: /\ballowing\b/i },
+        { name: "leading to (Participle)", regex: /\bleading to\b/i },
+        { name: "resulting in (Participle)", regex: /\bresulting in\b/i },
+        { name: "preventing (Participle)", regex: /\bpreventing\b/i },
+        { name: "fostering (Participle)", regex: /\bfostering\b/i },
+        { name: "minimizing (Participle)", regex: /\bminimizing\b/i },
+        { name: "ensuring (Participle)", regex: /\bensuring\b/i },
+        { name: "Although", regex: /\balthough\b/i },
+        { name: "While", regex: /\bwhile\b/i },
+        { name: "Even though", regex: /\beven though\b/i },
+        { name: "Despite / In spite of", regex: /\b(despite|in spite of)\b/i },
+        { name: "Nonetheless / Nevertheless", regex: /\b(nonetheless|nevertheless)\b/i }
+    ];
+    
+    let found = [];
+    patterns.forEach(p => {
+        if (p.regex.test(paragraph)) {
+            found.push(p.name);
+        }
+    });
+    return found;
+}
+
+// Automatically extract sentence architecture for each lens chain
+Object.keys(lensesData).forEach(lensKey => {
+    lensesData[lensKey].chains.forEach(chain => {
+        chain.architecture = extractArchitecture(chain.paragraph);
+    });
+});
+
 const dataJsContent = `
 window.ieltsData = {
     task1: ${JSON.stringify(parseTask1Files(), null, 4)},
