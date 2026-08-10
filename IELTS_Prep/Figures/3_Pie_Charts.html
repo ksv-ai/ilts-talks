@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pie Chart Figures</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
+        .chart-container { width: 80%; max-width: 800px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; align-items: center;}
+        .pie-row { display: flex; justify-content: space-around; width: 100%; margin-top: 20px;}
+        .pie-wrapper { width: 45%; text-align: center; }
+        .pie-wrapper-3 { width: 30%; text-align: center; }
+        h2 { text-align: center; color: #333; }
+        .prompt { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; width: 100%;}
+    </style>
+</head>
+<body>
+
+    <div class="chart-container">
+        <h2>Figure 1: Past vs Present (University Choice)</h2>
+        <div class="prompt">PROMPT: The pie charts compare the primary reasons why students chose to study at a particular UK university in 1980 and 2010. Summarise the information.</div>
+        <div class="pie-row">
+            <div class="pie-wrapper"><h3>1980</h3><canvas id="chart1a"></canvas></div>
+            <div class="pie-wrapper"><h3>2010</h3><canvas id="chart1b"></canvas></div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 2: Three Charts (Water Usage)</h2>
+        <div class="prompt">PROMPT: The pie charts show the proportion of water used for agricultural, industrial, and domestic purposes in North America, South America, and Europe. Summarise the information.</div>
+        <div class="pie-row">
+            <div class="pie-wrapper-3"><h3>North America</h3><canvas id="chart2a"></canvas></div>
+            <div class="pie-wrapper-3"><h3>South America</h3><canvas id="chart2b"></canvas></div>
+            <div class="pie-wrapper-3"><h3>Europe</h3><canvas id="chart2c"></canvas></div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 3: Combined with Total Figures (Retail Sales)</h2>
+        <div class="prompt">PROMPT: The pie charts show the market share of three major retail sectors globally in 2015 and 2020. The total value of all online retail sales is also provided. Summarise the information.</div>
+        <div class="pie-row">
+            <div class="pie-wrapper"><h3>2015 (Total: $1.5 Trillion)</h3><canvas id="chart3a"></canvas></div>
+            <div class="pie-wrapper"><h3>2020 (Total: $4.0 Trillion)</h3><canvas id="chart3b"></canvas></div>
+        </div>
+    </div>
+
+    <script>
+        const colors1 = ['#3498db', '#e74c3c', '#2ecc71', '#f1c40f'];
+        new Chart(document.getElementById('chart1a'), { type: 'pie', data: { labels: ['Proximity', 'Degree', 'Resources', 'Sports'], datasets: [{ data: [35, 35, 16, 14], backgroundColor: colors1 }] }});
+        new Chart(document.getElementById('chart1b'), { type: 'pie', data: { labels: ['Proximity', 'Degree', 'Resources', 'Sports'], datasets: [{ data: [10, 45, 38, 7], backgroundColor: colors1 }] }});
+
+        const colors2 = ['#27ae60', '#7f8c8d', '#3498db'];
+        new Chart(document.getElementById('chart2a'), { type: 'pie', data: { labels: ['Agriculture', 'Industrial', 'Domestic'], datasets: [{ data: [39, 48, 13], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: false } } }});
+        new Chart(document.getElementById('chart2b'), { type: 'pie', data: { labels: ['Agriculture', 'Industrial', 'Domestic'], datasets: [{ data: [71, 10, 19], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: false } } }});
+        new Chart(document.getElementById('chart2c'), { type: 'pie', data: { labels: ['Agriculture', 'Industrial', 'Domestic'], datasets: [{ data: [32, 53, 15], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: false } } }});
+
+        const colors3 = ['#9b59b6', '#e67e22', '#1abc9c'];
+        new Chart(document.getElementById('chart3a'), { type: 'pie', data: { labels: ['Clothing', 'Electronics', 'Groceries'], datasets: [{ data: [40, 35, 25], backgroundColor: colors3 }] }});
+        new Chart(document.getElementById('chart3b'), { type: 'pie', data: { labels: ['Clothing', 'Electronics', 'Groceries'], datasets: [{ data: [20, 45, 35], backgroundColor: colors3 }] }});
+    </script>
+</body>
+</html>
