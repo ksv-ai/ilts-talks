@@ -2,37 +2,140 @@
 <html>
 <head>
     <title>Process Figures (Extended Full)</title>
+    <!-- Chart.js for datalabels if needed, though these are flowchart diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
-        .chart-container { width: 90%; max-width: 900px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        h2 { text-align: center; color: #333; }
-        .prompt { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; }
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f9; color: #333; }
+        .chart-container { width: 95%; max-width: 900px; margin: 0 auto 30px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+        h2 { text-align: center; color: #2c3e50; font-size: 1.4rem; margin-top: 0; }
+        .prompt { background: #e8f4f8; padding: 12px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; font-size: 0.9rem; }
         
         /* Flowchart styles */
-        .flowchart { display: flex; flex-direction: column; align-items: center; }
-        .step { background: #3498db; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; margin: 10px 0; width: 250px; text-align: center; position: relative;}
-        .arrow { font-size: 24px; color: #7f8c8d; }
-        .decision { background: #f39c12; border-radius: 50%; padding: 20px; color: white; font-weight: bold; width: 100px; height: 100px; display: flex; align-items: center; justify-content: center; text-align: center; margin: 10px 0;}
+        .flowchart { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+        .step { background: #3498db; color: white; padding: 10px 20px; border-radius: 6px; font-weight: bold; width: 220px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); font-size: 0.9rem;}
+        .arrow { font-size: 20px; color: #7f8c8d; }
+        .decision { background: #f39c12; border-radius: 50%; padding: 15px; color: white; font-weight: bold; width: 90px; height: 90px; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 0.85rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
         .reject { background: #e74c3c; }
         .accept { background: #2ecc71; }
         
+        /* Horizontal flow */
+        .horizontal-flow { display: flex; justify-content: space-around; align-items: center; width: 100%; flex-wrap: wrap; gap: 15px; margin: 15px 0; }
+        .h-step { background: #16a085; color: white; padding: 12px 15px; border-radius: 6px; font-weight: bold; width: 110px; text-align: center; font-size: 0.8rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .h-arrow { font-size: 22px; color: #7f8c8d; }
+
+        /* Salmon Cycle */
+        .salmon-cycle { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 20px; }
+        .cycle-card { border: 1px solid #ddd; border-radius: 8px; padding: 12px; text-align: center; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .cycle-card h4 { margin: 0 0 8px 0; color: #2980b9; font-size: 0.95rem; }
+        .cycle-card p { font-size: 0.8rem; margin: 0; color: #555; }
+        .cycle-icon { font-size: 24px; color: #e74c3c; margin-bottom: 8px; }
+
         /* Object styles */
-        .filter-tank { width: 200px; height: 400px; border: 4px solid #34495e; border-top: none; border-radius: 0 0 20px 20px; position: relative; margin: 0 auto;}
-        .water-top { background: #7f8c8d; height: 20%; width: 100%; display: flex; align-items: center; justify-content: center; font-weight:bold; color:white; border-bottom: 2px dashed #333;}
-        .sand { background: #d4ac0d; height: 20%; width: 100%; display: flex; align-items: center; justify-content: center; font-weight:bold; color:black; border-bottom: 2px dashed #333;}
-        .charcoal { background: #212f3c; height: 20%; width: 100%; display: flex; align-items: center; justify-content: center; font-weight:bold; color:white; border-bottom: 2px solid #333;}
-        .water-clean { background: #3498db; height: 40%; width: 100%; border-radius: 0 0 16px 16px; display: flex; align-items: center; justify-content: center; font-weight:bold; color:white;}
-        .tap { width: 30px; height: 10px; background: silver; position: absolute; bottom: 30px; right: -30px; border-radius: 0 5px 5px 0;}
-        
+        .filter-tank { width: 180px; height: 350px; border: 4px solid #34495e; border-top: none; border-radius: 0 0 20px 20px; position: relative; margin: 0 auto;}
+        .water-top { background: #7f8c8d; height: 20%; width: 100%; display: flex; align-items: center; justify-content: center; font-weight:bold; color:white; border-bottom: 2px dashed #333; font-size: 0.8rem;}
+        .sand { background: #d4ac0d; height: 20%; width: 100%; display: flex; align-items: center; justify-content: center; font-weight:bold; color:black; border-bottom: 2px dashed #333; font-size: 0.8rem; text-align: center;}
+        .charcoal { background: #212f3c; height: 20%; width: 100%; display: flex; align-items: center; justify-content: center; font-weight:bold; color:white; border-bottom: 2px solid #333; font-size: 0.8rem; text-align: center;}
+        .water-clean { background: #3498db; height: 40%; width: 100%; border-radius: 0 0 16px 16px; display: flex; align-items: center; justify-content: center; font-weight:bold; color:white; font-size: 0.8rem;}
+        .tap { width: 25px; height: 8px; background: silver; position: absolute; bottom: 30px; right: -25px; border-radius: 0 5px 5px 0;}
     </style>
 </head>
 <body>
-    <!-- (Figures 1, 2, 3 skipped for brevity in this mock layout to save lines, but retaining the classes) -->
-    
+
+    <!-- Figure 1: Manufacturing Process (Coffee) -->
+    <div class="chart-container">
+        <h2>Figure 1: Coffee Production Process</h2>
+        <div class="prompt">PROMPT: The diagram below shows the process of how coffee is produced for sale in supermarkets. Summarise the information.</div>
+        <div class="horizontal-flow">
+            <div class="h-step">1. Hand Picked<br><small style="font-weight:normal; font-size:10px;">In fields</small></div>
+            <div class="h-arrow">➡️</div>
+            <div class="h-step">2. Sun Dried<br><small style="font-weight:normal; font-size:10px;">On large trays</small></div>
+            <div class="h-arrow">➡️</div>
+            <div class="h-step">3. Roasted<br><small style="font-weight:normal; font-size:10px;">Oven roasted</small></div>
+            <div class="h-arrow">➡️</div>
+            <div class="h-step">4. Rapid Cool<br><small style="font-weight:normal; font-size:10px;">Flavor locked</small></div>
+        </div>
+        <div class="horizontal-flow" style="margin-top: 10px;">
+            <div class="h-step" style="background:#2980b9;">5. Ground<br><small style="font-weight:normal; font-size:10px;">In milling machine</small></div>
+            <div class="h-arrow">➡️</div>
+            <div class="h-step" style="background:#2980b9;">6. Packaged<br><small style="font-weight:normal; font-size:10px;">Jars sealed</small></div>
+            <div class="h-arrow">➡️</div>
+            <div class="h-step" style="background:#2980b9;">7. Delivered<br><small style="font-weight:normal; font-size:10px;">Via truck</small></div>
+        </div>
+    </div>
+
+    <!-- Figure 2: Salmon Life Cycle -->
+    <div class="chart-container">
+        <h2>Figure 2: Life Cycle of a Salmon</h2>
+        <div class="prompt">PROMPT: The diagram below shows the life cycle of a species of large fish called the salmon. Summarise the information.</div>
+        <div class="salmon-cycle">
+            <div class="cycle-card">
+                <div class="cycle-icon">🥚</div>
+                <h4>1. Eggs</h4>
+                <p>Laid among river stones</p>
+                <p style="color:#e74c3c; margin-top:5px; font-weight:bold;">5-6 Months</p>
+            </div>
+            <div class="cycle-card">
+                <div class="cycle-icon">🐟</div>
+                <h4>2. Fry</h4>
+                <p>3-8cm long</p>
+                <p>Moves to lower river</p>
+                <p style="color:#e74c3c; margin-top:5px; font-weight:bold;">4 Years</p>
+            </div>
+            <div class="cycle-card">
+                <div class="cycle-icon">🐋</div>
+                <h4>3. Smolts</h4>
+                <p>12-15cm long</p>
+                <p>Migrates to open ocean</p>
+                <p style="color:#e74c3c; margin-top:5px; font-weight:bold;">5 Years</p>
+            </div>
+            <div class="cycle-card">
+                <div class="cycle-icon">🦈</div>
+                <h4>4. Adult Salmon</h4>
+                <p>70-76cm long</p>
+                <p>Swims back upriver to reproduce</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Figure 3: Driving License Process -->
+    <div class="chart-container">
+        <h2>Figure 3: Driving License Flowchart</h2>
+        <div class="prompt">PROMPT: The flowchart illustrates the process required to obtain a driving license in a specific country. Summarise the information.</div>
+        <div class="flowchart">
+            <div class="step" style="background: #27ae60;">Start: Form Submitted</div>
+            <div class="arrow">&#8595;</div>
+            <div style="display:flex; width: 450px; justify-content: space-between; align-items: center;">
+                <div class="step reject" style="width:120px;">FAIL:<br>Application Rejected</div>
+                <div class="arrow">&#8592;</div>
+                <div class="decision" style="background: #e74c3c;">Pass Eye Test?</div>
+                <div class="arrow">&#8594;</div>
+                <div class="step" style="width:150px; background:#2980b9;">Written Exam</div>
+            </div>
+            <div class="arrow" style="margin-left: 200px;">&#8595;</div>
+            <div style="display:flex; width: 450px; justify-content: space-between; align-items: center; margin-left: 200px;">
+                <div class="step" style="width:120px; background:#d35400;">FAIL:<br>Retake Written (Max 3)</div>
+                <div class="arrow">&#8592;</div>
+                <div class="decision">Pass Written?</div>
+                <div class="arrow">&#8594;</div>
+                <div class="step" style="width:150px; background:#8e44ad;">Practical Test</div>
+            </div>
+            <div class="arrow" style="margin-left: 400px;">&#8595;</div>
+            <div style="display:flex; width: 450px; justify-content: space-between; align-items: center; margin-left: 400px;">
+                <div class="step" style="width:120px; background:#d35400;">FAIL:<br>Wait 1 Month</div>
+                <div class="arrow">&#8592;</div>
+                <div class="decision" style="background:#2ecc71;">Pass Road Test?</div>
+                <div class="arrow">&#8594;</div>
+                <div class="step accept" style="width:150px;">License Issued</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Figure 4: Object Diagram (Water Filter) -->
     <div class="chart-container">
         <h2>Figure 4: Object Diagram (Water Filter)</h2>
         <div class="prompt">PROMPT: The diagram illustrates the internal workings of a simple domestic water filtration system. Summarise the information.</div>
-        
         <div style="display:flex; justify-content: center; padding: 20px;">
             <div class="filter-tank">
                 <div class="water-top">Dirty Water IN ⬇️</div>
@@ -44,14 +147,13 @@
         </div>
     </div>
 
+    <!-- Figure 5: Digital Process (Online Application) -->
     <div class="chart-container">
         <h2>Figure 5: Digital Process (Online Application)</h2>
         <div class="prompt">PROMPT: The flowchart illustrates the stages of an automated online job application process used by a large corporation. Summarise the information.</div>
-        
         <div class="flowchart">
             <div class="step" style="background:#8e44ad;">1. Create Account</div>
             <div class="arrow">&#8595;</div>
-            
             <div style="display:flex; width: 450px; justify-content: space-between; align-items: center;">
                 <div class="step reject" style="width:120px;">FAIL:<br>Account Locked</div>
                 <div class="arrow">&#8592;</div>
@@ -59,9 +161,7 @@
                 <div class="arrow">&#8594;</div>
                 <div class="step" style="background:#8e44ad; width:150px;">2. Upload CV</div>
             </div>
-            
             <div class="arrow">&#8595;</div>
-            
             <div style="display:flex; width: 550px; justify-content: flex-end; align-items: center;">
                 <div class="step reject" style="width:120px;">FAIL:<br>Auto Rejection</div>
                 <div class="arrow">&#8592;</div>
@@ -69,9 +169,7 @@
                 <div class="arrow">&#8594;</div>
                 <div class="step" style="background:#8e44ad; width:180px;">3. Psychometric Test</div>
             </div>
-            
             <div class="arrow">&#8595;</div>
-            
             <div style="display:flex; width: 650px; justify-content: flex-end; align-items: center;">
                 <div class="step reject" style="width:120px;">FAIL:<br>Email Rejection</div>
                 <div class="arrow">&#8592;</div>

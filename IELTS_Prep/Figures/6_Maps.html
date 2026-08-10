@@ -3,38 +3,176 @@
 <head>
     <title>Maps Figures (Extended Full)</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
-        .chart-container { width: 90%; max-width: 900px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        h2 { text-align: center; color: #333; }
-        .prompt { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; }
-        .map-row { display: flex; justify-content: space-around; margin-top: 20px; }
-        .map-wrapper { width: 45%; }
-        .map-box { width: 100%; height: 300px; background: #ecf0f1; border: 2px solid #bdc3c7; position: relative; border-radius: 4px; overflow: hidden;}
-        .map-title { text-align: center; font-weight: bold; padding: 10px 0; background: #ecf0f1;}
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f9; color: #333; }
+        .chart-container { width: 95%; max-width: 900px; margin: 0 auto 30px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+        h2 { text-align: center; color: #2c3e50; font-size: 1.4rem; margin-top: 0; }
+        .prompt { background: #e8f4f8; padding: 12px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; font-size: 0.9rem; }
+        .map-row { display: flex; justify-content: space-around; margin-top: 15px; flex-wrap: wrap; gap: 15px; }
+        .map-wrapper { width: 45%; min-width: 300px; }
+        .map-box { width: 100%; height: 260px; background: #e8f5e9; border: 2px solid #bdc3c7; position: relative; border-radius: 4px; overflow: hidden; }
+        .map-title { text-align: center; font-weight: bold; padding: 8px 0; background: #ecf0f1; border-bottom: 1px solid #ccc; font-size: 0.9rem; }
         
-        /* Shared Elements */
-        .green-area { background: #a2d9a2; border: 1px solid #7cb342; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; text-align: center;}
-        .grey-area { background: #d0d3d4; border: 1px solid #95a5a6; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; text-align: center;}
-        .orange-area { background: #ffcc80; border: 1px solid #f57c00; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; text-align: center;}
-        .road { background: #555; position: absolute; color: white; display: flex; align-items: center; justify-content: center; font-size: 12px;}
+        /* Elements */
+        .green-area { background: #c8e6c9; border: 1px solid #4caf50; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; text-align: center;}
+        .grey-area { background: #d0d3d4; border: 1px solid #95a5a6; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; text-align: center;}
+        .orange-area { background: #ffe082; border: 1px solid #ffb300; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; text-align: center;}
+        .blue-area { background: #bbdefb; border: 1px solid #2196f3; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; text-align: center;}
         
-        /* Room Elements */
-        .room { position: absolute; border: 2px solid #333; background: #e3f2fd; display: flex; align-items: center; justify-content: center; font-weight: bold; text-align: center;}
-        .entrance { position: absolute; bottom: 0; left: 40%; width: 20%; height: 10%; background: #fff; border: 2px solid #333; border-bottom: none; display: flex; align-items: center; justify-content: center;}
+        .road { background: #7f8c8d; position: absolute; color: white; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold;}
+        .water { background: #81d4fa; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; color: #0288d1; }
         
+        .room { position: absolute; border: 1px solid #333; background: #e3f2fd; display: flex; align-items: center; justify-content: center; font-weight: bold; text-align: center; font-size: 11px;}
+        .entrance { position: absolute; bottom: 0; left: 40%; width: 20%; height: 10%; background: #fff; border: 2px solid #333; border-bottom: none; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold;}
     </style>
 </head>
 <body>
-    <!-- (Figures 1, 2, 4, 5 skipped for brevity in this mock layout to save lines, but retaining the classes) -->
-    
+
+    <!-- Figure 1: Ryden Village -->
     <div class="chart-container">
-        <h2>Figure 6: Museum Layout Changes</h2>
-        <div class="prompt">PROMPT: The plans show the changes made to the interior layout of a city museum between 1990 and 2010. Summarise the information.</div>
-        
+        <h2>Figure 1: Ryden Village Layout Changes</h2>
+        <div class="prompt">PROMPT: The maps below show the village of Ryden in 1990 and 2010. Summarise the information.</div>
         <div class="map-row">
             <div class="map-wrapper">
                 <div class="map-title">1990</div>
                 <div class="map-box">
+                    <div class="green-area" style="top: 10%; left: 10%; width: 35%; height: 40%;">Farmland</div>
+                    <div class="green-area" style="top: 10%; right: 10%; width: 35%; height: 30%; background:#a1887f; border-color:#8d6e63;">Forest</div>
+                    <div class="orange-area" style="top: 50%; right: 10%; width: 35%; height: 40%;">Housing Estate</div>
+                    <div class="blue-area" style="top: 60%; left: 10%; width: 15%; height: 20%;">Shop</div>
+                    <div class="blue-area" style="top: 60%; left: 30%; width: 15%; height: 20%;">Post Office</div>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <div class="map-title">2010</div>
+                <div class="map-box">
+                    <div class="orange-area" style="top: 10%; left: 10%; width: 35%; height: 40%; background:#d1c4e9; border-color:#9575cd;">Golf Course (NEW)</div>
+                    <div class="blue-area" style="top: 10%; right: 10%; width: 35%; height: 30%; background:#ffecb3; border-color:#ffb300;">School (NEW)</div>
+                    <div class="orange-area" style="top: 50%; right: 5%; width: 45%; height: 45%;">Housing Estate (EXPANDED)</div>
+                    <div class="blue-area" style="top: 60%; left: 10%; width: 20%; height: 25%; background:#e0f2f1; border-color:#009688;">Supermarket (NEW)</div>
+                    <div class="blue-area" style="top: 60%; left: 35%; width: 12%; height: 20%;">Post Office</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Figure 2: University Campus Layout -->
+    <div class="chart-container">
+        <h2>Figure 2: University Campus (Proposed Changes)</h2>
+        <div class="prompt">PROMPT: The maps show the current layout of a university campus and the proposed changes for the future. Summarise the information.</div>
+        <div class="map-row">
+            <div class="map-wrapper">
+                <div class="map-title">Present</div>
+                <div class="map-box" style="background:#f5f5f5;">
+                    <div class="grey-area" style="top: 10%; left: 10%; width: 80%; height: 20%;">Car Park</div>
+                    <div class="blue-area" style="top: 40%; left: 35%; width: 30%; height: 25%;">Library</div>
+                    <div class="orange-area" style="top: 75%; left: 10%; width: 35%; height: 20%;">Science Block</div>
+                    <div class="orange-area" style="top: 75%; right: 10%; width: 35%; height: 20%;">Arts Block</div>
+                    <div class="green-area" style="top: 40%; right: 5%; width: 20%; height: 55%;">Open Space</div>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <div class="map-title">Proposed Future</div>
+                <div class="map-box" style="background:#f5f5f5;">
+                    <div class="grey-area" style="top: 5%; left: 5%; width: 90%; height: 25%;">Car Park (EXPANDED)</div>
+                    <div class="blue-area" style="top: 40%; left: 35%; width: 30%; height: 25%; background:#e8eaf6; border-color:#3f51b5;">Student Union (NEW)</div>
+                    <div class="orange-area" style="top: 70%; left: 5%; width: 45%; height: 25%;">Science Block (EXPANDED)</div>
+                    <div class="orange-area" style="top: 75%; right: 10%; width: 35%; height: 20%;">Arts Block</div>
+                    <div class="blue-area" style="top: 40%; right: 5%; width: 20%; height: 55%;">New Library (NEW)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Figure 3: Site Selection in Garlsdon -->
+    <div class="chart-container">
+        <h2>Figure 3: Proposed Mall Locations S1 & S2</h2>
+        <div class="prompt">PROMPT: The map below shows two possible sites (S1 and S2) for a new shopping mall in the town of Garlsdon. Summarise the information.</div>
+        <div style="display:flex; justify-content:center; margin-top:15px;">
+            <div class="map-box" style="width:90%; max-width:600px; height: 300px; background:#fff8e1;">
+                <!-- Town Boundary -->
+                <div style="position:absolute; top:25%; left:25%; width:50%; height:50%; border:2px dashed #7f8c8d; display:flex; align-items:center; justify-content:center; font-weight:bold; color:#7f8c8d; font-size:14px; background:rgba(255,255,255,0.7);">Town Centre</div>
+                <!-- S1: Outskirts (North) -->
+                <div class="blue-area" style="top: 5%; left: 40%; width: 20%; height: 15%; background:#ffe082; border-color:#ffa000;">Site S1</div>
+                <!-- S2: Town Centre -->
+                <div class="blue-area" style="top: 42%; left: 42%; width: 16%; height: 15%; background:#ffe082; border-color:#ffa000; z-index:5;">Site S2</div>
+                
+                <!-- A4 Road -->
+                <div class="road" style="top: 10%; left: 0; width: 100%; height: 6%;">Road A4</div>
+                <!-- Railway Line -->
+                <div class="road" style="top: 0; left: 20%; width: 4%; height: 100%; background:#2c3e50; border-left:1px dashed white; border-right:1px dashed white;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Figure 4: Library Floor Plan -->
+    <div class="chart-container">
+        <h2>Figure 4: Ground Floor Library Layout</h2>
+        <div class="prompt">PROMPT: The plans below show the layout of the ground floor of a public library in 2001 and how it looks today. Summarise the information.</div>
+        <div class="map-row">
+            <div class="map-wrapper">
+                <div class="map-title">2001</div>
+                <div class="map-box" style="background:#fff;">
+                    <div class="room" style="top: 5%; left: 5%; width: 45%; height: 40%;">Adult Fiction</div>
+                    <div class="room" style="top: 5%; right: 5%; width: 45%; height: 40%; background:#ffe082;">Children's Books</div>
+                    <div class="room" style="top: 50%; right: 5%; width: 45%; height: 40%; background:#ffccbc;">Reading Room</div>
+                    <div class="entrance">Entrance</div>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <div class="map-title">Present Day</div>
+                <div class="map-box" style="background:#fff;">
+                    <div class="room" style="top: 5%; left: 5%; width: 60%; height: 40%;">Adult Fiction (EXPANDED)</div>
+                    <div class="room" style="top: 5%; right: 5%; width: 30%; height: 40%; background:#bbdefb;">IT Center (NEW)</div>
+                    <div class="room" style="top: 50%; right: 5%; width: 45%; height: 40%; background:#ffe082;">Children's Books (MOVED)</div>
+                    <div class="entrance">Entrance</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Figure 5: Island Resort Development -->
+    <div class="chart-container">
+        <h2>Figure 5: Island Resort Layout</h2>
+        <div class="prompt">PROMPT: The two maps below show an island before and after the construction of some tourist facilities. Summarise the information.</div>
+        <div class="map-row">
+            <div class="map-wrapper">
+                <div class="map-title">Before Tourist Development</div>
+                <div class="map-box" style="background:#e0f7fa;">
+                    <div class="water" style="top: 40%; left: 5%; width: 20%; height: 20%; background:khaki; border:1px solid #d4ac0d; border-radius:5px;">Beach</div>
+                    <div class="green-area" style="top: 15%; left: 45%; width: 12%; height: 12%; border-radius:50%;">🌳</div>
+                    <div class="green-area" style="top: 55%; left: 65%; width: 12%; height: 12%; border-radius:50%;">🌳</div>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <div class="map-title">After Tourist Development</div>
+                <div class="map-box" style="background:#e0f7fa;">
+                    <div class="water" style="top: 40%; left: 5%; width: 20%; height: 20%; background:khaki; border:1px solid #d4ac0d; border-radius:5px;">Beach</div>
+                    
+                    <!-- Pier and reception -->
+                    <div class="grey-area" style="bottom: 0; left: 45%; width: 10%; height: 25%; background:#95a5a6;">Pier</div>
+                    <div class="blue-area" style="top: 45%; left: 40%; width: 20%; height: 18%; background:#ffe082; border-color:#ffb300;">Reception</div>
+                    <div class="blue-area" style="top: 15%; left: 40%; width: 20%; height: 18%; background:#ffe082; border-color:#ffb300;">Restaurant</div>
+                    
+                    <!-- Accommodation huts -->
+                    <div class="orange-area" style="top: 30%; left: 22%; width: 8%; height: 8%; border-radius:35%;">🛖</div>
+                    <div class="orange-area" style="top: 45%; left: 22%; width: 8%; height: 8%; border-radius:35%;">🛖</div>
+                    <div class="orange-area" style="top: 60%; left: 22%; width: 8%; height: 8%; border-radius:35%;">🛖</div>
+                    
+                    <div class="orange-area" style="top: 35%; right: 20%; width: 8%; height: 8%; border-radius:35%;">🛖</div>
+                    <div class="orange-area" style="top: 50%; right: 20%; width: 8%; height: 8%; border-radius:35%;">🛖</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Figure 6: Museum Layout Changes -->
+    <div class="chart-container">
+        <h2>Figure 6: Museum Layout Changes</h2>
+        <div class="prompt">PROMPT: The plans show the changes made to the interior layout of a city museum between 1990 and 2010. Summarise the information.</div>
+        <div class="map-row">
+            <div class="map-wrapper">
+                <div class="map-title">1990</div>
+                <div class="map-box" style="background:#fff;">
                     <div class="room" style="top: 5%; left: 5%; width: 90%; height: 35%; background: #c8e6c9;">Dinosaur Exhibition</div>
                     <div class="room" style="top: 40%; left: 30%; width: 40%; height: 30%;">Local History</div>
                     <div class="room" style="top: 70%; left: 5%; width: 30%; height: 20%; background: #ffccbc;">Gift Shop</div>
@@ -44,7 +182,7 @@
             </div>
             <div class="map-wrapper">
                 <div class="map-title">2010</div>
-                <div class="map-box">
+                <div class="map-box" style="background:#fff;">
                     <div class="room" style="top: 5%; left: 5%; width: 90%; height: 35%; background: #b3e5fc;">Interactive Tech Zone (NEW)</div>
                     <div class="room" style="top: 40%; left: 20%; width: 60%; height: 30%;">Local History (Expanded)</div>
                     <div class="room" style="top: 70%; left: 5%; width: 30%; height: 20%; background: #ffe082;">Cafe (NEW)</div>
@@ -56,10 +194,10 @@
         </div>
     </div>
 
+    <!-- Figure 7: Road Network Changes -->
     <div class="chart-container">
         <h2>Figure 7: Road Network Changes</h2>
         <div class="prompt">PROMPT: The maps illustrate the changes that have taken place in the road network of a city centre from 2005 to the present day. Summarise the information.</div>
-        
         <div class="map-row">
             <div class="map-wrapper">
                 <div class="map-title">2005</div>
@@ -72,22 +210,13 @@
             <div class="map-wrapper">
                 <div class="map-title">Present</div>
                 <div class="map-box" style="background: #e8f5e9;">
-                    <!-- Pedestrian North -->
-                    <div class="green-area" style="top: 0; left: 40%; width: 20%; height: 35%; font-size:10px; border: 2px dashed green;">Pedestrianized</div>
-                    
-                    <!-- Widened South -->
+                    <div class="green-area" style="top: 0; left: 40%; width: 20%; height: 35%; font-size:10px; border: 2px dashed green; background: #a2d9a2;">Pedestrianized</div>
                     <div class="road" style="top: 65%; left: 35%; width: 30%; height: 35%;">4 Lanes</div>
-                    
-                    <!-- East/West -->
                     <div class="road" style="top: 45%; left: 0; width: 35%; height: 10%;"></div>
                     <div class="road" style="top: 45%; left: 65%; width: 35%; height: 10%;"></div>
-                    
-                    <!-- Roundabout -->
                     <div class="road" style="top: 35%; left: 35%; width: 30%; height: 30%; border-radius: 50%;">
                         <div style="background:#e8f5e9; width:50%; height:50%; border-radius:50%; margin:auto;"></div>
                     </div>
-                    
-                    <!-- Bridge East -->
                     <div class="grey-area" style="top: 35%; left: 75%; width: 10%; height: 30%; font-size:10px; z-index:10; border-left:2px solid black; border-right:2px solid black;">Bridge</div>
                 </div>
             </div>
