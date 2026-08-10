@@ -20,15 +20,11 @@
         <div class="blob blob-2"></div>
         <div class="blob blob-3"></div>
     </div>
-
     <div class="app-container">
         <!-- Sidebar Navigation -->
         <nav class="sidebar">
-            <div class="sidebar-header" style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+            <div class="sidebar-header">
                 <h2><i class="fa-solid fa-graduation-cap"></i> IELTS Masterclass</h2>
-                <button id="sidebar-toggle-btn" class="sidebar-toggle-btn" title="Toggle Sidebar">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
             </div>
             
             <div class="nav-section">
@@ -74,6 +70,11 @@
                 <i class="fa-solid fa-sun"></i> Toggle Light Mode
             </div>
         </nav>
+
+        <!-- Toggle Button (Placed as sibling to animate smoothly) -->
+        <button id="sidebar-toggle-btn" class="sidebar-toggle-btn" title="Toggle Sidebar">
+            <i class="fa-solid fa-bars"></i>
+        </button>
 
         <main class="content-area">
             <header class="content-header">

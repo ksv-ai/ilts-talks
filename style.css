@@ -113,6 +113,7 @@ body {
    LAYOUT
    ========================================================================== */
 .app-container {
+    position: relative;
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -289,6 +290,9 @@ body {
 
 /* Sidebar Toggle Button Styles */
 .sidebar-toggle-btn {
+    position: absolute;
+    top: 36px;
+    left: 255px; /* Sits perfectly within the sidebar header when open */
     background: transparent;
     border: 1px solid var(--border-color);
     color: var(--text-primary);
@@ -300,7 +304,8 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s ease, left 0.3s ease, top 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1001;
     margin-right: 0;
     flex-shrink: 0;
 }
@@ -311,13 +316,9 @@ body {
     border-color: var(--accent-color);
 }
 
-.sidebar.collapsed .sidebar-toggle-btn {
-    position: fixed;
-    top: 25px;
+.sidebar.collapsed ~ .sidebar-toggle-btn {
     left: 35px;
-    opacity: 1 !important;
-    pointer-events: auto !important;
-    z-index: 1001;
+    top: 25px;
     background: var(--sidebar-bg);
     border: 1px solid var(--border-color);
     box-shadow: var(--card-shadow);
