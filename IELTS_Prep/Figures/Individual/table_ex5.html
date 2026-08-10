@@ -37,23 +37,17 @@
                         height: 100% !important;
                         padding: 10px !important; 
                         box-sizing: border-box !important; 
-                        overflow: hidden !important;
+                        overflow: auto !important; /* Allow scroll inside iframe if content is truly too large */
                     }
                     
-                    /* Scale content down slightly to fit comfortably without scrollbars */
-                    .chart-container > *:not(h2):not(.prompt), 
-                    .table-container > *:not(h2):not(.prompt),
-                    .map-row, 
-                    .pie-row,
-                    table {
-                        transform: scale(0.88) !important;
-                        transform-origin: top center !important;
-                        margin: 0 auto !important;
-                    }
-                    
+                    /* Custom scrollbar to look clean */
+                    ::-webkit-scrollbar { width: 6px; height: 6px; }
+                    ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 4px; }
+
                     canvas {
-                        max-height: 440px !important;
-                        max-width: 100% !important;
+                        width: 100% !important;
+                        height: 95% !important;
+                        max-height: 460px !important;
                     }
                 </style>
                 
