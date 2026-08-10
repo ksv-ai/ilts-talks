@@ -15,6 +15,12 @@ CHART DATA (Reasons for choosing a UK university in 1980 and 2010):
 
 PROMPT: The pie charts compare the primary reasons why students chose to study at a particular UK university in 1980 and 2010.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (reasons for choosing university, UK, 1980 vs 2010).
+* Overview: Highlight the main shifts. Academic reasons (courses/resources) grew in importance, while non-academic reasons (location/sports) declined.
+* Body Paragraph 1: Group the declining factors. Detail the massive drop in 'Proximity to home' from 35% to 10%, and the halving of 'Sports/Social'.
+* Body Paragraph 2: Group the growing factors. Discuss the rise of 'Degree courses' to 1st place, and the huge surge of 'Resources' from 16% to 38%.
+
 BAND 9 ESSAY:
 The two pie charts illustrate the shifts in the main factors influencing students' decisions to attend a specific university in the United Kingdom, comparing data from the years 1980 and 2010.
 
@@ -35,6 +41,12 @@ Europe:        Agriculture (32%) | Industrial (53%) | Domestic (15%)
 
 PROMPT: The pie charts show the proportion of water used for agricultural, industrial, and domestic purposes in North America, South America, and Europe.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (water usage, three sectors, three global regions).
+* Overview: Contrast South America (dominated by agriculture) against North America and Europe (dominated by industry). Note domestic is lowest everywhere.
+* Body Paragraph 1: Analyze South America in isolation because it's the outlier. Detail its massive 71% agricultural use and tiny 10% industrial use.
+* Body Paragraph 2: Group North America and Europe together. Compare their similar patterns, highlighting their high industrial use (48% and 53%) and lower agricultural use.
+
 BAND 9 ESSAY:
 The provided pie charts compare the percentage of total water consumption allocated to three different sectors (agriculture, industry, and domestic use) across three major regions: North America, South America, and Europe.
 
@@ -53,6 +65,12 @@ CHART DATA (Global online retail sales and market share):
 2020 Total: $4.0 Trillion -> Electronics (45%) | Groceries (35%) | Clothing (20%)
 
 PROMPT: The pie charts show the market share of three major retail sectors globally in 2015 and 2020. The total value of all online retail sales is also provided.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (market share, 3 retail sectors, global, 2015 vs 2020, plus total sales value).
+* Overview: Mention the massive overall market growth. For sectors, note that Electronics and Groceries grew while Clothing collapsed.
+* Body Paragraph 1: Discuss the total market value first. Detail the huge jump from $1.5 trillion to $4.0 trillion.
+* Body Paragraph 2: Discuss the shifting percentages. Show how Electronics became the leader, Groceries grew, and Clothing fell from 1st to last place (40% down to 20%).
 
 BAND 9 ESSAY:
 The pie charts detail the shifting market share of three primary e-commerce sectors (clothing, electronics, and groceries) on a global scale, comparing the years 2015 and 2020. Additionally, the data provides the total value of all online retail sales for both years.
@@ -75,6 +93,12 @@ Country Y 2020: Fossil Fuels (85%) | Nuclear (10%) | Solar/Wind (5%)
 
 PROMPT: The four pie charts compare the sources of energy production in Country X and Country Y in the years 1990 and 2020.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (energy sources, Country X & Y, 1990 vs 2020).
+* Overview: Contrast the two nations. Country X modernized heavily towards renewables, while Country Y remained stagnant and reliant on fossil fuels.
+* Body Paragraph 1: Focus entirely on Country X. Detail its massive shift from 80% fossil fuels down to 40%, and the equal rise of solar/wind to 40%.
+* Body Paragraph 2: Focus entirely on Country Y. Detail its stubborn reliance on fossil fuels (90% to 85%), with renewables barely registering at 5%.
+
 BAND 9 ESSAY:
 The four pie charts detail the percentage of energy produced from three different sources—fossil fuels, nuclear power, and solar/wind energy—in Country X and Country Y, comparing data from 1990 and 2020.
 
@@ -92,6 +116,12 @@ CHART DATA (Population of City Z by Age Group, 2022):
 Under 18 (25%) | 18-35 (40%) | 36-55 (20%) | Over 55 (15%)
 
 PROMPT: The pie chart shows the age distribution of the population in City Z in the year 2022.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (age distribution, City Z, 2022).
+* Overview: State the main finding: it's a very young city. The vast majority are under 36, and the elderly make up the smallest fraction.
+* Body Paragraph 1: Group the youth (Under 18 and 18-35). Use fractions: 'two-fifths' for 40% and 'a quarter' for 25%. Sum them up to show they are nearly two-thirds combined.
+* Body Paragraph 2: Group the older residents (36-55 and Over 55). Use fractions: 'one-fifth' for 20% and note the 15% elderly group is the smallest slice.
 
 BAND 9 ESSAY:
 The provided pie chart breaks down the demographic composition of City Z in the year 2022, categorizing the population into four distinct age brackets.

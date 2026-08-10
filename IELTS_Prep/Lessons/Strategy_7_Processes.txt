@@ -20,6 +20,12 @@ PROCESS DATA (How coffee is produced):
 
 PROMPT: The diagram below shows the process of how coffee is produced for sale in supermarkets. Summarise the information.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (process, commercial production of coffee, sale in supermarkets).
+* Overview: State it's a multi-step, mechanical procedure. Count the steps (seven) and mention the start (picking) and end (delivery).
+* Body Paragraph 1: Group the preparation stages (1 to 3). Use passive voice to describe picking, sun-drying, and oven-roasting.
+* Body Paragraph 2: Group the finalization stages (4 to 7). Use passive voice to describe cooling, grinding, packaging, and delivery via truck.
+
 BAND 9 ESSAY:
 The provided diagram illustrates the various sequential stages involved in the commercial production of coffee, from the initial harvesting to its final delivery to retail outlets.
 
@@ -40,6 +46,12 @@ PROCESS DATA (The Life Cycle of a Salmon):
 4. Adult Salmon: 70-76cm long. Swim back upriver to reproduce.
 
 PROMPT: The diagram below shows the life cycle of a species of large fish called the salmon. Summarise the information.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (natural life cycle, salmon, environments).
+* Overview: State the cycle takes about a decade across 4 stages. Crucially, note that it begins and ends in the exact same location (the river).
+* Body Paragraph 1: Group the Freshwater stages (Eggs and Fry). Use active voice. Detail laying eggs in the upper river, hatching, and moving to the lower river for 4 years.
+* Body Paragraph 2: Group the Saltwater/Return stages (Smolt and Adult). Detail the migration to the ocean for 5 years, maturing to 76cm, and swimming back upstream.
 
 BAND 9 ESSAY:
 The diagram illustrates the natural life cycle of the salmon, detailing its physical growth and the different aquatic environments it inhabits throughout its lifespan.
@@ -62,6 +74,12 @@ Start: Fill application form -> Pass eye test -> (If Fail: Application rejected)
 
 PROMPT: The flowchart illustrates the process required to obtain a driving license in a specific country. Summarise the information.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (official procedure, candidates, driving license, specific country).
+* Overview: Note it's a multi-stage process with physical and academic tests. Highlight the strict fail condition: failing the physical (eye) test means immediate rejection.
+* Body Paragraph 1: Detail the initial stages. Describe the application form and the crucial eye test (explaining the instant rejection if failed).
+* Body Paragraph 2: Detail the testing stages. Describe the written exam (with 3 retakes) and the practical test (with a 1-month wait), concluding with license issuance.
+
 BAND 9 ESSAY:
 The provided flowchart details the official procedure that candidates must follow in order to successfully obtain a driving license in a particular country.
 
@@ -81,6 +99,12 @@ Middle: Water passes slowly through a layer of sand (filters large particles), t
 Bottom: Clean water drips into lower collection tank. Tap at the bottom dispenses safe drinking water.
 
 PROMPT: The diagram illustrates the internal workings of a simple domestic water filtration system. Summarise the information.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (internal workings, domestic water filtration, purification).
+* Overview: Note it's a gravity-fed, three-stage mechanism operating without electricity, relying on natural downward flow.
+* Body Paragraph 1: Detail the entry and first stage. Describe dirty water being poured in the top, and seeping into the sand layer which blocks large solid particles.
+* Body Paragraph 2: Detail the second stage and output. Describe the charcoal layer neutralizing chemicals, and the clean water dripping into the tank to be dispensed by a tap.
 
 BAND 9 ESSAY:
 The provided diagram illustrates the cross-section of a domestic water filtration device, detailing the specific internal components and the sequential process by which contaminated water is purified for safe consumption.
@@ -102,6 +126,12 @@ Step 3: Complete online psychometric test.
 Step 4: Human HR Review -> (If Pass: Interview Scheduled / If Fail: Email Rejection).
 
 PROMPT: The flowchart illustrates the stages of an automated online job application process used by a large corporation. Summarise the information.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (automated online job application, digital procedure, large corporation).
+* Overview: State there are 4 primary stages acting as a strict filtering system, heavily utilizing AI before any human involvement.
+* Body Paragraph 1: Detail the Automated stages (1 and 2). Describe account creation (and email lockouts), uploading the CV, and the strict AI keyword scan.
+* Body Paragraph 2: Detail the Human-involved stages (3 and 4). Describe taking the psychometric test, which is then forwarded to a human HR rep who makes the final interview/rejection decision.
 
 BAND 9 ESSAY:
 The flowchart details the step-by-step digital procedure that candidates must navigate when applying for a position through a large corporation's automated online recruitment portal.

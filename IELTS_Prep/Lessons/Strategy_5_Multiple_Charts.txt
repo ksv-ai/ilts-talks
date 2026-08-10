@@ -17,6 +17,12 @@ Pie (Satisfaction after): Very Dissatisfied (5%), Dissatisfied (15%), Satisfied 
 
 PROMPT: The table below shows the number of visitors to Ashdown Museum during the year before and the year after it was refurbished. The charts show the result of surveys asking visitors how satisfied they were with their visit, during the same two periods.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (visitors to museum, survey satisfaction, before vs after refurbishment).
+* Overview: State the two main findings: Visitor numbers went UP, and satisfaction also went UP.
+* Body Paragraph 1: Focus ONLY on the Table. Describe the jump in total visitors from 74k to 92k.
+* Body Paragraph 2: Focus ONLY on the Pie Charts. Contrast the high dissatisfaction before (40%+10%) with the massive surge in satisfaction after (40%+35%).
+
 BAND 9 ESSAY:
 The provided table details the total number of visitors to the Ashdown Museum in the year preceding and the year following its refurbishment, while the two pie charts compare visitor satisfaction survey results during those same two periods.
 
@@ -35,6 +41,12 @@ Line (Total Passengers in millions): 2000 (10) | 2005 (15) | 2010 (12) | 2015 (1
 Bar (% experiencing delays): 2000 (5%) | 2005 (12%) | 2010 (8%) | 2015 (15%) | 2020 (25%)
 
 PROMPT: The line graph below shows the number of train passengers in a major city from 2000 to 2020. The bar chart shows the percentage of those passengers who experienced delays during the same period.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (train passengers, delay percentages, 2000-2020).
+* Overview: Connect the two charts: Both passenger numbers and delay rates went up. Note that higher passenger volumes correlated with worse delays.
+* Body Paragraph 1: Focus ONLY on the Line Graph (Passengers). Track the growth from 10m to 22m, noting the brief dip in 2010.
+* Body Paragraph 2: Focus ONLY on the Bar Chart (Delays). Track the increase from 5% to 25%, showing how it mirrored the dip in 2010.
 
 BAND 9 ESSAY:
 The line graph illustrates the total number of individuals utilizing the train network in a major city between the years 2000 and 2020, while the accompanying bar chart details the percentage of these passengers who faced travel delays over the same two-decade period.
@@ -55,6 +67,12 @@ Bar (Degraded land by region): North America (5%) | Europe (23%) | Oceania (13%)
 
 PROMPT: The pie chart below shows the main reasons why agricultural land becomes less productive. The bar chart shows how these causes affected three regions of the world during the 1990s.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (causes of land degradation globally, regional impacts, 1990s).
+* Overview: State the main findings from each: Over-grazing was the primary global cause, and Europe was the worst-affected region.
+* Body Paragraph 1: Focus ONLY on the Pie Chart (Causes). List the three main culprits (grazing, deforestation, cultivation) which make up over 90% combined.
+* Body Paragraph 2: Focus ONLY on the Bar Chart (Regions). Compare Europe (worst, 23%), Oceania (middle, 13%), and North America (best, 5%).
+
 BAND 9 ESSAY:
 The pie chart delineates the primary global causes of agricultural land degradation, while the accompanying bar chart compares the total percentage of degraded land across three specific regions (North America, Europe, and Oceania) during the 1990s.
 
@@ -73,6 +91,12 @@ Line (Total smartphone sales in millions, 2015-2021): 2015(50), 2017(80), 2019(7
 Pie (Market share by brand in 2021): Brand A(45%), Brand B(30%), Brand C(15%), Others(10%)
 
 PROMPT: The line graph shows total smartphone sales globally between 2015 and 2021. The pie chart shows the market share of the leading smartphone brands in the final year, 2021.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (smartphone sales over time, brand market share in 2021).
+* Overview: State the main trend for the line (sales more than doubled) and the main feature of the pie (Brand A dominated).
+* Body Paragraph 1: Focus ONLY on the Line Graph. Describe the steep climb from 50m to 120m, noting the tiny dip in 2019.
+* Body Paragraph 2: Focus ONLY on the Pie Chart (which represents the 120m peak). Describe Brand A and B dominating 75% of the market combined.
 
 BAND 9 ESSAY:
 The line graph illustrates the total volume of smartphone sales worldwide over a six-year period from 2015 to 2021, measured in millions of units. The accompanying pie chart breaks down the global market share held by different smartphone brands in the final year of that period.
@@ -93,6 +117,12 @@ Pie 1 (Sources 2010): Individuals(60%), Corporations(25%), Government(15%)
 Pie 2 (Sources 2020): Individuals(40%), Corporations(45%), Government(15%)
 
 PROMPT: The table shows the total amount of money donated to a specific charity in 2010 and 2020. The pie charts show the percentage of those donations coming from three different sources in the same years.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (total charity donations and funding sources, 2010 vs 2020).
+* Overview: Note the total funding grew. Highlight the massive shift in sources: corporate money overtook individual money.
+* Body Paragraph 1: Focus ONLY on the Table. Detail the near-doubling of total funding from $20m to $35m.
+* Body Paragraph 2: Focus ONLY on the Pie Charts. Contrast the drop in Individual funding (60% to 40%) with the rise of Corporate funding (25% to 45%). Mention government stayed flat.
 
 BAND 9 ESSAY:
 The table details the total financial contributions received by a specific charity in the years 2010 and 2020, while the two pie charts illustrate the proportion of these funds originating from individuals, corporate entities, and government bodies during those same two years.

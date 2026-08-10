@@ -19,6 +19,12 @@ Turkey  |    32.14%    |   6.63%  |      4.35%
 
 PROMPT: The table below shows the proportion of national expenditure in Ireland, Italy, Spain, Sweden and Turkey on three categories of consumer goods in 2002.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (national consumer spending, 3 goods categories, 5 countries, 2002).
+* Overview: Highlight the columns: Food was consistently the highest expenditure, Leisure was the lowest. Mention Turkey as the top spender overall.
+* Body Paragraph 1: Focus purely on the 'Food/Tobacco' column (the biggest). Rank Turkey (highest), Ireland (close second), and Sweden (lowest).
+* Body Paragraph 2: Group the remaining two minor columns (Clothing and Leisure). Note they are all low single digits, and point out Spain's absolute lowest figure of 1.98% for Leisure.
+
 BAND 9 ESSAY:
 The provided table details the percentage of national consumer spending allocated to three distinct categories of goods (food/drinks/tobacco, clothing/footwear, and leisure/education) across five different countries in the year 2002.
 
@@ -39,6 +45,12 @@ Japan     | 600  | 550  | 400
 Australia | 100  |  50  |   0 (Ceased)
 
 PROMPT: The table shows the monthly production of cars in three different countries in 2000, 2010, and 2020.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (car production per month, 3 nations, over 3 years spanning two decades).
+* Overview: Contrast the trends: Germany went UP, while Japan and Australia went DOWN (with Australia dying completely).
+* Body Paragraph 1: Discuss the two major players (Japan and Germany). Note how Japan started as the leader but fell, allowing Germany to steadily climb and overtake them by 2020.
+* Body Paragraph 2: Discuss the minor player (Australia). Focus on its dramatic decline from 100k to 50k, eventually collapsing to zero.
 
 BAND 9 ESSAY:
 The table provides data on the average number of automobiles manufactured on a monthly basis in Germany, Japan, and Australia across three distinct years: 2000, 2010, and 2020. The figures are measured in thousands of units.
@@ -62,6 +74,12 @@ City D |         115          |       92/100     |      Low
 
 PROMPT: The table compares four different cities across three quality of life indicators in 2022. 
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (4 cities, 3 quality of life metrics, 2022).
+* Overview: Identify the clear pattern/correlation. Expensive cities (A, D) have good amenities, while cheap cities (B, C) have bad amenities.
+* Body Paragraph 1: Group the 'Expensive/Good' cities (A and D). Note their high cost indexes (120, 115) but highlight their low pollution and excellent healthcare (92/100).
+* Body Paragraph 2: Group the 'Cheap/Bad' cities (B and C). Note their lower costs (90, 85) but highlight the trade-off: high pollution and poor healthcare scores.
+
 BAND 9 ESSAY:
 The table compares four distinct cities (labeled A through D) based on three key metrics used to determine quality of life in 2022: the cost of living index, a healthcare score out of 100, and overall pollution levels.
 
@@ -83,6 +101,12 @@ Age Group | Strongly Agree | Agree | Disagree | Strongly Disagree
 65+       |      15%       |  20%  |   40%    |       25%
 
 PROMPT: The table displays the results of a survey asking different age groups whether public transport should be free of charge.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (survey results, free public transport, age demographics).
+* Overview: Highlight the generational divide: young people strongly support it, while opposition grows as people get older.
+* Body Paragraph 1: Group the supportive youth (18-25 and 26-45). Sum up their 'Agree' columns (e.g. 85% total for youngest) to show massive support and tiny disagreement.
+* Body Paragraph 2: Group the older skeptics (46-65 and 65+). Note the mixed views of the 46-65 group, and emphasize how the 65+ group is the *only* one to primarily disagree (65% total negative).
 
 BAND 9 ESSAY:
 The provided table details the findings of a survey regarding the proposition that public transportation should be free, categorizing the responses across four distinct age groups.
@@ -106,6 +130,12 @@ Rank | University         | Country | International Students
 5    | ETH Zurich         | Swiss   | 5,000
 
 PROMPT: The table shows the top five universities in the world ranked by the number of international students enrolled in 2021.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (top five universities globally, international student numbers, 2021).
+* Overview: Note the dominance of the UK and USA (holding 4 of 5 spots). Highlight Oxford as the clear #1.
+* Body Paragraph 1: Group the top 3. Note Oxford's massive lead (8,500), followed closely by MIT and Cambridge battling for 2nd and 3rd.
+* Body Paragraph 2: Group the bottom 2. Note Stanford in 4th, and point out ETH Zurich as the *only* non-Anglophone university, sitting at the bottom with 5,000.
 
 BAND 9 ESSAY:
 The table outlines the top five universities globally, ranked according to their total enrollment of international students during the academic year 2021, and identifies the host country for each institution.

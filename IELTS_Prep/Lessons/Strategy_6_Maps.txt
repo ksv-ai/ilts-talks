@@ -15,6 +15,12 @@ MAP DATA (Village of Ryden, 1990 vs 2010):
 
 PROMPT: The maps below show the village of Ryden in 1990 and 2010. Summarise the information.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (maps, village of Ryden, 1990 vs 2010).
+* Overview: State the main transformation: Ryden changed from rural/agricultural to residential/developed.
+* Body Paragraph 1: Group by Geography (West and North). Detail the loss of farmland to a golf course, and the forest being replaced by a school.
+* Body Paragraph 2: Group by Geography (East and Center). Detail the expansion of the housing estate, the surviving post office, and the shop becoming a supermarket.
+
 BAND 9 ESSAY:
 The two maps illustrate the extensive development and modernization that took place in the village of Ryden over a twenty-year period, comparing its layout in 1990 to that in 2010.
 
@@ -33,6 +39,12 @@ Present: North (Car park), Center (Library), South (Science block & Arts block),
 Future: North (Car park expanded), Center (Library demolished, new Student Union built), South (Arts block remains, Science block expanded), East (Green space replaced by new Library)
 
 PROMPT: The maps show the current layout of a university campus and the proposed changes for the future. Summarise the information.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (current layout, proposed future changes, university campus).
+* Overview: Note the massive redevelopment focusing on student/academic facilities, specifically sacrificing green space to move the library.
+* Body Paragraph 1: Group the North and East. Use future passive tense to describe expanding the car park and building the new library over the green space.
+* Body Paragraph 2: Group the Center and South. Detail the demolition of the old library for a Student Union, the static Arts block, and the expanded Science block.
 
 BAND 9 ESSAY:
 The provided maps depict the current infrastructure of a university campus and outline the proposed developments planned for its future layout.
@@ -53,6 +65,12 @@ Site 2 (S2): Center of town, surrounded by housing, no main roads, pedestrian ac
 
 PROMPT: The map below shows two possible sites (S1 and S2) for a new shopping mall in the town of Garlsdon. Summarise the information.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (two proposed sites, S1 and S2, shopping mall in Garlsdon).
+* Overview: State the core contrast: S1 has great vehicular transport links, while S2 is central and relies on pedestrian access.
+* Body Paragraph 1: Analyze Site 1 exclusively. Detail its northern countryside location and its excellent proximity to the A4 road and railway.
+* Body Paragraph 2: Analyze Site 2 exclusively. Detail its central location surrounded by housing, and point out its major flaw (no roads/trains nearby).
+
 BAND 9 ESSAY:
 The provided map displays the town of Garlsdon and highlights two potential locations, designated as S1 and S2, that are currently being considered for the construction of a new shopping mall.
 
@@ -71,6 +89,12 @@ MAP DATA (Central Library Ground Floor, 2001 vs Present):
 Present: Entrance (South), Children's Books (Moved to South-East, replacing Reading Room), Adult Fiction (Expanded across the entire North), IT Center (New - built in the North-East).
 
 PROMPT: The plans below show the layout of the ground floor of a public library in 2001 and how it looks today. Summarise the information.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (layout changes, ground floor, public library, 2001 vs today).
+* Overview: Note the shift towards technology (IT center) and the massive expansion of adult fiction at the cost of the reading room.
+* Body Paragraph 1: Group the Northern half. Detail the massive expansion of Adult Fiction across the whole north wall, and the new IT Center replacing the old children's section.
+* Body Paragraph 2: Group the Southern half. Note the static entrance, the dismantling of the Reading Room, and the relocation of Children's Books to that spot.
 
 BAND 9 ESSAY:
 The provided floor plans illustrate the structural modifications and reorganization of the ground floor of a public library, comparing its layout in 2001 with its present-day configuration.
@@ -91,6 +115,12 @@ After: Pier added to South, Reception built in center. Restaurant built in North
 
 PROMPT: The two maps below show an island before and after the construction of some tourist facilities. Summarise the information.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (island, before and after construction, tourist facilities).
+* Overview: State the obvious: it went from a completely untouched natural landscape to a heavily commercialized resort.
+* Body Paragraph 1: Focus purely on the 'Before' map. Describe the empty island, the beach on the west, the scattered trees, and the lack of access.
+* Body Paragraph 2: Focus purely on the 'After' map. Detail the new pier, the central reception, the northern restaurant, and the two zones of accommodation huts connected by paths.
+
 BAND 9 ESSAY:
 The two maps depict a small island and illustrate the extensive construction work that has transformed it from a completely uninhabited natural landscape into a developed tourist resort.
 
@@ -110,6 +140,12 @@ MAP DATA (City Museum, 1990 vs 2010):
 
 PROMPT: The plans show the changes made to the interior layout of a city museum between 1990 and 2010.
 
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (interior modifications, city museum, 1990 vs 2010).
+* Overview: Note the major restructuring: adding catering (cafe) and replacing the old dinosaur exhibit with modern technology.
+* Body Paragraph 1: Group the Northern/Back half. Detail the removal of the dinosaurs, the new Tech Zone, and the expansion of Local History in the center.
+* Body Paragraph 2: Group the Southern/Entrance area. Describe the gift shop converting to a cafe, and the gift shop moving to share space with the cloakroom.
+
 BAND 9 ESSAY:
 The provided floor plans illustrate the internal modifications and the reallocation of space within a city museum, comparing its layout in the years 1990 and 2010.
 
@@ -128,6 +164,12 @@ MAP DATA (City Centre Roads, 2005 vs Present):
 Present: Crossroads replaced by a large Roundabout. North street (Pedestrianized - no cars). South street (widened to 4 lanes). East/West (remain two-way). New bridge built over the East street.
 
 PROMPT: The maps illustrate the changes that have taken place in the road network of a city centre from 2005 to the present day.
+
+PLANNING NOTE:
+* Intro: Paraphrase the prompt (road network modifications, city centre, 2005 vs present).
+* Overview: Highlight the goal of improving traffic flow (roundabout) and prioritizing pedestrian safety (pedestrianization).
+* Body Paragraph 1: Focus purely on the Central intersection. Describe the demolition of the crossroads and the construction of the large roundabout.
+* Body Paragraph 2: Focus on the individual streets branching off. Detail the pedestrianized North street, the widened 4-lane South street, and the new bridge over the East street.
 
 BAND 9 ESSAY:
 The two maps depict the structural developments and traffic management alterations implemented within a city centre's road network, comparing its layout in 2005 with its current design.
