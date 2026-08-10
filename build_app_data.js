@@ -1115,48 +1115,82 @@ const lensesData = {
 function extractArchitecture(paragraph) {
     if (!paragraph) return [];
     const patterns = [
-        { name: "Because", regex: /\bbecause\b/i },
-        { name: "This is because", regex: /\bthis is because\b/i },
-        { name: "One of the main reasons", regex: /\bone of the main reasons\b/i },
-        { name: "Since / As", regex: /\b(since|as)\b/i },
-        { name: "Owing to / Due to", regex: /\b(owing to|due to)\b/i },
-        { name: "On the grounds that", regex: /\bon the grounds that\b/i },
-        { name: "by + Verb-ing", regex: /\bby\s+\w+ing\b/i },
-        { name: "through", regex: /\bthrough\b/i },
-        { name: "via", regex: /\bvia\b/i },
-        { name: "By means of", regex: /\bby means of\b/i },
-        { name: "With the aid of", regex: /\bwith the aid of\b/i },
-        { name: "Through the implementation", regex: /\bthrough the implementation\b/i },
-        { name: "By leveraging", regex: /\bby leveraging\b/i },
-        { name: "As a result", regex: /\bas a result\b/i },
-        { name: "Consequently", regex: /\bconsequently\b/i },
-        { name: "Therefore", regex: /\btherefore\b/i },
-        { name: "Thus / Hence", regex: /\b(thus|hence)\b/i },
-        { name: "As a direct consequence", regex: /\bas a direct consequence\b/i },
-        { name: "Which in turn leads to", regex: /\bwhich in turn leads to\b/i },
-        { name: "Thereby + Verb-ing", regex: /\bthereby\s+\w+ing\b/i },
-        { name: "With the result that", regex: /\bwith the result that\b/i },
-        { name: "allowing (Participle)", regex: /\ballowing\b/i },
-        { name: "leading to (Participle)", regex: /\bleading to\b/i },
-        { name: "resulting in (Participle)", regex: /\bresulting in\b/i },
-        { name: "preventing (Participle)", regex: /\bpreventing\b/i },
-        { name: "fostering (Participle)", regex: /\bfostering\b/i },
-        { name: "minimizing (Participle)", regex: /\bminimizing\b/i },
-        { name: "ensuring (Participle)", regex: /\bensuring\b/i },
-        { name: "Although", regex: /\balthough\b/i },
-        { name: "While", regex: /\bwhile\b/i },
-        { name: "Even though", regex: /\beven though\b/i },
-        { name: "Despite / In spite of", regex: /\b(despite|in spite of)\b/i },
-        { name: "Nonetheless / Nevertheless", regex: /\b(nonetheless|nevertheless)\b/i }
+        { name: "Because", regex: /\bbecause\b/gi },
+        { name: "This is because", regex: /\bthis is because\b/gi },
+        { name: "One of the main reasons", regex: /\bone of the main reasons\b/gi },
+        { name: "Since / As", regex: /\b(since|as)\b/gi },
+        { name: "Owing to / Due to", regex: /\b(owing to|due to)\b/gi },
+        { name: "On the grounds that", regex: /\bon the grounds that\b/gi },
+        { name: "by + Verb-ing", regex: /\bby\s+\w+ing\b/gi },
+        { name: "through", regex: /\bthrough\b/gi },
+        { name: "via", regex: /\bvia\b/gi },
+        { name: "By means of", regex: /\bby means of\b/gi },
+        { name: "With the aid of", regex: /\bwith the aid of\b/gi },
+        { name: "Through the implementation", regex: /\bthrough the implementation\b/gi },
+        { name: "By leveraging", regex: /\bby leveraging\b/gi },
+        { name: "As a result", regex: /\bas a result\b/gi },
+        { name: "Consequently", regex: /\bconsequently\b/gi },
+        { name: "Therefore", regex: /\btherefore\b/gi },
+        { name: "Thus / Hence", regex: /\b(thus|hence)\b/gi },
+        { name: "As a direct consequence", regex: /\bas a direct consequence\b/gi },
+        { name: "Which in turn leads to", regex: /\bwhich in turn leads to\b/gi },
+        { name: "Thereby + Verb-ing", regex: /\bthereby\s+\w+ing\b/gi },
+        { name: "With the result that", regex: /\bwith the result that\b/gi },
+        { name: "allowing (Participle)", regex: /\ballowing\b/gi },
+        { name: "leading to (Participle)", regex: /\bleading to\b/gi },
+        { name: "resulting in (Participle)", regex: /\bresulting in\b/gi },
+        { name: "preventing (Participle)", regex: /\bpreventing\b/gi },
+        { name: "fostering (Participle)", regex: /\bfostering\b/gi },
+        { name: "minimizing (Participle)", regex: /\bminimizing\b/gi },
+        { name: "ensuring (Participle)", regex: /\bensuring\b/gi },
+        { name: "Although", regex: /\balthough\b/gi },
+        { name: "While", regex: /\bwhile\b/gi },
+        { name: "Even though", regex: /\beven though\b/gi },
+        { name: "Despite / In spite of", regex: /\b(despite|in spite of)\b/gi },
+        { name: "Nonetheless / Nevertheless", regex: /\b(nonetheless|nevertheless)\b/gi }
     ];
     
-    let found = [];
+    let foundMatches = [];
+    
     patterns.forEach(p => {
-        if (p.regex.test(paragraph)) {
-            found.push(p.name);
+        p.regex.lastIndex = 0;
+        let match;
+        while ((match = p.regex.exec(paragraph)) !== null) {
+            foundMatches.push({
+                name: p.name,
+                index: match.index,
+                length: match[0].length
+            });
         }
     });
-    return found;
+    
+    // Sort matches by index (ascending) and length (descending) so longer matches are checked first
+    foundMatches.sort((a, b) => a.index - b.index || b.length - a.length);
+    
+    let filteredMatches = [];
+    for (let i = 0; i < foundMatches.length; i++) {
+        let current = foundMatches[i];
+        let isOverlap = false;
+        for (let j = 0; j < filteredMatches.length; j++) {
+            let existing = filteredMatches[j];
+            if (current.index >= existing.index && current.index < existing.index + existing.length) {
+                isOverlap = true;
+                break;
+            }
+        }
+        if (!isOverlap) {
+            filteredMatches.push(current);
+        }
+    }
+    
+    // Extract unique names in order of appearance
+    let uniqueNames = [];
+    filteredMatches.forEach(item => {
+        if (!uniqueNames.includes(item.name)) {
+            uniqueNames.push(item.name);
+        }
+    });
+    return uniqueNames;
 }
 
 // Automatically extract sentence architecture for each lens chain
