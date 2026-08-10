@@ -114,49 +114,51 @@
     <script>
         // Chart 1 (Pies)
         const c1 = ['#e74c3c', '#e67e22', '#3498db', '#2ecc71', '#95a5a6'];
-        const l1 = ['Very Dissatisfied', 'Dissatisfied', 'Satisfied', 'Very Satisfied', 'No Response'];
-        new Chart(document.getElementById('pie1a'), { type: 'pie', data: { labels: l1, datasets: [{ data: [10, 40, 30, 15, 5], backgroundColor: c1 }] }, options: { plugins: { legend: { display: false } } }});
-        new Chart(document.getElementById('pie1b'), { type: 'pie', data: { labels: l1, datasets: [{ data: [5, 15, 40, 35, 5], backgroundColor: c1 }] }, options: { plugins: { legend: { display: false } } }});
+        const l1a = ['Very Dissatisfied (10%)', 'Dissatisfied (40%)', 'Satisfied (30%)', 'Very Satisfied (15%)', 'No Response (5%)'];
+        const l1b = ['Very Dissatisfied (5%)', 'Dissatisfied (15%)', 'Satisfied (40%)', 'Very Satisfied (35%)', 'No Response (5%)'];
+        new Chart(document.getElementById('pie1a'), { type: 'pie', data: { labels: l1a, datasets: [{ data: [10, 40, 30, 15, 5], backgroundColor: c1 }] }, options: { plugins: { legend: { display: true, position: 'bottom', labels: { boxWidth: 10, font: { size: 9 } } } } }});
+        new Chart(document.getElementById('pie1b'), { type: 'pie', data: { labels: l1b, datasets: [{ data: [5, 15, 40, 35, 5], backgroundColor: c1 }] }, options: { plugins: { legend: { display: true, position: 'bottom', labels: { boxWidth: 10, font: { size: 9 } } } } }});
 
         // Chart 2 (Line + Bar)
         new Chart(document.getElementById('line2'), {
             type: 'line',
-            data: { labels: ['2000', '2005', '2010', '2015', '2020'], datasets: [{ label: 'Total Passengers (Millions)', data: [10, 15, 12, 18, 22], borderColor: '#2980b9', fill: true, backgroundColor: 'rgba(41,128,185,0.1)' }] },
+            data: { labels: ['2000 (10m)', '2005 (15m)', '2010 (12m)', '2015 (18m)', '2020 (22m)'], datasets: [{ label: 'Total Passengers (Millions)', data: [10, 15, 12, 18, 22], borderColor: '#2980b9', fill: true, backgroundColor: 'rgba(41,128,185,0.1)' }] },
             options: { responsive: true, scales: { y: { beginAtZero: true } } }
         });
         new Chart(document.getElementById('bar2'), {
             type: 'bar',
-            data: { labels: ['2000', '2005', '2010', '2015', '2020'], datasets: [{ label: '% Experiencing Delays', data: [5, 12, 8, 15, 25], backgroundColor: '#e74c3c' }] },
+            data: { labels: ['2000 (5%)', '2005 (12%)', '2010 (8%)', '2015 (15%)', '2020 (25%)'], datasets: [{ label: '% Experiencing Delays', data: [5, 12, 8, 15, 25], backgroundColor: '#e74c3c' }] },
             options: { responsive: true, scales: { y: { beginAtZero: true } } }
         });
 
         // Chart 3 (Pie + Bar)
         new Chart(document.getElementById('pie3'), {
             type: 'pie',
-            data: { labels: ['Over-grazing', 'Deforestation', 'Over-cultivation', 'Other'], datasets: [{ data: [35, 30, 28, 7], backgroundColor: ['#8e44ad', '#27ae60', '#f39c12', '#bdc3c7'] }] }
+            data: { labels: ['Over-grazing (35%)', 'Deforestation (30%)', 'Over-cultivation (28%)', 'Other (7%)'], datasets: [{ data: [35, 30, 28, 7], backgroundColor: ['#8e44ad', '#27ae60', '#f39c12', '#bdc3c7'] }] }
         });
         new Chart(document.getElementById('bar3'), {
             type: 'bar',
-            data: { labels: ['North America', 'Europe', 'Oceania'], datasets: [{ label: '% of Degraded Land', data: [5, 23, 13], backgroundColor: '#c0392b' }] },
+            data: { labels: ['North America (5%)', 'Europe (23%)', 'Oceania (13%)'], datasets: [{ label: '% of Degraded Land', data: [5, 23, 13], backgroundColor: '#c0392b' }] },
             options: { responsive: true, scales: { y: { beginAtZero: true } } }
         });
         
         // Chart 4 (Line + Pie)
         new Chart(document.getElementById('line4'), {
             type: 'line',
-            data: { labels: ['2015', '2017', '2019', '2021'], datasets: [{ label: 'Sales (Millions)', data: [50, 80, 75, 120], borderColor: '#16a085', fill: false }] },
+            data: { labels: ['2015 (50m)', '2017 (80m)', '2019 (75m)', '2021 (120m)'], datasets: [{ label: 'Sales (Millions)', data: [50, 80, 75, 120], borderColor: '#16a085', fill: false }] },
             options: { responsive: true, scales: { y: { beginAtZero: true } } }
         });
         new Chart(document.getElementById('pie4'), {
             type: 'pie',
-            data: { labels: ['Brand A', 'Brand B', 'Brand C', 'Others'], datasets: [{ data: [45, 30, 15, 10], backgroundColor: ['#2980b9', '#8e44ad', '#f39c12', '#bdc3c7'] }] }
+            data: { labels: ['Brand A (45%)', 'Brand B (30%)', 'Brand C (15%)', 'Others (10%)'], datasets: [{ data: [45, 30, 15, 10], backgroundColor: ['#2980b9', '#8e44ad', '#f39c12', '#bdc3c7'] }] }
         });
         
         // Chart 5 (2 Pies + Table)
         const c5 = ['#2ecc71', '#3498db', '#e74c3c'];
-        const l5 = ['Individuals', 'Corporations', 'Government'];
-        new Chart(document.getElementById('pie5a'), { type: 'pie', data: { labels: l5, datasets: [{ data: [60, 25, 15], backgroundColor: c5 }] }, options: { plugins: { legend: { display: false } } }});
-        new Chart(document.getElementById('pie5b'), { type: 'pie', data: { labels: l5, datasets: [{ data: [40, 45, 15], backgroundColor: c5 }] }, options: { plugins: { legend: { display: false } } }});
+        const l5a = ['Individuals (60%)', 'Corporations (25%)', 'Government (15%)'];
+        const l5b = ['Individuals (40%)', 'Corporations (45%)', 'Government (15%)'];
+        new Chart(document.getElementById('pie5a'), { type: 'pie', data: { labels: l5a, datasets: [{ data: [60, 25, 15], backgroundColor: c5 }] }, options: { plugins: { legend: { display: true, position: 'bottom', labels: { boxWidth: 10, font: { size: 9 } } } } }});
+        new Chart(document.getElementById('pie5b'), { type: 'pie', data: { labels: l5b, datasets: [{ data: [40, 45, 15], backgroundColor: c5 }] }, options: { plugins: { legend: { display: true, position: 'bottom', labels: { boxWidth: 10, font: { size: 9 } } } } }});
     </script>
 </body>
 </html>

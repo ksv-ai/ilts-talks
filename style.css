@@ -43,7 +43,8 @@ body.dark-mode {
 body {
     background-color: var(--bg-color);
     color: var(--text-primary);
-    overflow: hidden; /* Prevent body scroll, handle inside app */
+    overflow: hidden;
+    /* Prevent body scroll, handle inside app */
     transition: background-color 0.3s ease;
 }
 
@@ -95,9 +96,17 @@ body {
 }
 
 @keyframes float {
-    0% { transform: translate(0, 0) scale(1); }
-    50% { transform: translate(50px, 50px) scale(1.1); }
-    100% { transform: translate(-50px, -50px) scale(0.9); }
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    50% {
+        transform: translate(50px, 50px) scale(1.1);
+    }
+
+    100% {
+        transform: translate(-50px, -50px) scale(0.9);
+    }
 }
 
 /* ==========================================================================
@@ -126,10 +135,10 @@ body {
     flex-direction: column;
     padding: 20px 0;
     overflow-y: auto;
-    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
-                padding 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
-                opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-                margin-right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        padding 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        margin-right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sidebar.collapsed {
@@ -138,13 +147,23 @@ body {
     opacity: 0 !important;
     pointer-events: none !important;
     border: none !important;
-    margin-right: -20px !important; /* Offset the flex gap */
+    margin-right: -20px !important;
+    /* Offset the flex gap */
 }
 
 /* Custom Scrollbar for Sidebar */
-.sidebar::-webkit-scrollbar { width: 6px; }
-.sidebar::-webkit-scrollbar-track { background: transparent; }
-.sidebar::-webkit-scrollbar-thumb { background: rgba(150, 150, 150, 0.3); border-radius: 10px; }
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: rgba(150, 150, 150, 0.3);
+    border-radius: 10px;
+}
 
 .sidebar-header {
     padding: 0 20px 20px 20px;
@@ -298,9 +317,18 @@ body {
 }
 
 /* Custom Scrollbar for Content */
-.content-body::-webkit-scrollbar { width: 8px; }
-.content-body::-webkit-scrollbar-track { background: transparent; }
-.content-body::-webkit-scrollbar-thumb { background: rgba(150, 150, 150, 0.4); border-radius: 10px; }
+.content-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.content-body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.content-body::-webkit-scrollbar-thumb {
+    background: rgba(150, 150, 150, 0.4);
+    border-radius: 10px;
+}
 
 /* ==========================================================================
    DYNAMIC CONTENT COMPONENTS
@@ -319,7 +347,7 @@ body {
     border-radius: 12px;
     padding: 25px;
     margin-bottom: 30px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card h3 {
@@ -373,13 +401,15 @@ body {
     width: 100%;
     max-width: 700px;
     margin: 20px auto;
-    background: white; /* Charts usually need white background for visibility */
+    background: white;
+    /* Charts usually need white background for visibility */
     padding: 20px;
     border-radius: 8px;
 }
 
 body.dark-mode .chart-wrapper {
-    background: rgba(255, 255, 255, 0.9); /* Slightly off-white in dark mode */
+    background: rgba(255, 255, 255, 0.9);
+    /* Slightly off-white in dark mode */
 }
 
 .grid-2 {
@@ -394,11 +424,14 @@ body.dark-mode .chart-wrapper {
     border-collapse: collapse;
     margin: 20px 0;
 }
-.data-table th, .data-table td {
+
+.data-table th,
+.data-table td {
     padding: 12px;
     border: 1px solid var(--border-color);
     text-align: left;
 }
+
 .data-table th {
     background: rgba(255, 255, 255, 0.1);
     color: var(--accent-color);
@@ -406,9 +439,17 @@ body.dark-mode .chart-wrapper {
 
 /* Animations */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
+
 .animate-fade-in {
     animation: fadeIn 0.4s ease-out forwards;
 }
