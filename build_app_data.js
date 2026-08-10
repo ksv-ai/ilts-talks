@@ -1109,6 +1109,342 @@ const lensesData = {
                 paragraph: "Banning single-use plastic cups and straws forces supermarkets to promote reusable shopping bags. This reduces plastic bag usage and minimizes marine pollution in coastal zones. Consequently, single-use bans protect aquatic wildlife and encourage green behaviors among the public."
             }
         ]
+    },
+    "individual": {
+        name: "THE INDIVIDUAL",
+        concepts: ["emotional resilience", "personal autonomy", "self-determination", "intrinsic fulfillment", "financial independence", "creative self-expression", "personal liberty", "career self-selection", "individual accountability", "private decision-making", "life satisfaction indices", "psychological sovereignty"],
+        chains: [
+            {
+                title: "Career Autonomy → Job Satisfaction",
+                collocations: ["exercise career autonomy", "pursue intrinsic interests", "maximize work engagement", "improve vocational productivity", "attain professional fulfillment", "reduce workplace burnout"],
+                steps: [
+                    "Select career freely",
+                    "exercise career autonomy",
+                    "pursue intrinsic interests",
+                    "maximize work engagement",
+                    "improve vocational productivity",
+                    "attain professional fulfillment"
+                ],
+                paragraph: "Allowing individuals to select their careers freely enables them to exercise career autonomy and pursue intrinsic interests. This maximizes work engagement and improves vocational productivity, helping them avoid career stagnation. Consequently, workers attain professional fulfillment and experience significantly higher life satisfaction."
+            },
+            {
+                title: "Personal Liberty → Creative Expression",
+                collocations: ["protect personal liberty", "express controversial viewpoints", "stimulate creative thinking", "challenge orthodox paradigms", "drive artistic innovation", "enrich cultural discourse"],
+                steps: [
+                    "Protect personal liberty",
+                    "express controversial viewpoints",
+                    "stimulate creative thinking",
+                    "challenge orthodox paradigms",
+                    "drive artistic innovation",
+                    "enrich cultural discourse"
+                ],
+                paragraph: "Protecting personal liberty allows citizens to express controversial viewpoints without fear of censorship, which stimulates creative thinking. This challenges orthodox paradigms in academic and artistic fields, thereby driving artistic innovation. Ultimately, protecting individual speech enriches cultural discourse and fosters social progress."
+            },
+            {
+                title: "Individual Choice → Academic Motivation",
+                collocations: ["allow elective selection", "boost student autonomy", "nurture intrinsic motivation", "improve educational outcomes", "decrease dropout rates", "cultivate specialized talents"],
+                steps: [
+                    "Allow elective selection",
+                    "boost student autonomy",
+                    "nurture intrinsic motivation",
+                    "improve educational outcomes",
+                    "decrease academic burnout",
+                    "cultivate specialized talents"
+                ],
+                paragraph: "Allowing elective selections in school curriculums boosts student autonomy and nurtures intrinsic motivation. When students select subjects they love, they work harder, leading to improved educational outcomes. As a result, this flexibility decreases academic burnout and helps cultivate specialized talents."
+            },
+            {
+                title: "Self-Determination → Financial Prudence",
+                collocations: ["assume financial accountability", "encourage fiscal self-reliance", "curb impulsive spending", "promote long-term planning", "secure financial independence", "alleviate debt burdens"],
+                steps: [
+                    "Assume financial accountability",
+                    "encourage fiscal self-reliance",
+                    "curb impulsive spending",
+                    "promote long-term planning",
+                    "secure financial independence",
+                    "alleviate debt burdens"
+                ],
+                paragraph: "When individuals assume financial accountability for their choices, it encourages fiscal self-reliance and curbs impulsive spending. This lifestyle shift promotes long-term planning, helping them secure financial independence. Consequently, self-determination alleviates personal debt burdens and builds household security."
+            },
+            {
+                title: "Life Freedom → Emotional Well-being",
+                collocations: ["make private lifestyle choices", "avoid societal pressures", "reduce cognitive dissonance", "foster authentic lifestyles", "boost self-esteem", "improve emotional well-being"],
+                steps: [
+                    "Make private lifestyle choices",
+                    "avoid societal pressures",
+                    "reduce cognitive dissonance",
+                    "foster authentic lifestyles",
+                    "boost self-esteem",
+                    "improve emotional well-being"
+                ],
+                paragraph: "The freedom to make private lifestyle choices allows individuals to avoid conforming to rigid societal pressures. This reduces cognitive dissonance and fosters authentic lifestyles, boosting self-esteem. As a result, individual sovereignty improves emotional well-being and reduces depression rates."
+            },
+            {
+                title: "Personal Responsibility → Character Resilience",
+                collocations: ["bear personal consequences", "internalize moral lessons", "build character resilience", "foster self-discipline", "improve decision-making skills", "cultivate adult maturity"],
+                steps: [
+                    "Bear personal consequences",
+                    "internalize moral lessons",
+                    "build character resilience",
+                    "foster self-discipline",
+                    "improve decision-making skills",
+                    "cultivate adult maturity"
+                ],
+                paragraph: "Allowing individuals to bear personal consequences for their mistakes helps them internalize moral lessons and build character resilience. This process fosters self-discipline, which improves future decision-making skills. Ultimately, personal responsibility cultivates adult maturity and self-reliance."
+            }
+        ]
+    },
+    "media": {
+        name: "MEDIA & INFORMATION",
+        concepts: ["sensationalist journalism", "digital echo chambers", "editorial independence", "media consumption habits", "fake news dissemination", "public opinion manipulation", "investigative reporting", "algorithmic filtering", "press censorship", "information overload", "cognitive biases", "advertising regulations"],
+        chains: [
+            {
+                title: "Sensational Journalism → Public Anxiety",
+                collocations: ["broadcast sensationalist news", "exaggerate public threats", "induce collective anxiety", "distort objective reality", "manipulate public sentiment", "erode societal trust"],
+                steps: [
+                    "Broadcast sensationalist news",
+                    "exaggerate public threats",
+                    "induce collective anxiety",
+                    "distort objective reality",
+                    "manipulate public sentiment",
+                    "erode societal trust"
+                ],
+                paragraph: "News outlets often broadcast sensationalist news to maximize viewership, which exaggerates public threats like crime or pandemics. This induces collective anxiety among readers, distorting objective reality. As a result, fear-mongering media manipulates public sentiment and erodes societal trust in institutions."
+            },
+            {
+                title: "Algorithmic Filtering → Polarization",
+                collocations: ["deploy algorithmic filtering", "reinforce cognitive biases", "confine to digital echo chambers", "stifle opposing viewpoints", "escalate political polarization", "threaten democratic consensus"],
+                steps: [
+                    "Deploy algorithmic filtering",
+                    "reinforce cognitive biases",
+                    "confine to digital echo chambers",
+                    "stifle opposing viewpoints",
+                    "escalate political polarization",
+                    "threaten democratic consensus"
+                ],
+                paragraph: "Social media platforms deploy algorithmic filtering to show content that users already agree with, reinforcing their cognitive biases. This confines individuals to digital echo chambers, stifling opposing viewpoints. Consequently, personalized news feeds escalate political polarization and threaten democratic consensus."
+            },
+            {
+                title: "Investigative Reporting → Political Accountability",
+                collocations: ["conduct investigative reporting", "expose institutional corruption", "inform public electorates", "enforce political accountability", "strengthen democratic transparency", "curb government overreach"],
+                steps: [
+                    "Conduct investigative reporting",
+                    "expose institutional corruption",
+                    "inform public electorates",
+                    "enforce political accountability",
+                    "strengthen democratic transparency",
+                    "curb government overreach"
+                ],
+                paragraph: "Free press agencies conduct investigative reporting that exposes institutional corruption and corporate misconduct. This informs public electorates, giving them the evidence needed to enforce political accountability during elections. Ultimately, journalism strengthens democratic transparency and curbs government overreach."
+            },
+            {
+                title: "Targeted Advertising → Impulsive Consumerism",
+                collocations: ["exploit user data", "deliver targeted advertisements", "manufacture artificial desires", "trigger impulsive buying", "escalate consumer spending", "exacerbate household debt"],
+                steps: [
+                    "Exploit user data",
+                    "deliver targeted advertisements",
+                    "manufacture artificial desires",
+                    "trigger impulsive buying",
+                    "escalate consumer spending",
+                    "exacerbate household debt"
+                ],
+                paragraph: "Corporations exploit user data to deliver targeted advertisements directly to receptive demographics. This manufactures artificial desires, triggering impulsive buying behavior. Consequently, aggressive digital marketing escalates consumer spending and exacerbates household debt."
+            },
+            {
+                title: "Press Censorship → Authoritarian Control",
+                collocations: ["impose press censorship", "suppress critical journalism", "restrict public knowledge", "manufacture state consent", "prevent social movements", "consolidate authoritarian power"],
+                steps: [
+                    "Impose press censorship",
+                    "suppress critical journalism",
+                    "restrict public knowledge",
+                    "manufacture state consent",
+                    "prevent social movements",
+                    "consolidate authoritarian power"
+                ],
+                paragraph: "Authoritarian regimes impose press censorship and suppress critical journalism, restricting public knowledge of state errors. This allows governments to manufacture state consent through propaganda, preventing organized social movements. Ultimately, restricting information consolidates authoritarian power and disables civil liberties."
+            },
+            {
+                title: "Information Overload → Decision Paralysis",
+                collocations: ["encounter endless feeds", "suffer information overload", "impair cognitive processing", "cause decision paralysis", "heighten psychological fatigue", "reduce analytical focus"],
+                steps: [
+                    "Encounter endless feeds",
+                    "suffer information overload",
+                    "impair cognitive processing",
+                    "cause decision paralysis",
+                    "heighten psychological fatigue",
+                    "reduce analytical focus"
+                ],
+                paragraph: "Modern internet users encounter endless feeds of conflicting news, causing them to suffer information overload. This impairs cognitive processing, causing decision paralysis in daily life. Consequently, constant connectivity heightens psychological fatigue and reduces analytical focus."
+            }
+        ]
+    },
+    "global": {
+        name: "GLOBAL VS. LOCAL",
+        concepts: ["cultural homogenization", "multinational corporations", "local market erosion", "global trade deregulation", "cultural preservation", "preservation of languages", "local supply chains", "standardized consumerism", "international cooperation", "brain drain effects", "economic sovereignty", "indigenous heritage protection"],
+        chains: [
+            {
+                title: "Corporate Expansion → Local Business Loss",
+                collocations: ["open multinational stores", "undercut local prices", "erode local markets", "force retailer bankruptcies", "reduce community wealth", "threaten economic sovereignty"],
+                steps: [
+                    "Open multinational stores",
+                    "undercut local prices",
+                    "erode local markets",
+                    "force retailer bankruptcies",
+                    "reduce community wealth",
+                    "threaten economic sovereignty"
+                ],
+                paragraph: "When multinational corporations open mega-stores in historic town centers, they undercut local prices through economies of scale. This erodes local markets and forces independent retailer bankruptcies. As a result, global retail shifts money away from town centers, reducing community wealth and threatening economic sovereignty."
+            },
+            {
+                title: "Globalized Brands → Cultural Homogenization",
+                collocations: ["export Western media", "standardize consumer tastes", "marginalize traditional practices", "cause cultural homogenization", "erode national identities", "dilute unique heritages"],
+                steps: [
+                    "Export Western media",
+                    "standardize consumer tastes",
+                    "marginalize traditional practices",
+                    "cause cultural homogenization",
+                    "erode national identities",
+                    "dilute unique heritages"
+                ],
+                paragraph: "Globalized brands export Western media and fast food worldwide, which standardizes consumer tastes among youth. This marginalizes traditional culinary and artistic practices, causing gradual cultural homogenization. Consequently, global uniformity erodes national identities and dilutes unique ancestral heritages."
+            },
+            {
+                title: "Global Trade → Economic Interdependence",
+                collocations: ["lower import tariffs", "facilitate international trade", "increase economic interdependence", "prevent military conflicts", "stabilize regional relations", "encourage cross-border collaboration"],
+                steps: [
+                    "Lower import tariffs",
+                    "facilitate international trade",
+                    "increase economic interdependence",
+                    "prevent military conflicts",
+                    "stabilize regional relations",
+                    "encourage cross-border collaboration"
+                ],
+                paragraph: "Lowering import tariffs facilitates international trade and links national markets together. This increases economic interdependence, making military conflicts financially ruinous for all parties. Consequently, global trade stabilizes regional relations and encourages cross-border collaboration."
+            },
+            {
+                title: "International Tourism → Indigenous Heritage Income",
+                collocations: ["attract foreign tourists", "demand authentic experiences", "monetize traditional performances", "fund historical restoration", "support indigenous artisans", "sustain endangered cultures"],
+                steps: [
+                    "Attract foreign tourists",
+                    "demand authentic experiences",
+                    "monetize traditional performances",
+                    "fund historical restoration",
+                    "support indigenous artisans",
+                    "sustain endangered cultures"
+                ],
+                paragraph: "Attracting foreign tourists who demand authentic cultural experiences allows local communities to monetize traditional performances and crafts. This generates revenues that fund historical restoration projects. Ultimately, eco-tourism supports indigenous artisans and helps sustain endangered cultural practices."
+            },
+            {
+                title: "Global Labor Arbitrage → Brain Drain",
+                collocations: ["offer high overseas salaries", "lure highly educated graduates", "trigger systemic brain drain", "deplete local institutions", "cripple domestic development", "exacerbate global inequality"],
+                steps: [
+                    "Offer high overseas salaries",
+                    "lure highly educated graduates",
+                    "trigger systemic brain drain",
+                    "deplete local institutions",
+                    "cripple domestic development",
+                    "exacerbate global inequality"
+                ],
+                paragraph: "Wealthy nations offer high overseas salaries and visa pathways, which lures highly educated graduates from developing countries. This triggers a systemic brain drain, depleting local medical and engineering institutions of talent. Consequently, human resource flights cripple domestic development and exacerbate global inequality."
+            },
+            {
+                title: "Global Standards → Standardized Education",
+                collocations: ["adopt international curricula", "assess via global exams", "dilute local historical focus", "standardize educational values", "ignore regional job needs", "stifle localized knowledge"],
+                steps: [
+                    "Adopt international curricula",
+                    "assess via global exams",
+                    "dilute local historical focus",
+                    "standardize educational values",
+                    "ignore regional job needs",
+                    "stifle localized knowledge"
+                ],
+                paragraph: "Adopting international school curricula forces educational institutions to assess students via global standardized exams. This dilutes local history and language focus to match global test metrics, standardizing educational values. As a result, classrooms ignore regional job market needs and stifle localized cultural knowledge."
+            }
+        ]
+    },
+    "science": {
+        name: "SCIENCE & ETHICS",
+        concepts: ["scientific breakthrough", "ethical boundaries", "research funding", "genetic engineering", "space exploration", "medical diagnostics", "technological breakthroughs", "cloning regulations", "clinical trial standards", "corporate commercial exploitation", "unintended consequences", "human longevity"],
+        chains: [
+            {
+                title: "Genetic Editing → Eradication of Diseases",
+                collocations: ["harness gene-editing software", "rectify inherited mutations", "eradicate hereditary diseases", "enhance human health", "prolong life expectancy", "reduce healthcare budgets"],
+                steps: [
+                    "Harness gene-editing software",
+                    "rectify inherited mutations",
+                    "eradicate hereditary diseases",
+                    "enhance human health",
+                    "prolong life expectancy",
+                    "reduce healthcare budgets"
+                ],
+                paragraph: "Harnessing gene-editing software like CRISPR allows scientists to rectify inherited genetic mutations in embryos. This helps eradicate hereditary diseases like sickle cell anemia, enhancing human health. Ultimately, gene technology prolongs life expectancy and reduces state healthcare budgets."
+            },
+            {
+                title: "Commercial Scientific Focus → Ethical Violations",
+                collocations: ["chase corporate profits", "bypass clinical trials", "compromise patient safety", "violate medical ethics", "suffer unintended health issues", "damage public scientific trust"],
+                steps: [
+                    "Chase corporate profits",
+                    "bypass clinical trials",
+                    "compromise patient safety",
+                    "violate medical ethics",
+                    "suffer unintended health issues",
+                    "damage public scientific trust"
+                ],
+                paragraph: "When private laboratories chase corporate profits, they may bypass rigorous clinical trials to bring new drugs to market quickly. This compromises patient safety and violates medical ethics. Consequently, rushed products cause users to suffer unintended health issues, damaging public trust in scientific research."
+            },
+            {
+                title: "Space Exploration → Resource Innovation",
+                collocations: ["fund space exploration", "solve extreme environment problems", "develop spin-off technologies", "revolutionize daily materials", "boost industrial efficiency", "spark scientific curiosity"],
+                steps: [
+                    "Fund space exploration",
+                    "solve extreme environment problems",
+                    "develop spin-off technologies",
+                    "revolutionize daily materials",
+                    "boost industrial efficiency",
+                    "spark scientific curiosity"
+                ],
+                paragraph: "Funding space exploration forces scientists to solve extreme environment challenges, such as water recycling and solar energy storage. These efforts develop spin-off technologies, such as advanced water filters and lightweight materials, that revolutionize daily consumer goods. Consequently, cosmic research boosts industrial efficiency on Earth."
+            },
+            {
+                title: "Artificial Cloning → Loss of Biodiversity",
+                collocations: ["clone elite livestock", "homogenize agricultural genomes", "eliminate natural resistance", "increase vulnerability to viruses", "risk mass crop collapse", "compromise agricultural stability"],
+                steps: [
+                    "Clone elite livestock",
+                    "homogenize agricultural genomes",
+                    "eliminate natural resistance",
+                    "increase vulnerability to viruses",
+                    "risk mass crop collapse",
+                    "compromise agricultural stability"
+                ],
+                paragraph: "Cloning elite livestock to maximize meat production homogenizes agricultural genomes across farming sectors. This eliminates natural genetic variations, increasing vulnerability to viruses. Consequently, clone farming risks mass livestock collapse and compromises long-term agricultural stability."
+            },
+            {
+                title: "Clinical Trial Regulations → Patient Safety",
+                collocations: ["enforce strict trial regulations", "vet experimental treatments", "protect patient safety", "prevent toxic side effects", "validate therapeutic claims", "build pharmaceutical trust"],
+                steps: [
+                    "Enforce strict trial regulations",
+                    "vet experimental treatments",
+                    "protect patient safety",
+                    "prevent toxic side effects",
+                    "validate therapeutic claims",
+                    "build pharmaceutical trust"
+                ],
+                paragraph: "Enforcing strict clinical trial regulations ensures that developers vet experimental treatments over several years. This protects patient safety by preventing toxic side effects before public distribution. As a result, robust trials validate therapeutic claims and build pharmaceutical trust."
+            },
+            {
+                title: "Cognitive AI Research → Workplace Disruption",
+                collocations: ["advance cognitive AI", "replicate human intellect", "displace white-collar workers", "exacerbate professional unemployment", "widen economic divides", "provoke intense societal stress"],
+                steps: [
+                    "Advance cognitive AI",
+                    "replicate human intellect",
+                    "displace white-collar workers",
+                    "exacerbate professional unemployment",
+                    "widen economic divides",
+                    "provoke intense societal stress"
+                ],
+                paragraph: "Advancing cognitive AI algorithms allows computer programs to replicate human intellect in complex domains. This displaces white-collar workers in accounting, legal, and programming roles, exacerbating professional unemployment. Consequently, rapid AI integration widens economic divides and provokes intense societal stress."
+            }
+        ]
     }
 };
 
@@ -1213,7 +1549,11 @@ const rankingOrder = [
     "cultural",
     "government",
     "infrastructure",
-    "consumerism"
+    "consumerism",
+    "individual",
+    "media",
+    "global",
+    "science"
 ];
 rankingOrder.forEach(key => {
     if (lensesData[key]) {
