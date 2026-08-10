@@ -248,6 +248,35 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>`;
         });
 
+        // Append Vocabulary & Mechanism Map Summary
+        html += `
+        <div class="card" style="margin-top: 40px;">
+            <h3 style="font-size: 1.4rem; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+                <i class="fa-solid fa-layer-group"></i> Vocabulary & Mechanism Map
+            </h3>
+            <div style="overflow-x: auto; padding-bottom: 10px; margin: 0 -10px;">
+                <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 15px; min-width: 1000px; padding: 0 10px;">
+                    ${topic.chains.map((chain, index) => `
+                        <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-color); padding: 15px; border-radius: 8px; display: flex; flex-direction: column;">
+                            <div style="font-weight: 700; font-size: 0.95rem; margin-bottom: 8px; color: var(--accent-color); border-bottom: 1px solid var(--border-color); padding-bottom: 6px;">
+                                Chain ${index + 1}
+                            </div>
+                            <div style="font-size: 0.8rem; font-weight: 600; margin-bottom: 12px; min-height: 38px; line-height: 1.3; color: var(--text-primary);">
+                                ${chain.title}
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 8px; flex: 1;">
+                                ${chain.collocations.map((c, i) => `
+                                    <div style="border-left: 2px solid var(--accent-color); padding-left: 8px; line-height: 1.4; color: var(--text-secondary); font-size: 0.8rem;">
+                                        ${c}
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        </div>`;
+
         contentBody.innerHTML = html;
     }
 
