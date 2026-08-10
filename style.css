@@ -188,7 +188,7 @@ body {
 }
 
 .nav-section h3 {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: var(--text-secondary);
@@ -203,7 +203,7 @@ body {
 .nav-item {
     padding: 12px 25px;
     cursor: pointer;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     font-weight: 500;
     transition: all 0.2s ease;
     display: flex;
@@ -242,7 +242,7 @@ body {
     margin-top: auto;
     padding: 15px 25px;
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -270,7 +270,7 @@ body {
 }
 
 .sidebar.collapsed .nav-item i {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     margin: 0;
 }
 
