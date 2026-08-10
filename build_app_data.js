@@ -41,9 +41,6 @@ function parseTask1Files() {
         const strategyLines = headerSection.filter(line => line.startsWith('*')).map(line => line.replace('*', '').trim());
 
         let examples = [];
-        // The first section (index 0) is the title.
-        // The second section (index 1) is the Core Strategy block.
-        // The third section (index 2) is EXAMPLE 1.
         for (let i = 2; i < sections.length; i++) {
             const exContent = sections[i];
             const titleMatch = exContent.match(/EXAMPLE \d+: (.*)/);
@@ -58,9 +55,8 @@ function parseTask1Files() {
                 planningArr = planningMatch[1].split('\n').filter(line => line.startsWith('*')).map(line => line.replace('*', '').trim());
             }
 
-            // Create Individual HTML file for this chart using the style hiding technique
             let figureUrl = null;
-            const exampleNum = i - 1; // i=2 is Example 1, i=3 is Example 2, etc.
+            const exampleNum = i - 1; 
             
             if (rawHtml) {
                 const hideStyle = `
@@ -73,13 +69,8 @@ function parseTask1Files() {
                         height: 100% !important;
                         width: 100% !important;
                     }
-                    /* Hide redundant headings and prompts inside the iframe */
                     h2, .prompt, h3 { display: none !important; }
-                    
-                    /* Hide all containers */
                     .chart-container, .table-container { display: none !important; }
-                    
-                    /* Show only the target container */
                     .chart-container:nth-of-type(${exampleNum}), .table-container:nth-of-type(${exampleNum}) { 
                         display: block !important; 
                         margin: 0 !important; 
@@ -88,13 +79,10 @@ function parseTask1Files() {
                         height: 100% !important;
                         padding: 10px !important; 
                         box-sizing: border-box !important; 
-                        overflow: auto !important; /* Allow scroll inside iframe if content is truly too large */
+                        overflow: auto !important;
                     }
-                    
-                    /* Custom scrollbar to look clean */
                     ::-webkit-scrollbar { width: 6px; height: 6px; }
                     ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 4px; }
-
                     canvas {
                         width: 100% !important;
                         height: 95% !important;
@@ -103,7 +91,6 @@ function parseTask1Files() {
                 </style>
                 `;
                 
-                // Inject the style block before </head>
                 const modifiedHtml = rawHtml.replace('</head>', `${hideStyle}\n</head>`);
                 const filename = `${item.id}_ex${exampleNum}.html`;
                 fs.writeFileSync(path.join(individualDir, filename), modifiedHtml);
@@ -241,6 +228,45 @@ const lensesData = {
                     "maintain better mental health"
                 ],
                 paragraph: "Strong social relationships improve mental health by allowing individuals to receive emotional support during difficult times. Sharing personal challenges helps reduce feelings of loneliness and improves emotional resilience. Consequently, people manage stress more effectively, maintain better mental health, and experience greater overall well-being."
+            },
+            {
+                title: "Work-Life Balance → Reduced Burnout",
+                collocations: ["prioritize personal time", "reduce working hours", "alleviate mental fatigue", "improve sleep quality", "foster positive mindset", "prevent professional burnout"],
+                steps: [
+                    "Moderate working hours",
+                    "prioritize personal time",
+                    "alleviate mental fatigue",
+                    "improve sleep quality",
+                    "foster positive mindset",
+                    "prevent professional burnout"
+                ],
+                paragraph: "Limiting professional responsibilities helps individuals prioritize personal time, which is essential for alleviating mental fatigue. This directly improves sleep quality and fosters a positive mindset. Consequently, employees prevent professional burnout, maintain emotional stability, and perform better in their careers."
+            },
+            {
+                title: "Mindfulness Practice → Stress Reduction",
+                collocations: ["engage in mindfulness", "regulate emotional responses", "lower cortisol levels", "improve concentration", "enhance mental clarity", "reduce daily anxiety"],
+                steps: [
+                    "Mindfulness and meditation",
+                    "regulate emotional responses",
+                    "lower cortisol levels",
+                    "improve concentration",
+                    "enhance mental clarity",
+                    "reduce daily anxiety"
+                ],
+                paragraph: "Engaging in mindfulness practices allows people to regulate their emotional responses to stress, which lowers cortisol levels. This improves concentration and enhances mental clarity in high-pressure situations. As a result, individuals reduce daily anxiety, boost their emotional resilience, and enjoy peace of mind."
+            },
+            {
+                title: "Creative Outlets → Self-Expression",
+                collocations: ["pursue creative hobbies", "express complex emotions", "release accumulated tension", "boost dopamine levels", "enhance self-worth", "improve mood regulation"],
+                steps: [
+                    "Creative outlets",
+                    "express complex emotions",
+                    "release accumulated tension",
+                    "boost dopamine levels",
+                    "enhance self-worth",
+                    "improve mood regulation"
+                ],
+                paragraph: "Pursuing creative hobbies like painting or music allows individuals to express complex emotions that are hard to verbalize. This helps release accumulated tension and boosts dopamine levels in the brain. Consequently, creative expression enhances self-worth and plays a critical role in long-term mood regulation."
             }
         ]
     },
@@ -274,6 +300,59 @@ const lensesData = {
                     "minimize environmental pollution"
                 ],
                 paragraph: "Recycling benefits the environment by reducing household waste, thereby decreasing the amount of rubbish sent to landfills. This helps conserve natural resources and reduce energy consumption, since manufacturing products from recycled materials often requires fewer resources. Consequently, recycling minimizes environmental pollution, protects ecosystems, and supports sustainable living."
+            },
+            {
+                title: "Reforestation → Biodiversity Preservation",
+                collocations: ["restore native woodlands", "absorb carbon dioxide", "create natural habitats", "prevent soil erosion", "support diverse ecosystems", "preserve global biodiversity"],
+                steps: [
+                    "Reforestation efforts",
+                    "restore native woodlands",
+                    "absorb atmospheric carbon dioxide",
+                    "create natural habitats",
+                    "prevent soil erosion",
+                    "support diverse ecosystems",
+                    "preserve global biodiversity"
+                ],
+                paragraph: "Reforestation efforts restore native woodlands, which absorb vast amounts of atmospheric carbon dioxide. This process creates critical natural habitats and prevents soil erosion during heavy rains. As a result, planting trees supports diverse ecosystems and helps preserve global biodiversity from extinction."
+            },
+            {
+                title: "Sustainable Agriculture → Soil Conservation",
+                collocations: ["adopt organic farming", "eliminate synthetic pesticides", "enrich soil nutrients", "prevent chemical runoff", "protect groundwater quality", "ensure food security"],
+                steps: [
+                    "Sustainable agriculture",
+                    "eliminate synthetic pesticides",
+                    "enrich soil nutrients",
+                    "prevent chemical runoff",
+                    "protect groundwater quality",
+                    "ensure long-term food security"
+                ],
+                paragraph: "Adopting organic farming practices eliminates the dependency on synthetic pesticides, thereby enriching natural soil nutrients. This prevents toxic chemical runoff into nearby streams, which protects groundwater quality. Consequently, sustainable agriculture preserves arable land and ensures long-term food security."
+            },
+            {
+                title: "Green Transportation → Clean Air",
+                collocations: ["promote electric vehicles", "transition from combustion engines", "eliminate tailpipe emissions", "reduce urban smog", "improve public health", "mitigate global warming"],
+                steps: [
+                    "Promote electric vehicles",
+                    "transition from combustion engines",
+                    "eliminate tailpipe emissions",
+                    "reduce urban smog",
+                    "improve public health",
+                    "mitigate global warming"
+                ],
+                paragraph: "Promoting electric vehicles accelerates the transition away from fossil-fuel combustion engines, thereby eliminating harmful tailpipe emissions. This reduces urban smog and improves public health in congested cities. Ultimately, adopting green transportation mitigates global warming and supports clean air initiatives."
+            },
+            {
+                title: "Eco-Tourism → Habitat Protection",
+                collocations: ["encourage responsible travel", "fund conservation projects", "discourage wildlife poaching", "provide alternative incomes", "protect fragile ecosystems", "minimize carbon footprint"],
+                steps: [
+                    "Eco-tourism programs",
+                    "encourage responsible travel",
+                    "fund conservation projects",
+                    "discourage wildlife poaching",
+                    "provide alternative local incomes",
+                    "protect fragile ecosystems"
+                ],
+                paragraph: "Encouraging responsible travel through eco-tourism funds vital conservation projects in developing countries. This discourages illegal wildlife poaching by providing alternative local incomes for communities. Consequently, ecological travel protects fragile ecosystems while minimizing the carbon footprint of tourists."
             }
         ]
     },
@@ -306,6 +385,58 @@ const lensesData = {
                     "strengthen the local economy"
                 ],
                 paragraph: "Investing heavily in public infrastructure, such as new railways or airports, directly stimulates the construction sector. This generates thousands of immediate employment opportunities, substantially reducing national unemployment rates. As a result, newly employed citizens boost consumer spending, thereby strengthening the entire local economy."
+            },
+            {
+                title: "Small Business Subsidies → Entrepreneurial Innovation",
+                collocations: ["subsidize start-up companies", "reduce financial barriers", "foster market competition", "drive local innovation", "generate niche employment", "stimulate economic dynamism"],
+                steps: [
+                    "Subsidize start-up companies",
+                    "reduce financial barriers for entrepreneurs",
+                    "foster market competition",
+                    "drive local innovation",
+                    "generate niche employment",
+                    "stimulate economic dynamism"
+                ],
+                paragraph: "Subsidizing start-up companies reduces the initial financial barriers for entrepreneurs, which fosters healthy market competition. This drives local innovation and generates niche employment opportunities. Consequently, supporting small businesses stimulates overall economic dynamism and community wealth."
+            },
+            {
+                title: "Trade Deregulation → Global Market Expansion",
+                collocations: ["lower import tariffs", "facilitate cross-border trade", "expand customer bases", "increase business revenues", "stimulate international investment", "accelerate economic integration"],
+                steps: [
+                    "Lower import tariffs",
+                    "facilitate cross-border trade",
+                    "expand customer bases",
+                    "increase business revenues",
+                    "stimulate international investment",
+                    "accelerate economic integration"
+                ],
+                paragraph: "Lowering import tariffs facilitates cross-border trade, allowing domestic businesses to expand their customer bases globally. This increases business revenues and stimulates international investment in manufacturing sectors. As a result, trade deregulation accelerates economic integration and boosts national gross domestic product."
+            },
+            {
+                title: "Vocational Training Programs → Skilled Labor Supply",
+                collocations: ["fund practical apprenticeships", "bridge the skills gap", "increase employment rates", "enhance labor productivity", "attract manufacturing firms", "bolster industrial growth"],
+                steps: [
+                    "Fund practical apprenticeships",
+                    "bridge the skills gap",
+                    "increase employment rates",
+                    "enhance labor productivity",
+                    "attract manufacturing firms",
+                    "bolster industrial growth"
+                ],
+                paragraph: "Funding practical apprenticeship programs bridges the skills gap in technical fields, thereby increasing youth employment rates. This enhances overall labor productivity and attracts foreign manufacturing firms. Ultimately, a steady supply of skilled technicians bolsters industrial growth and raises household incomes."
+            },
+            {
+                title: "Green Technology Investment → Sustainable Industries",
+                collocations: ["invest in clean tech", "create green jobs", "reduce manufacturing wastes", "lower energy expenses", "improve corporate sustainability", "stimulate modern industries"],
+                steps: [
+                    "Invest in clean technology",
+                    "create green jobs",
+                    "reduce manufacturing wastes",
+                    "lower energy expenses",
+                    "improve corporate sustainability",
+                    "stimulate modern industries"
+                ],
+                paragraph: "Investing in clean technology creates high-paying green jobs and encourages companies to reduce manufacturing wastes. This helps lower energy expenses over time, which improves corporate sustainability. Consequently, green investments stimulate modern, future-proof industries that align with global climate goals."
             }
         ]
     },
@@ -337,6 +468,58 @@ const lensesData = {
                     "prevent social isolation"
                 ],
                 paragraph: "Social media platforms have eradicated geographical barriers by facilitating instant, free communication across the globe. This allows families separated by vast distances to effortlessly maintain international relationships via video calls. As a result, technology prevents social isolation and sustains crucial emotional bonds regardless of physical location."
+            },
+            {
+                title: "Telemedicine → Healthcare Accessibility",
+                collocations: ["implement virtual consultations", "bypass geographical distance", "reduce hospital wait times", "diagnose mild ailments", "streamline medical resources", "provide universal healthcare"],
+                steps: [
+                    "Virtual consultations",
+                    "bypass geographical distance",
+                    "reduce hospital wait times",
+                    "diagnose mild ailments",
+                    "streamline medical resources",
+                    "provide universal healthcare"
+                ],
+                paragraph: "Implementing virtual consultations allows doctors to bypass geographical distances and reach patients in remote areas. This reduces hospital wait times and helps diagnose mild ailments quickly without in-person visits. Consequently, telemedicine streamlines medical resources and moves society closer to universal healthcare access."
+            },
+            {
+                title: "E-Learning Platforms → Democratic Education",
+                collocations: ["publish educational resources online", "eliminate commuting expenses", "allow self-paced learning", "democratize academic access", "promote lifelong learning", "bridge educational inequality"],
+                steps: [
+                    "Publish educational resources online",
+                    "eliminate commuting expenses",
+                    "allow self-paced learning",
+                    "democratize academic access",
+                    "promote lifelong learning",
+                    "bridge educational inequality"
+                ],
+                paragraph: "Publishing educational resources online eliminates commuting expenses and allows students to engage in self-paced learning. This helps democratize academic access for disadvantaged demographics globally. Consequently, e-learning platforms promote lifelong learning and bridge the gap of educational inequality."
+            },
+            {
+                title: "Smart Cities → Energy Conservation",
+                collocations: ["integrate smart grid sensors", "optimize electricity distribution", "reduce power line waste", "minimize carbon footprints", "enhance urban sustainability", "lower public utility costs"],
+                steps: [
+                    "Integrate smart grid sensors",
+                    "optimize electricity distribution",
+                    "reduce power line waste",
+                    "minimize carbon footprints",
+                    "enhance urban sustainability",
+                    "lower public utility costs"
+                ],
+                paragraph: "Integrating smart grid sensors allows municipalities to optimize electricity distribution based on real-time demand. This reduces power line waste and minimizes the carbon footprint of city buildings. Therefore, smart cities enhance urban sustainability while lowering public utility costs for residents."
+            },
+            {
+                title: "Data Analytics → Personalized Services",
+                collocations: ["analyze consumer patterns", "identify custom preferences", "deliver tailored experiences", "maximize user engagement", "improve customer retention", "optimize marketing expenditures"],
+                steps: [
+                    "Analyze consumer patterns",
+                    "identify custom preferences",
+                    "deliver tailored experiences",
+                    "maximize user engagement",
+                    "improve customer retention",
+                    "optimize marketing expenditures"
+                ],
+                paragraph: "Analyzing consumer patterns with advanced algorithms allows businesses to identify custom preferences and deliver tailored experiences. This maximizes user engagement and improves customer retention. As a result, leveraging data analytics optimizes marketing expenditures and drives corporate profits."
             }
         ]
     },
@@ -355,6 +538,71 @@ const lensesData = {
                     "enhance graduate employability"
                 ],
                 paragraph: "Incorporating vocational training into university curriculums allows students to simulate real-world corporate challenges. This develops practical competencies, such as software proficiency or project management, which directly bridges the skills gap between academia and industry. Consequently, this hands-on experience drastically enhances graduate employability in a competitive market."
+            },
+            {
+                title: "Critical Thinking Skills → Independent Problem Solving",
+                collocations: ["encourage analytical debate", "evaluate conflicting arguments", "develop critical thinking", "make reasoned judgments", "avoid media manipulation", "foster intellectual independence"],
+                steps: [
+                    "Encourage analytical debate",
+                    "evaluate conflicting arguments",
+                    "develop critical thinking",
+                    "make reasoned judgments",
+                    "avoid media manipulation",
+                    "foster intellectual independence"
+                ],
+                paragraph: "Encouraging analytical debate in classrooms forces students to evaluate conflicting arguments rather than memorizing facts. This develops critical thinking skills, allowing students to make reasoned judgments in daily life. Consequently, critical education helps citizens avoid media manipulation and fosters intellectual independence."
+            },
+            {
+                title: "Inclusion of Arts → Creative Innovation",
+                collocations: ["integrate creative arts", "nurture divergent thinking", "enhance emotional intelligence", "inspire out-of-the-box ideas", "complement academic studies", "promote holistic development"],
+                steps: [
+                    "Integrate creative arts",
+                    "nurture divergent thinking",
+                    "enhance emotional intelligence",
+                    "inspire out-of-the-box ideas",
+                    "complement academic studies",
+                    "promote holistic development"
+                ],
+                paragraph: "Integrating creative arts into school curricula nurtures divergent thinking and enhances emotional intelligence in children. This inspires out-of-the-box ideas that complement traditional academic studies. Consequently, including arts in school promotes holistic development and prepares students for innovative careers."
+            },
+            {
+                title: "Bilingual Education → Cognitive Flexibility",
+                collocations: ["introduce foreign languages", "stimulate neurological pathways", "improve multitasking abilities", "foster cognitive flexibility", "enhance communication skills", "broaden career horizons"],
+                steps: [
+                    "Introduce foreign languages early",
+                    "stimulate neurological pathways",
+                    "improve multitasking abilities",
+                    "foster cognitive flexibility",
+                    "enhance communication skills",
+                    "broaden career horizons"
+                ],
+                paragraph: "Introducing foreign languages in primary school stimulates neurological pathways and improves multitasking abilities in children. This fosters cognitive flexibility, which enhances communication skills in multicultural societies. Ultimately, bilingual education broadens career horizons and improves long-term memory."
+            },
+            {
+                title: "Universal Primary Education → Illiteracy Eradication",
+                collocations: ["subsidize primary schools", "ensure classroom access", "eradicate youth illiteracy", "promote basic numeracy", "dismantle gender inequality", "empower marginalized communities"],
+                steps: [
+                    "Subsidize primary schools",
+                    "ensure classroom access",
+                    "eradicate youth illiteracy",
+                    "promote basic numeracy",
+                    "dismantle gender inequality",
+                    "empower marginalized communities"
+                ],
+                paragraph: "Subsidizing primary schools in impoverished regions ensures classroom access for every child. This is the most effective way to eradicate youth illiteracy and promote basic numeracy. As a result, universal education dismantles gender inequality, empowers marginalized communities, and reduces global poverty."
+            },
+            {
+                title: "Civic Education → Social Responsibility",
+                collocations: ["teach civic rights", "understand democratic processes", "appreciate public services", "foster social responsibility", "encourage voting participation", "build active citizens"],
+                steps: [
+                    "Teach civic rights and duties",
+                    "understand democratic processes",
+                    "appreciate public services",
+                    "foster social responsibility",
+                    "encourage voting participation",
+                    "build active citizens"
+                ],
+                paragraph: "Teaching civic rights and duties helps students understand democratic processes and appreciate public services. This fosters social responsibility, encouraging active voting participation when they reach adulthood. Ultimately, civic education builds active citizens who contribute positively to their communities."
             }
         ]
     },
@@ -373,6 +621,71 @@ const lensesData = {
                     "reduce national healthcare expenditures"
                 ],
                 paragraph: "Governments must promote preventive healthcare by encouraging regular physical exercise and healthy diets among citizens. This proactive approach significantly lowers the incidence of chronic diseases, such as obesity or diabetes, thereby alleviating immense pressure on public hospitals. Ultimately, a healthier population drastically reduces national healthcare expenditures."
+            },
+            {
+                title: "Sugar Taxation → Reduced Obesity Rates",
+                collocations: ["impose sugar taxes", "inflate soft drink prices", "discourage unhealthy purchases", "reduce sugar intake", "lower childhood obesity rates", "prevent chronic illnesses"],
+                steps: [
+                    "Impose sugar taxes",
+                    "inflate soft drink prices",
+                    "discourage unhealthy purchases",
+                    "reduce daily sugar intake",
+                    "lower childhood obesity rates",
+                    "prevent chronic illnesses"
+                ],
+                paragraph: "Imposing sugar taxes on processed products artificially inflates soft drink prices, discouraging unhealthy purchases by consumers. This reduces daily sugar intake, leading to lower childhood obesity rates. Consequently, fiscal healthcare policies help prevent chronic illnesses like diabetes and heart disease."
+            },
+            {
+                title: "Physical Education → Cardio Fitness",
+                collocations: ["mandate physical education", "promote daily movement", "improve cardiovascular fitness", "burn excess calories", "prevent sedentary diseases", "foster lifetime fitness habits"],
+                steps: [
+                    "Mandate physical education",
+                    "promote daily movement",
+                    "improve cardiovascular fitness",
+                    "burn excess calories",
+                    "prevent sedentary diseases",
+                    "foster lifetime fitness habits"
+                ],
+                paragraph: "Mandating daily physical education in schools promotes movement and improves cardiovascular fitness among children. This burns excess calories, which is essential to prevent sedentary diseases like obesity. Ultimately, school sports programs foster lifetime fitness habits and support physical health."
+            },
+            {
+                title: "Mental Health Campaigns → Reduced Social Stigma",
+                collocations: ["fund public mental health campaigns", "increase psychological literacy", "dismantle social stigma", "encourage seeking help", "reduce depression rates", "improve public well-being"],
+                steps: [
+                    "Fund public mental health campaigns",
+                    "increase psychological literacy",
+                    "dismantle social stigma",
+                    "encourage seeking help early",
+                    "reduce depression rates",
+                    "improve public well-being"
+                ],
+                paragraph: "Funding public mental health campaigns increases psychological literacy, helping to dismantle social stigma surrounding counseling. This encourages citizens to seek help early when experiencing distress, reducing chronic depression rates. As a result, public awareness drives improve the overall well-being of communities."
+            },
+            {
+                title: "Clean Water Initiatives → Disease Prevention",
+                collocations: ["install water filtration", "eliminate waterborne pathogens", "prevent cholera outbreaks", "improve sanitation standards", "reduce infant mortality", "support public hygiene"],
+                steps: [
+                    "Install water filtration infrastructure",
+                    "eliminate waterborne pathogens",
+                    "prevent cholera outbreaks",
+                    "improve sanitation standards",
+                    "reduce infant mortality",
+                    "support public hygiene"
+                ],
+                paragraph: "Installing clean water filtration infrastructure eliminates waterborne pathogens in rural areas. This directly prevents cholera outbreaks and improves local sanitation standards. Consequently, access to clean water reduces infant mortality rates and supports the baseline public hygiene of developing nations."
+            },
+            {
+                title: "Sleep Hygiene Education → Sleep Quality",
+                collocations: ["teach sleep hygiene", "regulate circadian rhythms", "improve sleep quality", "boost immune systems", "enhance daytime productivity", "promote physical health"],
+                steps: [
+                    "Teach sleep hygiene practices",
+                    "regulate circadian rhythms",
+                    "improve sleep quality",
+                    "boost immune systems",
+                    "enhance daytime productivity",
+                    "promote physical health"
+                ],
+                paragraph: "Teaching sleep hygiene practices helps individuals regulate circadian rhythms and improve sleep quality. Better rest boosts immune systems, which enhances daytime productivity and focus. Therefore, educating the public on sleep hygiene is a simple yet powerful way to promote long-term physical health."
             }
         ]
     },
@@ -391,6 +704,71 @@ const lensesData = {
                     "create a cohesive society"
                 ],
                 paragraph: "Mandating community service in high schools exposes youth directly to real-world societal challenges, such as poverty or homelessness. Interacting with vulnerable populations fosters deep empathy and cultivates a profound sense of civic responsibility. As a result, these programs are instrumental in creating a more cohesive, compassionate society."
+            },
+            {
+                title: "Public Parks → Community Cohesion",
+                collocations: ["construct green public parks", "provide free recreational spaces", "encourage outdoor interactions", "facilitate community events", "foster neighborhood trust", "improve community cohesion"],
+                steps: [
+                    "Construct green public parks",
+                    "provide free recreational spaces",
+                    "encourage outdoor interactions",
+                    "facilitate community events",
+                    "foster neighborhood trust",
+                    "improve community cohesion"
+                ],
+                paragraph: "Constructing green public parks provides free recreational spaces that encourage outdoor interactions among diverse groups. This facilitates local community events and helps foster neighborhood trust. Consequently, green urban planning is highly effective at improving community cohesion and reducing crime."
+            },
+            {
+                title: "Youth Clubs → Decreased Delinquency",
+                collocations: ["fund youth sports clubs", "occupy adolescents' free time", "teach discipline and teamwork", "discourage anti-social behaviors", "reduce juvenile delinquency", "promote safe environments"],
+                steps: [
+                    "Fund youth sports clubs",
+                    "occupy adolescents' free time",
+                    "teach discipline and teamwork",
+                    "discourage anti-social behaviors",
+                    "reduce juvenile delinquency",
+                    "promote safe environments"
+                ],
+                paragraph: "Funding youth sports clubs occupies adolescents' free time with positive, structured activities that teach discipline and teamwork. This discourages anti-social behaviors and reduces juvenile delinquency in high-risk neighborhoods. As a result, local investments build safer environments for families."
+            },
+            {
+                title: "Inclusive Workplaces → Social Mobility",
+                collocations: ["promote inclusive hiring", "dismantle corporate glass ceilings", "empower marginalized demographics", "increase household incomes", "support social mobility", "reduce wealth inequality"],
+                steps: [
+                    "Promote inclusive hiring practices",
+                    "dismantle corporate glass ceilings",
+                    "empower marginalized demographics",
+                    "increase household incomes",
+                    "support social mobility",
+                    "reduce wealth inequality"
+                ],
+                paragraph: "Promoting inclusive hiring practices helps dismantle corporate glass ceilings and empowers marginalized demographics to build careers. This increases household incomes, thereby supporting upward social mobility. Ultimately, equal employment opportunities reduce systemic wealth inequality and foster social justice."
+            },
+            {
+                title: "Volunteering Programs → Social Integration",
+                collocations: ["organize community volunteering", "connect diverse demographics", "bridge generational divides", "foster mutual understanding", "reduce social isolation", "strengthen support networks"],
+                steps: [
+                    "Organize community volunteering",
+                    "connect diverse demographics",
+                    "bridge generational divides",
+                    "foster mutual understanding",
+                    "reduce social isolation",
+                    "strengthen support networks"
+                ],
+                paragraph: "Organizing community volunteering connects diverse demographics who would otherwise never interact. This bridges generational divides and fosters mutual understanding among residents. Consequently, public volunteering programs reduce social isolation and strengthen local support networks."
+            },
+            {
+                title: "Universal Design → Accessibility",
+                collocations: ["implement universal design", "install ramps and elevators", "enable independent mobility", "support disabled citizens", "promote social inclusion", "guarantee equal access"],
+                steps: [
+                    "Implement universal design principles",
+                    "install ramps and elevators",
+                    "enable independent mobility",
+                    "support disabled citizens",
+                    "promote social inclusion",
+                    "guarantee equal access"
+                ],
+                paragraph: "Implementing universal design principles in architecture forces builders to install ramps and elevators. This enables independent mobility for disabled citizens, allowing them to navigate spaces without assistance. Therefore, structural accessibility changes promote social inclusion and guarantee equal access to public life."
             }
         ]
     },
@@ -409,6 +787,71 @@ const lensesData = {
                     "promote international tolerance"
                 ],
                 paragraph: "Immersing oneself in foreign environments through international travel or study forces individuals to navigate complex cultural differences. This direct interaction effectively dismantles preconceived stereotypes and encourages students to adopt a globalized perspective. Therefore, cross-cultural exposure is highly effective at promoting international tolerance and understanding."
+            },
+            {
+                title: "Heritage Preservation → Cultural Identity",
+                collocations: ["restore historical monuments", "protect traditional crafts", "preserve cultural identity", "pass down oral histories", "foster national pride", "combat cultural homogenization"],
+                steps: [
+                    "Restore historical monuments",
+                    "protect traditional crafts",
+                    "preserve cultural identity",
+                    "pass down oral histories",
+                    "foster national pride",
+                    "combat cultural homogenization"
+                ],
+                paragraph: "Restoring historical monuments and protecting traditional crafts helps communities preserve their unique cultural identity. This allows elders to pass down oral histories to younger generations, fostering a strong sense of national pride. Consequently, active heritage preservation combats cultural homogenization in a globalized world."
+            },
+            {
+                title: "Cultural Festivals → Intercultural Harmony",
+                collocations: ["sponsor multicultural festivals", "celebrate ethnic diversity", "showcase traditional arts", "promote mutual respect", "foster intercultural harmony", "dismantle racial prejudices"],
+                steps: [
+                    "Sponsor multicultural festivals",
+                    "celebrate ethnic diversity",
+                    "showcase traditional arts",
+                    "promote mutual respect",
+                    "foster intercultural harmony",
+                    "dismantle racial prejudices"
+                ],
+                paragraph: "Sponsoring multicultural festivals celebrates ethnic diversity and showcases traditional arts within a city. This promotes mutual respect among different ethnic groups and fosters intercultural harmony. As a result, public cultural events are essential tools to dismantle racial prejudices and build tolerant societies."
+            },
+            {
+                title: "Language Revitalization → Indigenous Heritage",
+                collocations: ["fund language immersion programs", "teach endangered languages", "revitalize ancestral wisdom", "strengthen community identity", "preserve indigenous heritage", "enrich linguistic diversity"],
+                steps: [
+                    "Fund language immersion programs",
+                    "teach endangered languages in schools",
+                    "revitalize ancestral wisdom",
+                    "strengthen community identity",
+                    "preserve indigenous heritage",
+                    "enrich linguistic diversity"
+                ],
+                paragraph: "Funding language immersion programs allows educators to teach endangered languages to young children. This revitalizes ancestral wisdom and strengthens community identity in indigenous regions. Ultimately, language preservation protects precious heritage and enriches global linguistic diversity."
+            },
+            {
+                title: "Museum Subsidies → Public Education",
+                collocations: ["subsidize historical museums", "offer free admission", "increase cultural literacy", "educate children on historical events", "foster scientific curiosity", "promote national heritage"],
+                steps: [
+                    "Subsidize historical museums",
+                    "offer free public admission",
+                    "increase cultural literacy",
+                    "educate children on historical events",
+                    "foster scientific curiosity",
+                    "promote national heritage"
+                ],
+                paragraph: "Subsidizing historical museums allows them to offer free public admission, drastically increasing cultural literacy among families. This helps educate children on historical events and fosters scientific curiosity outside the classroom. Therefore, museum subsidies are key investments in promoting national heritage and public education."
+            },
+            {
+                title: "Global Exchange Programs → International Collaboration",
+                collocations: ["sponsor student exchange programs", "expose scholars to different perspectives", "foster international friendships", "facilitate joint research", "solve global challenges", "promote peaceful diplomacy"],
+                steps: [
+                    "Sponsor student exchange programs",
+                    "expose scholars to different perspectives",
+                    "foster international friendships",
+                    "facilitate joint research",
+                    "solve global challenges",
+                    "promote peaceful diplomacy"
+                ],
+                paragraph: "Sponsoring student exchange programs exposes young scholars to different educational perspectives, fostering lifelong international friendships. These networks later facilitate joint research and collaborative business ventures. Consequently, global exchanges help solve transnational challenges and promote peaceful diplomacy."
             }
         ]
     },
@@ -427,6 +870,71 @@ const lensesData = {
                     "achieve public policy goals"
                 ],
                 paragraph: "Governments can effectively combat issues like junk food consumption or plastic waste by implementing prohibitive taxation. This artificially inflates the prices of harmful goods, which naturally suppresses mass consumer demand. By targeting the public's financial habits, authorities can force rapid behavioral change and successfully achieve public policy goals."
+            },
+            {
+                title: "Subsidies → Clean Energy Adoption",
+                collocations: ["subsidize solar panels", "lower purchase costs", "encourage residential installation", "reduce electric grid demand", "cut carbon footprints", "accelerate energy transition"],
+                steps: [
+                    "Subsidize solar panels",
+                    "lower purchase costs for families",
+                    "encourage residential installation",
+                    "reduce electric grid demand",
+                    "cut carbon footprints",
+                    "accelerate energy transition"
+                ],
+                paragraph: "Subsidizing solar panels lowers the initial purchase costs for households, encouraging residential installations. This reduces demand on the national electric grid and cuts carbon footprints at the neighborhood level. Consequently, government financial incentives successfully accelerate the transition to clean energy."
+            },
+            {
+                title: "Fines → Industrial Regulation",
+                collocations: ["impose heavy fines on polluters", "enforce strict environmental laws", "discourage illegal waste dumping", "force corporate compliance", "protect local ecosystems", "improve corporate responsibility"],
+                steps: [
+                    "Impose heavy fines on polluters",
+                    "enforce strict environmental laws",
+                    "discourage illegal waste dumping",
+                    "force corporate compliance",
+                    "protect local ecosystems",
+                    "improve corporate responsibility"
+                ],
+                paragraph: "Imposing heavy fines on industrial polluters enforces strict environmental laws and discourages illegal waste dumping in rivers. This forces corporate compliance with safety regulations, thereby protecting local ecosystems. Ultimately, punitive regulations improve corporate responsibility and shield communities from pollution."
+            },
+            {
+                title: "Welfare Benefits → Reduced Poverty Rates",
+                collocations: ["distribute monthly social security", "eliminate absolute poverty", "secure access to nutrition", "improve health outcomes", "boost local economies", "promote social security"],
+                steps: [
+                    "Distribute monthly social security benefits",
+                    "eliminate absolute poverty",
+                    "secure access to basic nutrition",
+                    "improve health outcomes",
+                    "boost local economies",
+                    "promote social security"
+                ],
+                paragraph: "Distributing monthly social security benefits directly to low-income families helps eliminate absolute poverty. This guarantees secure access to basic nutrition and housing, which improves health outcomes. As a result, financial welfare cushions boost local economies by increasing the spending power of citizens."
+            },
+            {
+                title: "Public Infrastructure Funding → Traffic Reduction",
+                collocations: ["allocate funds to railways", "expand public transit", "provide commuting alternatives", "discourage car dependence", "reduce traffic congestion", "improve commute times"],
+                steps: [
+                    "Allocate funds to railways",
+                    "expand public transit infrastructure",
+                    "provide commuting alternatives",
+                    "discourage car dependence",
+                    "reduce traffic congestion",
+                    "improve commute times"
+                ],
+                paragraph: "Allocating public funds to expand railway networks provides citizens with reliable commuting alternatives. This discourages car dependence in growing metropolitan zones, thereby reducing traffic congestion. Consequently, government infrastructure investments improve daily commute times and decrease air pollution."
+            },
+            {
+                title: "Mandatory Labeling → Consumer Awareness",
+                collocations: ["mandate nutrition labeling", "display sugar content clearly", "inform consumer purchases", "promote healthier diets", "discourage junk food buying", "reduce obesity rates"],
+                steps: [
+                    "Mandate nutrition labeling",
+                    "display sugar and fat contents clearly",
+                    "inform consumer purchases",
+                    "promote healthier diets",
+                    "discourage junk food buying",
+                    "reduce obesity rates"
+                ],
+                paragraph: "Mandating clear nutrition labeling on food packages displays sugar and fat contents clearly at the point of sale. This informs consumer purchases and promotes healthier diets among families. As a result, mandatory labeling regulations discourage junk food buying and play a role in reducing obesity rates."
             }
         ]
     },
@@ -445,6 +953,71 @@ const lensesData = {
                     "alleviate urban traffic congestion"
                 ],
                 paragraph: "By heavily subsidizing underground mass transit networks, cities provide citizens with faster, reliable alternatives to driving. This incentivizes shared mobility and drastically reduces private vehicle dependency during rush hours. Consequently, expanding public transport is the most effective method for permanently alleviating urban traffic congestion."
+            },
+            {
+                title: "Bicycle Lanes → Sustainable Commuting",
+                collocations: ["construct dedicated bicycle lanes", "ensure cyclist safety", "encourage cycling over driving", "reduce traffic volumes", "improve air quality", "promote physical fitness"],
+                steps: [
+                    "Construct dedicated bicycle lanes",
+                    "ensure cyclist safety",
+                    "encourage cycling over driving",
+                    "reduce traffic volumes",
+                    "improve air quality",
+                    "promote physical fitness"
+                ],
+                paragraph: "Constructing dedicated bicycle lanes ensures cyclist safety and encourages citizens to cycle instead of driving. This reduces traffic volumes in city centers, thereby improving local air quality. Consequently, cycle infrastructure supports sustainable commuting while promoting physical fitness among residents."
+            },
+            {
+                title: "Affordable Housing → Reduced Homelessness",
+                collocations: ["build affordable public housing", "subsidize rent expenses", "secure shelter for low-income families", "reduce street homelessness", "stabilize households", "support social welfare"],
+                steps: [
+                    "Build affordable public housing",
+                    "subsidize rent expenses",
+                    "secure shelter for low-income families",
+                    "reduce street homelessness",
+                    "stabilize households",
+                    "support social welfare"
+                ],
+                paragraph: "Building affordable public housing and subsidizing rent expenses secures shelter for low-income families. This directly reduces street homelessness, providing a stable environment where children can study. Ultimately, housing infrastructure projects stabilize vulnerable households and support overall social welfare."
+            },
+            {
+                title: "Pedestrian Zones → Retail Growth",
+                collocations: ["pedestrianize shopping streets", "eliminate vehicle traffic", "create safe walking spaces", "encourage window shopping", "boost local retail sales", "promote city tourism"],
+                steps: [
+                    "Pedestrianize shopping streets",
+                    "eliminate vehicle traffic",
+                    "create safe walking spaces",
+                    "encourage window shopping",
+                    "boost local retail sales",
+                    "promote city tourism"
+                ],
+                paragraph: "Pedestrianizing downtown shopping streets eliminates vehicle traffic and creates safe walking spaces for families. This encourages window shopping and boosts local retail sales as pedestrian foot traffic increases. Consequently, pedestrian infrastructure revitalizes city centers and promotes tourism."
+            },
+            {
+                title: "Renewable Grids → Energy Independence",
+                collocations: ["construct wind turbines", "integrate clean energy grids", "reduce fossil fuel imports", "lower national energy bills", "secure power grids", "combat climate change"],
+                steps: [
+                    "Construct wind turbines",
+                    "integrate clean energy grids",
+                    "reduce fossil fuel imports",
+                    "lower national energy bills",
+                    "secure power grids",
+                    "combat climate change"
+                ],
+                paragraph: "Constructing wind turbines and integrating clean energy grids reduces a nation's dependence on foreign fossil fuel imports. This lowers national energy bills and secures the power grid against resource shortages. As a result, renewable infrastructure supports energy independence while helping to combat global climate change."
+            },
+            {
+                title: "Waste Management Systems → Environmental Protection",
+                collocations: ["upgrade waste management systems", "implement organic composting", "divert trash from landfills", "reduce methane emissions", "prevent soil contamination", "support circular economies"],
+                steps: [
+                    "Upgrade waste management systems",
+                    "implement organic composting",
+                    "divert trash from landfills",
+                    "reduce methane emissions",
+                    "prevent soil contamination",
+                    "support circular economies"
+                ],
+                paragraph: "Upgrading municipal waste management systems allows cities to implement organic composting programs. This diverts trash from landfills, reducing harmful methane emissions. Ultimately, advanced waste infrastructure prevents soil contamination and supports sustainable, circular economies."
             }
         ]
     },
@@ -463,6 +1036,71 @@ const lensesData = {
                     "drive market innovation"
                 ],
                 paragraph: "When consumers actively boycott unethical or polluting products, they exert immense financial pressure directly on manufacturers. Because businesses rely entirely on consumer demand, they are forced to adopt sustainable manufacturing processes to survive. Thus, ethical purchasing is a powerful tool for enforcing corporate accountability and driving market innovation."
+            },
+            {
+                title: "Mass Advertising → Emotional Unsatisfaction",
+                collocations: ["manufacture consumer desires", "promote luxury lifestyles", "foster feelings of inadequacy", "drive impulsive spending", "accumulate personal debt", "cause psychological stress"],
+                steps: [
+                    "Manufacture consumer desires",
+                    "promote luxury lifestyles in advertisements",
+                    "foster feelings of inadequacy",
+                    "drive impulsive spending",
+                    "accumulate personal debt",
+                    "cause psychological stress"
+                ],
+                paragraph: "Mass advertising manufactures consumer desires by constantly promoting luxury lifestyles. This fosters feelings of inadequacy among citizens who cannot afford these goods, driving impulsive spending. As a result, consumers accumulate personal debt, causing severe psychological stress and dissatisfaction."
+            },
+            {
+                title: "Fast Fashion → Environmental Destruction",
+                collocations: ["produce cheap synthetic clothing", "encourage throwaway fashion", "increase textile waste", "pollute water systems", "skyrocket carbon emissions", "deplete raw resources"],
+                steps: [
+                    "Produce cheap synthetic clothing",
+                    "encourage throwaway fashion habits",
+                    "increase textile waste in landfills",
+                    "pollute water systems",
+                    "skyrocket carbon emissions",
+                    "deplete raw resources"
+                ],
+                paragraph: "The fast fashion industry produces cheap synthetic clothing, encouraging a throwaway culture where garments are discarded after few wears. This increases textile waste in landfills and pollutes water systems with microplastics. Ultimately, cheap manufacturing habits skyrocket carbon emissions and deplete raw resources."
+            },
+            {
+                title: "Buy Local Campaigns → Regional Prosperity",
+                collocations: ["support local businesses", "keep capital in communities", "create regional jobs", "reduce transportation emissions", "foster community relations", "strengthen regional economies"],
+                steps: [
+                    "Support local businesses",
+                    "keep capital inside communities",
+                    "create regional jobs",
+                    "reduce transportation emissions",
+                    "foster community relations",
+                    "strengthen regional economies"
+                ],
+                paragraph: "Buying local encourages citizens to support independent neighborhood businesses, keeping capital inside the community. This creates regional jobs and reduces transportation emissions by minimizing shipping distances. Consequently, buy local campaigns foster community relations and strengthen regional economies."
+            },
+            {
+                title: "Minimalist Lifestyles → Financial Freedom",
+                collocations: ["embrace minimalist lifestyles", "curb impulse buying", "reduce household clutter", "increase monthly savings", "achieve financial freedom", "reduce carbon footprints"],
+                steps: [
+                    "Embrace minimalist lifestyles",
+                    "curb impulse buying",
+                    "reduce household clutter",
+                    "increase monthly savings",
+                    "achieve financial freedom",
+                    "reduce carbon footprints"
+                ],
+                paragraph: "Embracing minimalist lifestyles helps individuals curb impulse buying and reduce household clutter. This significantly increases monthly savings, allowing families to achieve financial freedom and avoid debt. Ultimately, buying less reduces personal carbon footprints and encourages mindful living."
+            },
+            {
+                title: "Single-Use Bans → Plastic Waste Reduction",
+                collocations: ["ban single-use plastics", "promote reusable bags", "reduce plastic bag usage", "minimize marine pollution", "protect aquatic wildlife", "encourage green behaviors"],
+                steps: [
+                    "Ban single-use plastics",
+                    "promote reusable shopping bags",
+                    "reduce plastic bag usage",
+                    "minimize marine pollution",
+                    "protect aquatic wildlife",
+                    "encourage green behaviors"
+                ],
+                paragraph: "Banning single-use plastic cups and straws forces supermarkets to promote reusable shopping bags. This reduces plastic bag usage and minimizes marine pollution in coastal zones. Consequently, single-use bans protect aquatic wildlife and encourage green behaviors among the public."
             }
         ]
     }

@@ -25,13 +25,8 @@
                         height: 100% !important;
                         width: 100% !important;
                     }
-                    /* Hide redundant headings and prompts inside the iframe */
                     h2, .prompt, h3 { display: none !important; }
-                    
-                    /* Hide all containers */
                     .chart-container, .table-container { display: none !important; }
-                    
-                    /* Show only the target container */
                     .chart-container:nth-of-type(4), .table-container:nth-of-type(4) { 
                         display: block !important; 
                         margin: 0 !important; 
@@ -40,13 +35,10 @@
                         height: 100% !important;
                         padding: 10px !important; 
                         box-sizing: border-box !important; 
-                        overflow: auto !important; /* Allow scroll inside iframe if content is truly too large */
+                        overflow: auto !important;
                     }
-                    
-                    /* Custom scrollbar to look clean */
                     ::-webkit-scrollbar { width: 6px; height: 6px; }
                     ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 4px; }
-
                     canvas {
                         width: 100% !important;
                         height: 95% !important;
