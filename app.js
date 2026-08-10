@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                             <div style="display: flex; flex-direction: column; gap: 8px; flex: 1;">
                                 ${chain.collocations.map((c, i) => `
-                                    <div style="border-left: 2px solid var(--accent-color); padding-left: 8px; line-height: 1.4; color: var(--text-secondary); font-size: 0.8rem;">
+                                    <div style="border-left: 2px solid var(--accent-color); padding-left: 8px; line-height: 1.4; color: #ffffff; font-size: 0.8rem;">
                                         ${c}
                                     </div>
                                 `).join('')}

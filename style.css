@@ -471,6 +471,10 @@ body.dark-mode .chart-wrapper {
     text-align: left;
 }
 
+.data-table td {
+    color: #ffffff !important;
+}
+
 .data-table th {
     background: rgba(255, 255, 255, 0.1);
     color: var(--accent-color);
