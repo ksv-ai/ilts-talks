@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bar Chart Figures</title>
+    <title>Bar Chart Figures (Extended)</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
@@ -28,6 +28,18 @@
         <h2>Figure 3: Stacked Bar Chart (Electricity Generation)</h2>
         <div class="prompt">PROMPT: The stacked bar chart shows the total amount of electricity generated in a specific country, and the fuel sources used, in 1990, 2000, and 2010 (in Terawatt hours). Summarise the information.</div>
         <canvas id="chart3"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h2>Figure 4: Horizontal Bar Chart (Coffee Consumption)</h2>
+        <div class="prompt">PROMPT: The horizontal bar chart shows the top five countries with the highest coffee consumption per capita in 2021 (in kg). Summarise the information.</div>
+        <canvas id="chart4"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h2>Figure 5: Negative Values (Profit & Loss)</h2>
+        <div class="prompt">PROMPT: The bar chart shows the net profit and loss of a specific technology company over a five-year period from 2018 to 2022 (in Million USD). Summarise the information.</div>
+        <canvas id="chart5"></canvas>
     </div>
 
     <script>
@@ -73,6 +85,38 @@
                 responsive: true, 
                 scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true } } 
             }
+        });
+        
+        // Chart 4 (Horizontal)
+        new Chart(document.getElementById('chart4'), {
+            type: 'bar',
+            data: {
+                labels: ['Finland', 'Norway', 'Iceland', 'Denmark', 'Netherlands'],
+                datasets: [
+                    { label: 'Coffee Consumed (kg per capita)', data: [12.0, 9.9, 9.0, 8.7, 8.4], backgroundColor: '#5d4037' }
+                ]
+            },
+            options: { indexAxis: 'y', responsive: true, scales: { x: { beginAtZero: true, max: 15 } } }
+        });
+        
+        // Chart 5 (Negative Values)
+        new Chart(document.getElementById('chart5'), {
+            type: 'bar',
+            data: {
+                labels: ['2018', '2019', '2020', '2021', '2022'],
+                datasets: [
+                    { 
+                        label: 'Net Profit/Loss (Million USD)', 
+                        data: [15, 5, -10, -2, 8], 
+                        backgroundColor: function(context) {
+                            var index = context.dataIndex;
+                            var value = context.dataset.data[index];
+                            return value < 0 ? '#e74c3c' : '#2ecc71'; 
+                        }
+                    }
+                ]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true } } }
         });
     </script>
 </body>

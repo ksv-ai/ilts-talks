@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Line Graph Figures</title>
+    <title>Line Graph Figures (Extended)</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
@@ -28,6 +28,18 @@
         <h2>Figure 3: Extreme Fluctuations (Oil Price)</h2>
         <div class="prompt">PROMPT: The graph shows the fluctuation in the price of a barrel of oil over a 12-month period in 2020 (in USD). Summarise the information.</div>
         <canvas id="chart3"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h2>Figure 4: Stable / Flat Trends (Sugar Consumption)</h2>
+        <div class="prompt">PROMPT: The line graph shows the average weekly sugar consumption per household in two countries over a ten-year period (in kg). Summarise the information.</div>
+        <canvas id="chart4"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h2>Figure 5: Highly Correlated Trends (Unemployment vs Crime)</h2>
+        <div class="prompt">PROMPT: The line graph shows the unemployment rate (%) and the crime rate (incidents per 1000 people) in a specific city between 1995 and 2015. Summarise the information.</div>
+        <canvas id="chart5"></canvas>
     </div>
 
     <script>
@@ -73,6 +85,38 @@
                 }]
             },
             options: { responsive: true, scales: { y: { beginAtZero: true } } }
+        });
+        
+        // Chart 4
+        new Chart(document.getElementById('chart4'), {
+            type: 'line',
+            data: {
+                labels: ['2010', '2012', '2014', '2016', '2018', '2020'],
+                datasets: [
+                    { label: 'Country A', data: [1.5, 1.5, 1.4, 1.5, 1.6, 1.5], borderColor: '#8e44ad', fill: false },
+                    { label: 'Country B', data: [0.8, 0.8, 0.9, 0.8, 0.7, 0.8], borderColor: '#f39c12', fill: false }
+                ]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true, max: 2.0 } } }
+        });
+        
+        // Chart 5 (Dual Axis)
+        new Chart(document.getElementById('chart5'), {
+            type: 'line',
+            data: {
+                labels: ['1995', '2000', '2005', '2010', '2015'],
+                datasets: [
+                    { label: 'Unemployment Rate (%)', data: [4, 8, 5, 9, 3], borderColor: '#c0392b', fill: false, yAxisID: 'y' },
+                    { label: 'Crime Rate (per 1000)', data: [40, 85, 45, 90, 25], borderColor: '#2980b9', fill: false, yAxisID: 'y1' }
+                ]
+            },
+            options: { 
+                responsive: true, 
+                scales: { 
+                    y: { type: 'linear', display: true, position: 'left', beginAtZero: true, max: 12 },
+                    y1: { type: 'linear', display: true, position: 'right', beginAtZero: true, max: 120, grid: { drawOnChartArea: false } }
+                } 
+            }
         });
     </script>
 </body>

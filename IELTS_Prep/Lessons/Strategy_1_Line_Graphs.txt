@@ -1,7 +1,7 @@
 IELTS TASK 1 STRATEGY: LINE GRAPHS
 --------------------------------------------------
 1. CORE STRATEGY & WHAT TO COMPARE:
-Line graphs ALWAYS show change over time. 
+* Line graphs ALWAYS show change over time. 
 * Compare the overall trends (up, down, flat).
 * Compare the start and end points.
 * Describe where lines intersect (cross over).
@@ -68,3 +68,41 @@ Overall, the price of oil experienced extreme volatility during the 12-month per
 At the beginning of the year, oil was priced at its peak of $60 per barrel in January. However, this was followed by a catastrophic decline. After dropping slightly to $55 in February, the price plummeted to $30 in March and hit rock bottom at a mere $15 per barrel in April. 
 
 Following this low point, the market saw a period of steady recovery. From May to August, the price climbed consistently, recovering to $45. This upward trajectory was momentarily interrupted in autumn, as prices dipped to $38 in September and $35 in October. Nevertheless, the year concluded on a positive note, with prices rallying once again to finish December at $50 per barrel, remaining exactly $10 lower than the January peak. (193 words)
+
+--------------------------------------------------
+EXAMPLE 4: STABLE / FLAT TRENDS
+(Focus: Describing data that does not change significantly)
+
+CHART DATA (Weekly consumption of sugar per household, 2010-2020 in kg):
+Country A: 2010(1.5), 2012(1.5), 2014(1.4), 2016(1.5), 2018(1.6), 2020(1.5)
+Country B: 2010(0.8), 2012(0.8), 2014(0.9), 2016(0.8), 2018(0.7), 2020(0.8)
+
+PROMPT: The line graph shows the average weekly sugar consumption per household in two countries over a ten-year period.
+
+BAND 9 ESSAY:
+The line graph compares the average amount of sugar consumed weekly by households in Country A and Country B between 2010 and 2020, measured in kilograms.
+
+Overall, it is immediately apparent that the consumption patterns in both nations remained remarkably stable over the entire ten-year period. Furthermore, households in Country A consistently consumed nearly double the amount of sugar compared to those in Country B.
+
+Looking specifically at Country A, the weekly household consumption of sugar began the period at exactly 1.5 kg in 2010. This figure remained entirely static until 2012, before experiencing a negligible dip to 1.4 kg in 2014. The consumption levels then recovered to 1.5 kg in 2016 and rose marginally to a peak of 1.6 kg in 2018. However, this slight increase was short-lived, and the figure returned to its original baseline of 1.5 kg by the end of the period in 2020.
+
+A similar pattern of stability was observed in Country B, albeit at a significantly lower volume. Commencing the period at 0.8 kg per week in 2010, the figure saw only minor fluctuations. It peaked slightly at 0.9 kg in 2014, fell to a low of 0.7 kg in 2018, and ultimately finished the decade exactly where it started, at 0.8 kg in 2020. (214 words)
+
+--------------------------------------------------
+EXAMPLE 5: HIGHLY CORRELATED TRENDS
+(Focus: Describing two sets of data that move in tandem)
+
+CHART DATA (Unemployment rate vs Crime rate, 1995-2015):
+Unemployment (%): 1995(4), 2000(8), 2005(5), 2010(9), 2015(3)
+Crime (Incidents per 1000): 1995(40), 2000(85), 2005(45), 2010(90), 2015(25)
+
+PROMPT: The line graph shows the unemployment rate and the crime rate in a specific city between 1995 and 2015.
+
+BAND 9 ESSAY:
+The provided line graph illustrates the changes in both the unemployment rate (as a percentage) and the overall crime rate (measured in incidents per 1,000 citizens) within a specific city over a twenty-year period from 1995 to 2015.
+
+Overall, it is highly evident that there is a strong, positive correlation between the two metrics. The crime rate closely mirrored the fluctuations in the unemployment rate throughout the entire two-decade period.
+
+Beginning in 1995, the unemployment rate stood at a relatively low 4%, which corresponded with a crime rate of 40 incidents per 1,000 people. Over the next five years, the city experienced a sharp economic downturn, with unemployment doubling to 8% by 2000. In tandem with this economic struggle, the crime rate surged dramatically, more than doubling to reach 85 incidents per 1,000 citizens in the same year.
+
+This parallel movement continued in the subsequent decades. By 2005, unemployment had fallen back to 5%, and the crime rate dropped accordingly to 45. However, the financial crisis of 2010 saw unemployment spike to its highest point at 9%, triggering a corresponding peak in crime at 90 incidents. Finally, as the economy recovered by 2015, unemployment plummeted to a historic low of 3%, and the crime rate followed suit, dropping to its lowest recorded figure of just 25 incidents per 1,000 people. (221 words)

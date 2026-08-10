@@ -63,3 +63,47 @@ Overall, the total amount of electricity generated increased steadily over the 2
 Looking first at the total output, production grew consistently. In 1990, the country generated 100 TWh of electricity. This figure expanded by 20 TWh in 2000, and grew even further to reach a peak of 150 TWh by 2010. 
 
 Regarding the specific fuel sources, coal was the dominant provider in 1990, responsible for 60 TWh. However, its usage declined over time, dropping to 50 TWh in 2000 and finally to 40 TWh in 2010. Conversely, both alternative sources saw significant growth. Natural gas generation rose from 30 TWh in 1990 to equal coal at 50 TWh in 2000, before surging to become the primary fuel source at 70 TWh in 2010. Similarly, renewable energy experienced a fourfold increase over the period, climbing from a mere 10 TWh in 1990 to 40 TWh by 2010, equaling the contribution of coal. (227 words)
+
+--------------------------------------------------
+EXAMPLE 4: HORIZONTAL BAR CHART
+(Focus: Describing rankings and long lists clearly)
+
+CHART DATA (Top 5 countries by coffee consumption per capita, 2021 in kg):
+Finland: 12.0
+Norway: 9.9
+Iceland: 9.0
+Denmark: 8.7
+Netherlands: 8.4
+
+PROMPT: The horizontal bar chart shows the top five countries with the highest coffee consumption per capita in 2021.
+
+BAND 9 ESSAY:
+The horizontal bar chart compares the average annual amount of coffee consumed per person, measured in kilograms, across the top five leading nations in the year 2021.
+
+Overall, it is highly evident that Northern European nations dominate the rankings for coffee consumption. Furthermore, Finland stands out as the undisputed leader, consuming significantly more coffee per capita than any other country on the list.
+
+Looking specifically at the highest consumer, Finland occupies the number one position by a considerable margin. In 2021, the average Finnish citizen consumed exactly 12.0 kilograms of coffee. This figure was over two kilograms higher than that of its closest rival, Norway, which secured second place with an average consumption of 9.9 kilograms per capita.
+
+Turning to the remaining three nations in the top five, the consumption levels were much more closely aligned. Iceland ranked third, with its citizens consuming an average of 9.0 kilograms of coffee over the year. Denmark followed closely behind in fourth place, recording a figure of 8.7 kilograms. Finally, the Netherlands rounded out the list in fifth position, with an annual per capita consumption of 8.4 kilograms, which was 3.6 kilograms less than the leading nation, Finland. (193 words)
+
+--------------------------------------------------
+EXAMPLE 5: NEGATIVE VALUES
+(Focus: Describing financial loss and falling below zero)
+
+CHART DATA (Net Profit/Loss of Tech Company X, 2018-2022 in Million USD):
+2018: +15
+2019: +5
+2020: -10 (Loss)
+2021: -2 (Loss)
+2022: +8
+
+PROMPT: The bar chart shows the net profit and loss of a specific technology company over a five-year period from 2018 to 2022.
+
+BAND 9 ESSAY:
+The provided bar chart details the annual net financial performance, measured in millions of US dollars, of a specific technology company over a five-year timeframe spanning from 2018 to 2022.
+
+Overall, the company experienced extreme financial volatility during the period. Although it began and ended the five-year span operating profitably, the middle years were characterized by significant financial losses.
+
+Beginning the period in a strong position, the company recorded its highest net profit in 2018, earning $15 million. However, the following year saw a drastic decline in performance, with profits plunging by two-thirds to just $5 million in 2019. This downward trajectory worsened significantly in 2020. Driven below the break-even point, the company suffered a severe net loss of $10 million, marking its worst financial year of the period.
+
+Following this devastating loss, the company began a gradual recovery process. In 2021, while still operating at a deficit, the losses were reduced substantially to a mere $2 million. Finally, the company successfully returned to profitability by the end of the period in 2022, securing a positive net income of $8 million, though this was still nearly half of its original peak in 2018. (192 words)
