@@ -239,9 +239,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             <strong style="display:block; margin-bottom: 10px;">Band 9 Paragraph:</strong>
                             ${chain.paragraph}
                         </div>
-                        <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; border: 1px solid var(--border-color);">
+                        <div style="background: rgba(255, 255, 255, 0.03); padding: 15px; border-radius: 8px; border: 1px solid var(--border-color);">
                             <strong style="display:block; margin-bottom:10px;"><i class="fa-solid fa-code-branch"></i> Connecting Sentence Architecture:</strong>
-                            ${chain.architecture && chain.architecture.length ? chain.architecture.map(a => `<span class="badge" style="margin-right:10px; margin-bottom:5px; background: rgba(56, 189, 248, 0.15); color: var(--accent-color); font-weight:600; display:inline-block;">${a}</span>`).join('') : `<span style="color: var(--text-secondary);">Standard linking structure</span>`}
+                            ${chain.architecture && chain.architecture.length ? chain.architecture.map(a => `<span class="badge">${a}</span>`).join('') : `<span style="color: var(--text-secondary);">Standard linking structure</span>`}
                         </div>
                     </div>
                 </div>
