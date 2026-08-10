@@ -64,26 +64,26 @@
 
     <script>
         const colors1 = ['#3498db', '#e74c3c', '#2ecc71', '#f1c40f'];
-        new Chart(document.getElementById('chart1a'), { type: 'pie', data: { labels: ['Proximity', 'Degree', 'Resources', 'Sports'], datasets: [{ data: [35, 35, 16, 14], backgroundColor: colors1 }] }});
-        new Chart(document.getElementById('chart1b'), { type: 'pie', data: { labels: ['Proximity', 'Degree', 'Resources', 'Sports'], datasets: [{ data: [10, 45, 38, 7], backgroundColor: colors1 }] }});
+        new Chart(document.getElementById('chart1a'), { type: 'pie', data: { labels: ['Proximity (35%)', 'Degree (35%)', 'Resources (16%)', 'Sports (14%)'], datasets: [{ data: [35, 35, 16, 14], backgroundColor: colors1 }] }});
+        new Chart(document.getElementById('chart1b'), { type: 'pie', data: { labels: ['Proximity (10%)', 'Degree (45%)', 'Resources (38%)', 'Sports (7%)'], datasets: [{ data: [10, 45, 38, 7], backgroundColor: colors1 }] }});
 
         const colors2 = ['#27ae60', '#7f8c8d', '#3498db'];
-        new Chart(document.getElementById('chart2a'), { type: 'pie', data: { labels: ['Agriculture', 'Industrial', 'Domestic'], datasets: [{ data: [39, 48, 13], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: false } } }});
-        new Chart(document.getElementById('chart2b'), { type: 'pie', data: { labels: ['Agriculture', 'Industrial', 'Domestic'], datasets: [{ data: [71, 10, 19], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: false } } }});
-        new Chart(document.getElementById('chart2c'), { type: 'pie', data: { labels: ['Agriculture', 'Industrial', 'Domestic'], datasets: [{ data: [32, 53, 15], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: false } } }});
+        new Chart(document.getElementById('chart2a'), { type: 'pie', data: { labels: ['Agriculture (39%)', 'Industrial (48%)', 'Domestic (13%)'], datasets: [{ data: [39, 48, 13], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: true } } }});
+        new Chart(document.getElementById('chart2b'), { type: 'pie', data: { labels: ['Agriculture (71%)', 'Industrial (10%)', 'Domestic (19%)'], datasets: [{ data: [71, 10, 19], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: true } } }});
+        new Chart(document.getElementById('chart2c'), { type: 'pie', data: { labels: ['Agriculture (32%)', 'Industrial (53%)', 'Domestic (15%)'], datasets: [{ data: [32, 53, 15], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: true } } }});
 
         const colors3 = ['#9b59b6', '#e67e22', '#1abc9c'];
-        new Chart(document.getElementById('chart3a'), { type: 'pie', data: { labels: ['Clothing', 'Electronics', 'Groceries'], datasets: [{ data: [40, 35, 25], backgroundColor: colors3 }] }});
-        new Chart(document.getElementById('chart3b'), { type: 'pie', data: { labels: ['Clothing', 'Electronics', 'Groceries'], datasets: [{ data: [20, 45, 35], backgroundColor: colors3 }] }});
+        new Chart(document.getElementById('chart3a'), { type: 'pie', data: { labels: ['Clothing (40%)', 'Electronics (35%)', 'Groceries (25%)'], datasets: [{ data: [40, 35, 25], backgroundColor: colors3 }] }});
+        new Chart(document.getElementById('chart3b'), { type: 'pie', data: { labels: ['Clothing (20%)', 'Electronics (45%)', 'Groceries (35%)'], datasets: [{ data: [20, 45, 35], backgroundColor: colors3 }] }});
 
         const colors4 = ['#34495e', '#e74c3c', '#f1c40f'];
-        new Chart(document.getElementById('chart4a'), { type: 'pie', data: { labels: ['Fossil Fuels', 'Nuclear', 'Solar/Wind'], datasets: [{ data: [80, 15, 5], backgroundColor: colors4 }] }});
-        new Chart(document.getElementById('chart4b'), { type: 'pie', data: { labels: ['Fossil Fuels', 'Nuclear', 'Solar/Wind'], datasets: [{ data: [40, 20, 40], backgroundColor: colors4 }] }});
-        new Chart(document.getElementById('chart4c'), { type: 'pie', data: { labels: ['Fossil Fuels', 'Nuclear', 'Solar/Wind'], datasets: [{ data: [90, 10, 0], backgroundColor: colors4 }] }});
-        new Chart(document.getElementById('chart4d'), { type: 'pie', data: { labels: ['Fossil Fuels', 'Nuclear', 'Solar/Wind'], datasets: [{ data: [85, 10, 5], backgroundColor: colors4 }] }});
+        new Chart(document.getElementById('chart4a'), { type: 'pie', data: { labels: ['Fossil Fuels (80%)', 'Nuclear (15%)', 'Solar/Wind (5%)'], datasets: [{ data: [80, 15, 5], backgroundColor: colors4 }] }});
+        new Chart(document.getElementById('chart4b'), { type: 'pie', data: { labels: ['Fossil Fuels (40%)', 'Nuclear (20%)', 'Solar/Wind (40%)'], datasets: [{ data: [40, 20, 40], backgroundColor: colors4 }] }});
+        new Chart(document.getElementById('chart4c'), { type: 'pie', data: { labels: ['Fossil Fuels (90%)', 'Nuclear (10%)', 'Solar/Wind (0%)'], datasets: [{ data: [90, 10, 0], backgroundColor: colors4 }] }});
+        new Chart(document.getElementById('chart4d'), { type: 'pie', data: { labels: ['Fossil Fuels (85%)', 'Nuclear (10%)', 'Solar/Wind (5%)'], datasets: [{ data: [85, 10, 5], backgroundColor: colors4 }] }});
 
         const colors5 = ['#ff9f43', '#ee5253', '#0abde3', '#10ac84'];
-        new Chart(document.getElementById('chart5'), { type: 'pie', data: { labels: ['Under 18', '18-35', '36-55', 'Over 55'], datasets: [{ data: [25, 40, 20, 15], backgroundColor: colors5 }] }});
+        new Chart(document.getElementById('chart5'), { type: 'pie', data: { labels: ['Under 18 (25%)', '18-35 (40%)', '36-55 (20%)', 'Over 55 (15%)'], datasets: [{ data: [25, 40, 20, 15], backgroundColor: colors5 }] }});
     </script>
 </body>
 </html>

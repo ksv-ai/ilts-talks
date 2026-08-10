@@ -130,10 +130,10 @@ PLANNING NOTE:
 * Body Paragraph 2: Group the "Recovery" (2021-2022). Discuss the reduced loss in 2021 and the triumphant return to a $8m profit by 2022.
 
 BAND 9 ESSAY:
-The provided bar chart details the annual net financial performance, measured in millions of US dollars, of a specific technology company over a five-year timeframe spanning from 2018 to 2022.
+The bar chart illustrates the net profit and loss recorded by a technology company across five years, from 2018 to 2022, measured in millions of US dollars.
 
-Overall, the company experienced extreme financial volatility during the period. Although it began and ended the five-year span operating profitably, the middle years were characterized by significant financial losses.
+Overall, the company's finances fluctuated considerably over the period, moving from a substantial profit at the start to a significant loss in 2020, before recovering in the final two years. Notably, the firm never experienced two consecutive years of decline.
 
-Beginning the period in a strong position, the company recorded its highest net profit in 2018, earning $15 million. However, the following year saw a drastic decline in performance, with profits plunging by two-thirds to just $5 million in 2019. This downward trajectory worsened significantly in 2020. Driven below the break-even point, the company suffered a severe net loss of $10 million, marking its worst financial year of the period.
+In 2018, the company posted its highest net profit of the period, at 15 million USD. This figure fell sharply the following year, dropping to just 5 million USD in 2019, a decrease of two-thirds. The downward trend continued into 2020, when the company recorded its only two years of net loss, plunging to -10 million USD — its worst performance in the entire period.
 
-Following this devastating loss, the company began a gradual recovery process. In 2021, while still operating at a deficit, the losses were reduced substantially to a mere $2 million. Finally, the company successfully returned to profitability by the end of the period in 2022, securing a positive net income of $8 million, though this was still nearly half of its original peak in 2018. (192 words)
+Thereafter, the situation began to improve. In 2021, the net loss narrowed considerably to just -2 million USD, a marked recovery from the previous year, though the company remained unprofitable. This improvement carried into 2022, when the firm returned to profit, reporting net earnings of 8 million USD, its second-highest figure of the five years. (178 words)
