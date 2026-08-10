@@ -1203,17 +1203,17 @@ Object.keys(lensesData).forEach(lensKey => {
 // Re-order lensesData keys based on IELTS popularity ranking
 const orderedLensesData = {};
 const rankingOrder = [
+    "social",
+    "economic",
+    "environmental",
     "educational",
     "technological",
-    "social",
-    "environmental",
     "health",
-    "government",
-    "economic",
-    "consumerism",
-    "infrastructure",
+    "psychological",
     "cultural",
-    "psychological"
+    "government",
+    "infrastructure",
+    "consumerism"
 ];
 rankingOrder.forEach(key => {
     if (lensesData[key]) {
