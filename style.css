@@ -126,6 +126,19 @@ body {
     flex-direction: column;
     padding: 20px 0;
     overflow-y: auto;
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                padding 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                margin-right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar.collapsed {
+    width: 0 !important;
+    padding: 20px 0 !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    border: none !important;
+    margin-right: -20px !important; /* Offset the flex gap */
 }
 
 /* Custom Scrollbar for Sidebar */
@@ -252,6 +265,30 @@ body {
 .content-header p {
     color: var(--text-secondary);
     font-size: 1.1rem;
+}
+
+/* Sidebar Toggle Button Styles */
+.sidebar-toggle-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    margin-right: 25px;
+    flex-shrink: 0;
+}
+
+.sidebar-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .content-body {

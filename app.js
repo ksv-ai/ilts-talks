@@ -4,6 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const pageTitle = document.getElementById('page-title');
     const pageSubtitle = document.getElementById('page-subtitle');
     const themeToggle = document.getElementById('theme-toggle');
+    const sidebarToggleBtn = document.getElementById('sidebar-toggle-btn');
+    const sidebar = document.querySelector('.sidebar');
+
+    // Sidebar Toggle Logic
+    sidebarToggleBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('collapsed');
+    });
 
     // Theme Toggle Logic
     themeToggle.addEventListener('click', () => {
