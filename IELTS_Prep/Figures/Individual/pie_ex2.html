@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pie Chart Figures (Extended)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
+        .chart-container { width: 90%; max-width: 900px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; align-items: center;}
+        .pie-row { display: flex; justify-content: space-around; width: 100%; margin-top: 20px; flex-wrap: wrap;}
+        .pie-wrapper { width: 45%; text-align: center; margin-bottom: 20px;}
+        .pie-wrapper-3 { width: 30%; text-align: center; margin-bottom: 20px;}
+        h2 { text-align: center; color: #333; }
+        .prompt { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; width: 100%; box-sizing: border-box;}
+    </style>
+
+                <style>
+                    /* Hide all containers */
+                    .chart-container, .table-container { display: none !important; }
+                    /* Show only the target container */
+                    .chart-container:nth-of-type(2), .table-container:nth-of-type(2) { 
+                        display: block !important; 
+                        margin: 0 !important; 
+                        box-shadow: none !important; 
+                        width: 100% !important; 
+                        max-width: 100% !important; 
+                        padding: 10px !important; 
+                        box-sizing: border-box !important; 
+                    }
+                    body { margin: 10px !important; padding: 0 !important; background: transparent !important; }
+                </style>
+                
+</head>
+<body>
+
+    <div class="chart-container">
+        <h2>Figure 1: Past vs Present (University Choice)</h2>
+        <div class="prompt">PROMPT: The pie charts compare the primary reasons why students chose to study at a particular UK university in 1980 and 2010. Summarise the information.</div>
+        <div class="pie-row">
+            <div class="pie-wrapper"><h3>1980</h3><canvas id="chart1a"></canvas></div>
+            <div class="pie-wrapper"><h3>2010</h3><canvas id="chart1b"></canvas></div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 2: Three Charts (Water Usage)</h2>
+        <div class="prompt">PROMPT: The pie charts show the proportion of water used for agricultural, industrial, and domestic purposes in North America, South America, and Europe. Summarise the information.</div>
+        <div class="pie-row">
+            <div class="pie-wrapper-3"><h3>North America</h3><canvas id="chart2a"></canvas></div>
+            <div class="pie-wrapper-3"><h3>South America</h3><canvas id="chart2b"></canvas></div>
+            <div class="pie-wrapper-3"><h3>Europe</h3><canvas id="chart2c"></canvas></div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 3: Combined with Total Figures (Retail Sales)</h2>
+        <div class="prompt">PROMPT: The pie charts show the market share of three major retail sectors globally in 2015 and 2020. The total value of all online retail sales is also provided. Summarise the information.</div>
+        <div class="pie-row">
+            <div class="pie-wrapper"><h3>2015 (Total: $1.5 Trillion)</h3><canvas id="chart3a"></canvas></div>
+            <div class="pie-wrapper"><h3>2020 (Total: $4.0 Trillion)</h3><canvas id="chart3b"></canvas></div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 4: Four Charts Matrix (Energy Production)</h2>
+        <div class="prompt">PROMPT: The four pie charts compare the sources of energy production in Country X and Country Y in the years 1990 and 2020. Summarise the information.</div>
+        <div class="pie-row">
+            <div class="pie-wrapper"><h3>Country X - 1990</h3><canvas id="chart4a"></canvas></div>
+            <div class="pie-wrapper"><h3>Country X - 2020</h3><canvas id="chart4b"></canvas></div>
+            <div class="pie-wrapper"><h3>Country Y - 1990</h3><canvas id="chart4c"></canvas></div>
+            <div class="pie-wrapper"><h3>Country Y - 2020</h3><canvas id="chart4d"></canvas></div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 5: Age Demographics (City Z)</h2>
+        <div class="prompt">PROMPT: The pie chart shows the age distribution of the population in City Z in the year 2022. Summarise the information.</div>
+        <div class="pie-row" style="justify-content: center;">
+            <div class="pie-wrapper" style="width: 60%;"><h3>2022</h3><canvas id="chart5"></canvas></div>
+        </div>
+    </div>
+
+    <script>
+        const colors1 = ['#3498db', '#e74c3c', '#2ecc71', '#f1c40f'];
+        new Chart(document.getElementById('chart1a'), { type: 'pie', data: { labels: ['Proximity', 'Degree', 'Resources', 'Sports'], datasets: [{ data: [35, 35, 16, 14], backgroundColor: colors1 }] }});
+        new Chart(document.getElementById('chart1b'), { type: 'pie', data: { labels: ['Proximity', 'Degree', 'Resources', 'Sports'], datasets: [{ data: [10, 45, 38, 7], backgroundColor: colors1 }] }});
+
+        const colors2 = ['#27ae60', '#7f8c8d', '#3498db'];
+        new Chart(document.getElementById('chart2a'), { type: 'pie', data: { labels: ['Agriculture', 'Industrial', 'Domestic'], datasets: [{ data: [39, 48, 13], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: false } } }});
+        new Chart(document.getElementById('chart2b'), { type: 'pie', data: { labels: ['Agriculture', 'Industrial', 'Domestic'], datasets: [{ data: [71, 10, 19], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: false } } }});
+        new Chart(document.getElementById('chart2c'), { type: 'pie', data: { labels: ['Agriculture', 'Industrial', 'Domestic'], datasets: [{ data: [32, 53, 15], backgroundColor: colors2 }] }, options: { plugins: { legend: { display: false } } }});
+
+        const colors3 = ['#9b59b6', '#e67e22', '#1abc9c'];
+        new Chart(document.getElementById('chart3a'), { type: 'pie', data: { labels: ['Clothing', 'Electronics', 'Groceries'], datasets: [{ data: [40, 35, 25], backgroundColor: colors3 }] }});
+        new Chart(document.getElementById('chart3b'), { type: 'pie', data: { labels: ['Clothing', 'Electronics', 'Groceries'], datasets: [{ data: [20, 45, 35], backgroundColor: colors3 }] }});
+
+        const colors4 = ['#34495e', '#e74c3c', '#f1c40f'];
+        new Chart(document.getElementById('chart4a'), { type: 'pie', data: { labels: ['Fossil Fuels', 'Nuclear', 'Solar/Wind'], datasets: [{ data: [80, 15, 5], backgroundColor: colors4 }] }});
+        new Chart(document.getElementById('chart4b'), { type: 'pie', data: { labels: ['Fossil Fuels', 'Nuclear', 'Solar/Wind'], datasets: [{ data: [40, 20, 40], backgroundColor: colors4 }] }});
+        new Chart(document.getElementById('chart4c'), { type: 'pie', data: { labels: ['Fossil Fuels', 'Nuclear', 'Solar/Wind'], datasets: [{ data: [90, 10, 0], backgroundColor: colors4 }] }});
+        new Chart(document.getElementById('chart4d'), { type: 'pie', data: { labels: ['Fossil Fuels', 'Nuclear', 'Solar/Wind'], datasets: [{ data: [85, 10, 5], backgroundColor: colors4 }] }});
+
+        const colors5 = ['#ff9f43', '#ee5253', '#0abde3', '#10ac84'];
+        new Chart(document.getElementById('chart5'), { type: 'pie', data: { labels: ['Under 18', '18-35', '36-55', 'Over 55'], datasets: [{ data: [25, 40, 20, 15], backgroundColor: colors5 }] }});
+    </script>
+</body>
+</html>

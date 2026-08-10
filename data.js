@@ -16,7 +16,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the declining city (Paris). Mention its initial popularity, its peak in 2005, and its fall to last place by 2015."
                 ],
                 "essay": "The provided line graph illustrates the changes in the number of tourists, measured in millions, visiting Paris, London, and Rome over a 15-year period from 2000 to 2015.\n\nOverall, it is immediately apparent that while London and Rome experienced significant growth in tourist numbers, Paris saw a general decline. Consequently, London overtook Paris to become the most visited city by the end of the period.\n\nLooking first at the cities that saw an increase in tourism, London started the period with 8 million visitors in 2000. This figure rose steadily, surpassing Paris in 2009, and reached a peak of 16 million by 2015. Similarly, Rome experienced the most dramatic proportional growth, starting at just 5 million visitors in 2000. The numbers skyrocketed, eventually hitting 15 million by the end of the period, nearly matching London.\n\nConversely, Paris began as the most popular destination with 10 million visitors in 2000. This number initially rose to 12 million by 2005. However, following this peak, the city experienced a downward trend. Tourist numbers dropped to 11 million in 2010 and continued to fall, finishing the period at a low of 9 million in 2015, making it the least visited of the three cities. (203 words)",
-                "figureUrl": null
+                "figureUrl": "line_ex1.html"
             },
             {
                 "title": "HISTORICAL VS. FUTURE (Predictions)",
@@ -28,7 +28,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Discuss the future predictions (2020-2040). Use future tenses to describe Japan hitting 35%, while Sweden and the USA grow more gradually."
                 ],
                 "essay": "The line graph compares the percentage of elderly citizens (aged 65 and older) in Japan, Sweden, and the United States between 1940 and 2020, alongside projected figures extending to the year 2040.\n\nOverall, it is clear that the proportion of elderly people has increased in all three nations and is expected to continue rising. While the USA had the oldest population in 1940, Japan has experienced the most dramatic aging and is predicted to have the highest proportion of elderly citizens by 2040.\n\nLooking at the historical data, the USA started with the highest elderly population at 9% in 1940, while Sweden and Japan stood at 7% and 5% respectively. Between 1940 and 1980, Sweden overtook the USA, rising to 14%, whereas Japan grew slowly to 10%. However, from 1980 to 2020, Japan saw a remarkable surge in its elderly population, skyrocketing to 28% and surpassing both other nations. During this same period, Sweden rose to 20% and the USA to 16%.\n\nTurning to the future projections, the upward trends are anticipated to continue. By 2040, it is predicted that Japan’s elderly demographic will reach a peak of 35%. Sweden’s older population is expected to grow to 25%, while the USA is forecast to see a more gradual increase, reaching exactly 20%. (223 words)",
-                "figureUrl": null
+                "figureUrl": "line_ex2.html"
             },
             {
                 "title": "EXTREME FLUCTUATIONS",
@@ -40,7 +40,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the 'Recovery' (May - Dec). Describe the steady climb to August, the minor autumn dip, and the final rally to finish at $50."
                 ],
                 "essay": "The provided line graph illustrates the monthly changes in the price of a single barrel of oil, measured in US dollars, throughout the year 2020.\n\nOverall, the price of oil experienced extreme volatility during the 12-month period. Following a dramatic crash in the early months of the year, the value gradually recovered but failed to reach its initial starting price by the end of December.\n\nAt the beginning of the year, oil was priced at its peak of $60 per barrel in January. However, this was followed by a catastrophic decline. After dropping slightly to $55 in February, the price plummeted to $30 in March and hit rock bottom at a mere $15 per barrel in April. \n\nFollowing this low point, the market saw a period of steady recovery. From May to August, the price climbed consistently, recovering to $45. This upward trajectory was momentarily interrupted in autumn, as prices dipped to $38 in September and $35 in October. Nevertheless, the year concluded on a positive note, with prices rallying once again to finish December at $50 per barrel, remaining exactly $10 lower than the January peak. (193 words)",
-                "figureUrl": null
+                "figureUrl": "line_ex3.html"
             },
             {
                 "title": "STABLE / FLAT TRENDS",
@@ -52,7 +52,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Analyze Country B. Note the flat baseline of 0.8kg, and how despite tiny fluctuations, it finished the decade exactly where it started."
                 ],
                 "essay": "The line graph compares the average amount of sugar consumed weekly by households in Country A and Country B between 2010 and 2020, measured in kilograms.\n\nOverall, it is immediately apparent that the consumption patterns in both nations remained remarkably stable over the entire ten-year period. Furthermore, households in Country A consistently consumed nearly double the amount of sugar compared to those in Country B.\n\nLooking specifically at Country A, the weekly household consumption of sugar began the period at exactly 1.5 kg in 2010. This figure remained entirely static until 2012, before experiencing a negligible dip to 1.4 kg in 2014. The consumption levels then recovered to 1.5 kg in 2016 and rose marginally to a peak of 1.6 kg in 2018. However, this slight increase was short-lived, and the figure returned to its original baseline of 1.5 kg by the end of the period in 2020.\n\nA similar pattern of stability was observed in Country B, albeit at a significantly lower volume. Commencing the period at 0.8 kg per week in 2010, the figure saw only minor fluctuations. It peaked slightly at 0.9 kg in 2014, fell to a low of 0.7 kg in 2018, and ultimately finished the decade exactly where it started, at 0.8 kg in 2020. (214 words)",
-                "figureUrl": null
+                "figureUrl": "line_ex4.html"
             },
             {
                 "title": "HIGHLY CORRELATED TRENDS",
@@ -64,7 +64,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Discuss the second half (2005-2015). Show the financial crisis peak in 2010 for both, and the subsequent crash to historic lows in 2015 for both."
                 ],
                 "essay": "The provided line graph illustrates the changes in both the unemployment rate (as a percentage) and the overall crime rate (measured in incidents per 1,000 citizens) within a specific city over a twenty-year period from 1995 to 2015.\n\nOverall, it is highly evident that there is a strong, positive correlation between the two metrics. The crime rate closely mirrored the fluctuations in the unemployment rate throughout the entire two-decade period.\n\nBeginning in 1995, the unemployment rate stood at a relatively low 4%, which corresponded with a crime rate of 40 incidents per 1,000 people. Over the next five years, the city experienced a sharp economic downturn, with unemployment doubling to 8% by 2000. In tandem with this economic struggle, the crime rate surged dramatically, more than doubling to reach 85 incidents per 1,000 citizens in the same year.\n\nThis parallel movement continued in the subsequent decades. By 2005, unemployment had fallen back to 5%, and the crime rate dropped accordingly to 45. However, the financial crisis of 2010 saw unemployment spike to its highest point at 9%, triggering a corresponding peak in crime at 90 incidents. Finally, as the economy recovered by 2015, unemployment plummeted to a historic low of 3%, and the crime rate followed suit, dropping to its lowest recorded figure of just 25 incidents per 1,000 people. (221 words)",
-                "figureUrl": null
+                "figureUrl": "line_ex5.html"
             }
         ]
     },
@@ -83,7 +83,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the less popular vehicles (Trucks and Motorcycles). Highlight how France led in trucks, while Italy dominated in motorcycles."
                 ],
                 "essay": "The provided bar chart compares the number of cars, trucks, and motorcycles sold across three European nations (Germany, France, and Italy) during the year 2019, with figures given in thousands.\n\nOverall, it is evident that cars were by far the most popular vehicle type in all three countries. Furthermore, Germany recorded the highest total vehicle sales, while Italy had the lowest, despite leading in motorcycle purchases.\n\nLooking specifically at the most popular category, Germany dominated car sales with 400,000 units sold. This was significantly higher than France, which recorded 300,000 sales, and Italy, which saw the lowest number of car purchases at 250,000. \n\nRegarding the less popular vehicle types, the data reveals differing preferences among the nations. France led the market for trucks, selling 150,000 units, which was notably higher than Germany (100,000) and nearly double the figure for Italy (80,000). Conversely, Italy was the largest consumer of motorcycles, recording 120,000 sales. This was substantially more than France, where 75,000 motorcycles were purchased, and more than double the figure for Germany, which had the lowest motorcycle sales at just 50,000 units. (192 words)",
-                "figureUrl": null
+                "figureUrl": "bar_ex1.html"
             },
             {
                 "title": "DYNAMIC BAR CHART",
@@ -95,7 +95,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the older demographics (45-64 and 65+). Detail their lower starting points and emphasize the dramatic doubling of usage in the 65+ category."
                 ],
                 "essay": "The provided bar chart illustrates the changes in daily internet usage among adults in the United Kingdom, divided into four distinct age brackets, comparing the years 2010 and 2020.\n\nOverall, daily internet usage increased across all age demographics over the ten-year period. While younger adults consistently exhibited the highest rates of connectivity, the oldest age group experienced the most significant proportional growth in internet usage.\n\nAnalyzing the younger demographics, internet adoption was already nearly universal in 2010. Among those aged 16 to 24, exactly 90% logged on daily, a figure that climbed to a near-perfect 99% by 2020. Similarly, the 25 to 44 age bracket saw a substantial increase, rising from 80% in 2010 to 95% a decade later.\n\nTurning to the older populations, the growth in digital connectivity was even more pronounced. In 2010, only 60% of adults aged 45 to 64 used the internet daily; however, this jumped significantly to 85% by 2020. The most dramatic shift occurred in the 65 and over category. In 2010, less than a third (30%) of this demographic were daily users, but by 2020, this figure had exactly doubled to reach 60%. (199 words)",
-                "figureUrl": null
+                "figureUrl": "bar_ex2.html"
             },
             {
                 "title": "STACKED BAR CHART",
@@ -107,7 +107,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Discuss the internal fuel breakdown. Track coal's decline, gas surging to take the lead, and renewables quadrupling over the period."
                 ],
                 "essay": "The stacked bar chart details the total electricity production in a specific country across three decades (1990, 2000, and 2010), while also breaking down the proportion of power generated by coal, natural gas, and renewable sources, measured in Terawatt hours (TWh).\n\nOverall, the total amount of electricity generated increased steadily over the 20-year period. Furthermore, there was a clear shift away from coal reliance, with natural gas and renewables becoming increasingly prominent sources of energy.\n\nLooking first at the total output, production grew consistently. In 1990, the country generated 100 TWh of electricity. This figure expanded by 20 TWh in 2000, and grew even further to reach a peak of 150 TWh by 2010. \n\nRegarding the specific fuel sources, coal was the dominant provider in 1990, responsible for 60 TWh. However, its usage declined over time, dropping to 50 TWh in 2000 and finally to 40 TWh in 2010. Conversely, both alternative sources saw significant growth. Natural gas generation rose from 30 TWh in 1990 to equal coal at 50 TWh in 2000, before surging to become the primary fuel source at 70 TWh in 2010. Similarly, renewable energy experienced a fourfold increase over the period, climbing from a mere 10 TWh in 1990 to 40 TWh by 2010, equaling the contribution of coal. (227 words)",
-                "figureUrl": null
+                "figureUrl": "bar_ex3.html"
             },
             {
                 "title": "HORIZONTAL BAR CHART",
@@ -119,7 +119,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the remaining three (Iceland, Denmark, Netherlands). Note how closely grouped their numbers are, listing them down to the 5th place finisher."
                 ],
                 "essay": "The horizontal bar chart compares the average annual amount of coffee consumed per person, measured in kilograms, across the top five leading nations in the year 2021.\n\nOverall, it is highly evident that Northern European nations dominate the rankings for coffee consumption. Furthermore, Finland stands out as the undisputed leader, consuming significantly more coffee per capita than any other country on the list.\n\nLooking specifically at the highest consumer, Finland occupies the number one position by a considerable margin. In 2021, the average Finnish citizen consumed exactly 12.0 kilograms of coffee. This figure was over two kilograms higher than that of its closest rival, Norway, which secured second place with an average consumption of 9.9 kilograms per capita.\n\nTurning to the remaining three nations in the top five, the consumption levels were much more closely aligned. Iceland ranked third, with its citizens consuming an average of 9.0 kilograms of coffee over the year. Denmark followed closely behind in fourth place, recording a figure of 8.7 kilograms. Finally, the Netherlands rounded out the list in fifth position, with an annual per capita consumption of 8.4 kilograms, which was 3.6 kilograms less than the leading nation, Finland. (193 words)",
-                "figureUrl": null
+                "figureUrl": "bar_ex4.html"
             },
             {
                 "title": "NEGATIVE VALUES",
@@ -131,7 +131,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the \"Recovery\" (2021-2022). Discuss the reduced loss in 2021 and the triumphant return to a $8m profit by 2022."
                 ],
                 "essay": "The provided bar chart details the annual net financial performance, measured in millions of US dollars, of a specific technology company over a five-year timeframe spanning from 2018 to 2022.\n\nOverall, the company experienced extreme financial volatility during the period. Although it began and ended the five-year span operating profitably, the middle years were characterized by significant financial losses.\n\nBeginning the period in a strong position, the company recorded its highest net profit in 2018, earning $15 million. However, the following year saw a drastic decline in performance, with profits plunging by two-thirds to just $5 million in 2019. This downward trajectory worsened significantly in 2020. Driven below the break-even point, the company suffered a severe net loss of $10 million, marking its worst financial year of the period.\n\nFollowing this devastating loss, the company began a gradual recovery process. In 2021, while still operating at a deficit, the losses were reduced substantially to a mere $2 million. Finally, the company successfully returned to profitability by the end of the period in 2022, securing a positive net income of $8 million, though this was still nearly half of its original peak in 2018. (192 words)",
-                "figureUrl": null
+                "figureUrl": "bar_ex5.html"
             }
         ]
     },
@@ -150,7 +150,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the growing factors. Discuss the rise of 'Degree courses' to 1st place, and the huge surge of 'Resources' from 16% to 38%."
                 ],
                 "essay": "The two pie charts illustrate the shifts in the main factors influencing students' decisions to attend a specific university in the United Kingdom, comparing data from the years 1980 and 2010.\n\nOverall, it is evident that the availability of degree courses and the quality of resources became significantly more important to students over the 30-year period. Conversely, the university's proximity to home, which was a dominant factor in 1980, saw a dramatic decline in importance.\n\nIn 1980, the location of the university was tied as the primary driving factor, with 35% of students choosing the institution because it was close to their parents' home. However, by 2010, this figure had plummeted to just 10%. Similarly, the appeal of the university's sports and social facilities also waned, dropping by half from 14% in 1980 to a mere 7% three decades later.\n\nIn contrast, academic factors gained considerable traction. The proportion of students selecting the university based on the degree courses offered increased from 35% in 1980 to a dominant 45% in 2010. Even more strikingly, the quality of the university's resources, which accounted for only 16% of decisions in 1980, surged to become the second most cited reason in 2010, representing 38% of student responses. (207 words)",
-                "figureUrl": null
+                "figureUrl": "pie_ex1.html"
             },
             {
                 "title": "THREE CHARTS (Comparing different countries)",
@@ -162,7 +162,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group North America and Europe together. Compare their similar patterns, highlighting their high industrial use (48% and 53%) and lower agricultural use."
                 ],
                 "essay": "The provided pie charts compare the percentage of total water consumption allocated to three different sectors (agriculture, industry, and domestic use) across three major regions: North America, South America, and Europe.\n\nOverall, there is a stark contrast between South America and the other two regions. While South America utilizes the vast majority of its water for agriculture, both North America and Europe dedicate the largest proportion of their water resources to industrial purposes. Domestic water use remains the smallest sector across all three regions.\n\nLooking first at South America, agricultural activities dominate water consumption, accounting for a massive 71% of the total. In stark contrast, industrial usage makes up a mere 10%, while domestic consumption represents 19%, which is notably the highest domestic usage rate among the three regions.\n\nConversely, the usage patterns in North America and Europe are remarkably similar to one another. In Europe, industrial use is the primary consumer of water at 53%, closely followed by North America at 48%. Agriculture is the second most significant sector in these regions, utilizing 39% of the water in North America and 32% in Europe. Finally, domestic usage accounts for the smallest fraction of water in both of these industrialized regions, at 13% and 15% respectively. (204 words)",
-                "figureUrl": null
+                "figureUrl": "pie_ex2.html"
             },
             {
                 "title": "COMBINED WITH TOTAL FIGURES",
@@ -174,7 +174,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Discuss the shifting percentages. Show how Electronics became the leader, Groceries grew, and Clothing fell from 1st to last place (40% down to 20%)."
                 ],
                 "essay": "The pie charts detail the shifting market share of three primary e-commerce sectors (clothing, electronics, and groceries) on a global scale, comparing the years 2015 and 2020. Additionally, the data provides the total value of all online retail sales for both years.\n\nOverall, the total value of the global online retail market experienced explosive growth over the five-year period. In terms of market share, electronics and groceries expanded their dominance, while the proportion of sales attributed to clothing was halved.\n\nLooking first at the total market value, the online retail sector saw a massive expansion. In 2015, total global sales stood at $1.5 trillion. By 2020, this figure had nearly tripled, reaching a staggering $4.0 trillion. \n\nRegarding the specific sectors, electronics became the dominant force in the market. Its share grew from 35% in 2015 to nearly half the market (45%) in 2020. Similarly, the proportion of sales generated by groceries saw a significant increase, rising from a quarter of the market (25%) in 2015 to 35% five years later. In stark contrast, clothing, which was the largest sector in 2015 at 40%, suffered a dramatic loss in market share, plummeting to just 20% by 2020, making it the smallest of the three categories. (205 words)",
-                "figureUrl": null
+                "figureUrl": "pie_ex3.html"
             },
             {
                 "title": "FOUR CHARTS MATRIX",
@@ -186,7 +186,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Focus entirely on Country Y. Detail its stubborn reliance on fossil fuels (90% to 85%), with renewables barely registering at 5%."
                 ],
                 "essay": "The four pie charts detail the percentage of energy produced from three different sources—fossil fuels, nuclear power, and solar/wind energy—in Country X and Country Y, comparing data from 1990 and 2020.\n\nOverall, while both countries remained reliant on fossil fuels to some degree, Country X underwent a massive transition towards renewable energy over the thirty-year period. In contrast, Country Y's energy infrastructure remained largely unchanged, heavily dominated by fossil fuels.\n\nAnalyzing Country X, a dramatic shift in energy policy is evident. In 1990, fossil fuels were the overwhelming primary source, accounting for 80% of total production, while solar and wind made up a negligible 5%. However, by 2020, reliance on fossil fuels had been halved to 40%. This decline was entirely offset by a massive surge in solar and wind energy, which skyrocketed to equal fossil fuels at 40%. Nuclear energy also saw a slight increase from 15% to 20%.\n\nConversely, Country Y experienced very little modernization. In 1990, a staggering 90% of its energy came from fossil fuels, with nuclear power providing the remaining 10%. Over the next three decades, the situation barely shifted. By 2020, fossil fuel reliance had only dropped by a marginal 5%, allowing for a tiny 5% introduction of solar and wind energy, while nuclear production remained completely stagnant at 10%. (219 words)",
-                "figureUrl": null
+                "figureUrl": "pie_ex4.html"
             },
             {
                 "title": "AGE DEMOGRAPHICS",
@@ -198,7 +198,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the older residents (36-55 and Over 55). Use fractions: 'one-fifth' for 20% and note the 15% elderly group is the smallest slice."
                 ],
                 "essay": "The provided pie chart breaks down the demographic composition of City Z in the year 2022, categorizing the population into four distinct age brackets.\n\nOverall, it is immediately apparent that City Z possesses a relatively young population. The vast majority of its residents are under the age of 36, while senior citizens make up the smallest proportion of the community.\n\nLooking closely at the younger demographics, the 18 to 35 age group constitutes the largest single segment of the population, accounting for exactly two-fifths (40%) of the total residents. When combined with the 'Under 18' category, which represents a quarter of the population (25%), it is clear that nearly two-thirds of the entire city is aged 35 or younger.\n\nIn contrast, older residents form a much smaller minority. Individuals falling into the 36 to 55 age bracket make up one-fifth (20%) of the city's demographic makeup. Finally, the oldest category, consisting of individuals aged over 55, represents the smallest slice of the pie chart, accounting for a mere 15% of the total population in City Z. (183 words)",
-                "figureUrl": null
+                "figureUrl": "pie_ex5.html"
             }
         ]
     },
@@ -217,7 +217,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the remaining two minor columns (Clothing and Leisure). Note they are all low single digits, and point out Spain's absolute lowest figure of 1.98% for Leisure."
                 ],
                 "essay": "The provided table details the percentage of national consumer spending allocated to three distinct categories of goods (food/drinks/tobacco, clothing/footwear, and leisure/education) across five different countries in the year 2002.\n\nOverall, it is clear that food, drinks, and tobacco represented the largest portion of consumer spending in all five nations. In contrast, leisure and education consistently accounted for the smallest proportion of national expenditure across the board. Furthermore, Turkey and Ireland were the most significant spenders in the primary category.\n\nLooking first at the most dominant expenditure category, Turkey allocated the highest proportion of its national spending to food, drinks, and tobacco, at 32.14%. Ireland followed closely with a figure of 28.91%. In contrast, Sweden had the lowest expenditure in this sector, dedicating only 15.77% of its budget, while Spain and Italy fell in the middle with 18.80% and 16.36% respectively.\n\nRegarding the remaining categories, clothing and footwear saw relatively similar levels of spending across the nations, ranging from a low of 5.40% in Sweden to a high of 9.00% in Italy. Finally, spending on leisure and education was uniformly the lowest priority. Turkey again led this category at 4.35%, while Spain recorded the lowest expenditure of any country in any category, dedicating a mere 1.98% to leisure and education. (215 words)",
-                "figureUrl": null
+                "figureUrl": "table_ex1.html"
             },
             {
                 "title": "TIME-BASED TABLE",
@@ -229,7 +229,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Discuss the minor player (Australia). Focus on its dramatic decline from 100k to 50k, eventually collapsing to zero."
                 ],
                 "essay": "The table provides data on the average number of automobiles manufactured on a monthly basis in Germany, Japan, and Australia across three distinct years: 2000, 2010, and 2020. The figures are measured in thousands of units.\n\nOverall, the data reveals contrasting trends in the automotive manufacturing sectors of these three nations. While Germany experienced a steady increase in production over the twenty-year period, both Japan and Australia saw significant declines, with Australian car manufacturing completely ceasing by 2020.\n\nIn 2000, Japan was the clear leader in the automotive industry, producing 600,000 cars per month. However, this dominance faded over the subsequent decades. Production dropped to 550,000 in 2010 and fell sharply to 400,000 by 2020. Conversely, Germany, which began the period producing 450,000 vehicles monthly, saw a continuous upward trajectory. By 2010, it had reached 500,000 units, and by 2020, production peaked at 600,000, effectively replacing Japan as the top manufacturer among the three.\n\nAustralia’s manufacturing industry, meanwhile, experienced the most dramatic downturn. Starting as the smallest producer with just 100,000 cars per month in 2000, its output was halved to 50,000 in 2010. Ultimately, by the year 2020, Australian car production had stopped entirely, dropping to zero. (198 words)",
-                "figureUrl": null
+                "figureUrl": "table_ex2.html"
             },
             {
                 "title": "COMPLEX DEMOGRAPHIC TABLE",
@@ -241,7 +241,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the 'Cheap/Bad' cities (B and C). Note their lower costs (90, 85) but highlight the trade-off: high pollution and poor healthcare scores."
                 ],
                 "essay": "The table compares four distinct cities (labeled A through D) based on three key metrics used to determine quality of life in 2022: the cost of living index, a healthcare score out of 100, and overall pollution levels.\n\nOverall, it is immediately apparent that there is a strong correlation between the cost of living and the quality of local amenities. Cities A and D, which are the most expensive, offer vastly superior healthcare and cleaner environments compared to the more affordable, but highly polluted, Cities B and C.\n\nAnalyzing the more expensive locations, City A recorded the highest cost of living index at 120, closely followed by City D at 115. Despite these high costs, residents in these cities benefit from excellent services and conditions. Both cities maintain low pollution levels, and City D boasts the highest healthcare score in the table at 92/100. City A also performs very strongly in this regard, with a healthcare score of 85.\n\nIn stark contrast, Cities B and C present a much more affordable, yet lower-quality standard of living. City C is the cheapest location with an index of 85, slightly lower than City B at 90. However, this affordability comes at a cost; both cities suffer from high pollution levels and possess significantly poorer healthcare systems, scoring only 65 and 60 respectively. (223 words)",
-                "figureUrl": null
+                "figureUrl": "table_ex3.html"
             },
             {
                 "title": "SURVEY RESULTS",
@@ -253,7 +253,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the older skeptics (46-65 and 65+). Note the mixed views of the 46-65 group, and emphasize how the 65+ group is the *only* one to primarily disagree (65% total negative)."
                 ],
                 "essay": "The provided table details the findings of a survey regarding the proposition that public transportation should be free, categorizing the responses across four distinct age groups.\n\nOverall, there is a clear generational divide in opinion. Younger demographics overwhelmingly support the idea of free public transport, whereas older age groups exhibit significantly higher levels of opposition to the proposal.\n\nLooking at the younger respondents, support for the initiative is exceptionally strong. Among 18 to 25-year-olds, a massive 85% of individuals are in favor, with a striking 60% choosing 'strongly agree'. This enthusiasm diminishes slightly in the 26 to 45 age bracket, though the majority still support the idea, with 40% strongly agreeing and 30% simply agreeing. In both of these younger demographics, outright opposition (strongly disagreeing) remains very low at 5% and 10% respectively.\n\nConversely, older generations present a much more skeptical view. For those aged between 46 and 65, opinion is divided; while a combined 60% support the idea, 40% oppose it. The starkest contrast, however, is found in the 65 and over category. This is the only demographic where the majority oppose the proposition. A significant 65% of elderly respondents voted against free transport, with 40% disagreeing and a further 25% strongly disagreeing. (202 words)",
-                "figureUrl": null
+                "figureUrl": "table_ex4.html"
             },
             {
                 "title": "RANKING TABLE",
@@ -265,7 +265,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the bottom 2. Note Stanford in 4th, and point out ETH Zurich as the *only* non-Anglophone university, sitting at the bottom with 5,000."
                 ],
                 "essay": "The table outlines the top five universities globally, ranked according to their total enrollment of international students during the academic year 2021, and identifies the host country for each institution.\n\nOverall, it is evident that the United Kingdom and the United States dominate the top tier of international education, occupying four of the top five positions. Furthermore, the University of Oxford stands as the clear global leader in attracting foreign students.\n\nLooking at the leading institutions, the University of Oxford (UK) secures the first position by a significant margin, enrolling 8,500 international students. The Massachusetts Institute of Technology (MIT) in the USA holds the second spot, although its enrollment of 7,200 students is considerably lower than Oxford’s. Closely trailing MIT is another British institution, the University of Cambridge, which ranks third with exactly 7,000 international students.\n\nTurning to the lower end of the top five, Stanford University, the second American institution on the list, occupies fourth place with 6,500 foreign enrollments. Finally, the only non-Anglophone university to break into the top five is ETH Zurich in Switzerland. Ranking fifth, it enrolled 5,000 international students, which is exactly 3,500 fewer than the top-ranked University of Oxford. (197 words)",
-                "figureUrl": null
+                "figureUrl": "table_ex5.html"
             }
         ]
     },
@@ -284,7 +284,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Focus ONLY on the Pie Charts. Contrast the high dissatisfaction before (40%+10%) with the massive surge in satisfaction after (40%+35%)."
                 ],
                 "essay": "The provided table details the total number of visitors to the Ashdown Museum in the year preceding and the year following its refurbishment, while the two pie charts compare visitor satisfaction survey results during those same two periods.\n\nOverall, it is clear that the refurbishment led to a significant increase in the total number of visitors to the museum. Furthermore, the surveys reveal that visitor satisfaction improved dramatically after the renovations were completed.\n\nLooking first at the total attendance data in the table, the museum experienced substantial growth. In the year prior to the refurbishment, the museum received 74,000 visitors. Following the renovations, this figure surged by roughly 25%, reaching a total of 92,000 visitors in the subsequent year.\n\nTurning to the satisfaction surveys in the pie charts, the positive impact of the refurbishment is evident. Before the changes, half of all visitors were either 'dissatisfied' (40%) or 'very dissatisfied' (10%). However, after the refurbishment, the proportion of 'very dissatisfied' visitors dropped to just 5%, and the 'dissatisfied' group shrank to 15%. Consequently, the percentage of visitors who reported being 'very satisfied' more than doubled, climbing from 15% to 35%, while the 'satisfied' group also saw an increase from 30% to 40%. (204 words)",
-                "figureUrl": null
+                "figureUrl": "multi_ex1.html"
             },
             {
                 "title": "LINE GRAPH + BAR CHART",
@@ -296,7 +296,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Focus ONLY on the Bar Chart (Delays). Track the increase from 5% to 25%, showing how it mirrored the dip in 2010."
                 ],
                 "essay": "The line graph illustrates the total number of individuals utilizing the train network in a major city between the years 2000 and 2020, while the accompanying bar chart details the percentage of these passengers who faced travel delays over the same two-decade period.\n\nOverall, there was a general upward trend in both the number of train passengers and the proportion of people experiencing delays. Notably, years with higher passenger volumes consistently correlated with a higher percentage of delayed journeys.\n\nAnalyzing the passenger numbers first, the network began the period with 10 million users in 2000. This figure rose to 15 million by 2005 before experiencing a brief dip to 12 million in 2010. Following this, the number of passengers recovered and climbed steadily, reaching 18 million in 2015 and peaking at 22 million by the end of the period in 2020.\n\nTurning to the bar chart, the frequency of delays mirrored the fluctuations in passenger volume. In 2000, only 5% of passengers were delayed. This proportion more than doubled to 12% in 2005, before falling back to 8% in 2010, matching the drop in ridership. However, as passenger numbers surged in the final decade, delays worsened significantly, affecting 15% of travelers in 2015 and reaching a peak of 25% by 2020. (216 words)",
-                "figureUrl": null
+                "figureUrl": "multi_ex2.html"
             },
             {
                 "title": "PIE CHART + BAR CHART",
@@ -308,7 +308,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Focus ONLY on the Bar Chart (Regions). Compare Europe (worst, 23%), Oceania (middle, 13%), and North America (best, 5%)."
                 ],
                 "essay": "The pie chart delineates the primary global causes of agricultural land degradation, while the accompanying bar chart compares the total percentage of degraded land across three specific regions (North America, Europe, and Oceania) during the 1990s.\n\nOverall, it is evident that over-grazing, deforestation, and over-cultivation were the three leading causes of land degradation globally. Furthermore, Europe suffered from a significantly higher proportion of degraded land compared to Oceania and North America.\n\nLooking first at the global causes detailed in the pie chart, over-grazing was the most detrimental activity, responsible for 35% of all land degradation. Deforestation was the second most significant factor, accounting for 30%. Closely following this was over-cultivation, which caused 28% of the damage. A small minority of degradation, making up the final 7%, was attributed to other, unspecified causes.\n\nTurning to the regional impact shown in the bar chart, Europe was the most severely affected area, with 23% of its total agricultural land suffering from degradation during the 1990s. Oceania experienced a moderate level of damage, with exactly 13% of its land becoming less productive. In stark contrast, North America was the least affected region by a considerable margin, recording a degradation rate of a mere 5%. (199 words)",
-                "figureUrl": null
+                "figureUrl": "multi_ex3.html"
             },
             {
                 "title": "LINE GRAPH + PIE CHART",
@@ -320,7 +320,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Focus ONLY on the Pie Chart (which represents the 120m peak). Describe Brand A and B dominating 75% of the market combined."
                 ],
                 "essay": "The line graph illustrates the total volume of smartphone sales worldwide over a six-year period from 2015 to 2021, measured in millions of units. The accompanying pie chart breaks down the global market share held by different smartphone brands in the final year of that period.\n\nOverall, global smartphone sales experienced a substantial upward trend, more than doubling over the six years despite a brief minor dip. In 2021, when sales were at their peak, Brand A was the dominant market leader, accounting for nearly half of all purchases.\n\nLooking first at the sales trend over time, the global market began with 50 million units sold in 2015. This figure rose sharply to 80 million by 2017. Although the market experienced a slight contraction in 2019, with sales falling marginally to 75 million, this was short-lived. By 2021, sales had surged dramatically, peaking at 120 million units.\n\nTurning to the market share breakdown for 2021, Brand A was the clear consumer favorite, capturing 45% of the total market. Brand B was the second most popular manufacturer, holding a significant 30% share. Together, these two leading companies controlled three-quarters of the entire market. In contrast, Brand C accounted for only 15% of sales, while all other remaining brands combined made up a mere 10% of the market. (215 words)",
-                "figureUrl": null
+                "figureUrl": "multi_ex4.html"
             },
             {
                 "title": "TWO PIES + ONE TABLE",
@@ -332,7 +332,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Focus ONLY on the Pie Charts. Contrast the drop in Individual funding (60% to 40%) with the rise of Corporate funding (25% to 45%). Mention government stayed flat."
                 ],
                 "essay": "The table details the total financial contributions received by a specific charity in the years 2010 and 2020, while the two pie charts illustrate the proportion of these funds originating from individuals, corporate entities, and government bodies during those same two years.\n\nOverall, the charity experienced a significant increase in total funding over the decade. Furthermore, while the government's proportional contribution remained static, the charity became increasingly reliant on corporate donations, which overtook individual contributions as the primary source of income by 2020.\n\nAccording to the table, the charity's overall financial intake grew substantially. In 2010, the organization received $20 million in donations. Over the next ten years, this figure nearly doubled, reaching an impressive $35 million by 2020.\n\nAnalyzing the sources of this funding in the pie charts, individual donors were the primary financial supporters in 2010, accounting for 60% of all contributions, compared to just 25% from corporations. However, this dynamic shifted dramatically by 2020. The proportion of funding from individuals fell to 40%, while corporate donations surged to 45%, making businesses the largest single source of income. Throughout this entire period of financial restructuring, the proportion of funding provided by the government remained exactly the same, at a steady 15%. (203 words)",
-                "figureUrl": null
+                "figureUrl": "multi_ex5.html"
             }
         ]
     },
@@ -351,7 +351,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group by Geography (East and Center). Detail the expansion of the housing estate, the surviving post office, and the shop becoming a supermarket."
                 ],
                 "essay": "The two maps illustrate the extensive development and modernization that took place in the village of Ryden over a twenty-year period, comparing its layout in 1990 to that in 2010.\n\nOverall, it is immediately apparent that Ryden transformed from a rural, agricultural village into a significantly more residential and developed area. The most notable changes include the loss of farmland and woodland, which were replaced by recreational facilities and educational infrastructure.\n\nLooking first at the western and northern sections of the village, major environmental changes occurred. In 1990, the western side was dominated by agricultural farmland; however, by 2010, this entire area had been converted into a large golf course. Similarly, the forest that previously stood in the north was completely cut down, and a new school was constructed in its place.\n\nTurning to the eastern and central areas, the village became far more commercialized and populated. The small housing estate located in the east in 1990 was significantly expanded by 2010 to accommodate more residents. In the center of the village, while the post office remained in its original location, the small shop adjacent to it was demolished and replaced by a much larger supermarket. (197 words)",
-                "figureUrl": null
+                "figureUrl": "map_ex1.html"
             },
             {
                 "title": "PRESENT VS FUTURE (Proposals)",
@@ -363,7 +363,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the Center and South. Detail the demolition of the old library for a Student Union, the static Arts block, and the expanded Science block."
                 ],
                 "essay": "The provided maps depict the current infrastructure of a university campus and outline the proposed developments planned for its future layout.\n\nOverall, the campus is slated to undergo significant redevelopment, prioritizing the expansion of academic and student facilities. This will primarily involve the relocation of the library and the sacrifice of existing green spaces.\n\nAnalyzing the northern and eastern sections of the campus, major construction is proposed. The existing car park located in the north is planned to be substantially expanded to accommodate more vehicles. Meanwhile, the large, open green space currently situated on the eastern side of the campus will be completely built over. According to the plans, a brand-new, larger library will be constructed on this site.\n\nRegarding the central and southern areas, further modernizations are scheduled. The original library, which currently sits in the center of the campus, will be demolished. In its place, a new Student Union building will be erected. Looking to the south, the Arts block is the only structure that will remain entirely unchanged. However, the Science block situated next to it will undergo an extension, significantly increasing its footprint on the campus. (192 words)",
-                "figureUrl": null
+                "figureUrl": "map_ex2.html"
             },
             {
                 "title": "SITE SELECTION (Comparing two locations)",
@@ -375,7 +375,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Analyze Site 2 exclusively. Detail its central location surrounded by housing, and point out its major flaw (no roads/trains nearby)."
                 ],
                 "essay": "The provided map displays the town of Garlsdon and highlights two potential locations, designated as S1 and S2, that are currently being considered for the construction of a new shopping mall.\n\nOverall, the two sites offer vastly different geographical advantages. While S1 is situated on the outskirts of the town with excellent transport links, S2 is located directly in the town center, offering closer proximity to residential areas but limited vehicular access.\n\nLooking first at Site 1, it is located in the northern countryside, entirely outside the main residential zones of Garlsdon. However, its primary advantage lies in its accessibility for commuters. The site is situated immediately adjacent to a major arterial road, the A4, and is also positioned alongside the town’s railway line. This would make it highly accessible for shoppers traveling from outside the immediate area via car or train.\n\nIn contrast, Site 2 proposes a completely different retail environment. It is located squarely in the center of Garlsdon, completely surrounded by housing estates, making it easily accessible on foot for local residents. However, unlike S1, there are no major transport links nearby. The area is entirely pedestrianized, meaning the site cannot be accessed directly by road or rail. (201 words)",
-                "figureUrl": null
+                "figureUrl": "map_ex3.html"
             },
             {
                 "title": "FLOOR PLAN MODIFICATION",
@@ -387,7 +387,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the Southern half. Note the static entrance, the dismantling of the Reading Room, and the relocation of Children's Books to that spot."
                 ],
                 "essay": "The provided floor plans illustrate the structural modifications and reorganization of the ground floor of a public library, comparing its layout in 2001 with its present-day configuration.\n\nOverall, the library has undergone significant interior modernization, transitioning from a traditional reading-focused layout to a more technologically integrated space. Notably, the area dedicated to adult fiction has been vastly expanded, while the traditional reading room has been entirely eliminated.\n\nLooking at the northern section of the building, the most dramatic expansion has occurred. In 2001, the Adult Fiction section occupied only the north-western corner, while the north-eastern corner housed the Children’s Books. Currently, the Adult Fiction section has been extended to span the entire northern wall of the library. Furthermore, a completely new IT Center has been constructed, replacing the former children's area in the north-east.\n\nTurning to the southern half of the floor plan, the main entrance has remained in its original location on the southern wall. However, the space to the right of the entrance (the south-east corner), which previously served as a dedicated Reading Room, has been repurposed. The Reading Room has been dismantled, and the Children’s Books section has been relocated to this area. (202 words)",
-                "figureUrl": null
+                "figureUrl": "map_ex4.html"
             },
             {
                 "title": "ISLAND RESORT DEVELOPMENT",
@@ -399,7 +399,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Focus purely on the 'After' map. Detail the new pier, the central reception, the northern restaurant, and the two zones of accommodation huts connected by paths."
                 ],
                 "essay": "The two maps depict a small island and illustrate the extensive construction work that has transformed it from a completely uninhabited natural landscape into a developed tourist resort.\n\nOverall, it is clear that the island has been heavily commercialized. The previously untouched environment has been equipped with comprehensive tourist infrastructure, including accommodation, dining facilities, and a dedicated transport link, while retaining its natural beach.\n\nPrior to development, the island was entirely devoid of any man-made structures. It consisted only of a large beach on its western coast and several clusters of trees scattered across the central and eastern areas. There was no way to access the island by boat.\n\nFollowing the construction phase, a pier was built on the southern coast, allowing boats to dock. From this pier, a vehicle track leads directly to a newly constructed central Reception building. The island now features two distinct accommodation zones consisting of small huts connected by footpaths: one group is situated around the western beach, and the other is located in the east. Finally, a large restaurant has been erected in the northern part of the island, accessible via a footpath from the central reception area. (199 words)",
-                "figureUrl": null
+                "figureUrl": "map_ex5.html"
             },
             {
                 "title": "MUSEUM LAYOUT CHANGES",
@@ -411,7 +411,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the Southern/Entrance area. Describe the gift shop converting to a cafe, and the gift shop moving to share space with the cloakroom."
                 ],
                 "essay": "The provided floor plans illustrate the internal modifications and the reallocation of space within a city museum, comparing its layout in the years 1990 and 2010.\n\nOverall, the museum underwent significant restructuring to modernize its facilities and expand its core exhibitions. The most prominent change was the complete removal of the dinosaur exhibition to make way for a new technological zone, alongside the introduction of catering facilities.\n\nLooking first at the northern half of the building, a major shift in focus occurred. In 1990, the entire back section of the museum was dedicated to a Dinosaur Exhibition. However, by 2010, this exhibition had been completely removed. In its place, a modern Interactive Tech Zone was constructed. Immediately south of this, the Local History section, which occupied the center of the building in 1990, was significantly expanded in 2010, taking up a much larger central footprint.\n\nTurning to the southern entrance area, visitor amenities were entirely reorganized. In 1990, a gift shop was located to the left of the main entrance, while a cloakroom sat to the right. By 2010, the original gift shop was converted into a cafe. Consequently, the gift shop was relocated to the right side of the entrance, where it now shares a condensed space with the existing cloakroom. (215 words)",
-                "figureUrl": null
+                "figureUrl": "map_ex6.html"
             },
             {
                 "title": "ROAD NETWORK CHANGES",
@@ -423,7 +423,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Focus on the individual streets branching off. Detail the pedestrianized North street, the widened 4-lane South street, and the new bridge over the East street."
                 ],
                 "essay": "The two maps depict the structural developments and traffic management alterations implemented within a city centre's road network, comparing its layout in 2005 with its current design.\n\nOverall, the road system has been heavily modified to improve traffic flow and prioritize pedestrian safety in certain areas. The most significant changes include the replacement of the central intersection with a roundabout and the pedestrianization of the northern route.\n\nLooking at the center of the network, the original 2005 layout featured a standard crossroads intersection where all four directional streets met. Presently, this crossroads has been entirely demolished and replaced by a large, central roundabout connecting the remaining active roads. \n\nRegarding the specific arterial routes, dramatic changes were made to the north-south axis. The northern street, which was a standard two-way road in 2005, has now been completely pedestrianized, barring vehicle access entirely. To compensate, the southern street has been significantly widened, expanding from a standard two-way road into a four-lane highway. Finally, while the eastern and western streets remain unchanged as two-way roads, a new bridge has been constructed directly over the eastern route, likely to facilitate uninterrupted pedestrian crossing. (193 words)",
-                "figureUrl": null
+                "figureUrl": "map_ex7.html"
             }
         ]
     },
@@ -442,7 +442,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the finalization stages (4 to 7). Use passive voice to describe cooling, grinding, packaging, and delivery via truck."
                 ],
                 "essay": "The provided diagram illustrates the various sequential stages involved in the commercial production of coffee, from the initial harvesting to its final delivery to retail outlets.\n\nOverall, the coffee production process is a multi-step, primarily mechanical procedure that consists of seven distinct stages. It begins with the manual collection of raw coffee beans and culminates in the distribution of the packaged product to supermarkets.\n\nLooking at the initial stages of production, the process commences in the agricultural fields where the raw coffee beans are carefully picked by hand. Once harvested, these fresh beans are laid out in large trays and left to be naturally dried in the sun. Following this dehydration phase, the beans are transferred into large industrial ovens where they are roasted at high temperatures to develop their flavor.\n\nTurning to the final stages, immediately after roasting, the hot beans must be cooled rapidly. Subsequently, they are passed through a milling machine where they are ground down into a fine coffee powder. Once the grinding is complete, this powder is automatically packaged into glass jars. Finally, the sealed jars are loaded onto transport trucks and delivered to various supermarkets, ready to be purchased by consumers. (199 words)",
-                "figureUrl": null
+                "figureUrl": "process_ex1.html"
             },
             {
                 "title": "NATURAL CYCLE",
@@ -454,7 +454,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Group the Saltwater/Return stages (Smolt and Adult). Detail the migration to the ocean for 5 years, maturing to 76cm, and swimming back upstream."
                 ],
                 "essay": "The diagram illustrates the natural life cycle of the salmon, detailing its physical growth and the different aquatic environments it inhabits throughout its lifespan.\n\nOverall, the life cycle of a salmon spans approximately a decade and consists of four main developmental stages. Crucially, the process begins and ends in the same location, with the fish migrating from freshwater rivers to the saltwater ocean and back again to reproduce.\n\nThe cycle begins in the upper, shallow waters of a river, where adult salmon lay their eggs hidden among small stones and reeds. These eggs incubate for approximately five to six months before hatching into tiny fish known as 'fry', which measure roughly 3 to 8 centimeters in length. These fry then migrate downstream to the lower, deeper parts of the river, where they reside and grow for about four years.\n\nAfter this period, the fish enter the 'smolt' stage, having grown to between 12 and 15 centimeters. At this point, they migrate out of the freshwater river and into the open ocean. They spend approximately five years maturing in the saltwater environment. Eventually, they become fully grown adult salmon, measuring 70 to 76 centimeters. Finally, these mature adults swim back upstream to the exact same upper river areas to lay their own eggs, thus beginning the cycle anew. (215 words)",
-                "figureUrl": null
+                "figureUrl": "process_ex2.html"
             },
             {
                 "title": "FLOWCHART (System)",
@@ -466,7 +466,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Detail the testing stages. Describe the written exam (with 3 retakes) and the practical test (with a 1-month wait), concluding with license issuance."
                 ],
                 "essay": "The provided flowchart details the official procedure that candidates must follow in order to successfully obtain a driving license in a particular country.\n\nOverall, the application is a stringent, multi-stage process involving both physical and academic assessments. While there are multiple opportunities to retake the testing phases if a candidate fails, failing the initial physical assessment results in immediate rejection.\n\nThe process commences with the applicant filling out an official application form. Following this, the candidate must undergo an eye test at a registered clinic. This is a critical stage; if the applicant fails the vision assessment, their application is permanently rejected and the process ends. However, if they pass, they are permitted to proceed to the written examination.\n\nThe written exam tests the candidate's knowledge of road rules. If an individual fails this test, they are allowed to retake it up to three times before having to restart the entire application. Once the written test is passed, the final hurdle is the practical driving test. Should a candidate fail this on-road assessment, they must wait a mandatory period of one month before they are eligible to retake it. Ultimately, upon successful completion of the practical test, the official driving license is issued to the candidate. (206 words)",
-                "figureUrl": null
+                "figureUrl": "process_ex3.html"
             },
             {
                 "title": "OBJECT DIAGRAM",
@@ -478,7 +478,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Detail the second stage and output. Describe the charcoal layer neutralizing chemicals, and the clean water dripping into the tank to be dispensed by a tap."
                 ],
                 "essay": "The provided diagram illustrates the cross-section of a domestic water filtration device, detailing the specific internal components and the sequential process by which contaminated water is purified for safe consumption.\n\nOverall, the filtration system is a gravity-fed, three-stage mechanism. It operates without electricity, relying instead on natural downward flow through two distinct filtering materials to remove impurities before storing the clean water for use.\n\nThe purification process begins at the top of the device. Contaminated, dirty water is manually poured into an open upper chamber. From here, gravity forces the water to seep downwards into the central filtration section. The water first permeates through a thick layer of sand, which acts as a physical barrier to trap and filter out any large, solid particles suspended in the liquid.\n\nContinuing its downward trajectory, the partially filtered water then passes through a secondary layer made of activated charcoal. This crucial stage is responsible for neutralizing harmful chemicals and removing bacteria. Finally, the newly purified water drips through a fine mesh grate into a large, enclosed collection tank at the base of the unit. This safe drinking water can then be conveniently dispensed by the user via a manual tap fitted to the bottom of the tank. (201 words)",
-                "figureUrl": null
+                "figureUrl": "process_ex4.html"
             },
             {
                 "title": "DIGITAL PROCESS",
@@ -490,7 +490,7 @@ window.ieltsData = {
                     "Body Paragraph 2: Detail the Human-involved stages (3 and 4). Describe taking the psychometric test, which is then forwarded to a human HR rep who makes the final interview/rejection decision."
                 ],
                 "essay": "The flowchart details the step-by-step digital procedure that candidates must navigate when applying for a position through a large corporation's automated online recruitment portal.\n\nOverall, the application process is highly automated, consisting of four primary stages. It is designed to act as a strict filtering system, heavily utilizing artificial intelligence to screen candidates before any human intervention occurs at the final stage.\n\nThe digital journey begins with the applicant creating a personal account on the portal. This requires immediate email verification; if the user fails to verify their email address, the account is permanently locked. Upon successful verification, the candidate proceeds to the second stage, which involves uploading a digital curriculum vitae (CV). This document is immediately scanned by an Artificial Intelligence program searching for specific keywords. If the CV lacks these vital keywords, the system issues an automatic rejection, abruptly ending the process.\n\nCandidates whose CVs pass the AI screening are then directed to the third stage, where they must complete a timed, online psychometric test. Finally, only the results of those who complete this test are forwarded to a human Human Resources (HR) representative for manual review. Following this final human assessment, the candidate is either officially scheduled for an interview or sent a final rejection email. (205 words)",
-                "figureUrl": null
+                "figureUrl": "process_ex5.html"
             }
         ]
     }

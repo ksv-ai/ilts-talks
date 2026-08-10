@@ -9,28 +9,6 @@ if (!fs.existsSync(individualDir)) {
     fs.mkdirSync(individualDir, { recursive: true });
 }
 
-function extractChartScript(htmlContent, chartIndex) {
-    // Basic extraction relying on "// Chart X" comment structure we previously built
-    const scriptStart = htmlContent.indexOf('<script>');
-    const scriptEnd = htmlContent.indexOf('</script>');
-    if (scriptStart === -1 || scriptEnd === -1) return '';
-    
-    const scriptContent = htmlContent.substring(scriptStart + 8, scriptEnd);
-    const blocks = scriptContent.split('// Chart ');
-    
-    for (let i = 1; i < blocks.length; i++) {
-        if (blocks[i].startsWith(chartIndex.toString())) {
-            // Find the chart ID it binds to, usually document.getElementById('chartX')
-            const idMatch = blocks[i].match(/document\.getElementById\('([^']+)'\)/);
-            if (idMatch) {
-                // Return the script block but change the ID to 'dynamicChart'
-                return blocks[i].replace(idMatch[1], 'dynamicChart');
-            }
-        }
-    }
-    return '';
-}
-
 function parseTask1Files() {
     const task1Files = [
         { file: 'Strategy_1_Line_Graphs.txt', html: '1_Line_Graphs.html', id: 'line' },
@@ -63,7 +41,10 @@ function parseTask1Files() {
         const strategyLines = headerSection.filter(line => line.startsWith('*')).map(line => line.replace('*', '').trim());
 
         let examples = [];
-        for (let i = 1; i < sections.length; i++) {
+        // The first section (index 0) is the title.
+        // The second section (index 1) is the Core Strategy block.
+        // The third section (index 2) is EXAMPLE 1.
+        for (let i = 2; i < sections.length; i++) {
             const exContent = sections[i];
             const titleMatch = exContent.match(/EXAMPLE \d+: (.*)/);
             if (!titleMatch) continue;
@@ -77,30 +58,34 @@ function parseTask1Files() {
                 planningArr = planningMatch[1].split('\n').filter(line => line.startsWith('*')).map(line => line.replace('*', '').trim());
             }
 
-            // Create Individual HTML file for this chart
+            // Create Individual HTML file for this chart using the style hiding technique
             let figureUrl = null;
+            const exampleNum = i - 1; // i=2 is Example 1, i=3 is Example 2, etc.
+            
             if (rawHtml) {
-                const scriptBlock = extractChartScript(rawHtml, i);
-                if (scriptBlock) {
-                    const singleHtml = `
-                    <!DOCTYPE html>
-                    <html>
-                    <head>
-                        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-                        <style>body { margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif; background: transparent; }</style>
-                    </head>
-                    <body>
-                        <canvas id="dynamicChart" style="max-height: 100%; max-width: 100%;"></canvas>
-                        <script>
-                            ${scriptBlock}
-                        </script>
-                    </body>
-                    </html>
-                    `;
-                    const filename = `${item.id}_ex${i}.html`;
-                    fs.writeFileSync(path.join(individualDir, filename), singleHtml);
-                    figureUrl = filename;
-                }
+                const hideStyle = `
+                <style>
+                    /* Hide all containers */
+                    .chart-container, .table-container { display: none !important; }
+                    /* Show only the target container */
+                    .chart-container:nth-of-type(${exampleNum}), .table-container:nth-of-type(${exampleNum}) { 
+                        display: block !important; 
+                        margin: 0 !important; 
+                        box-shadow: none !important; 
+                        width: 100% !important; 
+                        max-width: 100% !important; 
+                        padding: 10px !important; 
+                        box-sizing: border-box !important; 
+                    }
+                    body { margin: 10px !important; padding: 0 !important; background: transparent !important; }
+                </style>
+                `;
+                
+                // Inject the style block before </head>
+                const modifiedHtml = rawHtml.replace('</head>', `${hideStyle}\n</head>`);
+                const filename = `${item.id}_ex${exampleNum}.html`;
+                fs.writeFileSync(path.join(individualDir, filename), modifiedHtml);
+                figureUrl = filename;
             }
 
             examples.push({

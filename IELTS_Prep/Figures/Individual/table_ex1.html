@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Figures (Extended)</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
+        .table-container { width: 80%; max-width: 800px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; }
+        .prompt { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; text-align: center; border-bottom: 1px solid #ddd; }
+        th { background-color: #34495e; color: white; }
+        tr:hover { background-color: #f5f5f5; }
+    </style>
+
+                <style>
+                    /* Hide all containers */
+                    .chart-container, .table-container { display: none !important; }
+                    /* Show only the target container */
+                    .chart-container:nth-of-type(1), .table-container:nth-of-type(1) { 
+                        display: block !important; 
+                        margin: 0 !important; 
+                        box-shadow: none !important; 
+                        width: 100% !important; 
+                        max-width: 100% !important; 
+                        padding: 10px !important; 
+                        box-sizing: border-box !important; 
+                    }
+                    body { margin: 10px !important; padding: 0 !important; background: transparent !important; }
+                </style>
+                
+</head>
+<body>
+
+    <div class="table-container">
+        <h2>Figure 1: Standard Comparison Table (Expenditure)</h2>
+        <div class="prompt">PROMPT: The table below shows the proportion of national expenditure in Ireland, Italy, Spain, Sweden and Turkey on three categories of consumer goods in 2002. Summarise the information.</div>
+        <table>
+            <tr><th>Country</th><th>Food/Tobacco</th><th>Clothing</th><th>Leisure/Education</th></tr>
+            <tr><td>Ireland</td><td>28.91%</td><td>6.43%</td><td>2.21%</td></tr>
+            <tr><td>Italy</td><td>16.36%</td><td>9.00%</td><td>3.20%</td></tr>
+            <tr><td>Spain</td><td>18.80%</td><td>6.51%</td><td>1.98%</td></tr>
+            <tr><td>Sweden</td><td>15.77%</td><td>5.40%</td><td>3.22%</td></tr>
+            <tr><td>Turkey</td><td>32.14%</td><td>6.63%</td><td>4.35%</td></tr>
+        </table>
+    </div>
+
+    <div class="table-container">
+        <h2>Figure 2: Time-Based Table (Car Production)</h2>
+        <div class="prompt">PROMPT: The table shows the monthly production of cars in three different countries in 2000, 2010, and 2020 (in thousands). Summarise the information.</div>
+        <table>
+            <tr><th>Country</th><th>2000</th><th>2010</th><th>2020</th></tr>
+            <tr><td>Germany</td><td>450</td><td>500</td><td>600</td></tr>
+            <tr><td>Japan</td><td>600</td><td>550</td><td>400</td></tr>
+            <tr><td>Australia</td><td>100</td><td>50</td><td>0 (Ceased)</td></tr>
+        </table>
+    </div>
+
+    <div class="table-container">
+        <h2>Figure 3: Complex Demographic Table (Quality of Life)</h2>
+        <div class="prompt">PROMPT: The table compares four different cities across three quality of life indicators in 2022. Summarise the information.</div>
+        <table>
+            <tr><th>City</th><th>Cost of Living Index</th><th>Healthcare Score (/100)</th><th>Pollution Level</th></tr>
+            <tr><td>City A</td><td>120</td><td>85</td><td>Low</td></tr>
+            <tr><td>City B</td><td>90</td><td>60</td><td>High</td></tr>
+            <tr><td>City C</td><td>85</td><td>65</td><td>High</td></tr>
+            <tr><td>City D</td><td>115</td><td>92</td><td>Low</td></tr>
+        </table>
+    </div>
+    
+    <div class="table-container">
+        <h2>Figure 4: Survey Results (Public Transport)</h2>
+        <div class="prompt">PROMPT: The table displays the results of a survey asking different age groups whether public transport should be free of charge. Summarise the information.</div>
+        <table>
+            <tr><th>Age Group</th><th>Strongly Agree</th><th>Agree</th><th>Disagree</th><th>Strongly Disagree</th></tr>
+            <tr><td>18-25</td><td>60%</td><td>25%</td><td>10%</td><td>5%</td></tr>
+            <tr><td>26-45</td><td>40%</td><td>30%</td><td>20%</td><td>10%</td></tr>
+            <tr><td>46-65</td><td>25%</td><td>35%</td><td>25%</td><td>15%</td></tr>
+            <tr><td>65+</td><td>15%</td><td>20%</td><td>40%</td><td>25%</td></tr>
+        </table>
+    </div>
+    
+    <div class="table-container">
+        <h2>Figure 5: Ranking Table (International Students)</h2>
+        <div class="prompt">PROMPT: The table shows the top five universities in the world ranked by the number of international students enrolled in 2021. Summarise the information.</div>
+        <table>
+            <tr><th>Rank</th><th>University</th><th>Country</th><th>International Students</th></tr>
+            <tr><td>1</td><td>Uni of Oxford</td><td>UK</td><td>8,500</td></tr>
+            <tr><td>2</td><td>MIT</td><td>USA</td><td>7,200</td></tr>
+            <tr><td>3</td><td>Uni of Cambridge</td><td>UK</td><td>7,000</td></tr>
+            <tr><td>4</td><td>Stanford Uni</td><td>USA</td><td>6,500</td></tr>
+            <tr><td>5</td><td>ETH Zurich</td><td>Swiss</td><td>5,000</td></tr>
+        </table>
+    </div>
+
+</body>
+</html>

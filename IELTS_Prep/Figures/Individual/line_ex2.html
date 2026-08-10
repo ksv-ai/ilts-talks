@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Line Graph Figures (Extended)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
+        .chart-container { width: 80%; max-width: 800px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; }
+        .prompt { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; }
+    </style>
+
+                <style>
+                    /* Hide all containers */
+                    .chart-container, .table-container { display: none !important; }
+                    /* Show only the target container */
+                    .chart-container:nth-of-type(2), .table-container:nth-of-type(2) { 
+                        display: block !important; 
+                        margin: 0 !important; 
+                        box-shadow: none !important; 
+                        width: 100% !important; 
+                        max-width: 100% !important; 
+                        padding: 10px !important; 
+                        box-sizing: border-box !important; 
+                    }
+                    body { margin: 10px !important; padding: 0 !important; background: transparent !important; }
+                </style>
+                
+</head>
+<body>
+
+    <div class="chart-container">
+        <h2>Figure 1: Intersecting Trends (Tourists)</h2>
+        <div class="prompt">PROMPT: The line graph shows the number of tourists visiting three different cities between 2000 and 2015 (in millions). Summarise the information.</div>
+        <canvas id="chart1"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 2: Historical vs. Future (Aging Population)</h2>
+        <div class="prompt">PROMPT: The graph shows the proportion of the population aged 65 and over (%) in three countries from 1940 to 2020, and predictions to 2040. Summarise the information.</div>
+        <canvas id="chart2"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 3: Extreme Fluctuations (Oil Price)</h2>
+        <div class="prompt">PROMPT: The graph shows the fluctuation in the price of a barrel of oil over a 12-month period in 2020 (in USD). Summarise the information.</div>
+        <canvas id="chart3"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h2>Figure 4: Stable / Flat Trends (Sugar Consumption)</h2>
+        <div class="prompt">PROMPT: The line graph shows the average weekly sugar consumption per household in two countries over a ten-year period (in kg). Summarise the information.</div>
+        <canvas id="chart4"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h2>Figure 5: Highly Correlated Trends (Unemployment vs Crime)</h2>
+        <div class="prompt">PROMPT: The line graph shows the unemployment rate (%) and the crime rate (incidents per 1000 people) in a specific city between 1995 and 2015. Summarise the information.</div>
+        <canvas id="chart5"></canvas>
+    </div>
+
+    <script>
+        // Chart 1
+        new Chart(document.getElementById('chart1'), {
+            type: 'line',
+            data: {
+                labels: ['2000', '2005', '2010', '2015'],
+                datasets: [
+                    { label: 'Paris', data: [10, 12, 11, 9], borderColor: 'blue', fill: false },
+                    { label: 'London', data: [8, 11, 14, 16], borderColor: 'red', fill: false },
+                    { label: 'Rome', data: [5, 9, 12, 15], borderColor: 'green', fill: false }
+                ]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+        });
+
+        // Chart 2
+        new Chart(document.getElementById('chart2'), {
+            type: 'line',
+            data: {
+                labels: ['1940', '1980', '2020', '2040 (Prediction)'],
+                datasets: [
+                    { label: 'Japan', data: [5, 10, 28, 35], borderColor: 'purple', fill: false, borderDash: [5, 5] },
+                    { label: 'Sweden', data: [7, 14, 20, 25], borderColor: 'orange', fill: false },
+                    { label: 'USA', data: [9, 11, 16, 20], borderColor: 'teal', fill: false }
+                ]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+        });
+
+        // Chart 3
+        new Chart(document.getElementById('chart3'), {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Oil Price (USD)',
+                    data: [60, 55, 30, 15, 25, 40, 42, 45, 38, 35, 45, 50],
+                    borderColor: 'black',
+                    backgroundColor: 'rgba(0,0,0,0.1)',
+                    fill: true
+                }]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+        });
+        
+        // Chart 4
+        new Chart(document.getElementById('chart4'), {
+            type: 'line',
+            data: {
+                labels: ['2010', '2012', '2014', '2016', '2018', '2020'],
+                datasets: [
+                    { label: 'Country A', data: [1.5, 1.5, 1.4, 1.5, 1.6, 1.5], borderColor: '#8e44ad', fill: false },
+                    { label: 'Country B', data: [0.8, 0.8, 0.9, 0.8, 0.7, 0.8], borderColor: '#f39c12', fill: false }
+                ]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true, max: 2.0 } } }
+        });
+        
+        // Chart 5 (Dual Axis)
+        new Chart(document.getElementById('chart5'), {
+            type: 'line',
+            data: {
+                labels: ['1995', '2000', '2005', '2010', '2015'],
+                datasets: [
+                    { label: 'Unemployment Rate (%)', data: [4, 8, 5, 9, 3], borderColor: '#c0392b', fill: false, yAxisID: 'y' },
+                    { label: 'Crime Rate (per 1000)', data: [40, 85, 45, 90, 25], borderColor: '#2980b9', fill: false, yAxisID: 'y1' }
+                ]
+            },
+            options: { 
+                responsive: true, 
+                scales: { 
+                    y: { type: 'linear', display: true, position: 'left', beginAtZero: true, max: 12 },
+                    y1: { type: 'linear', display: true, position: 'right', beginAtZero: true, max: 120, grid: { drawOnChartArea: false } }
+                } 
+            }
+        });
+    </script>
+</body>
+</html>

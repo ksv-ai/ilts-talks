@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bar Chart Figures (Extended)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
+        .chart-container { width: 80%; max-width: 800px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; }
+        .prompt { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; }
+    </style>
+
+                <style>
+                    /* Hide all containers */
+                    .chart-container, .table-container { display: none !important; }
+                    /* Show only the target container */
+                    .chart-container:nth-of-type(4), .table-container:nth-of-type(4) { 
+                        display: block !important; 
+                        margin: 0 !important; 
+                        box-shadow: none !important; 
+                        width: 100% !important; 
+                        max-width: 100% !important; 
+                        padding: 10px !important; 
+                        box-sizing: border-box !important; 
+                    }
+                    body { margin: 10px !important; padding: 0 !important; background: transparent !important; }
+                </style>
+                
+</head>
+<body>
+
+    <div class="chart-container">
+        <h2>Figure 1: Static Bar Chart (Vehicle Sales)</h2>
+        <div class="prompt">PROMPT: The bar chart shows the sales of three different types of vehicles in Germany, France, and Italy in 2019 (in thousands). Summarise the information.</div>
+        <canvas id="chart1"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 2: Dynamic Bar Chart (Internet Usage)</h2>
+        <div class="prompt">PROMPT: The chart shows the percentage of adults in the UK who used the internet daily in 2010 and 2020, categorized by age group. Summarise the information.</div>
+        <canvas id="chart2"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 3: Stacked Bar Chart (Electricity Generation)</h2>
+        <div class="prompt">PROMPT: The stacked bar chart shows the total amount of electricity generated in a specific country, and the fuel sources used, in 1990, 2000, and 2010 (in Terawatt hours). Summarise the information.</div>
+        <canvas id="chart3"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h2>Figure 4: Horizontal Bar Chart (Coffee Consumption)</h2>
+        <div class="prompt">PROMPT: The horizontal bar chart shows the top five countries with the highest coffee consumption per capita in 2021 (in kg). Summarise the information.</div>
+        <canvas id="chart4"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h2>Figure 5: Negative Values (Profit & Loss)</h2>
+        <div class="prompt">PROMPT: The bar chart shows the net profit and loss of a specific technology company over a five-year period from 2018 to 2022 (in Million USD). Summarise the information.</div>
+        <canvas id="chart5"></canvas>
+    </div>
+
+    <script>
+        // Chart 1
+        new Chart(document.getElementById('chart1'), {
+            type: 'bar',
+            data: {
+                labels: ['Germany', 'France', 'Italy'],
+                datasets: [
+                    { label: 'Cars', data: [400, 300, 250], backgroundColor: '#3498db' },
+                    { label: 'Trucks', data: [100, 150, 80], backgroundColor: '#e74c3c' },
+                    { label: 'Motorcycles', data: [50, 75, 120], backgroundColor: '#2ecc71' }
+                ]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+        });
+
+        // Chart 2
+        new Chart(document.getElementById('chart2'), {
+            type: 'bar',
+            data: {
+                labels: ['16-24', '25-44', '45-64', '65+'],
+                datasets: [
+                    { label: '2010', data: [90, 80, 60, 30], backgroundColor: '#9b59b6' },
+                    { label: '2020', data: [99, 95, 85, 60], backgroundColor: '#f1c40f' }
+                ]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+        });
+
+        // Chart 3 (Stacked)
+        new Chart(document.getElementById('chart3'), {
+            type: 'bar',
+            data: {
+                labels: ['1990', '2000', '2010'],
+                datasets: [
+                    { label: 'Coal', data: [60, 50, 40], backgroundColor: '#34495e' },
+                    { label: 'Gas', data: [30, 50, 70], backgroundColor: '#e67e22' },
+                    { label: 'Renewables', data: [10, 20, 40], backgroundColor: '#1abc9c' }
+                ]
+            },
+            options: { 
+                responsive: true, 
+                scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true } } 
+            }
+        });
+        
+        // Chart 4 (Horizontal)
+        new Chart(document.getElementById('chart4'), {
+            type: 'bar',
+            data: {
+                labels: ['Finland', 'Norway', 'Iceland', 'Denmark', 'Netherlands'],
+                datasets: [
+                    { label: 'Coffee Consumed (kg per capita)', data: [12.0, 9.9, 9.0, 8.7, 8.4], backgroundColor: '#5d4037' }
+                ]
+            },
+            options: { indexAxis: 'y', responsive: true, scales: { x: { beginAtZero: true, max: 15 } } }
+        });
+        
+        // Chart 5 (Negative Values)
+        new Chart(document.getElementById('chart5'), {
+            type: 'bar',
+            data: {
+                labels: ['2018', '2019', '2020', '2021', '2022'],
+                datasets: [
+                    { 
+                        label: 'Net Profit/Loss (Million USD)', 
+                        data: [15, 5, -10, -2, 8], 
+                        backgroundColor: function(context) {
+                            var index = context.dataIndex;
+                            var value = context.dataset.data[index];
+                            return value < 0 ? '#e74c3c' : '#2ecc71'; 
+                        }
+                    }
+                ]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+        });
+    </script>
+</body>
+</html>
