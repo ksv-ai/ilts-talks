@@ -1,0 +1,28 @@
+IELTS TASK 1 STRATEGY: TABLES
+--------------------------------------------------
+
+1. CORE STRATEGY & WHAT TO COMPARE:
+Tables can be a trap because they contain too many numbers. Do NOT try to write about every single number. You will run out of time and lose points for not "selecting" the main features.
+
+What you MUST compare:
+- Scan the columns and rows to find the absolute HIGHEST numbers.
+- Scan the columns and rows to find the absolute LOWEST numbers.
+- Look for broad patterns (e.g., "All European countries spent more on food than all Asian countries").
+
+How to group your data (Body Paragraphs):
+- Group by Category/Geography: Put the countries/items with the highest figures in Body 1, and the ones with the lowest figures in Body 2.
+- Group by Column: If the table has 3 columns (Food, Clothing, Leisure), summarize Food in Body 1, and Clothing/Leisure in Body 2.
+
+--------------------------------------------------
+2. BAND 9 EXAMPLE ESSAY
+
+PROMPT: The table below shows the proportion of national expenditure in Ireland, Italy, Spain, Sweden and Turkey on three categories of consumer goods in 2002.
+
+ESSAY:
+The provided table details the percentage of national consumer spending allocated to three distinct categories of goods (food/drinks/tobacco, clothing/footwear, and leisure/education) across five different countries—Ireland, Italy, Spain, Sweden, and Turkey—in the year 2002.
+
+Overall, it is clear that food, drinks, and tobacco represented the largest portion of consumer spending in all five nations. In contrast, leisure and education consistently accounted for the smallest proportion of national expenditure across the board. Furthermore, Turkey and Ireland were the most significant spenders in the primary category.
+
+Looking first at the most dominant expenditure category, Turkey allocated the highest proportion of its national spending to food, drinks, and tobacco, at 32.14%. Ireland followed closely with a figure of 28.91%. In contrast, Sweden had the lowest expenditure in this sector, dedicating only 15.77% of its budget, while Spain and Italy fell in the middle with 18.80% and 16.36% respectively.
+
+Regarding the remaining categories, clothing and footwear saw relatively similar levels of spending across the nations, ranging from a low of 5.40% in Sweden to a high of 9.00% in Italy. Finally, spending on leisure and education was uniformly the lowest priority. Turkey again led this category at 4.35%, while Spain recorded the lowest expenditure of any country in any category, dedicating a mere 1.98% to leisure and education. (223 words)

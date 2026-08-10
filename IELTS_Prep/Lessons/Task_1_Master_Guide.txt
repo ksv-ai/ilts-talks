@@ -1,0 +1,79 @@
+IELTS ACADEMIC WRITING TASK 1: THE MASTER GUIDE
+--------------------------------------------------
+To score a Band 7.0 or higher in Task 1, you must demonstrate strong vocabulary, perfect paragraph structure, and an ability to summarize data without getting lost in every single number. 
+
+Here is the exact, step-by-step method you must use for every single chart, graph, or map.
+
+--------------------------------------------------
+STEP 1: THE INTRODUCTION (1 Sentence Only)
+Your only job here is to tell the examiner what the chart is about. You do this by paraphrasing the prompt.
+
+* Original Prompt: "The graph below shows the consumption of fish and some different kinds of meat in a European country between 1979 and 2004."
+* Your Paraphrase: "The provided line graph illustrates the amount of fish and various types of meat consumed in a European nation over a 25-year period from 1979 to 2004."
+
+Vocabulary to memorize for Introductions:
+- shows -> illustrates, demonstrates, compares, highlights
+- the number of -> the quantity of, the figure for, the proportion of (if percentages)
+- between 1990 and 2000 -> over a ten-year period from 1990 to 2000
+
+--------------------------------------------------
+STEP 2: THE OVERVIEW (1 to 2 Sentences)
+**THIS IS THE MOST IMPORTANT PARAGRAPH IN TASK 1.** 
+If you do not write a clear overview, you cannot score higher than a Band 5.0 in Task Achievement. 
+
+Rule: Do NOT write any numbers or percentages here. Just tell me the biggest, most obvious trends.
+- For a Line Graph: What went up the most? What went down? What was the highest overall?
+- For a Bar Chart: Which bar was the tallest? Which was the shortest? Did anything change over time?
+- For a Map: What was the biggest change? (e.g., "Overall, the town became much more modernized and residential, with many green spaces being replaced by housing.")
+
+Example of a perfect Overview:
+"Overall, it is immediately apparent that the consumption of chicken increased significantly over the period, while beef and lamb experienced a downward trend. Fish remained the least popular food item throughout the 25 years."
+
+--------------------------------------------------
+STEP 3 & 4: THE BODY PARAGRAPHS (Details and Numbers)
+Here, you must prove the statements you made in your Overview using the specific numbers from the chart. You must divide the data logically into two paragraphs.
+
+How to group data:
+- By Time: Paragraph 3 (1990 to 2000), Paragraph 4 (2000 to 2010).
+- By Trend: Paragraph 3 (Things that went up), Paragraph 4 (Things that went down).
+- By Category: Paragraph 3 (Men's data), Paragraph 4 (Women's data).
+
+VOCABULARY FOR TRENDS (Line Graphs / Bar Charts with time)
+
+1. Upward Trends:
+- Verbs: increased, rose, grew, climbed, surged, skyrocketed, peaked at
+- Nouns: an increase, a rise, a growth, an upward trend
+- Example: "The number of visitors surged to 5 million in 2010."
+
+2. Downward Trends:
+- Verbs: decreased, fell, dropped, declined, plummeted, plunged, hit a low of
+- Nouns: a decrease, a fall, a drop, a downward trend
+- Example: "Car sales plummeted from 50,000 to just 10,000."
+
+3. Stable Trends:
+- Verbs: remained stable, remained constant, plateaued, leveled off
+- Example: "The percentage of women in the workforce remained stable at 45%."
+
+4. Fluctuations:
+- Verbs: fluctuated, varied
+- Example: "The price of oil fluctuated wildly between $40 and $80."
+
+ADVERBS & ADJECTIVES (To show how fast or slow a change was)
+- Big changes: significantly, dramatically, sharply, drastically, rapidly
+- Small changes: slightly, gradually, steadily, marginally
+- Example: "The population increased gradually before rising sharply in 1990."
+
+--------------------------------------------------
+CRITICAL GRAMMAR RULES FOR TASK 1:
+
+1. Check the Date! 
+If the chart says 1990, you MUST use the Past Simple tense (increased, fell). 
+If the chart shows predictions for 2050, use future tenses (is expected to increase, is predicted to fall).
+
+2. Passive Voice for Process Diagrams!
+If you are describing how coffee is made, do NOT write "The man picks the beans." 
+You must write: "First, the beans are picked by hand. Following this, they are dried in the sun."
+
+--------------------------------------------------
+YOUR TURN:
+Now that you have the secret formula, open one of the Practice files (like 1_Bar_Chart.txt) and try to write an essay using these exact steps!

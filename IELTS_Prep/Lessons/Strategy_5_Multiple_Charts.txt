@@ -1,0 +1,28 @@
+IELTS TASK 1 STRATEGY: MULTIPLE CHARTS
+--------------------------------------------------
+
+1. CORE STRATEGY & WHAT TO COMPARE:
+When you get two different charts (e.g., a Bar Chart + a Pie Chart), the task looks scary, but it is actually easier because the structure is already decided for you.
+
+What you MUST compare:
+- You must find the main feature of Chart 1, and the main feature of Chart 2.
+- DO NOT try to connect the data between the two charts unless there is a very obvious, undeniable link. Usually, they just show two different aspects of the same topic.
+
+How to group your data (Body Paragraphs):
+- Body Paragraph 1: Analyze only the first chart.
+- Body Paragraph 2: Analyze only the second chart.
+- This prevents you from jumping back and forth and confusing the examiner.
+
+--------------------------------------------------
+2. BAND 9 EXAMPLE ESSAY
+
+PROMPT: The table below shows the number of visitors to Ashdown Museum during the year before and the year after it was refurbished. The charts show the result of surveys asking visitors how satisfied they were with their visit, during the same two periods.
+
+ESSAY:
+The provided table details the total number of visitors to the Ashdown Museum in the year preceding and the year following its refurbishment, while the two pie charts compare visitor satisfaction survey results during those same two periods.
+
+Overall, it is clear that the refurbishment led to a significant increase in the total number of visitors to the museum. Furthermore, the surveys reveal that visitor satisfaction improved dramatically after the renovations were completed.
+
+Looking first at the total attendance data in the table, the museum experienced substantial growth. In the year prior to the refurbishment, the museum received 74,000 visitors. Following the renovations, this figure surged by roughly 25%, reaching a total of 92,000 visitors in the subsequent year.
+
+Turning to the satisfaction surveys in the pie charts, the positive impact of the refurbishment is evident. Before the changes, half of all visitors were either 'dissatisfied' (40%) or 'very dissatisfied' (10%). However, after the refurbishment, the proportion of 'very dissatisfied' visitors dropped to just 5%, and the 'dissatisfied' group shrank to 15%. Consequently, the percentage of visitors who reported being 'very satisfied' more than doubled, climbing from 15% to 35%, while the 'satisfied' group also saw an increase from 30% to 40%. (204 words)

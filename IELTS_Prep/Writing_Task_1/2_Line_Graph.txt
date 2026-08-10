@@ -1,0 +1,16 @@
+IELTS Academic Writing Task 1
+Type: Line Graph
+
+PROMPT:
+The line graph shows the percentage of tourists to England who visited four different attractions between 1980 and 2010.
+Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+Write at least 150 words.
+
+WRITE YOUR ANSWER BELOW:
+
+
+
+--------------------------------------------------
+TEACHER'S REVIEW
+Score:
+Feedback:

@@ -1,0 +1,27 @@
+IELTS TASK 1 STRATEGY: PIE CHARTS
+--------------------------------------------------
+
+1. CORE STRATEGY & WHAT TO COMPARE:
+Pie charts show proportions (percentages) that make up a whole (100%). Usually, you will get two or three pie charts showing different years.
+
+What you MUST compare:
+- The largest and smallest slices of the pie.
+- Major changes in proportion: Which slice expanded the most? Which slice shrank the most?
+- Rank changes: Did a category go from being the smallest slice in 1980 to the biggest slice in 2010?
+
+How to group your data (Body Paragraphs):
+- Group by Growth vs. Decline: Body Paragraph 1 describes the slices that grew larger. Body Paragraph 2 describes the slices that became smaller or stayed the same.
+
+--------------------------------------------------
+2. BAND 9 EXAMPLE ESSAY
+
+PROMPT: The pie charts compare the primary reasons why students chose to study at a particular UK university in 1980 and 2010.
+
+ESSAY:
+The two pie charts illustrate the shifts in the main factors influencing students' decisions to attend a specific university in the United Kingdom, comparing data from the years 1980 and 2010.
+
+Overall, it is evident that the availability of degree courses and the quality of resources became significantly more important to students over the 30-year period. Conversely, the university's proximity to home, which was the dominant factor in 1980, saw a dramatic decline in importance.
+
+In 1980, the location of the university was the primary driving factor, with 35% of students choosing the institution because it was close to their parents' home. However, by 2010, this figure had plummeted to just 10%. Similarly, the appeal of the university's sports and social facilities also waned, dropping by half from 14% in 1980 to a mere 7% three decades later.
+
+In contrast, academic factors gained considerable traction. The proportion of students selecting the university based on the degree courses offered increased from 35% in 1980 to a dominant 45% in 2010. Even more strikingly, the quality of the university's resources, which accounted for only 16% of decisions in 1980, surged to become the second most cited reason in 2010, representing 38% of student responses. (205 words)

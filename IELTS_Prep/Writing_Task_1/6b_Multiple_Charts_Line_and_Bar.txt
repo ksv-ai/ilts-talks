@@ -1,0 +1,16 @@
+IELTS Academic Writing Task 1
+Type: Multiple Charts (Line Graph + Bar Chart)
+
+PROMPT:
+The line graph below shows the number of train passengers in a major city from 2000 to 2020. The bar chart shows the percentage of those passengers who experienced delays during the same period.
+Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+Write at least 150 words.
+
+WRITE YOUR ANSWER BELOW:
+
+
+
+--------------------------------------------------
+TEACHER'S REVIEW
+Score:
+Feedback:

@@ -1,0 +1,38 @@
+# Practice 1: Bar Chart
+
+## The Prompt
+
+**You should spend about 20 minutes on this task.**
+
+**The bar chart below shows the percentage of Australian men and women in different age groups who did regular physical activity in 2010.**
+
+**Summarise the information by selecting and reporting the main features, and make comparisons where relevant.**
+
+**Write at least 150 words.**
+
+*(Imagine the data shows the following:)*
+*   Age 15-24: Men 52.8%, Women 47.7%
+*   Age 25-34: Men 42.2%, Women 48.9%
+*   Age 35-44: Men 39.5%, Women 52.5%
+*   Age 45-54: Men 43.1%, Women 53.3%
+*   Age 55-64: Men 45.1%, Women 53.0%
+*   Age 65 and over: Men 46.7%, Women 47.1%
+
+---
+
+## Write Your Answer Below:
+
+(Type your 4-paragraph response here. When you are finished, just tell me in the chat "I finished Practice 1" and I will review it!)
+
+
+
+---
+
+## Teacher's Review (Do not write here - I will fill this out later)
+**Estimated Band Score:** 
+**Task Achievement:** 
+**Coherence & Cohesion:** 
+**Lexical Resource:** 
+**Grammatical Range & Accuracy:** 
+
+**Feedback & Corrections:**
