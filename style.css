@@ -251,20 +251,20 @@ body {
 }
 
 .content-header {
-    padding: 15px 30px;
+    padding: 8px 25px;
     border-bottom: 1px solid var(--border-color);
 }
 
 .content-header h1 {
-    font-size: 1.6rem;
+    font-size: 1.35rem;
     font-weight: 700;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     color: var(--accent-color);
 }
 
 .content-header p {
     color: var(--text-secondary);
-    font-size: 0.95rem;
+    font-size: 0.85rem;
 }
 
 /* Sidebar Toggle Button Styles */
@@ -272,11 +272,11 @@ body {
     background: transparent;
     border: 1px solid var(--border-color);
     color: var(--text-primary);
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 1.05rem;
+    font-size: 1.3rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
