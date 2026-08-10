@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Masterclass</title>
+    <!-- Chart.js for Task 1 Visuals -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode"> <!-- Defaulting to Dark Mode for premium feel -->
+
+    <!-- Background Design -->
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fa-solid fa-graduation-cap"></i> IELTS Masterclass</h2>
+            </div>
+            
+            <div class="nav-section">
+                <h3>Task 1: Visuals</h3>
+                <ul id="nav-task1">
+                    <li data-target="task1-line" class="nav-item active"><i class="fa-solid fa-chart-line"></i> Line Graphs</li>
+                    <li data-target="task1-bar" class="nav-item"><i class="fa-solid fa-chart-bar"></i> Bar Charts</li>
+                    <li data-target="task1-pie" class="nav-item"><i class="fa-solid fa-chart-pie"></i> Pie Charts</li>
+                    <li data-target="task1-table" class="nav-item"><i class="fa-solid fa-table"></i> Tables</li>
+                    <li data-target="task1-multi" class="nav-item"><i class="fa-solid fa-layer-group"></i> Multiple Charts</li>
+                    <li data-target="task1-map" class="nav-item"><i class="fa-solid fa-map-location-dot"></i> Maps</li>
+                    <li data-target="task1-process" class="nav-item"><i class="fa-solid fa-gears"></i> Processes</li>
+                </ul>
+            </div>
+
+            <div class="nav-section">
+                <h3>Task 2: The Science</h3>
+                <ul id="nav-task2-science">
+                    <li data-target="task2-playbook" class="nav-item"><i class="fa-solid fa-book-open"></i> Grammar Playbook</li>
+                    <li data-target="task2-lenses" class="nav-item"><i class="fa-solid fa-brain"></i> Knowledge Network</li>
+                </ul>
+            </div>
+
+            <div class="nav-section">
+                <h3>Task 2: Essays</h3>
+                <ul id="nav-task2-essays">
+                    <li data-target="task2-opinion" class="nav-item"><i class="fa-solid fa-scale-balanced"></i> Opinion (Agree/Disagree)</li>
+                    <li data-target="task2-discuss" class="nav-item"><i class="fa-solid fa-comments"></i> Discuss Both Views</li>
+                    <li data-target="task2-adv" class="nav-item"><i class="fa-solid fa-thumbs-up"></i> Adv & Disadv</li>
+                    <li data-target="task2-problem" class="nav-item"><i class="fa-solid fa-triangle-exclamation"></i> Problem & Solution</li>
+                    <li data-target="task2-twopart" class="nav-item"><i class="fa-solid fa-question"></i> Two-Part Questions</li>
+                </ul>
+            </div>
+
+            <div class="nav-section">
+                <h3>Speaking</h3>
+                <ul id="nav-speaking">
+                    <li data-target="speaking-hub" class="nav-item"><i class="fa-solid fa-microphone"></i> Speaking Hub</li>
+                </ul>
+            </div>
+            
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fa-solid fa-sun"></i> Toggle Light Mode
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <header class="content-header">
+                <h1 id="page-title">Line Graphs</h1>
+                <p id="page-subtitle">Master the art of describing change over time.</p>
+            </header>
+
+            <div class="content-body" id="content-body">
+                <!-- Content will be dynamically injected here via app.js -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
