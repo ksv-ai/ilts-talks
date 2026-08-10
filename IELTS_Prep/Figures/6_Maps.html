@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Maps Figures</title>
+    <title>Maps Figures (Extended)</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
         .chart-container { width: 90%; max-width: 900px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
         h2 { text-align: center; color: #333; }
         .prompt { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; }
         .map-row { display: flex; justify-content: space-around; margin-top: 20px; }
-        .map-box { width: 45%; height: 250px; background: #ecf0f1; border: 2px solid #bdc3c7; position: relative; border-radius: 4px; overflow: hidden;}
+        
+        /* FIX: Ensure the wrapper div takes up space so flexbox doesn't collapse it */
+        .map-wrapper { width: 45%; }
+        
+        .map-box { width: 100%; height: 300px; background: #ecf0f1; border: 2px solid #bdc3c7; position: relative; border-radius: 4px; overflow: hidden;}
         .map-title { text-align: center; font-weight: bold; padding: 10px 0; background: #ecf0f1;}
         
         /* Elements for Map 1 */
-        .green-area { background: #a2d9a2; border: 1px solid #7cb342; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; text-align: center;}
-        .grey-area { background: #d0d3d4; border: 1px solid #95a5a6; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; text-align: center;}
-        .orange-area { background: #ffcc80; border: 1px solid #f57c00; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; text-align: center;}
+        .green-area { background: #a2d9a2; border: 1px solid #7cb342; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; text-align: center;}
+        .grey-area { background: #d0d3d4; border: 1px solid #95a5a6; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; text-align: center;}
+        .orange-area { background: #ffcc80; border: 1px solid #f57c00; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: bold; text-align: center;}
         
         /* Map 1: 1990 */
         .m1-farm { top: 10%; left: 5%; width: 40%; height: 80%; }
         .m1-houses { top: 30%; right: 5%; width: 30%; height: 30%; }
-        .m1-post { top: 40%; left: 50%; width: 15%; height: 15%; font-size: 10px;}
-        .m1-shop { top: 40%; left: 66%; width: 10%; height: 15%; font-size: 10px;}
-        .m1-forest { top: 5%; left: 50%; width: 40%; height: 20%; }
+        .m1-post { top: 45%; left: 50%; width: 15%; height: 15%; font-size: 12px;}
+        .m1-shop { top: 45%; left: 66%; width: 15%; height: 15%; font-size: 12px;}
+        .m1-forest { top: 10%; left: 50%; width: 40%; height: 20%; }
 
         /* Map 1: 2010 */
         .m2-golf { top: 10%; left: 5%; width: 40%; height: 80%; }
         .m2-houses { top: 20%; right: 5%; width: 40%; height: 50%; }
-        .m2-post { top: 40%; left: 50%; width: 15%; height: 15%; font-size: 10px;}
-        .m2-supermarket { top: 40%; left: 66%; width: 25%; height: 15%; font-size: 10px;}
-        .m2-school { top: 5%; left: 50%; width: 40%; height: 20%; }
+        .m2-post { top: 75%; left: 50%; width: 15%; height: 15%; font-size: 12px;}
+        .m2-supermarket { top: 75%; left: 66%; width: 28%; height: 15%; font-size: 12px;}
+        .m2-school { top: 10%; left: 50%; width: 40%; height: 20%; }
         
         /* Site Selection Elements */
-        .road { background: #555; position: absolute; color: white; display: flex; align-items: center; justify-content: center; font-size: 10px;}
+        .road { background: #555; position: absolute; color: white; display: flex; align-items: center; justify-content: center; font-size: 12px;}
         .train { background: repeating-linear-gradient(90deg, #333, #333 10px, #fff 10px, #fff 20px); position: absolute; }
-        .town-center { background: #ffb74d; border-radius: 50%; position: absolute; display: flex; align-items: center; justify-content: center; font-weight: bold; text-align: center;}
+        .town-center { background: #ffb74d; border-radius: 50%; position: absolute; display: flex; align-items: center; justify-content: center; font-weight: bold; text-align: center; flex-direction: column;}
+        
+        /* Floor Plan Elements */
+        .room { position: absolute; border: 2px solid #333; background: #e3f2fd; display: flex; align-items: center; justify-content: center; font-weight: bold; text-align: center;}
+        .entrance { position: absolute; bottom: 0; left: 40%; width: 20%; height: 10%; background: #fff; border: 2px solid #333; border-bottom: none; display: flex; align-items: center; justify-content: center;}
+        
+        /* Island Elements */
+        .water { background: #bbdefb; width: 100%; height: 300px; position: relative; border-radius: 4px;}
+        .island { background: #c8e6c9; width: 80%; height: 70%; top: 15%; left: 10%; position: absolute; border-radius: 50% 40% 60% 40%; border: 2px solid #388e3c;}
+        .beach { background: #ffe082; width: 20%; height: 50%; top: 25%; left: 0%; position: absolute; border-radius: 50% 0 0 50%;}
+        .tree { position: absolute; font-size: 20px; }
+        .hut { position: absolute; width: 20px; height: 20px; background: #8d6e63; border: 1px solid #5d4037; border-radius: 2px;}
+        .path { position: absolute; border: 1px dashed #795548; }
     </style>
 </head>
 <body>
@@ -43,7 +59,8 @@
         <div class="prompt">PROMPT: The maps below show the village of Ryden in 1990 and 2010. Summarise the information.</div>
         
         <div class="map-row">
-            <div>
+            <!-- FIX: Added map-wrapper to prevent collapsing -->
+            <div class="map-wrapper">
                 <div class="map-title">1990</div>
                 <div class="map-box">
                     <div class="green-area m1-farm">Farmland</div>
@@ -53,7 +70,7 @@
                     <div class="green-area m1-forest">Forest</div>
                 </div>
             </div>
-            <div>
+            <div class="map-wrapper">
                 <div class="map-title">2010</div>
                 <div class="map-box">
                     <div class="green-area m2-golf">Golf Course</div>
@@ -71,11 +88,15 @@
         <div class="prompt">PROMPT: The map below shows two possible sites (S1 and S2) for a new shopping mall in the town of Garlsdon. Summarise the information.</div>
         
         <div style="width: 100%; display: flex; justify-content: center;">
-            <div class="map-box" style="width: 80%; height: 300px;">
+            <div class="map-box" style="width: 80%; height: 350px;">
                 <!-- Town Center -->
-                <div class="town-center" style="top: 30%; left: 30%; width: 40%; height: 40%;">Garlsdon Town Center<br>(Housing / No roads)</div>
-                <!-- Site 2 -->
-                <div class="orange-area" style="top: 45%; left: 45%; width: 10%; height: 10%; background: red; color: white;">S2</div>
+                <div class="town-center" style="top: 30%; left: 30%; width: 40%; height: 40%;">
+                    <div>Garlsdon Town Center</div>
+                    <div style="font-size: 12px; font-weight: normal;">(Housing / No roads)</div>
+                </div>
+                
+                <!-- FIX: Moved S2 so it doesn't overlap text -->
+                <div class="orange-area" style="top: 35%; left: 45%; width: 10%; height: 10%; background: red; color: white;">S2</div>
                 
                 <!-- A4 Road -->
                 <div class="road" style="top: 10%; left: 0; width: 100%; height: 10%;">A4 Main Road</div>
@@ -88,6 +109,80 @@
                 
                 <!-- Labels -->
                 <div style="position: absolute; bottom: 10px; right: 20px; font-size: 12px; font-weight: bold; background: white; padding: 5px; border: 1px solid black;">Countryside</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 4: Floor Plan Modification (Library)</h2>
+        <div class="prompt">PROMPT: The plans below show the layout of the ground floor of a public library in 2001 and how it looks today. Summarise the information.</div>
+        
+        <div class="map-row">
+            <div class="map-wrapper">
+                <div class="map-title">2001</div>
+                <div class="map-box">
+                    <div class="room" style="top: 5%; left: 5%; width: 45%; height: 45%;">Adult Fiction</div>
+                    <div class="room" style="top: 5%; left: 50%; width: 45%; height: 45%;">Children's Books</div>
+                    <div class="room" style="top: 50%; left: 50%; width: 45%; height: 45%;">Reading Room</div>
+                    <div class="entrance">Entrance</div>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <div class="map-title">Present</div>
+                <div class="map-box">
+                    <div class="room" style="top: 5%; left: 5%; width: 90%; height: 45%;">Adult Fiction (Expanded)</div>
+                    <div class="room" style="top: 50%; left: 50%; width: 45%; height: 45%;">Children's Books (Moved)</div>
+                    <div class="room" style="top: 50%; left: 5%; width: 45%; height: 45%; background: #fff9c4;">IT Center (New)</div>
+                    <div class="entrance">Entrance</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 5: Island Resort Development</h2>
+        <div class="prompt">PROMPT: The two maps below show an island before and after the construction of some tourist facilities. Summarise the information.</div>
+        
+        <div class="map-row">
+            <div class="map-wrapper">
+                <div class="map-title">Before</div>
+                <div class="water">
+                    <div class="island">
+                        <div class="beach"></div>
+                        <div class="tree" style="top: 20%; left: 40%;">🌳</div>
+                        <div class="tree" style="top: 50%; left: 60%;">🌳</div>
+                        <div class="tree" style="top: 70%; left: 30%;">🌳</div>
+                    </div>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <div class="map-title">After</div>
+                <div class="water">
+                    <div class="island">
+                        <div class="beach"></div>
+                        
+                        <!-- Restaurant North -->
+                        <div class="grey-area" style="top: 5%; left: 40%; width: 25%; height: 15%; font-size: 10px;">Restaurant</div>
+                        
+                        <!-- Reception Center -->
+                        <div class="grey-area" style="top: 40%; left: 40%; width: 20%; height: 15%; font-size: 10px;">Reception</div>
+                        
+                        <!-- Pier South -->
+                        <div class="road" style="top: 85%; left: 45%; width: 10%; height: 15%;">Pier</div>
+                        
+                        <!-- Huts West -->
+                        <div class="hut" style="top: 30%; left: 25%;"></div>
+                        <div class="hut" style="top: 50%; left: 25%;"></div>
+                        
+                        <!-- Huts East -->
+                        <div class="hut" style="top: 30%; left: 70%;"></div>
+                        <div class="hut" style="top: 50%; left: 70%;"></div>
+                        
+                        <!-- Paths -->
+                        <div class="path" style="top: 20%; left: 50%; height: 20%;"></div>
+                        <div class="path" style="top: 55%; left: 50%; height: 30%; border-style: solid; border-width: 2px;"></div> <!-- Road to pier -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>

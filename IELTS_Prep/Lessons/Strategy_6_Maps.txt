@@ -61,3 +61,41 @@ Overall, the two sites offer vastly different geographical advantages. While S1 
 Looking first at Site 1, it is located in the northern countryside, entirely outside the main residential zones of Garlsdon. However, its primary advantage lies in its accessibility for commuters. The site is situated immediately adjacent to a major arterial road, the A4, and is also positioned alongside the town’s railway line. This would make it highly accessible for shoppers traveling from outside the immediate area via car or train.
 
 In contrast, Site 2 proposes a completely different retail environment. It is located squarely in the center of Garlsdon, completely surrounded by housing estates, making it easily accessible on foot for local residents. However, unlike S1, there are no major transport links nearby. The area is entirely pedestrianized, meaning the site cannot be accessed directly by road or rail. (201 words)
+
+--------------------------------------------------
+EXAMPLE 4: FLOOR PLAN MODIFICATION
+(Focus: Interior layout changes and specific directional vocabulary)
+
+MAP DATA (Central Library Ground Floor, 2001 vs Present):
+2001: Entrance (South), Children's Books (North-East), Adult Fiction (North-West), Reading Room (South-East).
+Present: Entrance (South), Children's Books (Moved to South-East, replacing Reading Room), Adult Fiction (Expanded across the entire North), IT Center (New - built in the North-East).
+
+PROMPT: The plans below show the layout of the ground floor of a public library in 2001 and how it looks today. Summarise the information.
+
+BAND 9 ESSAY:
+The provided floor plans illustrate the structural modifications and reorganization of the ground floor of a public library, comparing its layout in 2001 with its present-day configuration.
+
+Overall, the library has undergone significant interior modernization, transitioning from a traditional reading-focused layout to a more technologically integrated space. Notably, the area dedicated to adult fiction has been vastly expanded, while the traditional reading room has been entirely eliminated.
+
+Looking at the northern section of the building, the most dramatic expansion has occurred. In 2001, the Adult Fiction section occupied only the north-western corner, while the north-eastern corner housed the Children’s Books. Currently, the Adult Fiction section has been extended to span the entire northern wall of the library. Furthermore, a completely new IT Center has been constructed, replacing the former children's area in the north-east.
+
+Turning to the southern half of the floor plan, the main entrance has remained in its original location on the southern wall. However, the space to the right of the entrance (the south-east corner), which previously served as a dedicated Reading Room, has been repurposed. The Reading Room has been dismantled, and the Children’s Books section has been relocated to this area. (202 words)
+
+--------------------------------------------------
+EXAMPLE 5: ISLAND RESORT DEVELOPMENT
+(Focus: Describing natural landscapes transforming into commercial zones)
+
+MAP DATA (An Island, Before and After Tourist Development):
+Before: Empty island, beach on west side, trees scattered, no infrastructure.
+After: Pier added to South, Reception built in center. Restaurant built in North. Accommodation (huts) built around the beach and in the east. Footpaths connect buildings.
+
+PROMPT: The two maps below show an island before and after the construction of some tourist facilities. Summarise the information.
+
+BAND 9 ESSAY:
+The two maps depict a small island and illustrate the extensive construction work that has transformed it from a completely uninhabited natural landscape into a developed tourist resort.
+
+Overall, it is clear that the island has been heavily commercialized. The previously untouched environment has been equipped with comprehensive tourist infrastructure, including accommodation, dining facilities, and a dedicated transport link, while retaining its natural beach.
+
+Prior to development, the island was entirely devoid of any man-made structures. It consisted only of a large beach on its western coast and several clusters of trees scattered across the central and eastern areas. There was no way to access the island by boat.
+
+Following the construction phase, a pier was built on the southern coast, allowing boats to dock. From this pier, a vehicle track leads directly to a newly constructed central Reception building. The island now features two distinct accommodation zones consisting of small huts connected by footpaths: one group is situated around the western beach, and the other is located in the east. Finally, a large restaurant has been erected in the northern part of the island, accessible via a footpath from the central reception area. (199 words)
