@@ -136,20 +136,11 @@ body {
     flex-direction: column;
     padding: 20px 0;
     overflow-y: auto;
-    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-        padding 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-        opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-        margin-right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sidebar.collapsed {
-    width: 0 !important;
-    padding: 20px 0 !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
-    border: none !important;
-    margin-right: -20px !important;
-    /* Offset the flex gap */
+    width: 80px !important;
 }
 
 /* Custom Scrollbar for Sidebar */
@@ -178,7 +169,12 @@ body {
     color: var(--accent-color);
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
+    width: 100%;
+}
+
+.sidebar.collapsed .sidebar-header h2 {
+    justify-content: center;
 }
 
 .nav-section {
@@ -254,6 +250,34 @@ body {
     color: var(--accent-color);
 }
 
+/* Hide text classes when collapsed */
+.sidebar.collapsed .brand-text,
+.sidebar.collapsed .nav-text,
+.sidebar.collapsed .section-title,
+.sidebar.collapsed .theme-text {
+    display: none !important;
+}
+
+.sidebar.collapsed .nav-item {
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.sidebar.collapsed .nav-item i {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.sidebar.collapsed .theme-toggle {
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.sidebar.collapsed .theme-toggle i {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
 /* ==========================================================================
    MAIN CONTENT AREA
    ========================================================================== */
@@ -290,11 +314,8 @@ body {
 
 /* Sidebar Toggle Button Styles */
 .sidebar-toggle-btn {
-    position: absolute;
-    top: 36px;
-    left: 255px; /* Sits perfectly within the sidebar header when open */
     background: transparent;
-    border: 1px solid var(--border-color);
+    border: none;
     color: var(--text-primary);
     width: 42px;
     height: 42px;
@@ -304,28 +325,13 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    z-index: 1001;
-    margin-right: 0;
+    transition: all 0.2s ease;
     flex-shrink: 0;
 }
 
 .sidebar-toggle-btn:hover {
     background: rgba(255, 255, 255, 0.1);
     color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.sidebar.collapsed ~ .sidebar-toggle-btn {
-    left: 35px;
-    top: 25px;
-    background: var(--sidebar-bg);
-    border: 1px solid var(--border-color);
-    box-shadow: var(--card-shadow);
-}
-
-.sidebar.collapsed + .content-area .content-header {
-    padding-left: 70px;
 }
 
 .content-body {
