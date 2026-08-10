@@ -389,7 +389,7 @@ body {
     display: inline-block;
     padding: 6px 12px;
     background: rgba(56, 189, 248, 0.12);
-    color: var(--accent-color);
+    color: #ffffff; /* High contrast white text */
     border: 1px solid rgba(56, 189, 248, 0.35);
     border-radius: 6px;
     font-size: 0.85rem;
@@ -402,6 +402,7 @@ body {
 .badge:hover {
     background: rgba(56, 189, 248, 0.25);
     border-color: var(--accent-color);
+    color: #ffffff;
     transform: translateY(-1px);
 }
 
