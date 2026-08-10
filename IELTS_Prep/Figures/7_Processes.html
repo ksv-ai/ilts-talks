@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Process Figures</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
+        .chart-container { width: 90%; max-width: 900px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; }
+        .prompt { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; }
+        
+        /* Flowchart styles */
+        .flowchart { display: flex; flex-direction: column; align-items: center; }
+        .step { background: #3498db; color: white; padding: 15px 25px; border-radius: 8px; font-weight: bold; margin: 10px 0; width: 250px; text-align: center; position: relative;}
+        .arrow { font-size: 24px; color: #7f8c8d; }
+        .decision { background: #f39c12; border-radius: 50%; padding: 20px; color: white; font-weight: bold; width: 100px; height: 100px; display: flex; align-items: center; justify-content: center; text-align: center; margin: 10px 0;}
+        .reject { background: #e74c3c; }
+        .accept { background: #2ecc71; }
+        
+        /* Horizontal flow */
+        .h-flow { display: flex; justify-content: center; align-items: center; flex-wrap: wrap;}
+        .h-step { background: #9b59b6; color: white; padding: 15px; border-radius: 8px; margin: 10px; font-weight: bold; text-align: center; width: 120px;}
+        .h-arrow { font-size: 24px; color: #7f8c8d; margin: 0 10px;}
+    </style>
+</head>
+<body>
+
+    <div class="chart-container">
+        <h2>Figure 1: Manufacturing Process (Coffee)</h2>
+        <div class="prompt">PROMPT: The diagram below shows the process of how coffee is produced for sale in supermarkets. Summarise the information.</div>
+        
+        <div class="h-flow">
+            <div class="h-step" style="background:#8d6e63;">1. Pick Beans</div> <div class="h-arrow">&#8594;</div>
+            <div class="h-step" style="background:#f4a460;">2. Dry in Sun</div> <div class="h-arrow">&#8594;</div>
+            <div class="h-step" style="background:#d84315;">3. Roast in Oven</div> <div class="h-arrow">&#8594;</div>
+            <div class="h-step" style="background:#4fc3f7;">4. Cool Rapidly</div> <div class="h-arrow">&#8594;</div>
+            <div class="h-step" style="background:#5d4037;">5. Grind Powder</div> <div class="h-arrow">&#8594;</div>
+            <div class="h-step" style="background:#78909c;">6. Package in Jars</div> <div class="h-arrow">&#8594;</div>
+            <div class="h-step" style="background:#2e7d32;">7. Deliver by Truck</div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 2: Natural Cycle (Salmon)</h2>
+        <div class="prompt">PROMPT: The diagram below shows the life cycle of a species of large fish called the salmon. Summarise the information.</div>
+        
+        <div class="flowchart" style="flex-direction: row; justify-content: space-around; flex-wrap: wrap;">
+            <div class="step" style="background:#0288d1; width:200px;">1. Eggs (Upper River)<br><small>Wait 5-6 months</small></div>
+            <div class="arrow">&#8594;</div>
+            <div class="step" style="background:#0097a7; width:200px;">2. Fry (Lower River)<br><small>3-8cm, stay 4 yrs</small></div>
+            <div class="arrow">&#8594;</div>
+            <div class="step" style="background:#00796b; width:200px;">3. Smolt (Ocean)<br><small>12-15cm, stay 5 yrs</small></div>
+            <div class="arrow">&#8594;</div>
+            <div class="step" style="background:#388e3c; width:200px;">4. Adult Salmon<br><small>70-76cm, swim upriver</small></div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Figure 3: Flowchart (Driving License)</h2>
+        <div class="prompt">PROMPT: The flowchart illustrates the process required to obtain a driving license in a specific country. Summarise the information.</div>
+        
+        <div class="flowchart">
+            <div class="step">Fill Application Form</div>
+            <div class="arrow">&#8595;</div>
+            <div class="step">Eye Test</div>
+            
+            <div style="display:flex; width: 400px; justify-content: space-between; align-items: center;">
+                <div class="step reject" style="width:100px;">FAIL:<br>Rejected</div>
+                <div class="arrow">&#8592;</div>
+                <div class="decision">PASS</div>
+                <div class="arrow">&#8594;</div>
+                <div class="step" style="width:150px;">Written Exam</div>
+            </div>
+            
+            <div style="display:flex; width: 500px; justify-content: flex-end; align-items: center;">
+                <div class="step reject" style="width:120px;">FAIL:<br>Retake (Max 3)</div>
+                <div class="arrow">&#8592;</div>
+                <div class="decision">PASS</div>
+                <div class="arrow">&#8594;</div>
+                <div class="step" style="width:150px;">Practical Test</div>
+            </div>
+            
+            <div style="display:flex; width: 600px; justify-content: flex-end; align-items: center;">
+                <div class="step reject" style="width:120px;">FAIL:<br>Wait 1 Month</div>
+                <div class="arrow">&#8592;</div>
+                <div class="decision">PASS</div>
+                <div class="arrow">&#8594;</div>
+                <div class="step accept" style="width:150px;">License Issued</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+IELTS TASK 1 STRATEGY: PROCESSES
+--------------------------------------------------
+1. CORE STRATEGY & WHAT TO COMPARE:
+* A process has no numbers or dates. You must describe the steps in chronological order.
+* Grammatical Rule: You MUST use the **Passive Voice** (e.g., "The beans are picked" NOT "The man picks the beans") for manufacturing. For natural cycles, use the **Active Voice** (e.g., "The frog lays eggs").
+* Use linking words: First, Next, Following this, Subsequently, Finally.
+
+--------------------------------------------------
+EXAMPLE 1: MANUFACTURING PROCESS
+(Focus: Passive Voice - Object + is/are + Verb(Participle))
+
+PROCESS DATA (How coffee is produced):
+1. Beans picked by hand in fields.
+2. Dried in the sun.
+3. Roasted in an oven.
+4. Cooled rapidly.
+5. Ground into powder.
+6. Packaged into jars.
+7. Delivered to supermarkets via truck.
+
+PROMPT: The diagram below shows the process of how coffee is produced for sale in supermarkets. Summarise the information.
+
+BAND 9 ESSAY:
+The provided diagram illustrates the various sequential stages involved in the commercial production of coffee, from the initial harvesting to its final delivery to retail outlets.
+
+Overall, the coffee production process is a multi-step, primarily mechanical procedure that consists of seven distinct stages. It begins with the manual collection of raw coffee beans and culminates in the distribution of the packaged product to supermarkets.
+
+Looking at the initial stages of production, the process commences in the agricultural fields where the raw coffee beans are carefully picked by hand. Once harvested, these fresh beans are laid out in large trays and left to be naturally dried in the sun. Following this dehydration phase, the beans are transferred into large industrial ovens where they are roasted at high temperatures to develop their flavor.
+
+Turning to the final stages, immediately after roasting, the hot beans must be cooled rapidly. Subsequently, they are passed through a milling machine where they are ground down into a fine coffee powder. Once the grinding is complete, this powder is automatically packaged into glass jars. Finally, the sealed jars are loaded onto transport trucks and delivered to various supermarkets, ready to be purchased by consumers. (199 words)
+
+--------------------------------------------------
+EXAMPLE 2: NATURAL CYCLE
+(Focus: Present Simple Active Voice)
+
+PROCESS DATA (The Life Cycle of a Salmon):
+1. Eggs: Laid among small stones/reeds in upper river. (Wait 5-6 months)
+2. Fry: Hatch, 3-8cm long. Move to lower river. (Stay for 4 years)
+3. Smolts: 12-15cm long. Swim to the open ocean. (Stay for 5 years)
+4. Adult Salmon: 70-76cm long. Swim back upriver to reproduce.
+
+PROMPT: The diagram below shows the life cycle of a species of large fish called the salmon. Summarise the information.
+
+BAND 9 ESSAY:
+The diagram illustrates the natural life cycle of the salmon, detailing its physical growth and the different aquatic environments it inhabits throughout its lifespan.
+
+Overall, the life cycle of a salmon spans approximately a decade and consists of four main developmental stages. Crucially, the process begins and ends in the same location, with the fish migrating from freshwater rivers to the saltwater ocean and back again to reproduce.
+
+The cycle begins in the upper, shallow waters of a river, where adult salmon lay their eggs hidden among small stones and reeds. These eggs incubate for approximately five to six months before hatching into tiny fish known as 'fry', which measure roughly 3 to 8 centimeters in length. These fry then migrate downstream to the lower, deeper parts of the river, where they reside and grow for about four years.
+
+After this period, the fish enter the 'smolt' stage, having grown to between 12 and 15 centimeters. At this point, they migrate out of the freshwater river and into the open ocean. They spend approximately five years maturing in the saltwater environment. Eventually, they become fully grown adult salmon, measuring 70 to 76 centimeters. Finally, these mature adults swim back upstream to the exact same upper river areas to lay their own eggs, thus beginning the cycle anew. (215 words)
+
+--------------------------------------------------
+EXAMPLE 3: FLOWCHART (System)
+(Focus: 'If/Then' conditionals and alternative pathways)
+
+PROCESS DATA (Driving License Application Process):
+Start: Fill application form -> Pass eye test -> (If Fail: Application rejected).
+(If Pass): Take Written Exam -> (If Fail: Retake up to 3 times).
+(If Pass): Take Practical Driving Test -> (If Fail: Retake after 1 month).
+(If Pass): License Issued.
+
+PROMPT: The flowchart illustrates the process required to obtain a driving license in a specific country. Summarise the information.
+
+BAND 9 ESSAY:
+The provided flowchart details the official procedure that candidates must follow in order to successfully obtain a driving license in a particular country.
+
+Overall, the application is a stringent, multi-stage process involving both physical and academic assessments. While there are multiple opportunities to retake the testing phases if a candidate fails, failing the initial physical assessment results in immediate rejection.
+
+The process commences with the applicant filling out an official application form. Following this, the candidate must undergo an eye test at a registered clinic. This is a critical stage; if the applicant fails the vision assessment, their application is permanently rejected and the process ends. However, if they pass, they are permitted to proceed to the written examination.
+
+The written exam tests the candidate's knowledge of road rules. If an individual fails this test, they are allowed to retake it up to three times before having to restart the entire application. Once the written test is passed, the final hurdle is the practical driving test. Should a candidate fail this on-road assessment, they must wait a mandatory period of one month before they are eligible to retake it. Ultimately, upon successful completion of the practical test, the official driving license is issued to the candidate. (206 words)
