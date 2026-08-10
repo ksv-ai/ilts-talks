@@ -272,6 +272,7 @@ body {
 .content-header {
     padding: 8px 25px;
     border-bottom: 1px solid var(--border-color);
+    transition: padding-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .content-header h1 {
@@ -299,8 +300,8 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s ease;
-    margin-right: 20px;
+    transition: all 0.2s ease, left 0.3s ease, top 0.3s ease;
+    margin-right: 0;
     flex-shrink: 0;
 }
 
@@ -308,6 +309,22 @@ body {
     background: rgba(255, 255, 255, 0.1);
     color: var(--accent-color);
     border-color: var(--accent-color);
+}
+
+.sidebar.collapsed .sidebar-toggle-btn {
+    position: fixed;
+    top: 25px;
+    left: 35px;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    z-index: 1001;
+    background: var(--sidebar-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
+}
+
+.sidebar.collapsed + .content-area .content-header {
+    padding-left: 70px;
 }
 
 .content-body {

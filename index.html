@@ -24,8 +24,11 @@
     <div class="app-container">
         <!-- Sidebar Navigation -->
         <nav class="sidebar">
-            <div class="sidebar-header">
+            <div class="sidebar-header" style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
                 <h2><i class="fa-solid fa-graduation-cap"></i> IELTS Masterclass</h2>
+                <button id="sidebar-toggle-btn" class="sidebar-toggle-btn" title="Toggle Sidebar">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
             
             <div class="nav-section">
@@ -72,12 +75,8 @@
             </div>
         </nav>
 
-        <!-- Main Content Area -->
         <main class="content-area">
-            <header class="content-header" style="display: flex; align-items: center;">
-                <button id="sidebar-toggle-btn" class="sidebar-toggle-btn" title="Toggle Sidebar">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
+            <header class="content-header">
                 <div class="header-text">
                     <h1 id="page-title" style="margin-bottom: 5px;">Line Graphs</h1>
                     <p id="page-subtitle" style="margin: 0;">Master the art of describing change over time.</p>
