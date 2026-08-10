@@ -191,7 +191,7 @@ function parseTask2Files() {
 const lensesData = {
     "psychological": {
         name: "PSYCHOLOGICAL",
-        concepts: ["Financial stress", "Emotional well-being", "Homesickness", "Job insecurity", "Self-esteem", "Motivation"],
+        concepts: ["emotional resilience", "psychological burnout", "cognitive flexibility", "intrinsic motivation", "mental equilibrium", "chronic fatigue", "emotional stability", "peace of mind", "sense of self-worth", "social isolation", "loneliness mitigation", "depression rates", "stress management", "neurological pathways", "adaptability capacity"],
         chains: [
             {
                 title: "Financial Security → Peace of Mind",
@@ -278,7 +278,7 @@ const lensesData = {
     },
     "environmental": {
         name: "ENVIRONMENTAL",
-        concepts: ["Climate change", "Recycling", "Renewable energy", "Pollution", "Sustainability"],
+        concepts: ["carbon footprints", "greenhouse gas emissions", "mitigate climate change", "biodiversity preservation", "sustainable agriculture", "ecological footprint", "renewable energy transition", "environmental degradation", "soil conservation", "groundwater contamination", "tailpipe emissions", "air quality indices", "textile waste pollution", "eco-friendly alternatives", "circular economies"],
         chains: [
             {
                 title: "Renewable Energy → Sustainable Development",
@@ -364,7 +364,7 @@ const lensesData = {
     },
     "economic": {
         name: "ECONOMIC",
-        concepts: ["Job creation", "Financial stability", "Tax revenue", "Poverty reduction", "Economic growth", "Infrastructure investment"],
+        concepts: ["macroeconomic indicators", "economic growth stimulation", "gross domestic product", "entrepreneurial innovation", "skilled labor supply", "job creation rates", "tariff deregulation", "financial overhead costs", "market dynamics", "industrial productivity", "wealth redistribution", "generational poverty", "taxation revenues", "business startup subsidies", "labor-intensive sectors"],
         chains: [
             {
                 title: "Education Investment → Economic Growth",
@@ -448,7 +448,7 @@ const lensesData = {
     },
     "technological": {
         name: "TECHNOLOGICAL",
-        concepts: ["Automation", "Efficiency", "Digital literacy", "Cybersecurity", "Global connectivity", "Innovation"],
+        concepts: ["technological supremacy", "digital literacy gaps", "automated algorithms", "e-learning democratization", "virtual telemedicine", "smart grid grids", "data analytics optimization", "operational workflows", "network infrastructure", "cybersecurity protocols", "robotic process automation", "global communications", "disruptive technology", "artificial intelligence scanners", "industry-standard software"],
         chains: [
             {
                 title: "Automation → Workplace Efficiency",
@@ -531,7 +531,7 @@ const lensesData = {
     },
     "educational": {
         name: "EDUCATIONAL",
-        concepts: ["Critical thinking", "Practical skills", "Academic pressure", "Lifelong learning", "Equal opportunity"],
+        concepts: ["critical thinking skills", "vocational apprentice programs", "academic burnout patterns", "educational equality", "bilingual cognitive benefits", "illiteracy eradication", "civic responsibilities", "divergent reasoning", "holistic student development", "curriculum structural mismatch", "theoretical instruction", "practical competencies", "lifelong learning habits", "intellectual autonomy", "multilingual proficiency"],
         chains: [
             {
                 title: "Practical Learning → Employability",
@@ -614,7 +614,7 @@ const lensesData = {
     },
     "health": {
         name: "HEALTH & MEDICAL",
-        concepts: ["Preventive healthcare", "Sedentary lifestyles", "Mental well-being", "Dietary habits", "Public awareness"],
+        concepts: ["preventive healthcare measures", "chronic disease incidence", "sedentary lifestyle risks", "cardiovascular fitness", "nutritional literacy", "sugar taxation models", "obesity rate spikes", "mental health stigmatization", "waterborne pathogen removal", "sleep hygiene practices", "circadian rhythm regulation", "longevity indices", "healthcare expenditure budgets", "medical diagnostic efficacy", "immunological strength"],
         chains: [
             {
                 title: "Preventive Care → Reduced Healthcare Costs",
@@ -697,7 +697,7 @@ const lensesData = {
     },
     "social": {
         name: "SOCIAL",
-        concepts: ["Community cohesion", "Civic responsibility", "Marginalized groups", "Social mobility", "Cultural integration"],
+        concepts: ["upward social mobility", "community cohesion rates", "neighborhood trust levels", "juvenile delinquency drops", "inclusive hiring protocols", "generational divides", "social isolation risks", "disabled universal accessibility", "marginalized communities", "civic engagement habits", "welfare safety nets", "community volunteering programs", "socioeconomic disparities", "societal integration", "equal opportunity acts"],
         chains: [
             {
                 title: "Community Service → Civic Responsibility",
@@ -780,7 +780,7 @@ const lensesData = {
     },
     "cultural": {
         name: "CULTURAL",
-        concepts: ["Globalized perspective", "Traditional heritage", "Cultural preservation", "Language barriers", "Stereotypes"],
+        concepts: ["cultural homogenization", "indigenous heritage revival", "intercultural harmony", "historical preservation", "preconceived racial stereotypes", "globalized perspective", "multicultural celebrations", "linguistic diversity conservation", "museum admission access", "foreign exchange programs", "peaceful diplomacy ties", "ethnic heritage restoration", "ancestral wisdom conservation", "cross-cultural tolerance", "artistic legacy values"],
         chains: [
             {
                 title: "International Travel → Open-mindedness",
@@ -863,7 +863,7 @@ const lensesData = {
     },
     "government": {
         name: "GOVERNMENT & POLICY",
-        concepts: ["Legislative intervention", "Taxation", "Public funding", "Regulation", "Social welfare"],
+        concepts: ["sweeping legislative power", "fiscal policy controls", "punitive financial fines", "industrial safety compliance", "welfare payout benefits", "public works infrastructure", "mandatory product labeling", "excise tax implementations", "environmental regulations", "corporate accountability laws", "government subsidies", "public fund allocation", "housing rent subsidies", "social safety nets", "statutory retirement laws"],
         chains: [
             {
                 title: "Taxation → Behavioral Change",
@@ -946,7 +946,7 @@ const lensesData = {
     },
     "infrastructure": {
         name: "INFRASTRUCTURE",
-        concepts: ["Urban planning", "Public transportation", "Traffic congestion", "Housing shortages", "Sustainable cities"],
+        concepts: ["urban gridlock management", "mass transit infrastructure", "affordable public housing", "pedestrianized retail zones", "dedicated bicycle lanes", "renewable grid systems", "sewage treatment networks", "utility supply grids", "commute time reduction", "traffic volume drops", "housing shortage solutions", "sustainable city models", "waste management facilities", "energy independence indices", "municipal structural upgrades"],
         chains: [
             {
                 title: "Public Transport → Reduced Congestion",
@@ -1029,7 +1029,7 @@ const lensesData = {
     },
     "consumerism": {
         name: "CONSUMERISM",
-        concepts: ["Throwaway culture", "Materialism", "Brand loyalty", "Ethical purchasing", "Mass production"],
+        concepts: ["throwaway convenience culture", "fast fashion wastes", "ethical consumer choices", "mass advertising influence", "impulse spending triggers", "local shopping campaigns", "minimalist lifestyle benefits", "single-use plastic bans", "corporate greenwashing", "biodegradable raw materials", "household clutter reduction", "personal debt accumulation", "unsustainable packaging", "brand loyalty marketing", "consumer demand dynamics"],
         chains: [
             {
                 title: "Ethical Purchasing → Corporate Accountability",

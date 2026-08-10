@@ -565,12 +565,21 @@ window.ieltsData = {
     "psychological": {
         "name": "PSYCHOLOGICAL",
         "concepts": [
-            "Financial stress",
-            "Emotional well-being",
-            "Homesickness",
-            "Job insecurity",
-            "Self-esteem",
-            "Motivation"
+            "emotional resilience",
+            "psychological burnout",
+            "cognitive flexibility",
+            "intrinsic motivation",
+            "mental equilibrium",
+            "chronic fatigue",
+            "emotional stability",
+            "peace of mind",
+            "sense of self-worth",
+            "social isolation",
+            "loneliness mitigation",
+            "depression rates",
+            "stress management",
+            "neurological pathways",
+            "adaptability capacity"
         ],
         "chains": [
             {
@@ -724,11 +733,21 @@ window.ieltsData = {
     "environmental": {
         "name": "ENVIRONMENTAL",
         "concepts": [
-            "Climate change",
-            "Recycling",
-            "Renewable energy",
-            "Pollution",
-            "Sustainability"
+            "carbon footprints",
+            "greenhouse gas emissions",
+            "mitigate climate change",
+            "biodiversity preservation",
+            "sustainable agriculture",
+            "ecological footprint",
+            "renewable energy transition",
+            "environmental degradation",
+            "soil conservation",
+            "groundwater contamination",
+            "tailpipe emissions",
+            "air quality indices",
+            "textile waste pollution",
+            "eco-friendly alternatives",
+            "circular economies"
         ],
         "chains": [
             {
@@ -886,12 +905,21 @@ window.ieltsData = {
     "economic": {
         "name": "ECONOMIC",
         "concepts": [
-            "Job creation",
-            "Financial stability",
-            "Tax revenue",
-            "Poverty reduction",
-            "Economic growth",
-            "Infrastructure investment"
+            "macroeconomic indicators",
+            "economic growth stimulation",
+            "gross domestic product",
+            "entrepreneurial innovation",
+            "skilled labor supply",
+            "job creation rates",
+            "tariff deregulation",
+            "financial overhead costs",
+            "market dynamics",
+            "industrial productivity",
+            "wealth redistribution",
+            "generational poverty",
+            "taxation revenues",
+            "business startup subsidies",
+            "labor-intensive sectors"
         ],
         "chains": [
             {
@@ -1040,12 +1068,21 @@ window.ieltsData = {
     "technological": {
         "name": "TECHNOLOGICAL",
         "concepts": [
-            "Automation",
-            "Efficiency",
-            "Digital literacy",
-            "Cybersecurity",
-            "Global connectivity",
-            "Innovation"
+            "technological supremacy",
+            "digital literacy gaps",
+            "automated algorithms",
+            "e-learning democratization",
+            "virtual telemedicine",
+            "smart grid grids",
+            "data analytics optimization",
+            "operational workflows",
+            "network infrastructure",
+            "cybersecurity protocols",
+            "robotic process automation",
+            "global communications",
+            "disruptive technology",
+            "artificial intelligence scanners",
+            "industry-standard software"
         ],
         "chains": [
             {
@@ -1195,11 +1232,21 @@ window.ieltsData = {
     "educational": {
         "name": "EDUCATIONAL",
         "concepts": [
-            "Critical thinking",
-            "Practical skills",
-            "Academic pressure",
-            "Lifelong learning",
-            "Equal opportunity"
+            "critical thinking skills",
+            "vocational apprentice programs",
+            "academic burnout patterns",
+            "educational equality",
+            "bilingual cognitive benefits",
+            "illiteracy eradication",
+            "civic responsibilities",
+            "divergent reasoning",
+            "holistic student development",
+            "curriculum structural mismatch",
+            "theoretical instruction",
+            "practical competencies",
+            "lifelong learning habits",
+            "intellectual autonomy",
+            "multilingual proficiency"
         ],
         "chains": [
             {
@@ -1342,11 +1389,21 @@ window.ieltsData = {
     "health": {
         "name": "HEALTH & MEDICAL",
         "concepts": [
-            "Preventive healthcare",
-            "Sedentary lifestyles",
-            "Mental well-being",
-            "Dietary habits",
-            "Public awareness"
+            "preventive healthcare measures",
+            "chronic disease incidence",
+            "sedentary lifestyle risks",
+            "cardiovascular fitness",
+            "nutritional literacy",
+            "sugar taxation models",
+            "obesity rate spikes",
+            "mental health stigmatization",
+            "waterborne pathogen removal",
+            "sleep hygiene practices",
+            "circadian rhythm regulation",
+            "longevity indices",
+            "healthcare expenditure budgets",
+            "medical diagnostic efficacy",
+            "immunological strength"
         ],
         "chains": [
             {
@@ -1492,11 +1549,21 @@ window.ieltsData = {
     "social": {
         "name": "SOCIAL",
         "concepts": [
-            "Community cohesion",
-            "Civic responsibility",
-            "Marginalized groups",
-            "Social mobility",
-            "Cultural integration"
+            "upward social mobility",
+            "community cohesion rates",
+            "neighborhood trust levels",
+            "juvenile delinquency drops",
+            "inclusive hiring protocols",
+            "generational divides",
+            "social isolation risks",
+            "disabled universal accessibility",
+            "marginalized communities",
+            "civic engagement habits",
+            "welfare safety nets",
+            "community volunteering programs",
+            "socioeconomic disparities",
+            "societal integration",
+            "equal opportunity acts"
         ],
         "chains": [
             {
@@ -1643,11 +1710,21 @@ window.ieltsData = {
     "cultural": {
         "name": "CULTURAL",
         "concepts": [
-            "Globalized perspective",
-            "Traditional heritage",
-            "Cultural preservation",
-            "Language barriers",
-            "Stereotypes"
+            "cultural homogenization",
+            "indigenous heritage revival",
+            "intercultural harmony",
+            "historical preservation",
+            "preconceived racial stereotypes",
+            "globalized perspective",
+            "multicultural celebrations",
+            "linguistic diversity conservation",
+            "museum admission access",
+            "foreign exchange programs",
+            "peaceful diplomacy ties",
+            "ethnic heritage restoration",
+            "ancestral wisdom conservation",
+            "cross-cultural tolerance",
+            "artistic legacy values"
         ],
         "chains": [
             {
@@ -1793,11 +1870,21 @@ window.ieltsData = {
     "government": {
         "name": "GOVERNMENT & POLICY",
         "concepts": [
-            "Legislative intervention",
-            "Taxation",
-            "Public funding",
-            "Regulation",
-            "Social welfare"
+            "sweeping legislative power",
+            "fiscal policy controls",
+            "punitive financial fines",
+            "industrial safety compliance",
+            "welfare payout benefits",
+            "public works infrastructure",
+            "mandatory product labeling",
+            "excise tax implementations",
+            "environmental regulations",
+            "corporate accountability laws",
+            "government subsidies",
+            "public fund allocation",
+            "housing rent subsidies",
+            "social safety nets",
+            "statutory retirement laws"
         ],
         "chains": [
             {
@@ -1945,11 +2032,21 @@ window.ieltsData = {
     "infrastructure": {
         "name": "INFRASTRUCTURE",
         "concepts": [
-            "Urban planning",
-            "Public transportation",
-            "Traffic congestion",
-            "Housing shortages",
-            "Sustainable cities"
+            "urban gridlock management",
+            "mass transit infrastructure",
+            "affordable public housing",
+            "pedestrianized retail zones",
+            "dedicated bicycle lanes",
+            "renewable grid systems",
+            "sewage treatment networks",
+            "utility supply grids",
+            "commute time reduction",
+            "traffic volume drops",
+            "housing shortage solutions",
+            "sustainable city models",
+            "waste management facilities",
+            "energy independence indices",
+            "municipal structural upgrades"
         ],
         "chains": [
             {
@@ -2094,11 +2191,21 @@ window.ieltsData = {
     "consumerism": {
         "name": "CONSUMERISM",
         "concepts": [
-            "Throwaway culture",
-            "Materialism",
-            "Brand loyalty",
-            "Ethical purchasing",
-            "Mass production"
+            "throwaway convenience culture",
+            "fast fashion wastes",
+            "ethical consumer choices",
+            "mass advertising influence",
+            "impulse spending triggers",
+            "local shopping campaigns",
+            "minimalist lifestyle benefits",
+            "single-use plastic bans",
+            "corporate greenwashing",
+            "biodegradable raw materials",
+            "household clutter reduction",
+            "personal debt accumulation",
+            "unsustainable packaging",
+            "brand loyalty marketing",
+            "consumer demand dynamics"
         ],
         "chains": [
             {
