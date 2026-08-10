@@ -12,6 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
         sidebar.classList.toggle('collapsed');
     });
 
+    // Helper to format essays cleanly into HTML paragraphs
+    function formatEssay(text) {
+        if (!text) return '';
+        return text.split(/\n\n+/).map(p => p.trim()).filter(p => p)
+            .map(p => `<p style="margin-bottom: 12px; line-height: 1.6; margin-top: 4px;">${p.replace(/\n/g, '<br/>')}</p>`).join('');
+    }
+
     // Theme Toggle Logic
     themeToggle.addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
@@ -110,8 +117,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             html += `
                 <div class="essay-text">
-                    <strong>BAND 9 ESSAY:</strong><br/>
-                    ${ex.essay.replace(/\n/g, '<br/>')}
+                    <strong style="display:block; margin-bottom: 8px;">BAND 9 ESSAY:</strong>
+                    ${formatEssay(ex.essay)}
                 </div>
             </div>`;
         });
@@ -267,8 +274,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     }).join('')}
                 </div>
                 <div class="essay-text">
-                    <strong>BAND 9 ESSAY:</strong><br/>
-                    ${ex.essay.replace(/\n/g, '<br/><br/>')}
+                    <strong style="display:block; margin-bottom: 8px;">BAND 9 ESSAY:</strong>
+                    ${formatEssay(ex.essay)}
                 </div>
             </div>`;
         });
