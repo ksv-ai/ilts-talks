@@ -86,16 +86,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 
             if (ex.figureUrl) {
                 html += `
-                <div style="margin: 20px 0; height: 480px; overflow: hidden; border: 1px solid var(--border-color); border-radius: 8px; background: #ffffff;">
-                    <iframe src="IELTS_Prep/Figures/Individual/${ex.figureUrl}" scrolling="no" style="width: 100%; height: 100%; border: none; overflow: hidden;"></iframe>
+                <div class="grid-2" style="align-items: stretch; gap: 20px; margin: 20px 0;">
+                    <div style="height: 380px; overflow: hidden; border: 1px solid var(--border-color); border-radius: 8px; background: #ffffff;">
+                        <iframe src="IELTS_Prep/Figures/Individual/${ex.figureUrl}" scrolling="no" style="width: 100%; height: 100%; border: none; overflow: hidden;"></iframe>
+                    </div>
+                    <div class="blueprint-box" style="margin: 0; display: flex; flex-direction: column; justify-content: flex-start; height: 380px; overflow-y: auto; box-sizing: border-box; padding: 20px;">
+                        <strong style="font-size: 1.1rem; color: var(--accent-color); display: block; margin-bottom: 12px;"><i class="fa-solid fa-map"></i> PLANNING NOTE</strong>
+                        <div style="font-size: 0.95rem; line-height: 1.6; color: var(--text-primary);">
+                            ${ex.planning.map(p => `<div style="margin-bottom: 10px;">• ${p}</div>`).join('')}
+                        </div>
+                    </div>
+                </div>`;
+            } else {
+                html += `
+                <div class="blueprint-box" style="margin: 20px 0;">
+                    <strong>PLANNING NOTE:</strong><br/>
+                    ${ex.planning.map(p => `<div>${p}</div>`).join('')}
                 </div>`;
             }
 
             html += `
-                <div class="blueprint-box">
-                    <strong>PLANNING NOTE:</strong><br/>
-                    ${ex.planning.map(p => `<div>${p}</div>`).join('')}
-                </div>
                 <div class="essay-text">
                     <strong>BAND 9 ESSAY:</strong><br/>
                     ${ex.essay.replace(/\n/g, '<br/>')}
