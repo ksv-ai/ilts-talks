@@ -70,3 +70,44 @@ Overall, the application is a stringent, multi-stage process involving both phys
 The process commences with the applicant filling out an official application form. Following this, the candidate must undergo an eye test at a registered clinic. This is a critical stage; if the applicant fails the vision assessment, their application is permanently rejected and the process ends. However, if they pass, they are permitted to proceed to the written examination.
 
 The written exam tests the candidate's knowledge of road rules. If an individual fails this test, they are allowed to retake it up to three times before having to restart the entire application. Once the written test is passed, the final hurdle is the practical driving test. Should a candidate fail this on-road assessment, they must wait a mandatory period of one month before they are eligible to retake it. Ultimately, upon successful completion of the practical test, the official driving license is issued to the candidate. (206 words)
+
+--------------------------------------------------
+EXAMPLE 4: OBJECT DIAGRAM
+(Focus: Describing how components of an object interact)
+
+PROCESS DATA (How a simple water filter works):
+Top: Dirty water poured into upper chamber.
+Middle: Water passes slowly through a layer of sand (filters large particles), then a layer of charcoal (removes chemicals/bacteria).
+Bottom: Clean water drips into lower collection tank. Tap at the bottom dispenses safe drinking water.
+
+PROMPT: The diagram illustrates the internal workings of a simple domestic water filtration system. Summarise the information.
+
+BAND 9 ESSAY:
+The provided diagram illustrates the cross-section of a domestic water filtration device, detailing the specific internal components and the sequential process by which contaminated water is purified for safe consumption.
+
+Overall, the filtration system is a gravity-fed, three-stage mechanism. It operates without electricity, relying instead on natural downward flow through two distinct filtering materials to remove impurities before storing the clean water for use.
+
+The purification process begins at the top of the device. Contaminated, dirty water is manually poured into an open upper chamber. From here, gravity forces the water to seep downwards into the central filtration section. The water first permeates through a thick layer of sand, which acts as a physical barrier to trap and filter out any large, solid particles suspended in the liquid.
+
+Continuing its downward trajectory, the partially filtered water then passes through a secondary layer made of activated charcoal. This crucial stage is responsible for neutralizing harmful chemicals and removing bacteria. Finally, the newly purified water drips through a fine mesh grate into a large, enclosed collection tank at the base of the unit. This safe drinking water can then be conveniently dispensed by the user via a manual tap fitted to the bottom of the tank. (201 words)
+
+--------------------------------------------------
+EXAMPLE 5: DIGITAL PROCESS
+(Focus: Describing a software or user journey flowchart)
+
+PROCESS DATA (Online Job Application Process):
+Step 1: Create Account -> Verify Email (If Fail: Account locked).
+Step 2: Upload CV -> AI scans CV for keywords (If Fail: Automatic Rejection).
+Step 3: Complete online psychometric test.
+Step 4: Human HR Review -> (If Pass: Interview Scheduled / If Fail: Email Rejection).
+
+PROMPT: The flowchart illustrates the stages of an automated online job application process used by a large corporation. Summarise the information.
+
+BAND 9 ESSAY:
+The flowchart details the step-by-step digital procedure that candidates must navigate when applying for a position through a large corporation's automated online recruitment portal.
+
+Overall, the application process is highly automated, consisting of four primary stages. It is designed to act as a strict filtering system, heavily utilizing artificial intelligence to screen candidates before any human intervention occurs at the final stage.
+
+The digital journey begins with the applicant creating a personal account on the portal. This requires immediate email verification; if the user fails to verify their email address, the account is permanently locked. Upon successful verification, the candidate proceeds to the second stage, which involves uploading a digital curriculum vitae (CV). This document is immediately scanned by an Artificial Intelligence program searching for specific keywords. If the CV lacks these vital keywords, the system issues an automatic rejection, abruptly ending the process.
+
+Candidates whose CVs pass the AI screening are then directed to the third stage, where they must complete a timed, online psychometric test. Finally, only the results of those who complete this test are forwarded to a human Human Resources (HR) representative for manual review. Following this final human assessment, the candidate is either officially scheduled for an interview or sent a final rejection email. (205 words)

@@ -87,7 +87,7 @@ EXAMPLE 5: ISLAND RESORT DEVELOPMENT
 
 MAP DATA (An Island, Before and After Tourist Development):
 Before: Empty island, beach on west side, trees scattered, no infrastructure.
-After: Pier added to South, Reception built in center. Restaurant built in North. Accommodation (huts) built around the beach and in the east. Footpaths connect buildings.
+After: Pier added to South, Reception built in center. Restaurant built in North. Accommodation (huts) built around the beach and in the east. Footpaths connect margins.
 
 PROMPT: The two maps below show an island before and after the construction of some tourist facilities. Summarise the information.
 
@@ -99,3 +99,41 @@ Overall, it is clear that the island has been heavily commercialized. The previo
 Prior to development, the island was entirely devoid of any man-made structures. It consisted only of a large beach on its western coast and several clusters of trees scattered across the central and eastern areas. There was no way to access the island by boat.
 
 Following the construction phase, a pier was built on the southern coast, allowing boats to dock. From this pier, a vehicle track leads directly to a newly constructed central Reception building. The island now features two distinct accommodation zones consisting of small huts connected by footpaths: one group is situated around the western beach, and the other is located in the east. Finally, a large restaurant has been erected in the northern part of the island, accessible via a footpath from the central reception area. (199 words)
+
+--------------------------------------------------
+EXAMPLE 6: MUSEUM LAYOUT CHANGES
+(Focus: Prepositions of place inside a building)
+
+MAP DATA (City Museum, 1990 vs 2010):
+1990: Entrance (South). Left of entrance: Gift Shop. Right of entrance: Cloakroom. Center: Local History. Back (North): Dinosaur Exhibition.
+2010: Entrance (South). Left: Cafe (replaced Gift Shop). Right: Gift Shop & Cloakroom (shared space). Center: Local History (expanded). Back: Dinosaur Exh (removed), replaced by Interactive Tech Zone.
+
+PROMPT: The plans show the changes made to the interior layout of a city museum between 1990 and 2010.
+
+BAND 9 ESSAY:
+The provided floor plans illustrate the internal modifications and the reallocation of space within a city museum, comparing its layout in the years 1990 and 2010.
+
+Overall, the museum underwent significant restructuring to modernize its facilities and expand its core exhibitions. The most prominent change was the complete removal of the dinosaur exhibition to make way for a new technological zone, alongside the introduction of catering facilities.
+
+Looking first at the northern half of the building, a major shift in focus occurred. In 1990, the entire back section of the museum was dedicated to a Dinosaur Exhibition. However, by 2010, this exhibition had been completely removed. In its place, a modern Interactive Tech Zone was constructed. Immediately south of this, the Local History section, which occupied the center of the building in 1990, was significantly expanded in 2010, taking up a much larger central footprint.
+
+Turning to the southern entrance area, visitor amenities were entirely reorganized. In 1990, a gift shop was located to the left of the main entrance, while a cloakroom sat to the right. By 2010, the original gift shop was converted into a cafe. Consequently, the gift shop was relocated to the right side of the entrance, where it now shares a condensed space with the existing cloakroom. (215 words)
+
+--------------------------------------------------
+EXAMPLE 7: ROAD NETWORK CHANGES
+(Focus: Infrastructure vocabulary like 'roundabout', 'intersection', and 'pedestrianized')
+
+MAP DATA (City Centre Roads, 2005 vs Present):
+2005: Crossroads intersection in center. North street (two-way). South street (two-way). East street (two-way). West street (two-way).
+Present: Crossroads replaced by a large Roundabout. North street (Pedestrianized - no cars). South street (widened to 4 lanes). East/West (remain two-way). New bridge built over the East street.
+
+PROMPT: The maps illustrate the changes that have taken place in the road network of a city centre from 2005 to the present day.
+
+BAND 9 ESSAY:
+The two maps depict the structural developments and traffic management alterations implemented within a city centre's road network, comparing its layout in 2005 with its current design.
+
+Overall, the road system has been heavily modified to improve traffic flow and prioritize pedestrian safety in certain areas. The most significant changes include the replacement of the central intersection with a roundabout and the pedestrianization of the northern route.
+
+Looking at the center of the network, the original 2005 layout featured a standard crossroads intersection where all four directional streets met. Presently, this crossroads has been entirely demolished and replaced by a large, central roundabout connecting the remaining active roads. 
+
+Regarding the specific arterial routes, dramatic changes were made to the north-south axis. The northern street, which was a standard two-way road in 2005, has now been completely pedestrianized, barring vehicle access entirely. To compensate, the southern street has been significantly widened, expanding from a standard two-way road into a four-lane highway. Finally, while the eastern and western streets remain unchanged as two-way roads, a new bridge has been constructed directly over the eastern route, likely to facilitate uninterrupted pedestrian crossing. (193 words)

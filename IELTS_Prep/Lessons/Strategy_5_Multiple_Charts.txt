@@ -63,3 +63,42 @@ Overall, it is evident that over-grazing, deforestation, and over-cultivation we
 Looking first at the global causes detailed in the pie chart, over-grazing was the most detrimental activity, responsible for 35% of all land degradation. Deforestation was the second most significant factor, accounting for 30%. Closely following this was over-cultivation, which caused 28% of the damage. A small minority of degradation, making up the final 7%, was attributed to other, unspecified causes.
 
 Turning to the regional impact shown in the bar chart, Europe was the most severely affected area, with 23% of its total agricultural land suffering from degradation during the 1990s. Oceania experienced a moderate level of damage, with exactly 13% of its land becoming less productive. In stark contrast, North America was the least affected region by a considerable margin, recording a degradation rate of a mere 5%. (199 words)
+
+--------------------------------------------------
+EXAMPLE 4: LINE GRAPH + PIE CHART
+(Focus: Mixing a time trend with a static snapshot proportion)
+
+CHART DATA (Smartphones):
+Line (Total smartphone sales in millions, 2015-2021): 2015(50), 2017(80), 2019(75), 2021(120)
+Pie (Market share by brand in 2021): Brand A(45%), Brand B(30%), Brand C(15%), Others(10%)
+
+PROMPT: The line graph shows total smartphone sales globally between 2015 and 2021. The pie chart shows the market share of the leading smartphone brands in the final year, 2021.
+
+BAND 9 ESSAY:
+The line graph illustrates the total volume of smartphone sales worldwide over a six-year period from 2015 to 2021, measured in millions of units. The accompanying pie chart breaks down the global market share held by different smartphone brands in the final year of that period.
+
+Overall, global smartphone sales experienced a substantial upward trend, more than doubling over the six years despite a brief minor dip. In 2021, when sales were at their peak, Brand A was the dominant market leader, accounting for nearly half of all purchases.
+
+Looking first at the sales trend over time, the global market began with 50 million units sold in 2015. This figure rose sharply to 80 million by 2017. Although the market experienced a slight contraction in 2019, with sales falling marginally to 75 million, this was short-lived. By 2021, sales had surged dramatically, peaking at 120 million units.
+
+Turning to the market share breakdown for 2021, Brand A was the clear consumer favorite, capturing 45% of the total market. Brand B was the second most popular manufacturer, holding a significant 30% share. Together, these two leading companies controlled three-quarters of the entire market. In contrast, Brand C accounted for only 15% of sales, while all other remaining brands combined made up a mere 10% of the market. (215 words)
+
+--------------------------------------------------
+EXAMPLE 5: TWO PIES + ONE TABLE
+(Focus: Handling three distinct pieces of visual data smoothly)
+
+CHART DATA (Charity Donations):
+Table (Total donations): 2010 ($20m) | 2020 ($35m)
+Pie 1 (Sources 2010): Individuals(60%), Corporations(25%), Government(15%)
+Pie 2 (Sources 2020): Individuals(40%), Corporations(45%), Government(15%)
+
+PROMPT: The table shows the total amount of money donated to a specific charity in 2010 and 2020. The pie charts show the percentage of those donations coming from three different sources in the same years.
+
+BAND 9 ESSAY:
+The table details the total financial contributions received by a specific charity in the years 2010 and 2020, while the two pie charts illustrate the proportion of these funds originating from individuals, corporate entities, and government bodies during those same two years.
+
+Overall, the charity experienced a significant increase in total funding over the decade. Furthermore, while the government's proportional contribution remained static, the charity became increasingly reliant on corporate donations, which overtook individual contributions as the primary source of income by 2020.
+
+According to the table, the charity's overall financial intake grew substantially. In 2010, the organization received $20 million in donations. Over the next ten years, this figure nearly doubled, reaching an impressive $35 million by 2020.
+
+Analyzing the sources of this funding in the pie charts, individual donors were the primary financial supporters in 2010, accounting for 60% of all contributions, compared to just 25% from corporations. However, this dynamic shifted dramatically by 2020. The proportion of funding from individuals fell to 40%, while corporate donations surged to 45%, making businesses the largest single source of income. Throughout this entire period of financial restructuring, the proportion of funding provided by the government remained exactly the same, at a steady 15%. (203 words)

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Multiple Charts Figures</title>
+    <title>Multiple Charts Figures (Extended)</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
         .chart-container { width: 90%; max-width: 900px; margin: 0 auto 50px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
         .multi-row { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; flex-wrap: wrap;}
         .col-half { width: 48%; min-width: 300px; }
+        .col-third { width: 30%; min-width: 200px; }
         h2 { text-align: center; color: #333; }
         .prompt { background: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 20px; font-weight: bold; color: #2c3e50; }
         table { width: 100%; border-collapse: collapse; margin-top: 10px; }
@@ -70,6 +71,45 @@
             </div>
         </div>
     </div>
+    
+    <div class="chart-container">
+        <h2>Figure 4: Line Graph + Pie Chart (Smartphones)</h2>
+        <div class="prompt">PROMPT: The line graph shows total smartphone sales globally between 2015 and 2021. The pie chart shows the market share of the leading smartphone brands in the final year, 2021.</div>
+        
+        <div class="multi-row">
+            <div class="col-half">
+                <canvas id="line4"></canvas>
+            </div>
+            <div class="col-half">
+                <h3 style="text-align: center;">2021 Market Share</h3>
+                <canvas id="pie4"></canvas>
+            </div>
+        </div>
+    </div>
+    
+    <div class="chart-container">
+        <h2>Figure 5: Two Pies + One Table (Charity Donations)</h2>
+        <div class="prompt">PROMPT: The table shows the total amount of money donated to a specific charity in 2010 and 2020. The pie charts show the percentage of those donations coming from three different sources in the same years.</div>
+        
+        <div class="multi-row">
+            <div class="col-third">
+                <h3 style="text-align: center;">Total Donations</h3>
+                <table>
+                    <tr><th>Year</th><th>Total ($ Million)</th></tr>
+                    <tr><td>2010</td><td>$20m</td></tr>
+                    <tr><td>2020</td><td>$35m</td></tr>
+                </table>
+            </div>
+            <div class="col-third">
+                <h3 style="text-align: center;">Sources 2010</h3>
+                <canvas id="pie5a"></canvas>
+            </div>
+            <div class="col-third">
+                <h3 style="text-align: center;">Sources 2020</h3>
+                <canvas id="pie5b"></canvas>
+            </div>
+        </div>
+    </div>
 
     <script>
         // Chart 1 (Pies)
@@ -100,6 +140,23 @@
             data: { labels: ['North America', 'Europe', 'Oceania'], datasets: [{ label: '% of Degraded Land', data: [5, 23, 13], backgroundColor: '#c0392b' }] },
             options: { responsive: true, scales: { y: { beginAtZero: true } } }
         });
+        
+        // Chart 4 (Line + Pie)
+        new Chart(document.getElementById('line4'), {
+            type: 'line',
+            data: { labels: ['2015', '2017', '2019', '2021'], datasets: [{ label: 'Sales (Millions)', data: [50, 80, 75, 120], borderColor: '#16a085', fill: false }] },
+            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+        });
+        new Chart(document.getElementById('pie4'), {
+            type: 'pie',
+            data: { labels: ['Brand A', 'Brand B', 'Brand C', 'Others'], datasets: [{ data: [45, 30, 15, 10], backgroundColor: ['#2980b9', '#8e44ad', '#f39c12', '#bdc3c7'] }] }
+        });
+        
+        // Chart 5 (2 Pies + Table)
+        const c5 = ['#2ecc71', '#3498db', '#e74c3c'];
+        const l5 = ['Individuals', 'Corporations', 'Government'];
+        new Chart(document.getElementById('pie5a'), { type: 'pie', data: { labels: l5, datasets: [{ data: [60, 25, 15], backgroundColor: c5 }] }, options: { plugins: { legend: { display: false } } }});
+        new Chart(document.getElementById('pie5b'), { type: 'pie', data: { labels: l5, datasets: [{ data: [40, 45, 15], backgroundColor: c5 }] }, options: { plugins: { legend: { display: false } } }});
     </script>
 </body>
 </html>
