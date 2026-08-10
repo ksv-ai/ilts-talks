@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (target.startsWith('task1-')) {
             const chartType = target.split('-')[1];
-            renderTask1(data.task1[chartType]);
+            renderTask1(data.task1[chartType], chartType);
         } else if (target === 'task2-playbook') {
             renderPlaybook(data.task2.playbook);
         } else if (target === 'task2-lenses') {
@@ -65,12 +65,31 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function renderTask1(data) {
+    function renderTask1(data, chartType) {
         if(!data) return;
         pageTitle.innerText = data.title;
         pageSubtitle.innerText = data.subtitle;
 
-        let html = `<div class="card">
+        const figureMap = {
+            'line': '1_Line_Graphs.html',
+            'bar': '2_Bar_Charts.html',
+            'pie': '3_Pie_Charts.html',
+            'table': '4_Tables.html',
+            'multi': '5_Multiple_Charts.html',
+            'map': '6_Maps.html',
+            'process': '7_Processes.html'
+        };
+
+        let html = '';
+
+        if (figureMap[chartType]) {
+            html += `
+            <div class="card" style="padding: 0; overflow: hidden; height: 750px;">
+                <iframe src="IELTS_Prep/Figures/${figureMap[chartType]}" style="width: 100%; height: 100%; border: none;"></iframe>
+            </div>`;
+        }
+
+        html += `<div class="card">
             <h3>Core Strategy</h3>
             <ul>${data.strategy.map(s => `<li>${s}</li>`).join('')}</ul>
         </div>`;
