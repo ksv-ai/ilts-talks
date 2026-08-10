@@ -1200,6 +1200,27 @@ Object.keys(lensesData).forEach(lensKey => {
     });
 });
 
+// Re-order lensesData keys based on IELTS popularity ranking
+const orderedLensesData = {};
+const rankingOrder = [
+    "educational",
+    "technological",
+    "social",
+    "environmental",
+    "health",
+    "government",
+    "economic",
+    "consumerism",
+    "infrastructure",
+    "cultural",
+    "psychological"
+];
+rankingOrder.forEach(key => {
+    if (lensesData[key]) {
+        orderedLensesData[key] = lensesData[key];
+    }
+});
+
 const dataJsContent = `
 window.ieltsData = {
     task1: ${JSON.stringify(parseTask1Files(), null, 4)},
@@ -1269,7 +1290,7 @@ window.ieltsData = {
                 }
             ]
         },
-        lenses: ${JSON.stringify(lensesData, null, 4)},
+        lenses: ${JSON.stringify(orderedLensesData, null, 4)},
         essays: ${JSON.stringify(parseTask2Files(), null, 4)}
     }
 };

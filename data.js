@@ -562,167 +562,480 @@ window.ieltsData = {
             ]
         },
         lenses: {
-    "psychological": {
-        "name": "PSYCHOLOGICAL",
+    "educational": {
+        "name": "EDUCATIONAL",
         "concepts": [
-            "emotional resilience",
-            "psychological burnout",
-            "cognitive flexibility",
-            "intrinsic motivation",
-            "mental equilibrium",
-            "chronic fatigue",
-            "emotional stability",
-            "peace of mind",
-            "sense of self-worth",
-            "social isolation",
-            "loneliness mitigation",
-            "depression rates",
-            "stress management",
-            "neurological pathways",
-            "adaptability capacity"
+            "critical thinking skills",
+            "vocational apprentice programs",
+            "academic burnout patterns",
+            "educational equality",
+            "bilingual cognitive benefits",
+            "illiteracy eradication",
+            "civic responsibilities",
+            "divergent reasoning",
+            "holistic student development",
+            "curriculum structural mismatch",
+            "theoretical instruction",
+            "practical competencies",
+            "lifelong learning habits",
+            "intellectual autonomy",
+            "multilingual proficiency"
         ],
         "chains": [
             {
-                "title": "Financial Security → Peace of Mind",
+                "title": "Practical Learning → Employability",
                 "collocations": [
-                    "build an emergency fund",
-                    "prepare for unexpected situations",
-                    "increase financial security",
-                    "reduce financial stress",
-                    "provide peace of mind",
-                    "improve emotional well-being"
+                    "incorporate vocational training",
+                    "simulate real-world challenges",
+                    "develop practical competencies",
+                    "bridge the skills gap",
+                    "enhance graduate employability"
                 ],
                 "steps": [
-                    "Saving money",
-                    "build an emergency fund",
-                    "prepare for unexpected situations",
-                    "increase financial security",
-                    "reduce financial stress",
-                    "provide peace of mind",
-                    "improve emotional well-being"
+                    "Incorporate vocational training",
+                    "simulate real-world challenges",
+                    "develop practical competencies",
+                    "bridge the skills gap",
+                    "enhance graduate employability"
                 ],
-                "paragraph": "Saving money improves psychological well-being by building an emergency fund that prepares individuals for unexpected situations. This increases financial security and significantly reduces financial stress, providing greater peace of mind. Consequently, people experience improved emotional well-being and enjoy higher overall life satisfaction.",
+                "paragraph": "Incorporating vocational training into university curriculums allows students to simulate real-world corporate challenges. This develops practical competencies, such as software proficiency or project management, which directly bridges the skills gap between academia and industry. Consequently, this hands-on experience drastically enhances graduate employability in a competitive market.",
                 "architecture": [
-                    "by + Verb-ing",
-                    "Consequently"
-                ]
-            },
-            {
-                "title": "Achievement → Self-Confidence",
-                "collocations": [
-                    "gain valuable experience",
-                    "improve competence",
-                    "develop self-confidence",
-                    "increase intrinsic motivation",
-                    "encourage lifelong learning"
-                ],
-                "steps": [
-                    "Learning new skills",
-                    "gain valuable experience",
-                    "improve competence",
-                    "develop self-confidence",
-                    "increase intrinsic motivation",
-                    "encourage lifelong learning",
-                    "achieve personal growth"
-                ],
-                "paragraph": "Learning new skills promotes personal development by allowing individuals to gain valuable experience and improve competence. As they become more capable, they naturally develop self-confidence, which increases motivation and encourages lifelong learning. Consequently, they are better equipped to achieve long-term personal and professional goals.",
-                "architecture": [
-                    "by + Verb-ing",
                     "Since / As",
                     "Consequently"
                 ]
             },
             {
-                "title": "Social Support → Emotional Stability",
+                "title": "Critical Thinking Skills → Independent Problem Solving",
                 "collocations": [
-                    "receive emotional support",
-                    "share personal challenges",
-                    "reduce feelings of loneliness",
-                    "improve emotional resilience",
-                    "manage stress more effectively"
+                    "encourage analytical debate",
+                    "evaluate conflicting arguments",
+                    "develop critical thinking",
+                    "make reasoned judgments",
+                    "avoid media manipulation",
+                    "foster intellectual independence"
                 ],
                 "steps": [
-                    "Strong social relationships",
-                    "receive emotional support",
-                    "share personal challenges",
-                    "reduce feelings of loneliness",
-                    "improve emotional resilience",
-                    "manage stress more effectively",
-                    "maintain better mental health"
+                    "Encourage analytical debate",
+                    "evaluate conflicting arguments",
+                    "develop critical thinking",
+                    "make reasoned judgments",
+                    "avoid media manipulation",
+                    "foster intellectual independence"
                 ],
-                "paragraph": "Strong social relationships improve mental health by allowing individuals to receive emotional support during difficult times. Sharing personal challenges helps reduce feelings of loneliness and improves emotional resilience. Consequently, people manage stress more effectively, maintain better mental health, and experience greater overall well-being.",
+                "paragraph": "Encouraging analytical debate in classrooms forces students to evaluate conflicting arguments rather than memorizing facts. This develops critical thinking skills, allowing students to make reasoned judgments in daily life. Consequently, critical education helps citizens avoid media manipulation and fosters intellectual independence.",
                 "architecture": [
-                    "by + Verb-ing",
+                    "allowing (Participle)",
                     "Consequently"
                 ]
             },
             {
-                "title": "Work-Life Balance → Reduced Burnout",
+                "title": "Inclusion of Arts → Creative Innovation",
                 "collocations": [
-                    "prioritize personal time",
-                    "reduce working hours",
-                    "alleviate mental fatigue",
-                    "improve sleep quality",
-                    "foster positive mindset",
-                    "prevent professional burnout"
+                    "integrate creative arts",
+                    "nurture divergent thinking",
+                    "enhance emotional intelligence",
+                    "inspire out-of-the-box ideas",
+                    "complement academic studies",
+                    "promote holistic development"
                 ],
                 "steps": [
-                    "Moderate working hours",
-                    "prioritize personal time",
-                    "alleviate mental fatigue",
-                    "improve sleep quality",
-                    "foster positive mindset",
-                    "prevent professional burnout"
+                    "Integrate creative arts",
+                    "nurture divergent thinking",
+                    "enhance emotional intelligence",
+                    "inspire out-of-the-box ideas",
+                    "complement academic studies",
+                    "promote holistic development"
                 ],
-                "paragraph": "Limiting professional responsibilities helps individuals prioritize personal time, which is essential for alleviating mental fatigue. This directly improves sleep quality and fosters a positive mindset. Consequently, employees prevent professional burnout, maintain emotional stability, and perform better in their careers.",
+                "paragraph": "Integrating creative arts into school curricula nurtures divergent thinking and enhances emotional intelligence in children. This inspires out-of-the-box ideas that complement traditional academic studies. Consequently, including arts in school promotes holistic development and prepares students for innovative careers.",
                 "architecture": [
                     "Consequently"
                 ]
             },
             {
-                "title": "Mindfulness Practice → Stress Reduction",
+                "title": "Bilingual Education → Cognitive Flexibility",
                 "collocations": [
-                    "engage in mindfulness",
-                    "regulate emotional responses",
-                    "lower cortisol levels",
-                    "improve concentration",
-                    "enhance mental clarity",
-                    "reduce daily anxiety"
+                    "introduce foreign languages",
+                    "stimulate neurological pathways",
+                    "improve multitasking abilities",
+                    "foster cognitive flexibility",
+                    "enhance communication skills",
+                    "broaden career horizons"
                 ],
                 "steps": [
-                    "Mindfulness and meditation",
-                    "regulate emotional responses",
-                    "lower cortisol levels",
-                    "improve concentration",
-                    "enhance mental clarity",
-                    "reduce daily anxiety"
+                    "Introduce foreign languages early",
+                    "stimulate neurological pathways",
+                    "improve multitasking abilities",
+                    "foster cognitive flexibility",
+                    "enhance communication skills",
+                    "broaden career horizons"
                 ],
-                "paragraph": "Engaging in mindfulness practices allows people to regulate their emotional responses to stress, which lowers cortisol levels. This improves concentration and enhances mental clarity in high-pressure situations. As a result, individuals reduce daily anxiety, boost their emotional resilience, and enjoy peace of mind.",
+                "paragraph": "Introducing foreign languages in primary school stimulates neurological pathways and improves multitasking abilities in children. This fosters cognitive flexibility, which enhances communication skills in multicultural societies. Ultimately, bilingual education broadens career horizons and improves long-term memory.",
+                "architecture": []
+            },
+            {
+                "title": "Universal Primary Education → Illiteracy Eradication",
+                "collocations": [
+                    "subsidize primary schools",
+                    "ensure classroom access",
+                    "eradicate youth illiteracy",
+                    "promote basic numeracy",
+                    "dismantle gender inequality",
+                    "empower marginalized communities"
+                ],
+                "steps": [
+                    "Subsidize primary schools",
+                    "ensure classroom access",
+                    "eradicate youth illiteracy",
+                    "promote basic numeracy",
+                    "dismantle gender inequality",
+                    "empower marginalized communities"
+                ],
+                "paragraph": "Subsidizing primary schools in impoverished regions ensures classroom access for every child. This is the most effective way to eradicate youth illiteracy and promote basic numeracy. As a result, universal education dismantles gender inequality, empowers marginalized communities, and reduces global poverty.",
                 "architecture": [
                     "As a result"
                 ]
             },
             {
-                "title": "Creative Outlets → Self-Expression",
+                "title": "Civic Education → Social Responsibility",
                 "collocations": [
-                    "pursue creative hobbies",
-                    "express complex emotions",
-                    "release accumulated tension",
-                    "boost dopamine levels",
-                    "enhance self-worth",
-                    "improve mood regulation"
+                    "teach civic rights",
+                    "understand democratic processes",
+                    "appreciate public services",
+                    "foster social responsibility",
+                    "encourage voting participation",
+                    "build active citizens"
                 ],
                 "steps": [
-                    "Creative outlets",
-                    "express complex emotions",
-                    "release accumulated tension",
-                    "boost dopamine levels",
-                    "enhance self-worth",
-                    "improve mood regulation"
+                    "Teach civic rights and duties",
+                    "understand democratic processes",
+                    "appreciate public services",
+                    "foster social responsibility",
+                    "encourage voting participation",
+                    "build active citizens"
                 ],
-                "paragraph": "Pursuing creative hobbies like painting or music allows individuals to express complex emotions that are hard to verbalize. This helps release accumulated tension and boosts dopamine levels in the brain. Consequently, creative expression enhances self-worth and plays a critical role in long-term mood regulation.",
+                "paragraph": "Teaching civic rights and duties helps students understand democratic processes and appreciate public services. This fosters social responsibility, encouraging active voting participation when they reach adulthood. Ultimately, civic education builds active citizens who contribute positively to their communities.",
+                "architecture": []
+            }
+        ]
+    },
+    "technological": {
+        "name": "TECHNOLOGICAL",
+        "concepts": [
+            "technological supremacy",
+            "digital literacy gaps",
+            "automated algorithms",
+            "e-learning democratization",
+            "virtual telemedicine",
+            "smart grid grids",
+            "data analytics optimization",
+            "operational workflows",
+            "network infrastructure",
+            "cybersecurity protocols",
+            "robotic process automation",
+            "global communications",
+            "disruptive technology",
+            "artificial intelligence scanners",
+            "industry-standard software"
+        ],
+        "chains": [
+            {
+                "title": "Automation → Workplace Efficiency",
+                "collocations": [
+                    "implement automated systems",
+                    "execute repetitive tasks",
+                    "eliminate human error",
+                    "streamline operational workflows",
+                    "maximize corporate efficiency"
+                ],
+                "steps": [
+                    "Implement automated systems",
+                    "execute repetitive tasks instantly",
+                    "eliminate human error",
+                    "streamline operational workflows",
+                    "maximize corporate efficiency",
+                    "increase profit margins"
+                ],
+                "paragraph": "Implementing automated AI systems allows companies to execute repetitive administrative tasks instantly while eliminating costly human errors. By streamlining these operational workflows, businesses maximize corporate efficiency and reduce overhead costs. Therefore, technology is an indispensable tool for increasing overall profit margins in modern industries.",
+                "architecture": [
+                    "While",
+                    "by + Verb-ing",
+                    "Therefore"
+                ]
+            },
+            {
+                "title": "Digital Communication → Global Connectivity",
+                "collocations": [
+                    "utilize social media platforms",
+                    "eradicate geographical barriers",
+                    "facilitate instant communication",
+                    "maintain international relationships",
+                    "prevent social isolation"
+                ],
+                "steps": [
+                    "Utilize social media platforms",
+                    "eradicate geographical barriers",
+                    "facilitate instant communication",
+                    "maintain international relationships",
+                    "prevent social isolation"
+                ],
+                "paragraph": "Social media platforms have eradicated geographical barriers by facilitating instant, free communication across the globe. This allows families separated by vast distances to effortlessly maintain international relationships via video calls. As a result, technology prevents social isolation and sustains crucial emotional bonds regardless of physical location.",
+                "architecture": [
+                    "by + Verb-ing",
+                    "via",
+                    "As a result"
+                ]
+            },
+            {
+                "title": "Telemedicine → Healthcare Accessibility",
+                "collocations": [
+                    "implement virtual consultations",
+                    "bypass geographical distance",
+                    "reduce hospital wait times",
+                    "diagnose mild ailments",
+                    "streamline medical resources",
+                    "provide universal healthcare"
+                ],
+                "steps": [
+                    "Virtual consultations",
+                    "bypass geographical distance",
+                    "reduce hospital wait times",
+                    "diagnose mild ailments",
+                    "streamline medical resources",
+                    "provide universal healthcare"
+                ],
+                "paragraph": "Implementing virtual consultations allows doctors to bypass geographical distances and reach patients in remote areas. This reduces hospital wait times and helps diagnose mild ailments quickly without in-person visits. Consequently, telemedicine streamlines medical resources and moves society closer to universal healthcare access.",
                 "architecture": [
                     "Consequently"
+                ]
+            },
+            {
+                "title": "E-Learning Platforms → Democratic Education",
+                "collocations": [
+                    "publish educational resources online",
+                    "eliminate commuting expenses",
+                    "allow self-paced learning",
+                    "democratize academic access",
+                    "promote lifelong learning",
+                    "bridge educational inequality"
+                ],
+                "steps": [
+                    "Publish educational resources online",
+                    "eliminate commuting expenses",
+                    "allow self-paced learning",
+                    "democratize academic access",
+                    "promote lifelong learning",
+                    "bridge educational inequality"
+                ],
+                "paragraph": "Publishing educational resources online eliminates commuting expenses and allows students to engage in self-paced learning. This helps democratize academic access for disadvantaged demographics globally. Consequently, e-learning platforms promote lifelong learning and bridge the gap of educational inequality.",
+                "architecture": [
+                    "Consequently"
+                ]
+            },
+            {
+                "title": "Smart Cities → Energy Conservation",
+                "collocations": [
+                    "integrate smart grid sensors",
+                    "optimize electricity distribution",
+                    "reduce power line waste",
+                    "minimize carbon footprints",
+                    "enhance urban sustainability",
+                    "lower public utility costs"
+                ],
+                "steps": [
+                    "Integrate smart grid sensors",
+                    "optimize electricity distribution",
+                    "reduce power line waste",
+                    "minimize carbon footprints",
+                    "enhance urban sustainability",
+                    "lower public utility costs"
+                ],
+                "paragraph": "Integrating smart grid sensors allows municipalities to optimize electricity distribution based on real-time demand. This reduces power line waste and minimizes the carbon footprint of city buildings. Therefore, smart cities enhance urban sustainability while lowering public utility costs for residents.",
+                "architecture": [
+                    "Therefore",
+                    "While"
+                ]
+            },
+            {
+                "title": "Data Analytics → Personalized Services",
+                "collocations": [
+                    "analyze consumer patterns",
+                    "identify custom preferences",
+                    "deliver tailored experiences",
+                    "maximize user engagement",
+                    "improve customer retention",
+                    "optimize marketing expenditures"
+                ],
+                "steps": [
+                    "Analyze consumer patterns",
+                    "identify custom preferences",
+                    "deliver tailored experiences",
+                    "maximize user engagement",
+                    "improve customer retention",
+                    "optimize marketing expenditures"
+                ],
+                "paragraph": "Analyzing consumer patterns with advanced algorithms allows businesses to identify custom preferences and deliver tailored experiences. This maximizes user engagement and improves customer retention. As a result, leveraging data analytics optimizes marketing expenditures and drives corporate profits.",
+                "architecture": [
+                    "As a result"
+                ]
+            }
+        ]
+    },
+    "social": {
+        "name": "SOCIAL",
+        "concepts": [
+            "upward social mobility",
+            "community cohesion rates",
+            "neighborhood trust levels",
+            "juvenile delinquency drops",
+            "inclusive hiring protocols",
+            "generational divides",
+            "social isolation risks",
+            "disabled universal accessibility",
+            "marginalized communities",
+            "civic engagement habits",
+            "welfare safety nets",
+            "community volunteering programs",
+            "socioeconomic disparities",
+            "societal integration",
+            "equal opportunity acts"
+        ],
+        "chains": [
+            {
+                "title": "Community Service → Civic Responsibility",
+                "collocations": [
+                    "mandate community service",
+                    "expose youth to societal challenges",
+                    "foster deep empathy",
+                    "cultivate civic responsibility",
+                    "create a cohesive society"
+                ],
+                "steps": [
+                    "Mandate community service",
+                    "expose youth to societal challenges",
+                    "foster deep empathy",
+                    "cultivate civic responsibility",
+                    "create a cohesive society"
+                ],
+                "paragraph": "Mandating community service in high schools exposes youth directly to real-world societal challenges, such as poverty or homelessness. Interacting with vulnerable populations fosters deep empathy and cultivates a profound sense of civic responsibility. As a result, these programs are instrumental in creating a more cohesive, compassionate society.",
+                "architecture": [
+                    "Since / As",
+                    "As a result"
+                ]
+            },
+            {
+                "title": "Public Parks → Community Cohesion",
+                "collocations": [
+                    "construct green public parks",
+                    "provide free recreational spaces",
+                    "encourage outdoor interactions",
+                    "facilitate community events",
+                    "foster neighborhood trust",
+                    "improve community cohesion"
+                ],
+                "steps": [
+                    "Construct green public parks",
+                    "provide free recreational spaces",
+                    "encourage outdoor interactions",
+                    "facilitate community events",
+                    "foster neighborhood trust",
+                    "improve community cohesion"
+                ],
+                "paragraph": "Constructing green public parks provides free recreational spaces that encourage outdoor interactions among diverse groups. This facilitates local community events and helps foster neighborhood trust. Consequently, green urban planning is highly effective at improving community cohesion and reducing crime.",
+                "architecture": [
+                    "Consequently"
+                ]
+            },
+            {
+                "title": "Youth Clubs → Decreased Delinquency",
+                "collocations": [
+                    "fund youth sports clubs",
+                    "occupy adolescents' free time",
+                    "teach discipline and teamwork",
+                    "discourage anti-social behaviors",
+                    "reduce juvenile delinquency",
+                    "promote safe environments"
+                ],
+                "steps": [
+                    "Fund youth sports clubs",
+                    "occupy adolescents' free time",
+                    "teach discipline and teamwork",
+                    "discourage anti-social behaviors",
+                    "reduce juvenile delinquency",
+                    "promote safe environments"
+                ],
+                "paragraph": "Funding youth sports clubs occupies adolescents' free time with positive, structured activities that teach discipline and teamwork. This discourages anti-social behaviors and reduces juvenile delinquency in high-risk neighborhoods. As a result, local investments build safer environments for families.",
+                "architecture": [
+                    "As a result"
+                ]
+            },
+            {
+                "title": "Inclusive Workplaces → Social Mobility",
+                "collocations": [
+                    "promote inclusive hiring",
+                    "dismantle corporate glass ceilings",
+                    "empower marginalized demographics",
+                    "increase household incomes",
+                    "support social mobility",
+                    "reduce wealth inequality"
+                ],
+                "steps": [
+                    "Promote inclusive hiring practices",
+                    "dismantle corporate glass ceilings",
+                    "empower marginalized demographics",
+                    "increase household incomes",
+                    "support social mobility",
+                    "reduce wealth inequality"
+                ],
+                "paragraph": "Promoting inclusive hiring practices helps dismantle corporate glass ceilings and empowers marginalized demographics to build careers. This increases household incomes, thereby supporting upward social mobility. Ultimately, equal employment opportunities reduce systemic wealth inequality and foster social justice.",
+                "architecture": [
+                    "Thereby + Verb-ing"
+                ]
+            },
+            {
+                "title": "Volunteering Programs → Social Integration",
+                "collocations": [
+                    "organize community volunteering",
+                    "connect diverse demographics",
+                    "bridge generational divides",
+                    "foster mutual understanding",
+                    "reduce social isolation",
+                    "strengthen support networks"
+                ],
+                "steps": [
+                    "Organize community volunteering",
+                    "connect diverse demographics",
+                    "bridge generational divides",
+                    "foster mutual understanding",
+                    "reduce social isolation",
+                    "strengthen support networks"
+                ],
+                "paragraph": "Organizing community volunteering connects diverse demographics who would otherwise never interact. This bridges generational divides and fosters mutual understanding among residents. Consequently, public volunteering programs reduce social isolation and strengthen local support networks.",
+                "architecture": [
+                    "Consequently"
+                ]
+            },
+            {
+                "title": "Universal Design → Accessibility",
+                "collocations": [
+                    "implement universal design",
+                    "install ramps and elevators",
+                    "enable independent mobility",
+                    "support disabled citizens",
+                    "promote social inclusion",
+                    "guarantee equal access"
+                ],
+                "steps": [
+                    "Implement universal design principles",
+                    "install ramps and elevators",
+                    "enable independent mobility",
+                    "support disabled citizens",
+                    "promote social inclusion",
+                    "guarantee equal access"
+                ],
+                "paragraph": "Implementing universal design principles in architecture forces builders to install ramps and elevators. This enables independent mobility for disabled citizens, allowing them to navigate spaces without assistance. Therefore, structural accessibility changes promote social inclusion and guarantee equal access to public life.",
+                "architecture": [
+                    "allowing (Participle)",
+                    "Therefore"
                 ]
             }
         ]
@@ -898,486 +1211,6 @@ window.ieltsData = {
             }
         ]
     },
-    "economic": {
-        "name": "ECONOMIC",
-        "concepts": [
-            "macroeconomic indicators",
-            "economic growth stimulation",
-            "gross domestic product",
-            "entrepreneurial innovation",
-            "skilled labor supply",
-            "job creation rates",
-            "tariff deregulation",
-            "financial overhead costs",
-            "market dynamics",
-            "industrial productivity",
-            "wealth redistribution",
-            "generational poverty",
-            "taxation revenues",
-            "business startup subsidies",
-            "labor-intensive sectors"
-        ],
-        "chains": [
-            {
-                "title": "Education Investment → Economic Growth",
-                "collocations": [
-                    "subsidize tertiary education",
-                    "eliminate financial barriers",
-                    "cultivate a highly skilled workforce",
-                    "attract corporate investment",
-                    "drive technological innovation",
-                    "stimulate national economic growth"
-                ],
-                "steps": [
-                    "Government funds universities",
-                    "eliminate financial barriers for students",
-                    "cultivate a highly skilled workforce",
-                    "attract corporate investment",
-                    "drive technological innovation",
-                    "stimulate national economic growth"
-                ],
-                "paragraph": "Governments should heavily subsidize tertiary education to eliminate financial barriers and allow students from all backgrounds to study. This cultivates a highly skilled workforce, which is essential for attracting corporate investment and driving technological innovation. Consequently, a highly educated population stimulates long-term national economic growth and prosperity.",
-                "architecture": [
-                    "Consequently"
-                ]
-            },
-            {
-                "title": "Infrastructure Development → Job Creation",
-                "collocations": [
-                    "invest in public infrastructure",
-                    "stimulate the construction sector",
-                    "generate employment opportunities",
-                    "reduce national unemployment",
-                    "boost consumer spending"
-                ],
-                "steps": [
-                    "Invest in public infrastructure",
-                    "stimulate the construction sector",
-                    "generate employment opportunities",
-                    "reduce national unemployment",
-                    "boost consumer spending",
-                    "strengthen the local economy"
-                ],
-                "paragraph": "Investing heavily in public infrastructure, such as new railways or airports, directly stimulates the construction sector. This generates thousands of immediate employment opportunities, substantially reducing national unemployment rates. As a result, newly employed citizens boost consumer spending, thereby strengthening the entire local economy.",
-                "architecture": [
-                    "Since / As",
-                    "As a result",
-                    "Thereby + Verb-ing"
-                ]
-            },
-            {
-                "title": "Small Business Subsidies → Entrepreneurial Innovation",
-                "collocations": [
-                    "subsidize start-up companies",
-                    "reduce financial barriers",
-                    "foster market competition",
-                    "drive local innovation",
-                    "generate niche employment",
-                    "stimulate economic dynamism"
-                ],
-                "steps": [
-                    "Subsidize start-up companies",
-                    "reduce financial barriers for entrepreneurs",
-                    "foster market competition",
-                    "drive local innovation",
-                    "generate niche employment",
-                    "stimulate economic dynamism"
-                ],
-                "paragraph": "Subsidizing start-up companies reduces the initial financial barriers for entrepreneurs, which fosters healthy market competition. This drives local innovation and generates niche employment opportunities. Consequently, supporting small businesses stimulates overall economic dynamism and community wealth.",
-                "architecture": [
-                    "Consequently"
-                ]
-            },
-            {
-                "title": "Trade Deregulation → Global Market Expansion",
-                "collocations": [
-                    "lower import tariffs",
-                    "facilitate cross-border trade",
-                    "expand customer bases",
-                    "increase business revenues",
-                    "stimulate international investment",
-                    "accelerate economic integration"
-                ],
-                "steps": [
-                    "Lower import tariffs",
-                    "facilitate cross-border trade",
-                    "expand customer bases",
-                    "increase business revenues",
-                    "stimulate international investment",
-                    "accelerate economic integration"
-                ],
-                "paragraph": "Lowering import tariffs facilitates cross-border trade, allowing domestic businesses to expand their customer bases globally. This increases business revenues and stimulates international investment in manufacturing sectors. As a result, trade deregulation accelerates economic integration and boosts national gross domestic product.",
-                "architecture": [
-                    "allowing (Participle)",
-                    "As a result"
-                ]
-            },
-            {
-                "title": "Vocational Training Programs → Skilled Labor Supply",
-                "collocations": [
-                    "fund practical apprenticeships",
-                    "bridge the skills gap",
-                    "increase employment rates",
-                    "enhance labor productivity",
-                    "attract manufacturing firms",
-                    "bolster industrial growth"
-                ],
-                "steps": [
-                    "Fund practical apprenticeships",
-                    "bridge the skills gap",
-                    "increase employment rates",
-                    "enhance labor productivity",
-                    "attract manufacturing firms",
-                    "bolster industrial growth"
-                ],
-                "paragraph": "Funding practical apprenticeship programs bridges the skills gap in technical fields, thereby increasing youth employment rates. This enhances overall labor productivity and attracts foreign manufacturing firms. Ultimately, a steady supply of skilled technicians bolsters industrial growth and raises household incomes.",
-                "architecture": [
-                    "Thereby + Verb-ing"
-                ]
-            },
-            {
-                "title": "Green Technology Investment → Sustainable Industries",
-                "collocations": [
-                    "invest in clean tech",
-                    "create green jobs",
-                    "reduce manufacturing wastes",
-                    "lower energy expenses",
-                    "improve corporate sustainability",
-                    "stimulate modern industries"
-                ],
-                "steps": [
-                    "Invest in clean technology",
-                    "create green jobs",
-                    "reduce manufacturing wastes",
-                    "lower energy expenses",
-                    "improve corporate sustainability",
-                    "stimulate modern industries"
-                ],
-                "paragraph": "Investing in clean technology creates high-paying green jobs and encourages companies to reduce manufacturing wastes. This helps lower energy expenses over time, which improves corporate sustainability. Consequently, green investments stimulate modern, future-proof industries that align with global climate goals.",
-                "architecture": [
-                    "Consequently"
-                ]
-            }
-        ]
-    },
-    "technological": {
-        "name": "TECHNOLOGICAL",
-        "concepts": [
-            "technological supremacy",
-            "digital literacy gaps",
-            "automated algorithms",
-            "e-learning democratization",
-            "virtual telemedicine",
-            "smart grid grids",
-            "data analytics optimization",
-            "operational workflows",
-            "network infrastructure",
-            "cybersecurity protocols",
-            "robotic process automation",
-            "global communications",
-            "disruptive technology",
-            "artificial intelligence scanners",
-            "industry-standard software"
-        ],
-        "chains": [
-            {
-                "title": "Automation → Workplace Efficiency",
-                "collocations": [
-                    "implement automated systems",
-                    "execute repetitive tasks",
-                    "eliminate human error",
-                    "streamline operational workflows",
-                    "maximize corporate efficiency"
-                ],
-                "steps": [
-                    "Implement automated systems",
-                    "execute repetitive tasks instantly",
-                    "eliminate human error",
-                    "streamline operational workflows",
-                    "maximize corporate efficiency",
-                    "increase profit margins"
-                ],
-                "paragraph": "Implementing automated AI systems allows companies to execute repetitive administrative tasks instantly while eliminating costly human errors. By streamlining these operational workflows, businesses maximize corporate efficiency and reduce overhead costs. Therefore, technology is an indispensable tool for increasing overall profit margins in modern industries.",
-                "architecture": [
-                    "While",
-                    "by + Verb-ing",
-                    "Therefore"
-                ]
-            },
-            {
-                "title": "Digital Communication → Global Connectivity",
-                "collocations": [
-                    "utilize social media platforms",
-                    "eradicate geographical barriers",
-                    "facilitate instant communication",
-                    "maintain international relationships",
-                    "prevent social isolation"
-                ],
-                "steps": [
-                    "Utilize social media platforms",
-                    "eradicate geographical barriers",
-                    "facilitate instant communication",
-                    "maintain international relationships",
-                    "prevent social isolation"
-                ],
-                "paragraph": "Social media platforms have eradicated geographical barriers by facilitating instant, free communication across the globe. This allows families separated by vast distances to effortlessly maintain international relationships via video calls. As a result, technology prevents social isolation and sustains crucial emotional bonds regardless of physical location.",
-                "architecture": [
-                    "by + Verb-ing",
-                    "via",
-                    "As a result"
-                ]
-            },
-            {
-                "title": "Telemedicine → Healthcare Accessibility",
-                "collocations": [
-                    "implement virtual consultations",
-                    "bypass geographical distance",
-                    "reduce hospital wait times",
-                    "diagnose mild ailments",
-                    "streamline medical resources",
-                    "provide universal healthcare"
-                ],
-                "steps": [
-                    "Virtual consultations",
-                    "bypass geographical distance",
-                    "reduce hospital wait times",
-                    "diagnose mild ailments",
-                    "streamline medical resources",
-                    "provide universal healthcare"
-                ],
-                "paragraph": "Implementing virtual consultations allows doctors to bypass geographical distances and reach patients in remote areas. This reduces hospital wait times and helps diagnose mild ailments quickly without in-person visits. Consequently, telemedicine streamlines medical resources and moves society closer to universal healthcare access.",
-                "architecture": [
-                    "Consequently"
-                ]
-            },
-            {
-                "title": "E-Learning Platforms → Democratic Education",
-                "collocations": [
-                    "publish educational resources online",
-                    "eliminate commuting expenses",
-                    "allow self-paced learning",
-                    "democratize academic access",
-                    "promote lifelong learning",
-                    "bridge educational inequality"
-                ],
-                "steps": [
-                    "Publish educational resources online",
-                    "eliminate commuting expenses",
-                    "allow self-paced learning",
-                    "democratize academic access",
-                    "promote lifelong learning",
-                    "bridge educational inequality"
-                ],
-                "paragraph": "Publishing educational resources online eliminates commuting expenses and allows students to engage in self-paced learning. This helps democratize academic access for disadvantaged demographics globally. Consequently, e-learning platforms promote lifelong learning and bridge the gap of educational inequality.",
-                "architecture": [
-                    "Consequently"
-                ]
-            },
-            {
-                "title": "Smart Cities → Energy Conservation",
-                "collocations": [
-                    "integrate smart grid sensors",
-                    "optimize electricity distribution",
-                    "reduce power line waste",
-                    "minimize carbon footprints",
-                    "enhance urban sustainability",
-                    "lower public utility costs"
-                ],
-                "steps": [
-                    "Integrate smart grid sensors",
-                    "optimize electricity distribution",
-                    "reduce power line waste",
-                    "minimize carbon footprints",
-                    "enhance urban sustainability",
-                    "lower public utility costs"
-                ],
-                "paragraph": "Integrating smart grid sensors allows municipalities to optimize electricity distribution based on real-time demand. This reduces power line waste and minimizes the carbon footprint of city buildings. Therefore, smart cities enhance urban sustainability while lowering public utility costs for residents.",
-                "architecture": [
-                    "Therefore",
-                    "While"
-                ]
-            },
-            {
-                "title": "Data Analytics → Personalized Services",
-                "collocations": [
-                    "analyze consumer patterns",
-                    "identify custom preferences",
-                    "deliver tailored experiences",
-                    "maximize user engagement",
-                    "improve customer retention",
-                    "optimize marketing expenditures"
-                ],
-                "steps": [
-                    "Analyze consumer patterns",
-                    "identify custom preferences",
-                    "deliver tailored experiences",
-                    "maximize user engagement",
-                    "improve customer retention",
-                    "optimize marketing expenditures"
-                ],
-                "paragraph": "Analyzing consumer patterns with advanced algorithms allows businesses to identify custom preferences and deliver tailored experiences. This maximizes user engagement and improves customer retention. As a result, leveraging data analytics optimizes marketing expenditures and drives corporate profits.",
-                "architecture": [
-                    "As a result"
-                ]
-            }
-        ]
-    },
-    "educational": {
-        "name": "EDUCATIONAL",
-        "concepts": [
-            "critical thinking skills",
-            "vocational apprentice programs",
-            "academic burnout patterns",
-            "educational equality",
-            "bilingual cognitive benefits",
-            "illiteracy eradication",
-            "civic responsibilities",
-            "divergent reasoning",
-            "holistic student development",
-            "curriculum structural mismatch",
-            "theoretical instruction",
-            "practical competencies",
-            "lifelong learning habits",
-            "intellectual autonomy",
-            "multilingual proficiency"
-        ],
-        "chains": [
-            {
-                "title": "Practical Learning → Employability",
-                "collocations": [
-                    "incorporate vocational training",
-                    "simulate real-world challenges",
-                    "develop practical competencies",
-                    "bridge the skills gap",
-                    "enhance graduate employability"
-                ],
-                "steps": [
-                    "Incorporate vocational training",
-                    "simulate real-world challenges",
-                    "develop practical competencies",
-                    "bridge the skills gap",
-                    "enhance graduate employability"
-                ],
-                "paragraph": "Incorporating vocational training into university curriculums allows students to simulate real-world corporate challenges. This develops practical competencies, such as software proficiency or project management, which directly bridges the skills gap between academia and industry. Consequently, this hands-on experience drastically enhances graduate employability in a competitive market.",
-                "architecture": [
-                    "Since / As",
-                    "Consequently"
-                ]
-            },
-            {
-                "title": "Critical Thinking Skills → Independent Problem Solving",
-                "collocations": [
-                    "encourage analytical debate",
-                    "evaluate conflicting arguments",
-                    "develop critical thinking",
-                    "make reasoned judgments",
-                    "avoid media manipulation",
-                    "foster intellectual independence"
-                ],
-                "steps": [
-                    "Encourage analytical debate",
-                    "evaluate conflicting arguments",
-                    "develop critical thinking",
-                    "make reasoned judgments",
-                    "avoid media manipulation",
-                    "foster intellectual independence"
-                ],
-                "paragraph": "Encouraging analytical debate in classrooms forces students to evaluate conflicting arguments rather than memorizing facts. This develops critical thinking skills, allowing students to make reasoned judgments in daily life. Consequently, critical education helps citizens avoid media manipulation and fosters intellectual independence.",
-                "architecture": [
-                    "allowing (Participle)",
-                    "Consequently"
-                ]
-            },
-            {
-                "title": "Inclusion of Arts → Creative Innovation",
-                "collocations": [
-                    "integrate creative arts",
-                    "nurture divergent thinking",
-                    "enhance emotional intelligence",
-                    "inspire out-of-the-box ideas",
-                    "complement academic studies",
-                    "promote holistic development"
-                ],
-                "steps": [
-                    "Integrate creative arts",
-                    "nurture divergent thinking",
-                    "enhance emotional intelligence",
-                    "inspire out-of-the-box ideas",
-                    "complement academic studies",
-                    "promote holistic development"
-                ],
-                "paragraph": "Integrating creative arts into school curricula nurtures divergent thinking and enhances emotional intelligence in children. This inspires out-of-the-box ideas that complement traditional academic studies. Consequently, including arts in school promotes holistic development and prepares students for innovative careers.",
-                "architecture": [
-                    "Consequently"
-                ]
-            },
-            {
-                "title": "Bilingual Education → Cognitive Flexibility",
-                "collocations": [
-                    "introduce foreign languages",
-                    "stimulate neurological pathways",
-                    "improve multitasking abilities",
-                    "foster cognitive flexibility",
-                    "enhance communication skills",
-                    "broaden career horizons"
-                ],
-                "steps": [
-                    "Introduce foreign languages early",
-                    "stimulate neurological pathways",
-                    "improve multitasking abilities",
-                    "foster cognitive flexibility",
-                    "enhance communication skills",
-                    "broaden career horizons"
-                ],
-                "paragraph": "Introducing foreign languages in primary school stimulates neurological pathways and improves multitasking abilities in children. This fosters cognitive flexibility, which enhances communication skills in multicultural societies. Ultimately, bilingual education broadens career horizons and improves long-term memory.",
-                "architecture": []
-            },
-            {
-                "title": "Universal Primary Education → Illiteracy Eradication",
-                "collocations": [
-                    "subsidize primary schools",
-                    "ensure classroom access",
-                    "eradicate youth illiteracy",
-                    "promote basic numeracy",
-                    "dismantle gender inequality",
-                    "empower marginalized communities"
-                ],
-                "steps": [
-                    "Subsidize primary schools",
-                    "ensure classroom access",
-                    "eradicate youth illiteracy",
-                    "promote basic numeracy",
-                    "dismantle gender inequality",
-                    "empower marginalized communities"
-                ],
-                "paragraph": "Subsidizing primary schools in impoverished regions ensures classroom access for every child. This is the most effective way to eradicate youth illiteracy and promote basic numeracy. As a result, universal education dismantles gender inequality, empowers marginalized communities, and reduces global poverty.",
-                "architecture": [
-                    "As a result"
-                ]
-            },
-            {
-                "title": "Civic Education → Social Responsibility",
-                "collocations": [
-                    "teach civic rights",
-                    "understand democratic processes",
-                    "appreciate public services",
-                    "foster social responsibility",
-                    "encourage voting participation",
-                    "build active citizens"
-                ],
-                "steps": [
-                    "Teach civic rights and duties",
-                    "understand democratic processes",
-                    "appreciate public services",
-                    "foster social responsibility",
-                    "encourage voting participation",
-                    "build active citizens"
-                ],
-                "paragraph": "Teaching civic rights and duties helps students understand democratic processes and appreciate public services. This fosters social responsibility, encouraging active voting participation when they reach adulthood. Ultimately, civic education builds active citizens who contribute positively to their communities.",
-                "architecture": []
-            }
-        ]
-    },
     "health": {
         "name": "HEALTH & MEDICAL",
         "concepts": [
@@ -1533,325 +1366,6 @@ window.ieltsData = {
                 "paragraph": "Teaching sleep hygiene practices helps individuals regulate circadian rhythms and improve sleep quality. Better rest boosts immune systems, which enhances daytime productivity and focus. Therefore, educating the public on sleep hygiene is a simple yet powerful way to promote long-term physical health.",
                 "architecture": [
                     "Therefore"
-                ]
-            }
-        ]
-    },
-    "social": {
-        "name": "SOCIAL",
-        "concepts": [
-            "upward social mobility",
-            "community cohesion rates",
-            "neighborhood trust levels",
-            "juvenile delinquency drops",
-            "inclusive hiring protocols",
-            "generational divides",
-            "social isolation risks",
-            "disabled universal accessibility",
-            "marginalized communities",
-            "civic engagement habits",
-            "welfare safety nets",
-            "community volunteering programs",
-            "socioeconomic disparities",
-            "societal integration",
-            "equal opportunity acts"
-        ],
-        "chains": [
-            {
-                "title": "Community Service → Civic Responsibility",
-                "collocations": [
-                    "mandate community service",
-                    "expose youth to societal challenges",
-                    "foster deep empathy",
-                    "cultivate civic responsibility",
-                    "create a cohesive society"
-                ],
-                "steps": [
-                    "Mandate community service",
-                    "expose youth to societal challenges",
-                    "foster deep empathy",
-                    "cultivate civic responsibility",
-                    "create a cohesive society"
-                ],
-                "paragraph": "Mandating community service in high schools exposes youth directly to real-world societal challenges, such as poverty or homelessness. Interacting with vulnerable populations fosters deep empathy and cultivates a profound sense of civic responsibility. As a result, these programs are instrumental in creating a more cohesive, compassionate society.",
-                "architecture": [
-                    "Since / As",
-                    "As a result"
-                ]
-            },
-            {
-                "title": "Public Parks → Community Cohesion",
-                "collocations": [
-                    "construct green public parks",
-                    "provide free recreational spaces",
-                    "encourage outdoor interactions",
-                    "facilitate community events",
-                    "foster neighborhood trust",
-                    "improve community cohesion"
-                ],
-                "steps": [
-                    "Construct green public parks",
-                    "provide free recreational spaces",
-                    "encourage outdoor interactions",
-                    "facilitate community events",
-                    "foster neighborhood trust",
-                    "improve community cohesion"
-                ],
-                "paragraph": "Constructing green public parks provides free recreational spaces that encourage outdoor interactions among diverse groups. This facilitates local community events and helps foster neighborhood trust. Consequently, green urban planning is highly effective at improving community cohesion and reducing crime.",
-                "architecture": [
-                    "Consequently"
-                ]
-            },
-            {
-                "title": "Youth Clubs → Decreased Delinquency",
-                "collocations": [
-                    "fund youth sports clubs",
-                    "occupy adolescents' free time",
-                    "teach discipline and teamwork",
-                    "discourage anti-social behaviors",
-                    "reduce juvenile delinquency",
-                    "promote safe environments"
-                ],
-                "steps": [
-                    "Fund youth sports clubs",
-                    "occupy adolescents' free time",
-                    "teach discipline and teamwork",
-                    "discourage anti-social behaviors",
-                    "reduce juvenile delinquency",
-                    "promote safe environments"
-                ],
-                "paragraph": "Funding youth sports clubs occupies adolescents' free time with positive, structured activities that teach discipline and teamwork. This discourages anti-social behaviors and reduces juvenile delinquency in high-risk neighborhoods. As a result, local investments build safer environments for families.",
-                "architecture": [
-                    "As a result"
-                ]
-            },
-            {
-                "title": "Inclusive Workplaces → Social Mobility",
-                "collocations": [
-                    "promote inclusive hiring",
-                    "dismantle corporate glass ceilings",
-                    "empower marginalized demographics",
-                    "increase household incomes",
-                    "support social mobility",
-                    "reduce wealth inequality"
-                ],
-                "steps": [
-                    "Promote inclusive hiring practices",
-                    "dismantle corporate glass ceilings",
-                    "empower marginalized demographics",
-                    "increase household incomes",
-                    "support social mobility",
-                    "reduce wealth inequality"
-                ],
-                "paragraph": "Promoting inclusive hiring practices helps dismantle corporate glass ceilings and empowers marginalized demographics to build careers. This increases household incomes, thereby supporting upward social mobility. Ultimately, equal employment opportunities reduce systemic wealth inequality and foster social justice.",
-                "architecture": [
-                    "Thereby + Verb-ing"
-                ]
-            },
-            {
-                "title": "Volunteering Programs → Social Integration",
-                "collocations": [
-                    "organize community volunteering",
-                    "connect diverse demographics",
-                    "bridge generational divides",
-                    "foster mutual understanding",
-                    "reduce social isolation",
-                    "strengthen support networks"
-                ],
-                "steps": [
-                    "Organize community volunteering",
-                    "connect diverse demographics",
-                    "bridge generational divides",
-                    "foster mutual understanding",
-                    "reduce social isolation",
-                    "strengthen support networks"
-                ],
-                "paragraph": "Organizing community volunteering connects diverse demographics who would otherwise never interact. This bridges generational divides and fosters mutual understanding among residents. Consequently, public volunteering programs reduce social isolation and strengthen local support networks.",
-                "architecture": [
-                    "Consequently"
-                ]
-            },
-            {
-                "title": "Universal Design → Accessibility",
-                "collocations": [
-                    "implement universal design",
-                    "install ramps and elevators",
-                    "enable independent mobility",
-                    "support disabled citizens",
-                    "promote social inclusion",
-                    "guarantee equal access"
-                ],
-                "steps": [
-                    "Implement universal design principles",
-                    "install ramps and elevators",
-                    "enable independent mobility",
-                    "support disabled citizens",
-                    "promote social inclusion",
-                    "guarantee equal access"
-                ],
-                "paragraph": "Implementing universal design principles in architecture forces builders to install ramps and elevators. This enables independent mobility for disabled citizens, allowing them to navigate spaces without assistance. Therefore, structural accessibility changes promote social inclusion and guarantee equal access to public life.",
-                "architecture": [
-                    "allowing (Participle)",
-                    "Therefore"
-                ]
-            }
-        ]
-    },
-    "cultural": {
-        "name": "CULTURAL",
-        "concepts": [
-            "cultural homogenization",
-            "indigenous heritage revival",
-            "intercultural harmony",
-            "historical preservation",
-            "preconceived racial stereotypes",
-            "globalized perspective",
-            "multicultural celebrations",
-            "linguistic diversity conservation",
-            "museum admission access",
-            "foreign exchange programs",
-            "peaceful diplomacy ties",
-            "ethnic heritage restoration",
-            "ancestral wisdom conservation",
-            "cross-cultural tolerance",
-            "artistic legacy values"
-        ],
-        "chains": [
-            {
-                "title": "International Travel → Open-mindedness",
-                "collocations": [
-                    "immerse in foreign environments",
-                    "navigate cultural differences",
-                    "dismantle preconceived stereotypes",
-                    "adopt a globalized perspective",
-                    "promote international tolerance"
-                ],
-                "steps": [
-                    "Immerse in foreign environments",
-                    "navigate cultural differences",
-                    "dismantle preconceived stereotypes",
-                    "adopt a globalized perspective",
-                    "promote international tolerance"
-                ],
-                "paragraph": "Immersing oneself in foreign environments through international travel or study forces individuals to navigate complex cultural differences. This direct interaction effectively dismantles preconceived stereotypes and encourages students to adopt a globalized perspective. Therefore, cross-cultural exposure is highly effective at promoting international tolerance and understanding.",
-                "architecture": [
-                    "through",
-                    "Therefore"
-                ]
-            },
-            {
-                "title": "Heritage Preservation → Cultural Identity",
-                "collocations": [
-                    "restore historical monuments",
-                    "protect traditional crafts",
-                    "preserve cultural identity",
-                    "pass down oral histories",
-                    "foster national pride",
-                    "combat cultural homogenization"
-                ],
-                "steps": [
-                    "Restore historical monuments",
-                    "protect traditional crafts",
-                    "preserve cultural identity",
-                    "pass down oral histories",
-                    "foster national pride",
-                    "combat cultural homogenization"
-                ],
-                "paragraph": "Restoring historical monuments and protecting traditional crafts helps communities preserve their unique cultural identity. This allows elders to pass down oral histories to younger generations, fostering a strong sense of national pride. Consequently, active heritage preservation combats cultural homogenization in a globalized world.",
-                "architecture": [
-                    "fostering (Participle)",
-                    "Consequently"
-                ]
-            },
-            {
-                "title": "Cultural Festivals → Intercultural Harmony",
-                "collocations": [
-                    "sponsor multicultural festivals",
-                    "celebrate ethnic diversity",
-                    "showcase traditional arts",
-                    "promote mutual respect",
-                    "foster intercultural harmony",
-                    "dismantle racial prejudices"
-                ],
-                "steps": [
-                    "Sponsor multicultural festivals",
-                    "celebrate ethnic diversity",
-                    "showcase traditional arts",
-                    "promote mutual respect",
-                    "foster intercultural harmony",
-                    "dismantle racial prejudices"
-                ],
-                "paragraph": "Sponsoring multicultural festivals celebrates ethnic diversity and showcases traditional arts within a city. This promotes mutual respect among different ethnic groups and fosters intercultural harmony. As a result, public cultural events are essential tools to dismantle racial prejudices and build tolerant societies.",
-                "architecture": [
-                    "As a result"
-                ]
-            },
-            {
-                "title": "Language Revitalization → Indigenous Heritage",
-                "collocations": [
-                    "fund language immersion programs",
-                    "teach endangered languages",
-                    "revitalize ancestral wisdom",
-                    "strengthen community identity",
-                    "preserve indigenous heritage",
-                    "enrich linguistic diversity"
-                ],
-                "steps": [
-                    "Fund language immersion programs",
-                    "teach endangered languages in schools",
-                    "revitalize ancestral wisdom",
-                    "strengthen community identity",
-                    "preserve indigenous heritage",
-                    "enrich linguistic diversity"
-                ],
-                "paragraph": "Funding language immersion programs allows educators to teach endangered languages to young children. This revitalizes ancestral wisdom and strengthens community identity in indigenous regions. Ultimately, language preservation protects precious heritage and enriches global linguistic diversity.",
-                "architecture": []
-            },
-            {
-                "title": "Museum Subsidies → Public Education",
-                "collocations": [
-                    "subsidize historical museums",
-                    "offer free admission",
-                    "increase cultural literacy",
-                    "educate children on historical events",
-                    "foster scientific curiosity",
-                    "promote national heritage"
-                ],
-                "steps": [
-                    "Subsidize historical museums",
-                    "offer free public admission",
-                    "increase cultural literacy",
-                    "educate children on historical events",
-                    "foster scientific curiosity",
-                    "promote national heritage"
-                ],
-                "paragraph": "Subsidizing historical museums allows them to offer free public admission, drastically increasing cultural literacy among families. This helps educate children on historical events and fosters scientific curiosity outside the classroom. Therefore, museum subsidies are key investments in promoting national heritage and public education.",
-                "architecture": [
-                    "Therefore"
-                ]
-            },
-            {
-                "title": "Global Exchange Programs → International Collaboration",
-                "collocations": [
-                    "sponsor student exchange programs",
-                    "expose scholars to different perspectives",
-                    "foster international friendships",
-                    "facilitate joint research",
-                    "solve global challenges",
-                    "promote peaceful diplomacy"
-                ],
-                "steps": [
-                    "Sponsor student exchange programs",
-                    "expose scholars to different perspectives",
-                    "foster international friendships",
-                    "facilitate joint research",
-                    "solve global challenges",
-                    "promote peaceful diplomacy"
-                ],
-                "paragraph": "Sponsoring student exchange programs exposes young scholars to different educational perspectives, fostering lifelong international friendships. These networks later facilitate joint research and collaborative business ventures. Consequently, global exchanges help solve transnational challenges and promote peaceful diplomacy.",
-                "architecture": [
-                    "fostering (Participle)",
-                    "Consequently"
                 ]
             }
         ]
@@ -2016,6 +1530,326 @@ window.ieltsData = {
             }
         ]
     },
+    "economic": {
+        "name": "ECONOMIC",
+        "concepts": [
+            "macroeconomic indicators",
+            "economic growth stimulation",
+            "gross domestic product",
+            "entrepreneurial innovation",
+            "skilled labor supply",
+            "job creation rates",
+            "tariff deregulation",
+            "financial overhead costs",
+            "market dynamics",
+            "industrial productivity",
+            "wealth redistribution",
+            "generational poverty",
+            "taxation revenues",
+            "business startup subsidies",
+            "labor-intensive sectors"
+        ],
+        "chains": [
+            {
+                "title": "Education Investment → Economic Growth",
+                "collocations": [
+                    "subsidize tertiary education",
+                    "eliminate financial barriers",
+                    "cultivate a highly skilled workforce",
+                    "attract corporate investment",
+                    "drive technological innovation",
+                    "stimulate national economic growth"
+                ],
+                "steps": [
+                    "Government funds universities",
+                    "eliminate financial barriers for students",
+                    "cultivate a highly skilled workforce",
+                    "attract corporate investment",
+                    "drive technological innovation",
+                    "stimulate national economic growth"
+                ],
+                "paragraph": "Governments should heavily subsidize tertiary education to eliminate financial barriers and allow students from all backgrounds to study. This cultivates a highly skilled workforce, which is essential for attracting corporate investment and driving technological innovation. Consequently, a highly educated population stimulates long-term national economic growth and prosperity.",
+                "architecture": [
+                    "Consequently"
+                ]
+            },
+            {
+                "title": "Infrastructure Development → Job Creation",
+                "collocations": [
+                    "invest in public infrastructure",
+                    "stimulate the construction sector",
+                    "generate employment opportunities",
+                    "reduce national unemployment",
+                    "boost consumer spending"
+                ],
+                "steps": [
+                    "Invest in public infrastructure",
+                    "stimulate the construction sector",
+                    "generate employment opportunities",
+                    "reduce national unemployment",
+                    "boost consumer spending",
+                    "strengthen the local economy"
+                ],
+                "paragraph": "Investing heavily in public infrastructure, such as new railways or airports, directly stimulates the construction sector. This generates thousands of immediate employment opportunities, substantially reducing national unemployment rates. As a result, newly employed citizens boost consumer spending, thereby strengthening the entire local economy.",
+                "architecture": [
+                    "Since / As",
+                    "As a result",
+                    "Thereby + Verb-ing"
+                ]
+            },
+            {
+                "title": "Small Business Subsidies → Entrepreneurial Innovation",
+                "collocations": [
+                    "subsidize start-up companies",
+                    "reduce financial barriers",
+                    "foster market competition",
+                    "drive local innovation",
+                    "generate niche employment",
+                    "stimulate economic dynamism"
+                ],
+                "steps": [
+                    "Subsidize start-up companies",
+                    "reduce financial barriers for entrepreneurs",
+                    "foster market competition",
+                    "drive local innovation",
+                    "generate niche employment",
+                    "stimulate economic dynamism"
+                ],
+                "paragraph": "Subsidizing start-up companies reduces the initial financial barriers for entrepreneurs, which fosters healthy market competition. This drives local innovation and generates niche employment opportunities. Consequently, supporting small businesses stimulates overall economic dynamism and community wealth.",
+                "architecture": [
+                    "Consequently"
+                ]
+            },
+            {
+                "title": "Trade Deregulation → Global Market Expansion",
+                "collocations": [
+                    "lower import tariffs",
+                    "facilitate cross-border trade",
+                    "expand customer bases",
+                    "increase business revenues",
+                    "stimulate international investment",
+                    "accelerate economic integration"
+                ],
+                "steps": [
+                    "Lower import tariffs",
+                    "facilitate cross-border trade",
+                    "expand customer bases",
+                    "increase business revenues",
+                    "stimulate international investment",
+                    "accelerate economic integration"
+                ],
+                "paragraph": "Lowering import tariffs facilitates cross-border trade, allowing domestic businesses to expand their customer bases globally. This increases business revenues and stimulates international investment in manufacturing sectors. As a result, trade deregulation accelerates economic integration and boosts national gross domestic product.",
+                "architecture": [
+                    "allowing (Participle)",
+                    "As a result"
+                ]
+            },
+            {
+                "title": "Vocational Training Programs → Skilled Labor Supply",
+                "collocations": [
+                    "fund practical apprenticeships",
+                    "bridge the skills gap",
+                    "increase employment rates",
+                    "enhance labor productivity",
+                    "attract manufacturing firms",
+                    "bolster industrial growth"
+                ],
+                "steps": [
+                    "Fund practical apprenticeships",
+                    "bridge the skills gap",
+                    "increase employment rates",
+                    "enhance labor productivity",
+                    "attract manufacturing firms",
+                    "bolster industrial growth"
+                ],
+                "paragraph": "Funding practical apprenticeship programs bridges the skills gap in technical fields, thereby increasing youth employment rates. This enhances overall labor productivity and attracts foreign manufacturing firms. Ultimately, a steady supply of skilled technicians bolsters industrial growth and raises household incomes.",
+                "architecture": [
+                    "Thereby + Verb-ing"
+                ]
+            },
+            {
+                "title": "Green Technology Investment → Sustainable Industries",
+                "collocations": [
+                    "invest in clean tech",
+                    "create green jobs",
+                    "reduce manufacturing wastes",
+                    "lower energy expenses",
+                    "improve corporate sustainability",
+                    "stimulate modern industries"
+                ],
+                "steps": [
+                    "Invest in clean technology",
+                    "create green jobs",
+                    "reduce manufacturing wastes",
+                    "lower energy expenses",
+                    "improve corporate sustainability",
+                    "stimulate modern industries"
+                ],
+                "paragraph": "Investing in clean technology creates high-paying green jobs and encourages companies to reduce manufacturing wastes. This helps lower energy expenses over time, which improves corporate sustainability. Consequently, green investments stimulate modern, future-proof industries that align with global climate goals.",
+                "architecture": [
+                    "Consequently"
+                ]
+            }
+        ]
+    },
+    "consumerism": {
+        "name": "CONSUMERISM",
+        "concepts": [
+            "throwaway convenience culture",
+            "fast fashion wastes",
+            "ethical consumer choices",
+            "mass advertising influence",
+            "impulse spending triggers",
+            "local shopping campaigns",
+            "minimalist lifestyle benefits",
+            "single-use plastic bans",
+            "corporate greenwashing",
+            "biodegradable raw materials",
+            "household clutter reduction",
+            "personal debt accumulation",
+            "unsustainable packaging",
+            "brand loyalty marketing",
+            "consumer demand dynamics"
+        ],
+        "chains": [
+            {
+                "title": "Ethical Purchasing → Corporate Accountability",
+                "collocations": [
+                    "boycott unethical products",
+                    "exert financial pressure",
+                    "demand sustainable manufacturing",
+                    "enforce corporate accountability",
+                    "drive market innovation"
+                ],
+                "steps": [
+                    "Boycott unethical products",
+                    "exert financial pressure on manufacturers",
+                    "demand sustainable manufacturing",
+                    "enforce corporate accountability",
+                    "drive market innovation"
+                ],
+                "paragraph": "When consumers actively boycott unethical or polluting products, they exert immense financial pressure directly on manufacturers. Because businesses rely entirely on consumer demand, they are forced to adopt sustainable manufacturing processes to survive. Thus, ethical purchasing is a powerful tool for enforcing corporate accountability and driving market innovation.",
+                "architecture": [
+                    "Because",
+                    "Thus / Hence"
+                ]
+            },
+            {
+                "title": "Mass Advertising → Emotional Unsatisfaction",
+                "collocations": [
+                    "manufacture consumer desires",
+                    "promote luxury lifestyles",
+                    "foster feelings of inadequacy",
+                    "drive impulsive spending",
+                    "accumulate personal debt",
+                    "cause psychological stress"
+                ],
+                "steps": [
+                    "Manufacture consumer desires",
+                    "promote luxury lifestyles in advertisements",
+                    "foster feelings of inadequacy",
+                    "drive impulsive spending",
+                    "accumulate personal debt",
+                    "cause psychological stress"
+                ],
+                "paragraph": "Mass advertising manufactures consumer desires by constantly promoting luxury lifestyles. This fosters feelings of inadequacy among citizens who cannot afford these goods, driving impulsive spending. As a result, consumers accumulate personal debt, causing severe psychological stress and dissatisfaction.",
+                "architecture": [
+                    "As a result"
+                ]
+            },
+            {
+                "title": "Fast Fashion → Environmental Destruction",
+                "collocations": [
+                    "produce cheap synthetic clothing",
+                    "encourage throwaway fashion",
+                    "increase textile waste",
+                    "pollute water systems",
+                    "skyrocket carbon emissions",
+                    "deplete raw resources"
+                ],
+                "steps": [
+                    "Produce cheap synthetic clothing",
+                    "encourage throwaway fashion habits",
+                    "increase textile waste in landfills",
+                    "pollute water systems",
+                    "skyrocket carbon emissions",
+                    "deplete raw resources"
+                ],
+                "paragraph": "The fast fashion industry produces cheap synthetic clothing, encouraging a throwaway culture where garments are discarded after few wears. This increases textile waste in landfills and pollutes water systems with microplastics. Ultimately, cheap manufacturing habits skyrocket carbon emissions and deplete raw resources.",
+                "architecture": []
+            },
+            {
+                "title": "Buy Local Campaigns → Regional Prosperity",
+                "collocations": [
+                    "support local businesses",
+                    "keep capital in communities",
+                    "create regional jobs",
+                    "reduce transportation emissions",
+                    "foster community relations",
+                    "strengthen regional economies"
+                ],
+                "steps": [
+                    "Support local businesses",
+                    "keep capital inside communities",
+                    "create regional jobs",
+                    "reduce transportation emissions",
+                    "foster community relations",
+                    "strengthen regional economies"
+                ],
+                "paragraph": "Buying local encourages citizens to support independent neighborhood businesses, keeping capital inside the community. This creates regional jobs and reduces transportation emissions by minimizing shipping distances. Consequently, buy local campaigns foster community relations and strengthen regional economies.",
+                "architecture": [
+                    "by + Verb-ing",
+                    "Consequently"
+                ]
+            },
+            {
+                "title": "Minimalist Lifestyles → Financial Freedom",
+                "collocations": [
+                    "embrace minimalist lifestyles",
+                    "curb impulse buying",
+                    "reduce household clutter",
+                    "increase monthly savings",
+                    "achieve financial freedom",
+                    "reduce carbon footprints"
+                ],
+                "steps": [
+                    "Embrace minimalist lifestyles",
+                    "curb impulse buying",
+                    "reduce household clutter",
+                    "increase monthly savings",
+                    "achieve financial freedom",
+                    "reduce carbon footprints"
+                ],
+                "paragraph": "Embracing minimalist lifestyles helps individuals curb impulse buying and reduce household clutter. This significantly increases monthly savings, allowing families to achieve financial freedom and avoid debt. Ultimately, buying less reduces personal carbon footprints and encourages mindful living.",
+                "architecture": [
+                    "allowing (Participle)"
+                ]
+            },
+            {
+                "title": "Single-Use Bans → Plastic Waste Reduction",
+                "collocations": [
+                    "ban single-use plastics",
+                    "promote reusable bags",
+                    "reduce plastic bag usage",
+                    "minimize marine pollution",
+                    "protect aquatic wildlife",
+                    "encourage green behaviors"
+                ],
+                "steps": [
+                    "Ban single-use plastics",
+                    "promote reusable shopping bags",
+                    "reduce plastic bag usage",
+                    "minimize marine pollution",
+                    "protect aquatic wildlife",
+                    "encourage green behaviors"
+                ],
+                "paragraph": "Banning single-use plastic cups and straws forces supermarkets to promote reusable shopping bags. This reduces plastic bag usage and minimizes marine pollution in coastal zones. Consequently, single-use bans protect aquatic wildlife and encourage green behaviors among the public.",
+                "architecture": [
+                    "Consequently"
+                ]
+            }
+        ]
+    },
     "infrastructure": {
         "name": "INFRASTRUCTURE",
         "concepts": [
@@ -2174,158 +2008,324 @@ window.ieltsData = {
             }
         ]
     },
-    "consumerism": {
-        "name": "CONSUMERISM",
+    "cultural": {
+        "name": "CULTURAL",
         "concepts": [
-            "throwaway convenience culture",
-            "fast fashion wastes",
-            "ethical consumer choices",
-            "mass advertising influence",
-            "impulse spending triggers",
-            "local shopping campaigns",
-            "minimalist lifestyle benefits",
-            "single-use plastic bans",
-            "corporate greenwashing",
-            "biodegradable raw materials",
-            "household clutter reduction",
-            "personal debt accumulation",
-            "unsustainable packaging",
-            "brand loyalty marketing",
-            "consumer demand dynamics"
+            "cultural homogenization",
+            "indigenous heritage revival",
+            "intercultural harmony",
+            "historical preservation",
+            "preconceived racial stereotypes",
+            "globalized perspective",
+            "multicultural celebrations",
+            "linguistic diversity conservation",
+            "museum admission access",
+            "foreign exchange programs",
+            "peaceful diplomacy ties",
+            "ethnic heritage restoration",
+            "ancestral wisdom conservation",
+            "cross-cultural tolerance",
+            "artistic legacy values"
         ],
         "chains": [
             {
-                "title": "Ethical Purchasing → Corporate Accountability",
+                "title": "International Travel → Open-mindedness",
                 "collocations": [
-                    "boycott unethical products",
-                    "exert financial pressure",
-                    "demand sustainable manufacturing",
-                    "enforce corporate accountability",
-                    "drive market innovation"
+                    "immerse in foreign environments",
+                    "navigate cultural differences",
+                    "dismantle preconceived stereotypes",
+                    "adopt a globalized perspective",
+                    "promote international tolerance"
                 ],
                 "steps": [
-                    "Boycott unethical products",
-                    "exert financial pressure on manufacturers",
-                    "demand sustainable manufacturing",
-                    "enforce corporate accountability",
-                    "drive market innovation"
+                    "Immerse in foreign environments",
+                    "navigate cultural differences",
+                    "dismantle preconceived stereotypes",
+                    "adopt a globalized perspective",
+                    "promote international tolerance"
                 ],
-                "paragraph": "When consumers actively boycott unethical or polluting products, they exert immense financial pressure directly on manufacturers. Because businesses rely entirely on consumer demand, they are forced to adopt sustainable manufacturing processes to survive. Thus, ethical purchasing is a powerful tool for enforcing corporate accountability and driving market innovation.",
+                "paragraph": "Immersing oneself in foreign environments through international travel or study forces individuals to navigate complex cultural differences. This direct interaction effectively dismantles preconceived stereotypes and encourages students to adopt a globalized perspective. Therefore, cross-cultural exposure is highly effective at promoting international tolerance and understanding.",
                 "architecture": [
-                    "Because",
-                    "Thus / Hence"
+                    "through",
+                    "Therefore"
                 ]
             },
             {
-                "title": "Mass Advertising → Emotional Unsatisfaction",
+                "title": "Heritage Preservation → Cultural Identity",
                 "collocations": [
-                    "manufacture consumer desires",
-                    "promote luxury lifestyles",
-                    "foster feelings of inadequacy",
-                    "drive impulsive spending",
-                    "accumulate personal debt",
-                    "cause psychological stress"
+                    "restore historical monuments",
+                    "protect traditional crafts",
+                    "preserve cultural identity",
+                    "pass down oral histories",
+                    "foster national pride",
+                    "combat cultural homogenization"
                 ],
                 "steps": [
-                    "Manufacture consumer desires",
-                    "promote luxury lifestyles in advertisements",
-                    "foster feelings of inadequacy",
-                    "drive impulsive spending",
-                    "accumulate personal debt",
-                    "cause psychological stress"
+                    "Restore historical monuments",
+                    "protect traditional crafts",
+                    "preserve cultural identity",
+                    "pass down oral histories",
+                    "foster national pride",
+                    "combat cultural homogenization"
                 ],
-                "paragraph": "Mass advertising manufactures consumer desires by constantly promoting luxury lifestyles. This fosters feelings of inadequacy among citizens who cannot afford these goods, driving impulsive spending. As a result, consumers accumulate personal debt, causing severe psychological stress and dissatisfaction.",
+                "paragraph": "Restoring historical monuments and protecting traditional crafts helps communities preserve their unique cultural identity. This allows elders to pass down oral histories to younger generations, fostering a strong sense of national pride. Consequently, active heritage preservation combats cultural homogenization in a globalized world.",
+                "architecture": [
+                    "fostering (Participle)",
+                    "Consequently"
+                ]
+            },
+            {
+                "title": "Cultural Festivals → Intercultural Harmony",
+                "collocations": [
+                    "sponsor multicultural festivals",
+                    "celebrate ethnic diversity",
+                    "showcase traditional arts",
+                    "promote mutual respect",
+                    "foster intercultural harmony",
+                    "dismantle racial prejudices"
+                ],
+                "steps": [
+                    "Sponsor multicultural festivals",
+                    "celebrate ethnic diversity",
+                    "showcase traditional arts",
+                    "promote mutual respect",
+                    "foster intercultural harmony",
+                    "dismantle racial prejudices"
+                ],
+                "paragraph": "Sponsoring multicultural festivals celebrates ethnic diversity and showcases traditional arts within a city. This promotes mutual respect among different ethnic groups and fosters intercultural harmony. As a result, public cultural events are essential tools to dismantle racial prejudices and build tolerant societies.",
                 "architecture": [
                     "As a result"
                 ]
             },
             {
-                "title": "Fast Fashion → Environmental Destruction",
+                "title": "Language Revitalization → Indigenous Heritage",
                 "collocations": [
-                    "produce cheap synthetic clothing",
-                    "encourage throwaway fashion",
-                    "increase textile waste",
-                    "pollute water systems",
-                    "skyrocket carbon emissions",
-                    "deplete raw resources"
+                    "fund language immersion programs",
+                    "teach endangered languages",
+                    "revitalize ancestral wisdom",
+                    "strengthen community identity",
+                    "preserve indigenous heritage",
+                    "enrich linguistic diversity"
                 ],
                 "steps": [
-                    "Produce cheap synthetic clothing",
-                    "encourage throwaway fashion habits",
-                    "increase textile waste in landfills",
-                    "pollute water systems",
-                    "skyrocket carbon emissions",
-                    "deplete raw resources"
+                    "Fund language immersion programs",
+                    "teach endangered languages in schools",
+                    "revitalize ancestral wisdom",
+                    "strengthen community identity",
+                    "preserve indigenous heritage",
+                    "enrich linguistic diversity"
                 ],
-                "paragraph": "The fast fashion industry produces cheap synthetic clothing, encouraging a throwaway culture where garments are discarded after few wears. This increases textile waste in landfills and pollutes water systems with microplastics. Ultimately, cheap manufacturing habits skyrocket carbon emissions and deplete raw resources.",
+                "paragraph": "Funding language immersion programs allows educators to teach endangered languages to young children. This revitalizes ancestral wisdom and strengthens community identity in indigenous regions. Ultimately, language preservation protects precious heritage and enriches global linguistic diversity.",
                 "architecture": []
             },
             {
-                "title": "Buy Local Campaigns → Regional Prosperity",
+                "title": "Museum Subsidies → Public Education",
                 "collocations": [
-                    "support local businesses",
-                    "keep capital in communities",
-                    "create regional jobs",
-                    "reduce transportation emissions",
-                    "foster community relations",
-                    "strengthen regional economies"
+                    "subsidize historical museums",
+                    "offer free admission",
+                    "increase cultural literacy",
+                    "educate children on historical events",
+                    "foster scientific curiosity",
+                    "promote national heritage"
                 ],
                 "steps": [
-                    "Support local businesses",
-                    "keep capital inside communities",
-                    "create regional jobs",
-                    "reduce transportation emissions",
-                    "foster community relations",
-                    "strengthen regional economies"
+                    "Subsidize historical museums",
+                    "offer free public admission",
+                    "increase cultural literacy",
+                    "educate children on historical events",
+                    "foster scientific curiosity",
+                    "promote national heritage"
                 ],
-                "paragraph": "Buying local encourages citizens to support independent neighborhood businesses, keeping capital inside the community. This creates regional jobs and reduces transportation emissions by minimizing shipping distances. Consequently, buy local campaigns foster community relations and strengthen regional economies.",
+                "paragraph": "Subsidizing historical museums allows them to offer free public admission, drastically increasing cultural literacy among families. This helps educate children on historical events and fosters scientific curiosity outside the classroom. Therefore, museum subsidies are key investments in promoting national heritage and public education.",
+                "architecture": [
+                    "Therefore"
+                ]
+            },
+            {
+                "title": "Global Exchange Programs → International Collaboration",
+                "collocations": [
+                    "sponsor student exchange programs",
+                    "expose scholars to different perspectives",
+                    "foster international friendships",
+                    "facilitate joint research",
+                    "solve global challenges",
+                    "promote peaceful diplomacy"
+                ],
+                "steps": [
+                    "Sponsor student exchange programs",
+                    "expose scholars to different perspectives",
+                    "foster international friendships",
+                    "facilitate joint research",
+                    "solve global challenges",
+                    "promote peaceful diplomacy"
+                ],
+                "paragraph": "Sponsoring student exchange programs exposes young scholars to different educational perspectives, fostering lifelong international friendships. These networks later facilitate joint research and collaborative business ventures. Consequently, global exchanges help solve transnational challenges and promote peaceful diplomacy.",
+                "architecture": [
+                    "fostering (Participle)",
+                    "Consequently"
+                ]
+            }
+        ]
+    },
+    "psychological": {
+        "name": "PSYCHOLOGICAL",
+        "concepts": [
+            "emotional resilience",
+            "psychological burnout",
+            "cognitive flexibility",
+            "intrinsic motivation",
+            "mental equilibrium",
+            "chronic fatigue",
+            "emotional stability",
+            "peace of mind",
+            "sense of self-worth",
+            "social isolation",
+            "loneliness mitigation",
+            "depression rates",
+            "stress management",
+            "neurological pathways",
+            "adaptability capacity"
+        ],
+        "chains": [
+            {
+                "title": "Financial Security → Peace of Mind",
+                "collocations": [
+                    "build an emergency fund",
+                    "prepare for unexpected situations",
+                    "increase financial security",
+                    "reduce financial stress",
+                    "provide peace of mind",
+                    "improve emotional well-being"
+                ],
+                "steps": [
+                    "Saving money",
+                    "build an emergency fund",
+                    "prepare for unexpected situations",
+                    "increase financial security",
+                    "reduce financial stress",
+                    "provide peace of mind",
+                    "improve emotional well-being"
+                ],
+                "paragraph": "Saving money improves psychological well-being by building an emergency fund that prepares individuals for unexpected situations. This increases financial security and significantly reduces financial stress, providing greater peace of mind. Consequently, people experience improved emotional well-being and enjoy higher overall life satisfaction.",
                 "architecture": [
                     "by + Verb-ing",
                     "Consequently"
                 ]
             },
             {
-                "title": "Minimalist Lifestyles → Financial Freedom",
+                "title": "Achievement → Self-Confidence",
                 "collocations": [
-                    "embrace minimalist lifestyles",
-                    "curb impulse buying",
-                    "reduce household clutter",
-                    "increase monthly savings",
-                    "achieve financial freedom",
-                    "reduce carbon footprints"
+                    "gain valuable experience",
+                    "improve competence",
+                    "develop self-confidence",
+                    "increase intrinsic motivation",
+                    "encourage lifelong learning"
                 ],
                 "steps": [
-                    "Embrace minimalist lifestyles",
-                    "curb impulse buying",
-                    "reduce household clutter",
-                    "increase monthly savings",
-                    "achieve financial freedom",
-                    "reduce carbon footprints"
+                    "Learning new skills",
+                    "gain valuable experience",
+                    "improve competence",
+                    "develop self-confidence",
+                    "increase intrinsic motivation",
+                    "encourage lifelong learning",
+                    "achieve personal growth"
                 ],
-                "paragraph": "Embracing minimalist lifestyles helps individuals curb impulse buying and reduce household clutter. This significantly increases monthly savings, allowing families to achieve financial freedom and avoid debt. Ultimately, buying less reduces personal carbon footprints and encourages mindful living.",
+                "paragraph": "Learning new skills promotes personal development by allowing individuals to gain valuable experience and improve competence. As they become more capable, they naturally develop self-confidence, which increases motivation and encourages lifelong learning. Consequently, they are better equipped to achieve long-term personal and professional goals.",
                 "architecture": [
-                    "allowing (Participle)"
+                    "by + Verb-ing",
+                    "Since / As",
+                    "Consequently"
                 ]
             },
             {
-                "title": "Single-Use Bans → Plastic Waste Reduction",
+                "title": "Social Support → Emotional Stability",
                 "collocations": [
-                    "ban single-use plastics",
-                    "promote reusable bags",
-                    "reduce plastic bag usage",
-                    "minimize marine pollution",
-                    "protect aquatic wildlife",
-                    "encourage green behaviors"
+                    "receive emotional support",
+                    "share personal challenges",
+                    "reduce feelings of loneliness",
+                    "improve emotional resilience",
+                    "manage stress more effectively"
                 ],
                 "steps": [
-                    "Ban single-use plastics",
-                    "promote reusable shopping bags",
-                    "reduce plastic bag usage",
-                    "minimize marine pollution",
-                    "protect aquatic wildlife",
-                    "encourage green behaviors"
+                    "Strong social relationships",
+                    "receive emotional support",
+                    "share personal challenges",
+                    "reduce feelings of loneliness",
+                    "improve emotional resilience",
+                    "manage stress more effectively",
+                    "maintain better mental health"
                 ],
-                "paragraph": "Banning single-use plastic cups and straws forces supermarkets to promote reusable shopping bags. This reduces plastic bag usage and minimizes marine pollution in coastal zones. Consequently, single-use bans protect aquatic wildlife and encourage green behaviors among the public.",
+                "paragraph": "Strong social relationships improve mental health by allowing individuals to receive emotional support during difficult times. Sharing personal challenges helps reduce feelings of loneliness and improves emotional resilience. Consequently, people manage stress more effectively, maintain better mental health, and experience greater overall well-being.",
+                "architecture": [
+                    "by + Verb-ing",
+                    "Consequently"
+                ]
+            },
+            {
+                "title": "Work-Life Balance → Reduced Burnout",
+                "collocations": [
+                    "prioritize personal time",
+                    "reduce working hours",
+                    "alleviate mental fatigue",
+                    "improve sleep quality",
+                    "foster positive mindset",
+                    "prevent professional burnout"
+                ],
+                "steps": [
+                    "Moderate working hours",
+                    "prioritize personal time",
+                    "alleviate mental fatigue",
+                    "improve sleep quality",
+                    "foster positive mindset",
+                    "prevent professional burnout"
+                ],
+                "paragraph": "Limiting professional responsibilities helps individuals prioritize personal time, which is essential for alleviating mental fatigue. This directly improves sleep quality and fosters a positive mindset. Consequently, employees prevent professional burnout, maintain emotional stability, and perform better in their careers.",
+                "architecture": [
+                    "Consequently"
+                ]
+            },
+            {
+                "title": "Mindfulness Practice → Stress Reduction",
+                "collocations": [
+                    "engage in mindfulness",
+                    "regulate emotional responses",
+                    "lower cortisol levels",
+                    "improve concentration",
+                    "enhance mental clarity",
+                    "reduce daily anxiety"
+                ],
+                "steps": [
+                    "Mindfulness and meditation",
+                    "regulate emotional responses",
+                    "lower cortisol levels",
+                    "improve concentration",
+                    "enhance mental clarity",
+                    "reduce daily anxiety"
+                ],
+                "paragraph": "Engaging in mindfulness practices allows people to regulate their emotional responses to stress, which lowers cortisol levels. This improves concentration and enhances mental clarity in high-pressure situations. As a result, individuals reduce daily anxiety, boost their emotional resilience, and enjoy peace of mind.",
+                "architecture": [
+                    "As a result"
+                ]
+            },
+            {
+                "title": "Creative Outlets → Self-Expression",
+                "collocations": [
+                    "pursue creative hobbies",
+                    "express complex emotions",
+                    "release accumulated tension",
+                    "boost dopamine levels",
+                    "enhance self-worth",
+                    "improve mood regulation"
+                ],
+                "steps": [
+                    "Creative outlets",
+                    "express complex emotions",
+                    "release accumulated tension",
+                    "boost dopamine levels",
+                    "enhance self-worth",
+                    "improve mood regulation"
+                ],
+                "paragraph": "Pursuing creative hobbies like painting or music allows individuals to express complex emotions that are hard to verbalize. This helps release accumulated tension and boosts dopamine levels in the brain. Consequently, creative expression enhances self-worth and plays a critical role in long-term mood regulation.",
                 "architecture": [
                     "Consequently"
                 ]
