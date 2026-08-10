@@ -503,14 +503,23 @@ window.ieltsData = {
                     items: [
                         { pattern: "Because", formula: "S + V + because + clause", purpose: "Give a reason", example: "Exercise improves health because it strengthens the cardiovascular system." },
                         { pattern: "This is because", formula: "Sentence. This is because...", purpose: "Explain previous statement", example: "Public transport reduces congestion. This is because more commuters use shared vehicles." },
-                        { pattern: "One of the main reasons is that", formula: "One of the main reasons is that...", purpose: "Strong academic explanation", example: "One of the main reasons saving money is beneficial is that it builds financial security." }
+                        { pattern: "One of the main reasons is that", formula: "One of the main reasons is that...", purpose: "Strong academic explanation", example: "One of the main reasons saving money is beneficial is that it builds financial security." },
+                        { pattern: "Since / As", formula: "Since / As + clause, main clause", purpose: "Establish context/reason at start of sentence", example: "Since tuition fees have risen dramatically, many students are forced to take loans." },
+                        { pattern: "Owing to / Due to the fact that", formula: "Due to / Owing to + noun OR the fact that + clause", purpose: "Formal attribution of cause", example: "Unpaid internships are popular owing to the fact that they offer resume padding." },
+                        { pattern: "A key catalyst for this is...", formula: "Sentence. A key catalyst for this is + noun phrase", purpose: "Describe trigger/driver of a trend", example: "Obesity rates are surging among youth. A key catalyst for this is the normalization of sedentary lifestyles." },
+                        { pattern: "On the grounds that", formula: "S + V + on the grounds that + clause", purpose: "Provide justification/grounds for an action", example: "Governments should subsidize solar energy on the grounds that it mitigates climate change." }
                     ]
                 },
                 {
                     name: "FAMILY 2 — MECHANISM",
                     items: [
                         { pattern: "by + Verb-ing", formula: "S + V + by + V-ing", purpose: "Explain how", example: "Exercise improves health by strengthening muscles." },
-                        { pattern: "through + Noun / V-ing", formula: "through...", purpose: "Explain process", example: "Students learn through interacting with others." }
+                        { pattern: "through + Noun / V-ing", formula: "through...", purpose: "Explain process", example: "Students learn through interacting with others." },
+                        { pattern: "via + Noun / V-ing", formula: "S + V + via + noun phrase", purpose: "Specify the medium or channel", example: "Supermarkets deliver coffee packages directly to retail shelves via supply trucks." },
+                        { pattern: "By means of", formula: "S + V + by means of + noun phrase / V-ing", purpose: "Formal explanation of instrument", example: "Governments manipulate consumer behavior by means of high excise taxes on alcohol." },
+                        { pattern: "With the aid of", formula: "With the aid of + noun phrase, S + V", purpose: "Indicate tools or assistance used", example: "With the aid of diagnostic AI software, doctors can identify early-stage tumors." },
+                        { pattern: "Through the implementation of", formula: "S + V + through the implementation of + noun", purpose: "Describe process driven by a policy", example: "Firms can streamline operational workflows through the implementation of automation systems." },
+                        { pattern: "By leveraging", formula: "By leveraging + noun phrase, S + V", purpose: "Explain utilization of assets/advantages", example: "By leveraging their immense commercial popularity, elite athletes secure lucrative sponsorships." }
                     ]
                 },
                 {
@@ -518,7 +527,12 @@ window.ieltsData = {
                     items: [
                         { pattern: "As a result", formula: "As a result...", purpose: "Immediate consequence", example: "People save money. As a result, they avoid debt." },
                         { pattern: "Consequently", formula: "Consequently,...", purpose: "Long-term consequence", example: "Students practise regularly. Consequently, they become more employable." },
-                        { pattern: "Therefore", formula: "Therefore,...", purpose: "Conclude argument", example: "Therefore, everyone should exercise regularly." }
+                        { pattern: "Therefore", formula: "Therefore,...", purpose: "Conclude argument", example: "Therefore, everyone should exercise regularly." },
+                        { pattern: "Thus / Hence", formula: "Sentence; thus / hence, S + V OR S + V, thus + V-ing", purpose: "Formal logical deduction", example: "Tuition costs have skyrocketed; hence, students accumulate substantial debt." },
+                        { pattern: "As a direct consequence of this", formula: "Sentence. As a direct consequence of this, S + V", purpose: "Establish strong causal link", example: "Factories dump chemical waste in rivers. As a direct consequence of this, local ecosystems are destroyed." },
+                        { pattern: "Which in turn leads to", formula: "S + V, which in turn + V (present/future) / leads to + noun", purpose: "Chain reaction / secondary consequence", example: "Renewable energy lowers carbon emissions, which in turn mitigates climate change." },
+                        { pattern: "Thereby + Verb-ing", formula: "S + V, thereby + V-ing + object", purpose: "Show immediate automatic result", example: "Automation handles repetitive administrative tasks, thereby maximizing corporate efficiency." },
+                        { pattern: "With the result that", formula: "S + V + with the result that + clause", purpose: "Formal statement of final outcome", example: "The government increased mandatory physical activity in schools, with the result that childhood obesity rates dropped." }
                     ]
                 },
                 {
@@ -526,14 +540,23 @@ window.ieltsData = {
                     items: [
                         { pattern: "allowing...", formula: ", allowing...", purpose: "Gives opportunity", example: "Technology provides resources, allowing students to study independently." },
                         { pattern: "leading to...", formula: ", leading to...", purpose: "Next consequence", example: "Exercise strengthens muscles, leading to better health." },
-                        { pattern: "resulting in...", formula: ", resulting in...", purpose: "Formal consequence", example: "Investment improves schools, resulting in better education." }
+                        { pattern: "resulting in...", formula: ", resulting in...", purpose: "Formal consequence", example: "Investment improves schools, resulting in better education." },
+                        { pattern: "preventing...", formula: ", preventing + noun / V-ing", purpose: "Describe a negative outcome being blocked", example: "A gap year builds independence, preventing graduates from feeling overwhelmed at university." },
+                        { pattern: "fostering...", formula: ", fostering + noun phrase", purpose: "Show the development of a positive quality", example: "Group projects encourage communication, fostering team spirit among classmates." },
+                        { pattern: "minimizing...", formula: ", minimizing + noun phrase", purpose: "Show reduction of risk/cost/waste", example: "The software detects layout errors early, minimizing manufacturing waste." },
+                        { pattern: "ensuring...", formula: ", ensuring + that + clause / noun", purpose: "Describe guaranteed outcomes", example: "The city pedestrianized shopping zones, ensuring the safety of local residents." }
                     ]
                 },
                 {
                     name: "FAMILY 5 — CONCESSION & BALANCING",
                     items: [
                         { pattern: "Although", formula: "Although...", purpose: "Admit drawback", example: "Although studying abroad is expensive, it offers valuable experiences." },
-                        { pattern: "While", formula: "While...", purpose: "Contrast", example: "While technology offers convenience, it may reduce face-to-face interaction." }
+                        { pattern: "While", formula: "While...", purpose: "Contrast", example: "While technology offers convenience, it may reduce face-to-face interaction." },
+                        { pattern: "Even though", formula: "Even though + clause, main clause", purpose: "Strong concession", example: "Even though space exploration yields scientific data, it remains an expensive luxury." },
+                        { pattern: "Despite / In spite of", formula: "Despite / In spite of + noun phrase / V-ing, S + V", purpose: "Concession using noun phrases", example: "Despite the massive financial costs of restoration, historical buildings must be preserved." },
+                        { pattern: "Nonetheless / Nevertheless", formula: "Sentence. Nonetheless / Nevertheless, S + V", purpose: "Adversative transition between sentences", example: "Remote work increases flexibility. Nonetheless, it can lead to intense social isolation." },
+                        { pattern: "Granted that", formula: "Granted that + clause, S + V", purpose: "Concede a point before establishing a counterpoint", example: "Granted that zoos confine wild animals, they are essential for breeding endangered species." },
+                        { pattern: "Albeit", formula: "S + V + albeit + adjective/adverb/noun phrase", purpose: "Concede a minor point compactly", example: "The government raised the retirement age, achieving economic benefits, albeit unpopular ones." }
                     ]
                 }
             ]
