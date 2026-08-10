@@ -70,3 +70,48 @@ Overall, it is immediately apparent that there is a strong correlation between t
 Analyzing the more expensive locations, City A recorded the highest cost of living index at 120, closely followed by City D at 115. Despite these high costs, residents in these cities benefit from excellent services and conditions. Both cities maintain low pollution levels, and City D boasts the highest healthcare score in the table at 92/100. City A also performs very strongly in this regard, with a healthcare score of 85.
 
 In stark contrast, Cities B and C present a much more affordable, yet lower-quality standard of living. City C is the cheapest location with an index of 85, slightly lower than City B at 90. However, this affordability comes at a cost; both cities suffer from high pollution levels and possess significantly poorer healthcare systems, scoring only 65 and 60 respectively. (223 words)
+
+--------------------------------------------------
+EXAMPLE 4: SURVEY RESULTS
+(Focus: Describing proportions of people who agree/disagree)
+
+CHART DATA (Survey results: Should public transport be free?):
+Age Group | Strongly Agree | Agree | Disagree | Strongly Disagree
+18-25     |      60%       |  25%  |   10%    |        5%
+26-45     |      40%       |  30%  |   20%    |       10%
+46-65     |      25%       |  35%  |   25%    |       15%
+65+       |      15%       |  20%  |   40%    |       25%
+
+PROMPT: The table displays the results of a survey asking different age groups whether public transport should be free of charge.
+
+BAND 9 ESSAY:
+The provided table details the findings of a survey regarding the proposition that public transportation should be free, categorizing the responses across four distinct age groups.
+
+Overall, there is a clear generational divide in opinion. Younger demographics overwhelmingly support the idea of free public transport, whereas older age groups exhibit significantly higher levels of opposition to the proposal.
+
+Looking at the younger respondents, support for the initiative is exceptionally strong. Among 18 to 25-year-olds, a massive 85% of individuals are in favor, with a striking 60% choosing 'strongly agree'. This enthusiasm diminishes slightly in the 26 to 45 age bracket, though the majority still support the idea, with 40% strongly agreeing and 30% simply agreeing. In both of these younger demographics, outright opposition (strongly disagreeing) remains very low at 5% and 10% respectively.
+
+Conversely, older generations present a much more skeptical view. For those aged between 46 and 65, opinion is divided; while a combined 60% support the idea, 40% oppose it. The starkest contrast, however, is found in the 65 and over category. This is the only demographic where the majority oppose the proposition. A significant 65% of elderly respondents voted against free transport, with 40% disagreeing and a further 25% strongly disagreeing. (202 words)
+
+--------------------------------------------------
+EXAMPLE 5: RANKING TABLE
+(Focus: How to describe the Top 5 or Bottom 5 without just listing them)
+
+CHART DATA (Top 5 Universities by International Student Enrollment, 2021):
+Rank | University         | Country | International Students
+1    | Uni of Oxford      | UK      | 8,500
+2    | MIT                | USA     | 7,200
+3    | Uni of Cambridge   | UK      | 7,000
+4    | Stanford Uni       | USA     | 6,500
+5    | ETH Zurich         | Swiss   | 5,000
+
+PROMPT: The table shows the top five universities in the world ranked by the number of international students enrolled in 2021.
+
+BAND 9 ESSAY:
+The table outlines the top five universities globally, ranked according to their total enrollment of international students during the academic year 2021, and identifies the host country for each institution.
+
+Overall, it is evident that the United Kingdom and the United States dominate the top tier of international education, occupying four of the top five positions. Furthermore, the University of Oxford stands as the clear global leader in attracting foreign students.
+
+Looking at the leading institutions, the University of Oxford (UK) secures the first position by a significant margin, enrolling 8,500 international students. The Massachusetts Institute of Technology (MIT) in the USA holds the second spot, although its enrollment of 7,200 students is considerably lower than Oxford’s. Closely trailing MIT is another British institution, the University of Cambridge, which ranks third with exactly 7,000 international students.
+
+Turning to the lower end of the top five, Stanford University, the second American institution on the list, occupies fourth place with 6,500 foreign enrollments. Finally, the only non-Anglophone university to break into the top five is ETH Zurich in Switzerland. Ranking fifth, it enrolled 5,000 international students, which is exactly 3,500 fewer than the top-ranked University of Oxford. (197 words)
