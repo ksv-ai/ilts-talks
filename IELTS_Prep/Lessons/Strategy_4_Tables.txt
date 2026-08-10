@@ -1,28 +1,72 @@
 IELTS TASK 1 STRATEGY: TABLES
 --------------------------------------------------
-
 1. CORE STRATEGY & WHAT TO COMPARE:
-Tables can be a trap because they contain too many numbers. Do NOT try to write about every single number. You will run out of time and lose points for not "selecting" the main features.
-
-What you MUST compare:
-- Scan the columns and rows to find the absolute HIGHEST numbers.
-- Scan the columns and rows to find the absolute LOWEST numbers.
-- Look for broad patterns (e.g., "All European countries spent more on food than all Asian countries").
-
-How to group your data (Body Paragraphs):
-- Group by Category/Geography: Put the countries/items with the highest figures in Body 1, and the ones with the lowest figures in Body 2.
-- Group by Column: If the table has 3 columns (Food, Clothing, Leisure), summarize Food in Body 1, and Clothing/Leisure in Body 2.
+* Tables contain too much data. You MUST be selective.
+* Scan the rows and columns to find the absolute HIGHEST and LOWEST numbers.
+* Look for broad patterns (e.g., all numbers in one column are higher than another).
 
 --------------------------------------------------
-2. BAND 9 EXAMPLE ESSAY
+EXAMPLE 1: STANDARD COMPARISON TABLE
+(Focus: Finding the extremes in a simple grid)
+
+CHART DATA (Percentage of national expenditure on consumer goods, 2002):
+Country | Food/Tobacco | Clothing | Leisure/Education
+Ireland |    28.91%    |   6.43%  |      2.21%
+Italy   |    16.36%    |   9.00%  |      3.20%
+Spain   |    18.80%    |   6.51%  |      1.98%
+Sweden  |    15.77%    |   5.40%  |      3.22%
+Turkey  |    32.14%    |   6.63%  |      4.35%
 
 PROMPT: The table below shows the proportion of national expenditure in Ireland, Italy, Spain, Sweden and Turkey on three categories of consumer goods in 2002.
 
-ESSAY:
-The provided table details the percentage of national consumer spending allocated to three distinct categories of goods (food/drinks/tobacco, clothing/footwear, and leisure/education) across five different countries—Ireland, Italy, Spain, Sweden, and Turkey—in the year 2002.
+BAND 9 ESSAY:
+The provided table details the percentage of national consumer spending allocated to three distinct categories of goods (food/drinks/tobacco, clothing/footwear, and leisure/education) across five different countries in the year 2002.
 
 Overall, it is clear that food, drinks, and tobacco represented the largest portion of consumer spending in all five nations. In contrast, leisure and education consistently accounted for the smallest proportion of national expenditure across the board. Furthermore, Turkey and Ireland were the most significant spenders in the primary category.
 
 Looking first at the most dominant expenditure category, Turkey allocated the highest proportion of its national spending to food, drinks, and tobacco, at 32.14%. Ireland followed closely with a figure of 28.91%. In contrast, Sweden had the lowest expenditure in this sector, dedicating only 15.77% of its budget, while Spain and Italy fell in the middle with 18.80% and 16.36% respectively.
 
-Regarding the remaining categories, clothing and footwear saw relatively similar levels of spending across the nations, ranging from a low of 5.40% in Sweden to a high of 9.00% in Italy. Finally, spending on leisure and education was uniformly the lowest priority. Turkey again led this category at 4.35%, while Spain recorded the lowest expenditure of any country in any category, dedicating a mere 1.98% to leisure and education. (223 words)
+Regarding the remaining categories, clothing and footwear saw relatively similar levels of spending across the nations, ranging from a low of 5.40% in Sweden to a high of 9.00% in Italy. Finally, spending on leisure and education was uniformly the lowest priority. Turkey again led this category at 4.35%, while Spain recorded the lowest expenditure of any country in any category, dedicating a mere 1.98% to leisure and education. (215 words)
+
+--------------------------------------------------
+EXAMPLE 2: TIME-BASED TABLE
+(Focus: Describing trends and changes across decades within a table)
+
+CHART DATA (Number of cars produced per month, in thousands):
+Country   | 2000 | 2010 | 2020
+Germany   | 450  | 500  | 600
+Japan     | 600  | 550  | 400
+Australia | 100  |  50  |   0 (Ceased)
+
+PROMPT: The table shows the monthly production of cars in three different countries in 2000, 2010, and 2020.
+
+BAND 9 ESSAY:
+The table provides data on the average number of automobiles manufactured on a monthly basis in Germany, Japan, and Australia across three distinct years: 2000, 2010, and 2020. The figures are measured in thousands of units.
+
+Overall, the data reveals contrasting trends in the automotive manufacturing sectors of these three nations. While Germany experienced a steady increase in production over the twenty-year period, both Japan and Australia saw significant declines, with Australian car manufacturing completely ceasing by 2020.
+
+In 2000, Japan was the clear leader in the automotive industry, producing 600,000 cars per month. However, this dominance faded over the subsequent decades. Production dropped to 550,000 in 2010 and fell sharply to 400,000 by 2020. Conversely, Germany, which began the period producing 450,000 vehicles monthly, saw a continuous upward trajectory. By 2010, it had reached 500,000 units, and by 2020, production peaked at 600,000, effectively replacing Japan as the top manufacturer among the three.
+
+Australia’s manufacturing industry, meanwhile, experienced the most dramatic downturn. Starting as the smallest producer with just 100,000 cars per month in 2000, its output was halved to 50,000 in 2010. Ultimately, by the year 2020, Australian car production had stopped entirely, dropping to zero. (198 words)
+
+--------------------------------------------------
+EXAMPLE 3: COMPLEX DEMOGRAPHIC TABLE
+(Focus: Selecting key data when there are too many numbers)
+
+CHART DATA (Quality of life indicators in four cities, 2022):
+City   | Cost of Living Index | Healthcare Score | Pollution Level
+City A |         120          |       85/100     |      Low
+City B |          90          |       60/100     |      High
+City C |          85          |       65/100     |      High
+City D |         115          |       92/100     |      Low
+
+PROMPT: The table compares four different cities across three quality of life indicators in 2022. 
+
+BAND 9 ESSAY:
+The table compares four distinct cities (labeled A through D) based on three key metrics used to determine quality of life in 2022: the cost of living index, a healthcare score out of 100, and overall pollution levels.
+
+Overall, it is immediately apparent that there is a strong correlation between the cost of living and the quality of local amenities. Cities A and D, which are the most expensive, offer vastly superior healthcare and cleaner environments compared to the more affordable, but highly polluted, Cities B and C.
+
+Analyzing the more expensive locations, City A recorded the highest cost of living index at 120, closely followed by City D at 115. Despite these high costs, residents in these cities benefit from excellent services and conditions. Both cities maintain low pollution levels, and City D boasts the highest healthcare score in the table at 92/100. City A also performs very strongly in this regard, with a healthcare score of 85.
+
+In stark contrast, Cities B and C present a much more affordable, yet lower-quality standard of living. City C is the cheapest location with an index of 85, slightly lower than City B at 90. However, this affordability comes at a cost; both cities suffer from high pollution levels and possess significantly poorer healthcare systems, scoring only 65 and 60 respectively. (223 words)
