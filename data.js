@@ -600,7 +600,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Mandating community service in high schools exposes youth directly to real-world societal challenges, such as poverty or homelessness. Interacting with vulnerable populations fosters deep empathy and cultivates a profound sense of civic responsibility. As a result, these programs are instrumental in creating a more cohesive, compassionate society.",
                 "architecture": [
-                    "Since / As",
+                    "and cultivates",
                     "As a result"
                 ]
             },
@@ -624,6 +624,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Constructing green public parks provides free recreational spaces that encourage outdoor interactions among diverse groups. This facilitates local community events and helps foster neighborhood trust. Consequently, green urban planning is highly effective at improving community cohesion and reducing crime.",
                 "architecture": [
+                    "This facilitates",
+                    "and helps",
                     "Consequently"
                 ]
             },
@@ -647,6 +649,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Funding youth sports clubs occupies adolescents' free time with positive, structured activities that teach discipline and teamwork. This discourages anti-social behaviors and reduces juvenile delinquency in high-risk neighborhoods. As a result, local investments build safer environments for families.",
                 "architecture": [
+                    "This discourages",
+                    "and reduces",
                     "As a result"
                 ]
             },
@@ -670,7 +674,9 @@ window.ieltsData = {
                 ],
                 "paragraph": "Promoting inclusive hiring practices helps dismantle corporate glass ceilings and empowers marginalized demographics to build careers. This increases household incomes, thereby supporting upward social mobility. Ultimately, equal employment opportunities reduce systemic wealth inequality and foster social justice.",
                 "architecture": [
-                    "Thereby + Verb-ing"
+                    "This increases",
+                    "thereby supporting",
+                    "Ultimately"
                 ]
             },
             {
@@ -693,6 +699,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Organizing community volunteering connects diverse demographics who would otherwise never interact. This bridges generational divides and fosters mutual understanding among residents. Consequently, public volunteering programs reduce social isolation and strengthen local support networks.",
                 "architecture": [
+                    "This bridges",
+                    "and fosters",
                     "Consequently"
                 ]
             },
@@ -716,7 +724,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Implementing universal design principles in architecture forces builders to install ramps and elevators. This enables independent mobility for disabled citizens, allowing them to navigate spaces without assistance. Therefore, structural accessibility changes promote social inclusion and guarantee equal access to public life.",
                 "architecture": [
-                    "allowing (Participle)",
+                    "This enables",
+                    "allowing them to",
                     "Therefore"
                 ]
             }
@@ -762,6 +771,9 @@ window.ieltsData = {
                 ],
                 "paragraph": "Governments should heavily subsidize tertiary education to eliminate financial barriers and allow students from all backgrounds to study. This cultivates a highly skilled workforce, which is essential for attracting corporate investment and driving technological innovation. Consequently, a highly educated population stimulates long-term national economic growth and prosperity.",
                 "architecture": [
+                    "and allow",
+                    "This cultivates",
+                    "which is essential for",
                     "Consequently"
                 ]
             },
@@ -784,9 +796,9 @@ window.ieltsData = {
                 ],
                 "paragraph": "Investing heavily in public infrastructure, such as new railways or airports, directly stimulates the construction sector. This generates thousands of immediate employment opportunities, substantially reducing national unemployment rates. As a result, newly employed citizens boost consumer spending, thereby strengthening the entire local economy.",
                 "architecture": [
-                    "Since / As",
+                    "This generates",
                     "As a result",
-                    "Thereby + Verb-ing"
+                    "thereby strengthening"
                 ]
             },
             {
@@ -809,6 +821,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Subsidizing start-up companies reduces the initial financial barriers for entrepreneurs, which fosters healthy market competition. This drives local innovation and generates niche employment opportunities. Consequently, supporting small businesses stimulates overall economic dynamism and community wealth.",
                 "architecture": [
+                    "which fosters",
+                    "This drives",
                     "Consequently"
                 ]
             },
@@ -832,7 +846,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Lowering import tariffs facilitates cross-border trade, allowing domestic businesses to expand their customer bases globally. This increases business revenues and stimulates international investment in manufacturing sectors. As a result, trade deregulation accelerates economic integration and boosts national gross domestic product.",
                 "architecture": [
-                    "allowing (Participle)",
+                    "allowing",
+                    "This increases",
                     "As a result"
                 ]
             },
@@ -856,7 +871,10 @@ window.ieltsData = {
                 ],
                 "paragraph": "Funding practical apprenticeship programs bridges the skills gap in technical fields, thereby increasing youth employment rates. This enhances overall labor productivity and attracts foreign manufacturing firms. Ultimately, a steady supply of skilled technicians bolsters industrial growth and raises household incomes.",
                 "architecture": [
-                    "Thereby + Verb-ing"
+                    "thereby increasing",
+                    "This enhances",
+                    "and attracts",
+                    "Ultimately"
                 ]
             },
             {
@@ -879,6 +897,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Investing in clean technology creates high-paying green jobs and encourages companies to reduce manufacturing wastes. This helps lower energy expenses over time, which improves corporate sustainability. Consequently, green investments stimulate modern, future-proof industries that align with global climate goals.",
                 "architecture": [
+                    "which improves",
                     "Consequently"
                 ]
             }
@@ -925,8 +944,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Renewable energy protects the environment by reducing dependence on fossil fuels, which are a major source of greenhouse gas emissions. This helps lower carbon emissions and improve air quality, thereby protecting public health. Consequently, countries can mitigate climate change, promote sustainable development, and preserve natural resources for future generations.",
                 "architecture": [
-                    "by + Verb-ing",
-                    "Thereby + Verb-ing",
+                    "by reducing",
+                    "thereby protecting",
                     "Consequently"
                 ]
             },
@@ -949,9 +968,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Recycling benefits the environment by reducing household waste, thereby decreasing the amount of rubbish sent to landfills. This helps conserve natural resources and reduce energy consumption, since manufacturing products from recycled materials often requires fewer resources. Consequently, recycling minimizes environmental pollution, protects ecosystems, and supports sustainable living.",
                 "architecture": [
-                    "by + Verb-ing",
-                    "Thereby + Verb-ing",
-                    "Since / As",
+                    "by reducing",
+                    "thereby decreasing",
                     "Consequently"
                 ]
             },
@@ -976,7 +994,10 @@ window.ieltsData = {
                 ],
                 "paragraph": "Reforestation efforts restore native woodlands, which absorb vast amounts of atmospheric carbon dioxide. This process creates critical natural habitats and prevents soil erosion during heavy rains. As a result, planting trees supports diverse ecosystems and helps preserve global biodiversity from extinction.",
                 "architecture": [
-                    "As a result"
+                    "This process creates",
+                    "and prevents",
+                    "As a result",
+                    "and helps"
                 ]
             },
             {
@@ -999,7 +1020,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Adopting organic farming practices eliminates the dependency on synthetic pesticides, thereby enriching natural soil nutrients. This prevents toxic chemical runoff into nearby streams, which protects groundwater quality. Consequently, sustainable agriculture preserves arable land and ensures long-term food security.",
                 "architecture": [
-                    "Thereby + Verb-ing",
+                    "thereby enriching",
+                    "which protects",
                     "Consequently"
                 ]
             },
@@ -1023,7 +1045,9 @@ window.ieltsData = {
                 ],
                 "paragraph": "Promoting electric vehicles accelerates the transition away from fossil-fuel combustion engines, thereby eliminating harmful tailpipe emissions. This reduces urban smog and improves public health in congested cities. Ultimately, adopting green transportation mitigates global warming and supports clean air initiatives.",
                 "architecture": [
-                    "Thereby + Verb-ing"
+                    "thereby eliminating",
+                    "This reduces",
+                    "Ultimately"
                 ]
             },
             {
@@ -1046,11 +1070,10 @@ window.ieltsData = {
                 ],
                 "paragraph": "Encouraging responsible travel through eco-tourism funds vital conservation projects in developing countries. This discourages illegal wildlife poaching by providing alternative local incomes for communities. Consequently, ecological travel protects fragile ecosystems while minimizing the carbon footprint of tourists.",
                 "architecture": [
-                    "through",
-                    "by + Verb-ing",
+                    "This discourages",
+                    "by providing",
                     "Consequently",
-                    "While",
-                    "minimizing (Participle)"
+                    "minimizing"
                 ]
             }
         ]
@@ -1093,7 +1116,6 @@ window.ieltsData = {
                 ],
                 "paragraph": "Incorporating vocational training into university curriculums allows students to simulate real-world corporate challenges. This develops practical competencies, such as software proficiency or project management, which directly bridges the skills gap between academia and industry. Consequently, this hands-on experience drastically enhances graduate employability in a competitive market.",
                 "architecture": [
-                    "Since / As",
                     "Consequently"
                 ]
             },
@@ -1117,8 +1139,9 @@ window.ieltsData = {
                 ],
                 "paragraph": "Encouraging analytical debate in classrooms forces students to evaluate conflicting arguments rather than memorizing facts. This develops critical thinking skills, allowing students to make reasoned judgments in daily life. Consequently, critical education helps citizens avoid media manipulation and fosters intellectual independence.",
                 "architecture": [
-                    "allowing (Participle)",
-                    "Consequently"
+                    "allowing",
+                    "Consequently",
+                    "and fosters"
                 ]
             },
             {
@@ -1141,6 +1164,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Integrating creative arts into school curricula nurtures divergent thinking and enhances emotional intelligence in children. This inspires out-of-the-box ideas that complement traditional academic studies. Consequently, including arts in school promotes holistic development and prepares students for innovative careers.",
                 "architecture": [
+                    "This inspires",
                     "Consequently"
                 ]
             },
@@ -1163,7 +1187,9 @@ window.ieltsData = {
                     "broaden career horizons"
                 ],
                 "paragraph": "Introducing foreign languages in primary school stimulates neurological pathways and improves multitasking abilities in children. This fosters cognitive flexibility, which enhances communication skills in multicultural societies. Ultimately, bilingual education broadens career horizons and improves long-term memory.",
-                "architecture": []
+                "architecture": [
+                    "Ultimately"
+                ]
             },
             {
                 "title": "Universal Primary Education → Illiteracy Eradication",
@@ -1185,7 +1211,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Subsidizing primary schools in impoverished regions ensures classroom access for every child. This is the most effective way to eradicate youth illiteracy and promote basic numeracy. As a result, universal education dismantles gender inequality, empowers marginalized communities, and reduces global poverty.",
                 "architecture": [
-                    "As a result"
+                    "As a result",
+                    "and reduces"
                 ]
             },
             {
@@ -1207,7 +1234,9 @@ window.ieltsData = {
                     "build active citizens"
                 ],
                 "paragraph": "Teaching civic rights and duties helps students understand democratic processes and appreciate public services. This fosters social responsibility, encouraging active voting participation when they reach adulthood. Ultimately, civic education builds active citizens who contribute positively to their communities.",
-                "architecture": []
+                "architecture": [
+                    "Ultimately"
+                ]
             }
         ]
     },
@@ -1250,8 +1279,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Implementing automated AI systems allows companies to execute repetitive administrative tasks instantly while eliminating costly human errors. By streamlining these operational workflows, businesses maximize corporate efficiency and reduce overhead costs. Therefore, technology is an indispensable tool for increasing overall profit margins in modern industries.",
                 "architecture": [
-                    "While",
-                    "by + Verb-ing",
+                    "By streamlining",
                     "Therefore"
                 ]
             },
@@ -1273,8 +1301,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Social media platforms have eradicated geographical barriers by facilitating instant, free communication across the globe. This allows families separated by vast distances to effortlessly maintain international relationships via video calls. As a result, technology prevents social isolation and sustains crucial emotional bonds regardless of physical location.",
                 "architecture": [
-                    "by + Verb-ing",
-                    "via",
+                    "by facilitating",
                     "As a result"
                 ]
             },
@@ -1298,6 +1325,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Implementing virtual consultations allows doctors to bypass geographical distances and reach patients in remote areas. This reduces hospital wait times and helps diagnose mild ailments quickly without in-person visits. Consequently, telemedicine streamlines medical resources and moves society closer to universal healthcare access.",
                 "architecture": [
+                    "This reduces",
+                    "and helps",
                     "Consequently"
                 ]
             },
@@ -1321,6 +1350,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Publishing educational resources online eliminates commuting expenses and allows students to engage in self-paced learning. This helps democratize academic access for disadvantaged demographics globally. Consequently, e-learning platforms promote lifelong learning and bridge the gap of educational inequality.",
                 "architecture": [
+                    "and allows",
                     "Consequently"
                 ]
             },
@@ -1344,8 +1374,9 @@ window.ieltsData = {
                 ],
                 "paragraph": "Integrating smart grid sensors allows municipalities to optimize electricity distribution based on real-time demand. This reduces power line waste and minimizes the carbon footprint of city buildings. Therefore, smart cities enhance urban sustainability while lowering public utility costs for residents.",
                 "architecture": [
-                    "Therefore",
-                    "While"
+                    "This reduces",
+                    "and minimizes",
+                    "Therefore"
                 ]
             },
             {
@@ -1368,6 +1399,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Analyzing consumer patterns with advanced algorithms allows businesses to identify custom preferences and deliver tailored experiences. This maximizes user engagement and improves customer retention. As a result, leveraging data analytics optimizes marketing expenditures and drives corporate profits.",
                 "architecture": [
+                    "This maximizes",
                     "As a result"
                 ]
             }
@@ -1411,9 +1443,10 @@ window.ieltsData = {
                 ],
                 "paragraph": "Governments must promote preventive healthcare by encouraging regular physical exercise and healthy diets among citizens. This proactive approach significantly lowers the incidence of chronic diseases, such as obesity or diabetes, thereby alleviating immense pressure on public hospitals. Ultimately, a healthier population drastically reduces national healthcare expenditures.",
                 "architecture": [
-                    "by + Verb-ing",
-                    "Since / As",
-                    "Thereby + Verb-ing"
+                    "by encouraging",
+                    "This proactive",
+                    "thereby alleviating",
+                    "Ultimately"
                 ]
             },
             {
@@ -1436,7 +1469,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Imposing sugar taxes on processed products artificially inflates soft drink prices, discouraging unhealthy purchases by consumers. This reduces daily sugar intake, leading to lower childhood obesity rates. Consequently, fiscal healthcare policies help prevent chronic illnesses like diabetes and heart disease.",
                 "architecture": [
-                    "leading to (Participle)",
+                    "This reduces",
+                    "leading to",
                     "Consequently"
                 ]
             },
@@ -1459,7 +1493,9 @@ window.ieltsData = {
                     "foster lifetime fitness habits"
                 ],
                 "paragraph": "Mandating daily physical education in schools promotes movement and improves cardiovascular fitness among children. This burns excess calories, which is essential to prevent sedentary diseases like obesity. Ultimately, school sports programs foster lifetime fitness habits and support physical health.",
-                "architecture": []
+                "architecture": [
+                    "Ultimately"
+                ]
             },
             {
                 "title": "Mental Health Campaigns → Reduced Social Stigma",
@@ -1481,6 +1517,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Funding public mental health campaigns increases psychological literacy, helping to dismantle social stigma surrounding counseling. This encourages citizens to seek help early when experiencing distress, reducing chronic depression rates. As a result, public awareness drives improve the overall well-being of communities.",
                 "architecture": [
+                    "This encourages",
                     "As a result"
                 ]
             },
@@ -1573,7 +1610,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Saving money improves psychological well-being by building an emergency fund that prepares individuals for unexpected situations. This increases financial security and significantly reduces financial stress, providing greater peace of mind. Consequently, people experience improved emotional well-being and enjoy higher overall life satisfaction.",
                 "architecture": [
-                    "by + Verb-ing",
+                    "by building",
+                    "This increases",
                     "Consequently"
                 ]
             },
@@ -1597,8 +1635,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Learning new skills promotes personal development by allowing individuals to gain valuable experience and improve competence. As they become more capable, they naturally develop self-confidence, which increases motivation and encourages lifelong learning. Consequently, they are better equipped to achieve long-term personal and professional goals.",
                 "architecture": [
-                    "by + Verb-ing",
-                    "Since / As",
+                    "by allowing",
                     "Consequently"
                 ]
             },
@@ -1622,7 +1659,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Strong social relationships improve mental health by allowing individuals to receive emotional support during difficult times. Sharing personal challenges helps reduce feelings of loneliness and improves emotional resilience. Consequently, people manage stress more effectively, maintain better mental health, and experience greater overall well-being.",
                 "architecture": [
-                    "by + Verb-ing",
+                    "by allowing",
                     "Consequently"
                 ]
             },
@@ -1646,6 +1683,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Limiting professional responsibilities helps individuals prioritize personal time, which is essential for alleviating mental fatigue. This directly improves sleep quality and fosters a positive mindset. Consequently, employees prevent professional burnout, maintain emotional stability, and perform better in their careers.",
                 "architecture": [
+                    "which is essential for",
+                    "and fosters",
                     "Consequently"
                 ]
             },
@@ -1669,6 +1708,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Engaging in mindfulness practices allows people to regulate their emotional responses to stress, which lowers cortisol levels. This improves concentration and enhances mental clarity in high-pressure situations. As a result, individuals reduce daily anxiety, boost their emotional resilience, and enjoy peace of mind.",
                 "architecture": [
+                    "This improves",
                     "As a result"
                 ]
             },
@@ -1735,7 +1775,6 @@ window.ieltsData = {
                 ],
                 "paragraph": "Immersing oneself in foreign environments through international travel or study forces individuals to navigate complex cultural differences. This direct interaction effectively dismantles preconceived stereotypes and encourages students to adopt a globalized perspective. Therefore, cross-cultural exposure is highly effective at promoting international tolerance and understanding.",
                 "architecture": [
-                    "through",
                     "Therefore"
                 ]
             },
@@ -1759,7 +1798,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Restoring historical monuments and protecting traditional crafts helps communities preserve their unique cultural identity. This allows elders to pass down oral histories to younger generations, fostering a strong sense of national pride. Consequently, active heritage preservation combats cultural homogenization in a globalized world.",
                 "architecture": [
-                    "fostering (Participle)",
+                    "fostering",
                     "Consequently"
                 ]
             },
@@ -1783,6 +1822,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Sponsoring multicultural festivals celebrates ethnic diversity and showcases traditional arts within a city. This promotes mutual respect among different ethnic groups and fosters intercultural harmony. As a result, public cultural events are essential tools to dismantle racial prejudices and build tolerant societies.",
                 "architecture": [
+                    "This promotes",
+                    "and fosters",
                     "As a result"
                 ]
             },
@@ -1805,7 +1846,10 @@ window.ieltsData = {
                     "enrich linguistic diversity"
                 ],
                 "paragraph": "Funding language immersion programs allows educators to teach endangered languages to young children. This revitalizes ancestral wisdom and strengthens community identity in indigenous regions. Ultimately, language preservation protects precious heritage and enriches global linguistic diversity.",
-                "architecture": []
+                "architecture": [
+                    "This revitalizes",
+                    "Ultimately"
+                ]
             },
             {
                 "title": "Museum Subsidies → Public Education",
@@ -1827,6 +1871,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Subsidizing historical museums allows them to offer free public admission, drastically increasing cultural literacy among families. This helps educate children on historical events and fosters scientific curiosity outside the classroom. Therefore, museum subsidies are key investments in promoting national heritage and public education.",
                 "architecture": [
+                    "and fosters",
                     "Therefore"
                 ]
             },
@@ -1850,7 +1895,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Sponsoring student exchange programs exposes young scholars to different educational perspectives, fostering lifelong international friendships. These networks later facilitate joint research and collaborative business ventures. Consequently, global exchanges help solve transnational challenges and promote peaceful diplomacy.",
                 "architecture": [
-                    "fostering (Participle)",
+                    "fostering",
                     "Consequently"
                 ]
             }
@@ -1894,7 +1939,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Governments can effectively combat issues like junk food consumption or plastic waste by implementing prohibitive taxation. This artificially inflates the prices of harmful goods, which naturally suppresses mass consumer demand. By targeting the public's financial habits, authorities can force rapid behavioral change and successfully achieve public policy goals.",
                 "architecture": [
-                    "by + Verb-ing"
+                    "by implementing",
+                    "By targeting"
                 ]
             },
             {
@@ -1917,6 +1963,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Subsidizing solar panels lowers the initial purchase costs for households, encouraging residential installations. This reduces demand on the national electric grid and cuts carbon footprints at the neighborhood level. Consequently, government financial incentives successfully accelerate the transition to clean energy.",
                 "architecture": [
+                    "This reduces",
                     "Consequently"
                 ]
             },
@@ -1940,7 +1987,9 @@ window.ieltsData = {
                 ],
                 "paragraph": "Imposing heavy fines on industrial polluters enforces strict environmental laws and discourages illegal waste dumping in rivers. This forces corporate compliance with safety regulations, thereby protecting local ecosystems. Ultimately, punitive regulations improve corporate responsibility and shield communities from pollution.",
                 "architecture": [
-                    "Thereby + Verb-ing"
+                    "This forces",
+                    "thereby protecting",
+                    "Ultimately"
                 ]
             },
             {
@@ -1963,8 +2012,10 @@ window.ieltsData = {
                 ],
                 "paragraph": "Distributing monthly social security benefits directly to low-income families helps eliminate absolute poverty. This guarantees secure access to basic nutrition and housing, which improves health outcomes. As a result, financial welfare cushions boost local economies by increasing the spending power of citizens.",
                 "architecture": [
+                    "This guarantees",
+                    "which improves",
                     "As a result",
-                    "by + Verb-ing"
+                    "by increasing"
                 ]
             },
             {
@@ -1987,7 +2038,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Allocating public funds to expand railway networks provides citizens with reliable commuting alternatives. This discourages car dependence in growing metropolitan zones, thereby reducing traffic congestion. Consequently, government infrastructure investments improve daily commute times and decrease air pollution.",
                 "architecture": [
-                    "Thereby + Verb-ing",
+                    "This discourages",
+                    "thereby reducing",
                     "Consequently"
                 ]
             },
@@ -2054,6 +2106,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "By heavily subsidizing underground mass transit networks, cities provide citizens with faster, reliable alternatives to driving. This incentivizes shared mobility and drastically reduces private vehicle dependency during rush hours. Consequently, expanding public transport is the most effective method for permanently alleviating urban traffic congestion.",
                 "architecture": [
+                    "This incentivizes",
                     "Consequently"
                 ]
             },
@@ -2077,9 +2130,9 @@ window.ieltsData = {
                 ],
                 "paragraph": "Constructing dedicated bicycle lanes ensures cyclist safety and encourages citizens to cycle instead of driving. This reduces traffic volumes in city centers, thereby improving local air quality. Consequently, cycle infrastructure supports sustainable commuting while promoting physical fitness among residents.",
                 "architecture": [
-                    "Thereby + Verb-ing",
-                    "Consequently",
-                    "While"
+                    "This reduces",
+                    "thereby improving",
+                    "Consequently"
                 ]
             },
             {
@@ -2101,7 +2154,9 @@ window.ieltsData = {
                     "support social welfare"
                 ],
                 "paragraph": "Building affordable public housing and subsidizing rent expenses secures shelter for low-income families. This directly reduces street homelessness, providing a stable environment where children can study. Ultimately, housing infrastructure projects stabilize vulnerable households and support overall social welfare.",
-                "architecture": []
+                "architecture": [
+                    "Ultimately"
+                ]
             },
             {
                 "title": "Pedestrian Zones → Retail Growth",
@@ -2123,7 +2178,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Pedestrianizing downtown shopping streets eliminates vehicle traffic and creates safe walking spaces for families. This encourages window shopping and boosts local retail sales as pedestrian foot traffic increases. Consequently, pedestrian infrastructure revitalizes city centers and promotes tourism.",
                 "architecture": [
-                    "Since / As",
+                    "and creates",
+                    "This encourages",
                     "Consequently"
                 ]
             },
@@ -2147,8 +2203,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Constructing wind turbines and integrating clean energy grids reduces a nation's dependence on foreign fossil fuel imports. This lowers national energy bills and secures the power grid against resource shortages. As a result, renewable infrastructure supports energy independence while helping to combat global climate change.",
                 "architecture": [
-                    "As a result",
-                    "While"
+                    "As a result"
                 ]
             },
             {
@@ -2170,7 +2225,9 @@ window.ieltsData = {
                     "support circular economies"
                 ],
                 "paragraph": "Upgrading municipal waste management systems allows cities to implement organic composting programs. This diverts trash from landfills, reducing harmful methane emissions. Ultimately, advanced waste infrastructure prevents soil contamination and supports sustainable, circular economies.",
-                "architecture": []
+                "architecture": [
+                    "Ultimately"
+                ]
             }
         ]
     },
@@ -2212,8 +2269,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "When consumers actively boycott unethical or polluting products, they exert immense financial pressure directly on manufacturers. Because businesses rely entirely on consumer demand, they are forced to adopt sustainable manufacturing processes to survive. Thus, ethical purchasing is a powerful tool for enforcing corporate accountability and driving market innovation.",
                 "architecture": [
-                    "Because",
-                    "Thus / Hence"
+                    "Thus"
                 ]
             },
             {
@@ -2258,7 +2314,10 @@ window.ieltsData = {
                     "deplete raw resources"
                 ],
                 "paragraph": "The fast fashion industry produces cheap synthetic clothing, encouraging a throwaway culture where garments are discarded after few wears. This increases textile waste in landfills and pollutes water systems with microplastics. Ultimately, cheap manufacturing habits skyrocket carbon emissions and deplete raw resources.",
-                "architecture": []
+                "architecture": [
+                    "This increases",
+                    "Ultimately"
+                ]
             },
             {
                 "title": "Buy Local Campaigns → Regional Prosperity",
@@ -2280,7 +2339,9 @@ window.ieltsData = {
                 ],
                 "paragraph": "Buying local encourages citizens to support independent neighborhood businesses, keeping capital inside the community. This creates regional jobs and reduces transportation emissions by minimizing shipping distances. Consequently, buy local campaigns foster community relations and strengthen regional economies.",
                 "architecture": [
-                    "by + Verb-ing",
+                    "This creates",
+                    "and reduces",
+                    "by minimizing",
                     "Consequently"
                 ]
             },
@@ -2304,7 +2365,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Embracing minimalist lifestyles helps individuals curb impulse buying and reduce household clutter. This significantly increases monthly savings, allowing families to achieve financial freedom and avoid debt. Ultimately, buying less reduces personal carbon footprints and encourages mindful living.",
                 "architecture": [
-                    "allowing (Participle)"
+                    "allowing",
+                    "Ultimately"
                 ]
             },
             {
@@ -2327,7 +2389,10 @@ window.ieltsData = {
                 ],
                 "paragraph": "Banning single-use plastic cups and straws forces supermarkets to promote reusable shopping bags. This reduces plastic bag usage and minimizes marine pollution in coastal zones. Consequently, single-use bans protect aquatic wildlife and encourage green behaviors among the public.",
                 "architecture": [
-                    "Consequently"
+                    "This reduces",
+                    "and minimizes",
+                    "Consequently",
+                    "and encourage"
                 ]
             }
         ]
@@ -2369,7 +2434,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Allowing individuals to select their careers freely enables them to exercise career autonomy and pursue intrinsic interests. This maximizes work engagement and improves vocational productivity, helping them avoid career stagnation. Consequently, workers attain professional fulfillment and experience significantly higher life satisfaction.",
                 "architecture": [
-                    "allowing (Participle)",
+                    "Allowing",
+                    "This maximizes",
                     "Consequently"
                 ]
             },
@@ -2393,7 +2459,11 @@ window.ieltsData = {
                 ],
                 "paragraph": "Protecting personal liberty allows citizens to express controversial viewpoints without fear of censorship, which stimulates creative thinking. This challenges orthodox paradigms in academic and artistic fields, thereby driving artistic innovation. Ultimately, protecting individual speech enriches cultural discourse and fosters social progress.",
                 "architecture": [
-                    "Thereby + Verb-ing"
+                    "which stimulates",
+                    "This challenges",
+                    "thereby driving",
+                    "Ultimately",
+                    "and fosters"
                 ]
             },
             {
@@ -2416,9 +2486,12 @@ window.ieltsData = {
                 ],
                 "paragraph": "Allowing elective selections in school curriculums boosts student autonomy and nurtures intrinsic motivation. When students select subjects they love, they work harder, leading to improved educational outcomes. As a result, this flexibility decreases academic burnout and helps cultivate specialized talents.",
                 "architecture": [
-                    "allowing (Participle)",
-                    "leading to (Participle)",
-                    "As a result"
+                    "Allowing",
+                    "and nurtures",
+                    "leading to",
+                    "As a result",
+                    "this flexibility decreases",
+                    "and helps"
                 ]
             },
             {
@@ -2441,6 +2514,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "When individuals assume financial accountability for their choices, it encourages fiscal self-reliance and curbs impulsive spending. This lifestyle shift promotes long-term planning, helping them secure financial independence. Consequently, self-determination alleviates personal debt burdens and builds household security.",
                 "architecture": [
+                    "This lifestyle shift promotes",
                     "Consequently"
                 ]
             },
@@ -2464,7 +2538,10 @@ window.ieltsData = {
                 ],
                 "paragraph": "The freedom to make private lifestyle choices allows individuals to avoid conforming to rigid societal pressures. This reduces cognitive dissonance and fosters authentic lifestyles, boosting self-esteem. As a result, individual sovereignty improves emotional well-being and reduces depression rates.",
                 "architecture": [
-                    "As a result"
+                    "This reduces",
+                    "and fosters",
+                    "As a result",
+                    "and reduces"
                 ]
             },
             {
@@ -2487,7 +2564,9 @@ window.ieltsData = {
                 ],
                 "paragraph": "Allowing individuals to bear personal consequences for their mistakes helps them internalize moral lessons and build character resilience. This process fosters self-discipline, which improves future decision-making skills. Ultimately, personal responsibility cultivates adult maturity and self-reliance.",
                 "architecture": [
-                    "allowing (Participle)"
+                    "Allowing",
+                    "which improves",
+                    "Ultimately"
                 ]
             }
         ]
@@ -2529,6 +2608,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "News outlets often broadcast sensationalist news to maximize viewership, which exaggerates public threats like crime or pandemics. This induces collective anxiety among readers, distorting objective reality. As a result, fear-mongering media manipulates public sentiment and erodes societal trust in institutions.",
                 "architecture": [
+                    "This induces",
                     "As a result"
                 ]
             },
@@ -2552,6 +2632,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Social media platforms deploy algorithmic filtering to show content that users already agree with, reinforcing their cognitive biases. This confines individuals to digital echo chambers, stifling opposing viewpoints. Consequently, personalized news feeds escalate political polarization and threaten democratic consensus.",
                 "architecture": [
+                    "This confines",
                     "Consequently"
                 ]
             },
@@ -2574,7 +2655,9 @@ window.ieltsData = {
                     "curb government overreach"
                 ],
                 "paragraph": "Free press agencies conduct investigative reporting that exposes institutional corruption and corporate misconduct. This informs public electorates, giving them the evidence needed to enforce political accountability during elections. Ultimately, journalism strengthens democratic transparency and curbs government overreach.",
-                "architecture": []
+                "architecture": [
+                    "Ultimately"
+                ]
             },
             {
                 "title": "Targeted Advertising → Impulsive Consumerism",
@@ -2596,6 +2679,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Corporations exploit user data to deliver targeted advertisements directly to receptive demographics. This manufactures artificial desires, triggering impulsive buying behavior. Consequently, aggressive digital marketing escalates consumer spending and exacerbates household debt.",
                 "architecture": [
+                    "This manufactures",
                     "Consequently"
                 ]
             },
@@ -2619,8 +2703,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Authoritarian regimes impose press censorship and suppress critical journalism, restricting public knowledge of state errors. This allows governments to manufacture state consent through propaganda, preventing organized social movements. Ultimately, restricting information consolidates authoritarian power and disables civil liberties.",
                 "architecture": [
-                    "through",
-                    "preventing (Participle)"
+                    "preventing",
+                    "Ultimately"
                 ]
             },
             {
@@ -2643,7 +2727,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "Modern internet users encounter endless feeds of conflicting news, causing them to suffer information overload. This impairs cognitive processing, causing decision paralysis in daily life. Consequently, constant connectivity heightens psychological fatigue and reduces analytical focus.",
                 "architecture": [
-                    "Consequently"
+                    "Consequently",
+                    "and reduces"
                 ]
             }
         ]
@@ -2685,7 +2770,8 @@ window.ieltsData = {
                 ],
                 "paragraph": "When multinational corporations open mega-stores in historic town centers, they undercut local prices through economies of scale. This erodes local markets and forces independent retailer bankruptcies. As a result, global retail shifts money away from town centers, reducing community wealth and threatening economic sovereignty.",
                 "architecture": [
-                    "through",
+                    "This erodes",
+                    "and forces",
                     "As a result"
                 ]
             },
@@ -2709,6 +2795,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Globalized brands export Western media and fast food worldwide, which standardizes consumer tastes among youth. This marginalizes traditional culinary and artistic practices, causing gradual cultural homogenization. Consequently, global uniformity erodes national identities and dilutes unique ancestral heritages.",
                 "architecture": [
+                    "This marginalizes",
                     "Consequently"
                 ]
             },
@@ -2732,6 +2819,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Lowering import tariffs facilitates international trade and links national markets together. This increases economic interdependence, making military conflicts financially ruinous for all parties. Consequently, global trade stabilizes regional relations and encourages cross-border collaboration.",
                 "architecture": [
+                    "This increases",
                     "Consequently"
                 ]
             },
@@ -2754,7 +2842,11 @@ window.ieltsData = {
                     "sustain endangered cultures"
                 ],
                 "paragraph": "Attracting foreign tourists who demand authentic cultural experiences allows local communities to monetize traditional performances and crafts. This generates revenues that fund historical restoration projects. Ultimately, eco-tourism supports indigenous artisans and helps sustain endangered cultural practices.",
-                "architecture": []
+                "architecture": [
+                    "This generates",
+                    "Ultimately",
+                    "and helps"
+                ]
             },
             {
                 "title": "Global Labor Arbitrage → Brain Drain",
@@ -2799,7 +2891,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Adopting international school curricula forces educational institutions to assess students via global standardized exams. This dilutes local history and language focus to match global test metrics, standardizing educational values. As a result, classrooms ignore regional job market needs and stifle localized cultural knowledge.",
                 "architecture": [
-                    "via",
+                    "This dilutes",
                     "As a result"
                 ]
             }
@@ -2841,7 +2933,10 @@ window.ieltsData = {
                     "reduce healthcare budgets"
                 ],
                 "paragraph": "Harnessing gene-editing software like CRISPR allows scientists to rectify inherited genetic mutations in embryos. This helps eradicate hereditary diseases like sickle cell anemia, enhancing human health. Ultimately, gene technology prolongs life expectancy and reduces state healthcare budgets.",
-                "architecture": []
+                "architecture": [
+                    "Ultimately",
+                    "and reduces"
+                ]
             },
             {
                 "title": "Commercial Scientific Focus → Ethical Violations",
@@ -2863,6 +2958,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "When private laboratories chase corporate profits, they may bypass rigorous clinical trials to bring new drugs to market quickly. This compromises patient safety and violates medical ethics. Consequently, rushed products cause users to suffer unintended health issues, damaging public trust in scientific research.",
                 "architecture": [
+                    "This compromises",
                     "Consequently"
                 ]
             },
@@ -2886,7 +2982,6 @@ window.ieltsData = {
                 ],
                 "paragraph": "Funding space exploration forces scientists to solve extreme environment challenges, such as water recycling and solar energy storage. These efforts develop spin-off technologies, such as advanced water filters and lightweight materials, that revolutionize daily consumer goods. Consequently, cosmic research boosts industrial efficiency on Earth.",
                 "architecture": [
-                    "Since / As",
                     "Consequently"
                 ]
             },
@@ -2910,6 +3005,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Cloning elite livestock to maximize meat production homogenizes agricultural genomes across farming sectors. This eliminates natural genetic variations, increasing vulnerability to viruses. Consequently, clone farming risks mass livestock collapse and compromises long-term agricultural stability.",
                 "architecture": [
+                    "This eliminates",
                     "Consequently"
                 ]
             },
@@ -2933,7 +3029,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Enforcing strict clinical trial regulations ensures that developers vet experimental treatments over several years. This protects patient safety by preventing toxic side effects before public distribution. As a result, robust trials validate therapeutic claims and build pharmaceutical trust.",
                 "architecture": [
-                    "by + Verb-ing",
+                    "by preventing",
                     "As a result"
                 ]
             },
@@ -2957,6 +3053,7 @@ window.ieltsData = {
                 ],
                 "paragraph": "Advancing cognitive AI algorithms allows computer programs to replicate human intellect in complex domains. This displaces white-collar workers in accounting, legal, and programming roles, exacerbating professional unemployment. Consequently, rapid AI integration widens economic divides and provokes intense societal stress.",
                 "architecture": [
+                    "This displaces",
                     "Consequently"
                 ]
             }

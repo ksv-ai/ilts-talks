@@ -1451,39 +1451,20 @@ const lensesData = {
 function extractArchitecture(paragraph) {
     if (!paragraph) return [];
     const patterns = [
-        { name: "Because", regex: /\bbecause\b/gi },
-        { name: "This is because", regex: /\bthis is because\b/gi },
-        { name: "One of the main reasons", regex: /\bone of the main reasons\b/gi },
-        { name: "Since / As", regex: /\b(since|as)\b/gi },
-        { name: "Owing to / Due to", regex: /\b(owing to|due to)\b/gi },
-        { name: "On the grounds that", regex: /\bon the grounds that\b/gi },
-        { name: "by + Verb-ing", regex: /\bby\s+\w+ing\b/gi },
-        { name: "through", regex: /\bthrough\b/gi },
-        { name: "via", regex: /\bvia\b/gi },
-        { name: "By means of", regex: /\bby means of\b/gi },
-        { name: "With the aid of", regex: /\bwith the aid of\b/gi },
-        { name: "Through the implementation", regex: /\bthrough the implementation\b/gi },
-        { name: "By leveraging", regex: /\bby leveraging\b/gi },
-        { name: "As a result", regex: /\bas a result\b/gi },
-        { name: "Consequently", regex: /\bconsequently\b/gi },
-        { name: "Therefore", regex: /\btherefore\b/gi },
-        { name: "Thus / Hence", regex: /\b(thus|hence)\b/gi },
-        { name: "As a direct consequence", regex: /\bas a direct consequence\b/gi },
-        { name: "Which in turn leads to", regex: /\bwhich in turn leads to\b/gi },
-        { name: "Thereby + Verb-ing", regex: /\bthereby\s+\w+ing\b/gi },
-        { name: "With the result that", regex: /\bwith the result that\b/gi },
-        { name: "allowing (Participle)", regex: /\ballowing\b/gi },
-        { name: "leading to (Participle)", regex: /\bleading to\b/gi },
-        { name: "resulting in (Participle)", regex: /\bresulting in\b/gi },
-        { name: "preventing (Participle)", regex: /\bpreventing\b/gi },
-        { name: "fostering (Participle)", regex: /\bfostering\b/gi },
-        { name: "minimizing (Participle)", regex: /\bminimizing\b/gi },
-        { name: "ensuring (Participle)", regex: /\bensuring\b/gi },
-        { name: "Although", regex: /\balthough\b/gi },
-        { name: "While", regex: /\bwhile\b/gi },
-        { name: "Even though", regex: /\beven though\b/gi },
-        { name: "Despite / In spite of", regex: /\b(despite|in spite of)\b/gi },
-        { name: "Nonetheless / Nevertheless", regex: /\b(nonetheless|nevertheless)\b/gi }
+        // Sentence transitions
+        { regex: /\b(?:Consequently|As\s+a\s+result|Therefore|Ultimately|Thus|Hence|Nevertheless|Nonetheless|As\s+a\s+direct\s+consequence)\b/gi },
+        
+        // This + verb (or This + noun + verb)
+        { regex: /\bThis\s+(?:process|lifestyle\s+shift|structural\s+shift|flexibility)?\s*[a-z]+es?\b/gi },
+        
+        // Conjunction + verb
+        { regex: /\band\s+(?:allow|cultivate|encourage|empower|helps|forces|allows|enables|cultivates|reduces|minimizes|protects|preserves|fosters|bridges|attracts|nurtures|limits|prioritizes|prevents|restores|absorbs|eliminates|accelerates|fuels|creates|dismantles|occupies|connects|structures|makes)\b/gi },
+        
+        // Relative clauses
+        { regex: /\bwhich\s+(?:is\s+essential\s+for|in\s+turn\s+leads\s+to|in\s+turn\s+mitigates|stimulates|absorbs|creates|protects|prevents|improves|fosters|enables|bridges|reduces)\b/gi },
+        
+        // Participle clauses
+        { regex: /\b(?:allowing(?:\s+them)?(?:\s+to)?|leading\s+to|resulting\s+in|preventing|fostering|minimizing|ensuring|thereby\s+\w+ing|by\s+\w+ing)\b/gi }
     ];
     
     let foundMatches = [];
@@ -1493,7 +1474,7 @@ function extractArchitecture(paragraph) {
         let match;
         while ((match = p.regex.exec(paragraph)) !== null) {
             foundMatches.push({
-                name: p.name,
+                name: match[0], // Extract the exact matching text from paragraph!
                 index: match.index,
                 length: match[0].length
             });
