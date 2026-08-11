@@ -201,9 +201,9 @@ body {
 }
 
 .nav-item {
-    padding: 12px 25px;
+    padding: 10px 25px;
     cursor: pointer;
-    font-size: 1.05rem;
+    font-size: 0.92rem;
     font-weight: 500;
     transition: all 0.2s ease;
     display: flex;
@@ -213,6 +213,7 @@ body {
 }
 
 .nav-item i {
+    display: none; /* Hide icons in expanded sidebar */
     width: 20px;
     text-align: center;
     color: var(--text-secondary);
@@ -270,6 +271,7 @@ body {
 }
 
 .sidebar.collapsed .nav-item i {
+    display: block !important;
     font-size: 1.4rem;
     margin: 0;
 }
