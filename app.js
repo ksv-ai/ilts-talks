@@ -439,12 +439,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function isChainRelated(chain, essay) {
         const normalizedEssay = essay.toLowerCase();
         
-        // Check if title words match the essay
+        // Check if exact title parts appear contiguously in the essay
         const titleParts = chain.title.toLowerCase().split('→').map(p => p.trim());
         for (const part of titleParts) {
             if (normalizedEssay.includes(part)) return true;
-            const words = part.split(' ').filter(w => w.length > 3);
-            if (words.length > 0 && words.every(w => normalizedEssay.includes(w))) return true;
         }
 
         // Check if any collocation keywords match the essay
