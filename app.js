@@ -436,6 +436,36 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function isChainRelated(chain, essay) {
+        const normalizedEssay = essay.toLowerCase();
+        
+        // Check if title words match the essay
+        const titleParts = chain.title.toLowerCase().split('→').map(p => p.trim());
+        for (const part of titleParts) {
+            if (normalizedEssay.includes(part)) return true;
+            const words = part.split(' ').filter(w => w.length > 3);
+            if (words.length > 0 && words.every(w => normalizedEssay.includes(w))) return true;
+        }
+
+        // Check if any collocation keywords match the essay
+        const verbsToStrip = ["foster", "bridge", "mitigate", "promote", "alleviate", "exacerbate", "stimulate", "boost", "drive", "combat", "reduce", "increase", "improve", "develop", "nurture", "cultivate", "acquire", "attain", "achieve", "implement"];
+        for (const collocation of chain.collocations) {
+            const normCol = collocation.toLowerCase().trim();
+            if (normalizedEssay.includes(normCol)) return true;
+            
+            let stripped = normCol;
+            for (const verb of verbsToStrip) {
+                if (normCol.startsWith(verb + ' ')) {
+                    stripped = normCol.substring(verb.length + 1).trim();
+                    break;
+                }
+            }
+            if (stripped.length > 4 && normalizedEssay.includes(stripped)) return true;
+        }
+        
+        return false;
+    }
+
     function renderTask2Essays(data) {
         if(!data) return;
         pageTitle.innerText = data.title;
@@ -455,13 +485,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 matchedKeys.forEach(key => {
                     const lens = lenses[key];
                     if (lens) {
+                        const relatedChains = lens.chains.filter(chain => isChainRelated(chain, ex.essay));
+                        const chainsToShow = relatedChains.length > 0 ? relatedChains : lens.chains;
+
                         lensesHtml += `
                         <details style="background: rgba(56, 189, 248, 0.03); border: 1px solid var(--border-color); border-radius: 8px; padding: 12px; margin-bottom: 15px;">
                             <summary style="font-weight: 600; cursor: pointer; color: var(--accent-color); font-size: 0.9rem;">
                                 <i class="fa-solid fa-lightbulb"></i> How to Use <strong>${lens.name}</strong> Lens Mechanisms
                             </summary>
                             <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 10px;">
-                                ${lens.chains.map(chain => {
+                                ${chainsToShow.map(chain => {
                                     const topicSentence = getCustomTopicSentence(chain.title);
                                     return `
                                     <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-color); padding: 10px; border-radius: 6px; font-size: 0.85rem;">
