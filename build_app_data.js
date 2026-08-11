@@ -191,7 +191,7 @@ function parseTask2Files() {
 const lensesData = {
     "psychological": {
         name: "PSYCHOLOGICAL",
-        concepts: ["emotional resilience", "psychological burnout", "cognitive flexibility", "intrinsic motivation", "mental equilibrium", "chronic fatigue", "emotional stability", "peace of mind", "sense of self-worth", "social isolation", "loneliness mitigation", "depression rates", "stress management", "neurological pathways", "adaptability capacity"],
+        concepts: ["foster emotional resilience", "alleviate mental distress", "cognitive development processes", "reduce psychological stress", "boost self-esteem", "improve life satisfaction", "psychological well-being", "cope with anxiety", "intrinsic motivation factors", "emotional self-regulation", "mental health disorders", "personal fulfillment indices", "cognitive overload", "behavioral patterns"],
         chains: [
             {
                 title: "Financial Security → Peace of Mind",
@@ -278,7 +278,7 @@ const lensesData = {
     },
     "environmental": {
         name: "ENVIRONMENTAL",
-        concepts: ["carbon footprints", "greenhouse gas emissions", "mitigate climate change", "biodiversity preservation", "sustainable agriculture", "ecological footprint", "renewable energy transition", "environmental degradation", "soil conservation", "groundwater contamination", "tailpipe emissions", "air quality indices", "textile waste pollution", "eco-friendly alternatives", "circular economies"],
+        concepts: ["mitigate climate change", "promote environmental sustainability", "deplete natural resources", "ecological degradation", "reduce carbon footprint", "transition to renewable energy", "preserve natural habitats", "combat environmental pollution", "implement eco-friendly policies", "conserve biodiversity", "anthropogenic activities", "sustainable development goals", "waste management protocols", "ecological equilibrium"],
         chains: [
             {
                 title: "Renewable Energy → Sustainable Development",
@@ -364,7 +364,7 @@ const lensesData = {
     },
     "economic": {
         name: "ECONOMIC",
-        concepts: ["macroeconomic indicators", "economic growth stimulation", "gross domestic product", "entrepreneurial innovation", "skilled labor supply", "job creation rates", "tariff deregulation", "financial overhead costs", "market dynamics", "industrial productivity", "wealth redistribution", "generational poverty", "taxation revenues", "business startup subsidies", "labor-intensive sectors"],
+        concepts: ["stimulate economic growth", "alleviate financial burdens", "exacerbate wealth inequality", "drive market demand", "boost productivity levels", "fiscal responsibility", "government funding allocation", "economic development", "cost-effective measures", "job creation rates", "curb inflation pressures", "commercial viability", "generate tax revenues", "financial independence"],
         chains: [
             {
                 title: "Education Investment → Economic Growth",
@@ -448,7 +448,7 @@ const lensesData = {
     },
     "technological": {
         name: "TECHNOLOGICAL",
-        concepts: ["technological supremacy", "digital literacy gaps", "automated algorithms", "e-learning democratization", "virtual telemedicine", "smart grid grids", "data analytics optimization", "operational workflows", "network infrastructure", "cybersecurity protocols", "robotic process automation", "global communications", "disruptive technology", "artificial intelligence scanners", "industry-standard software"],
+        concepts: ["accelerate technological progress", "revolutionize daily life", "digital age connectivity", "automate manual processes", "technological breakthroughs", "boost operational efficiency", "bridging the digital divide", "enhance digital literacy", "displace human labor", "raise cybersecurity threats", "facilitate instant communication", "cutting-edge innovations", "data privacy concerns", "technological advancements"],
         chains: [
             {
                 title: "Automation → Workplace Efficiency",
@@ -531,7 +531,7 @@ const lensesData = {
     },
     "educational": {
         name: "EDUCATIONAL",
-        concepts: ["critical thinking skills", "vocational apprentice programs", "academic burnout patterns", "educational equality", "bilingual cognitive benefits", "illiteracy eradication", "civic responsibilities", "divergent reasoning", "holistic student development", "curriculum structural mismatch", "theoretical instruction", "practical competencies", "lifelong learning habits", "intellectual autonomy", "multilingual proficiency"],
+        concepts: ["enhance academic performance", "cultivate critical thinking", "equal educational opportunities", "nurture cognitive development", "comprehensive school curriculum", "acquire specialized skills", "foster student autonomy", "vocational training programs", "academic excellence", "holistic development", "bridge educational gaps", "distance learning technologies", "pedagogical methods", "learning outcomes"],
         chains: [
             {
                 title: "Practical Learning → Employability",
@@ -614,7 +614,7 @@ const lensesData = {
     },
     "health": {
         name: "HEALTH & MEDICAL",
-        concepts: ["preventive healthcare measures", "chronic disease incidence", "sedentary lifestyle risks", "cardiovascular fitness", "nutritional literacy", "sugar taxation models", "obesity rate spikes", "mental health stigmatization", "waterborne pathogen removal", "sleep hygiene practices", "circadian rhythm regulation", "longevity indices", "healthcare expenditure budgets", "medical diagnostic efficacy", "immunological strength"],
+        concepts: ["improve public health outcomes", "prevent chronic illnesses", "promote healthy lifestyles", "burden on healthcare systems", "reduce mortality rates", "foster physical well-being", "alleviate psychological stress", "health awareness campaigns", "access to medical treatments", "sedentary lifestyle risks", "preventative healthcare measures", "nutritional education", "mental health support", "hygiene standards"],
         chains: [
             {
                 title: "Preventive Care → Reduced Healthcare Costs",
@@ -697,7 +697,7 @@ const lensesData = {
     },
     "social": {
         name: "SOCIAL",
-        concepts: ["upward social mobility", "community cohesion rates", "neighborhood trust levels", "juvenile delinquency drops", "inclusive hiring protocols", "generational divides", "social isolation risks", "disabled universal accessibility", "marginalized communities", "civic engagement habits", "welfare safety nets", "community volunteering programs", "socioeconomic disparities", "societal integration", "equal opportunity acts"],
+        concepts: ["foster social cohesion", "bridge generational divides", "marginalized communities", "upward social mobility", "socioeconomic disparities", "collective well-being", "societal integration", "civic engagement", "community solidarity", "promote inclusivity", "social isolation risks", "welfare safety nets", "communal harmony", "interpersonal relationships"],
         chains: [
             {
                 title: "Community Service → Civic Responsibility",
@@ -780,7 +780,7 @@ const lensesData = {
     },
     "cultural": {
         name: "CULTURAL",
-        concepts: ["cultural homogenization", "indigenous heritage revival", "intercultural harmony", "historical preservation", "preconceived racial stereotypes", "globalized perspective", "multicultural celebrations", "linguistic diversity conservation", "museum admission access", "foreign exchange programs", "peaceful diplomacy ties", "ethnic heritage restoration", "ancestral wisdom conservation", "cross-cultural tolerance", "artistic legacy values"],
+        concepts: ["preserve cultural heritage", "foster multicultural understanding", "cultural homogenization risks", "promote mutual respect", "diversity appreciation", "protect historical landmarks", "traditional practices conservation", "national identity preservation", "cross-cultural communication", "globalized cultural exports", "indigenous heritage protection", "cultural diversity enrichment", "artistic self-expression", "folklore traditions"],
         chains: [
             {
                 title: "International Travel → Open-mindedness",
@@ -863,7 +863,7 @@ const lensesData = {
     },
     "government": {
         name: "GOVERNMENT & POLICY",
-        concepts: ["sweeping legislative power", "fiscal policy controls", "punitive financial fines", "industrial safety compliance", "welfare payout benefits", "public works infrastructure", "mandatory product labeling", "excise tax implementations", "environmental regulations", "corporate accountability laws", "government subsidies", "public fund allocation", "housing rent subsidies", "social safety nets", "statutory retirement laws"],
+        concepts: ["implement national policies", "subsidize public services", "allocate budget resources", "enforce strict regulations", "improve public infrastructure", "government intervention levels", "ensure public safety", "tackle societal issues", "legislative framework reforms", "foster political stability", "administrative bureaucracy", "promote civic welfare", "curb corruption rates", "public sector transparency"],
         chains: [
             {
                 title: "Taxation → Behavioral Change",
@@ -946,7 +946,7 @@ const lensesData = {
     },
     "infrastructure": {
         name: "INFRASTRUCTURE",
-        concepts: ["urban gridlock management", "mass transit infrastructure", "affordable public housing", "pedestrianized retail zones", "dedicated bicycle lanes", "renewable grid systems", "sewage treatment networks", "utility supply grids", "commute time reduction", "traffic volume drops", "housing shortage solutions", "sustainable city models", "waste management facilities", "energy independence indices", "municipal structural upgrades"],
+        concepts: ["improve public transportation", "expand urban infrastructure", "modernize transport networks", "mitigate traffic congestion", "sustain urban growth", "pedestrian-friendly zones", "upgrade basic utilities", "commuter travel times", "eco-friendly infrastructure", "rural-urban connectivity", "housing development projects", "civil engineering projects", "reduce transport delays", "public transit efficiency"],
         chains: [
             {
                 title: "Public Transport → Reduced Congestion",
@@ -1029,7 +1029,7 @@ const lensesData = {
     },
     "consumerism": {
         name: "CONSUMERISM",
-        concepts: ["throwaway convenience culture", "fast fashion wastes", "ethical consumer choices", "mass advertising influence", "impulse spending triggers", "local shopping campaigns", "minimalist lifestyle benefits", "single-use plastic bans", "corporate greenwashing", "biodegradable raw materials", "household clutter reduction", "personal debt accumulation", "unsustainable packaging", "brand loyalty marketing", "consumer demand dynamics"],
+        concepts: ["promote sustainable consumption", "curb impulsive buying", "hyper-consumerist lifestyles", "manipulate consumer choices", "targeted advertising effects", "waste generation rates", "throwaway culture issues", "materialistic values dominance", "consumer spending patterns", "ethical buying practices", "brand loyalty drivers", "unnecessary purchase habits", "market demand inflation", "commercial product obsolescence"],
         chains: [
             {
                 title: "Ethical Purchasing → Corporate Accountability",
@@ -1112,7 +1112,7 @@ const lensesData = {
     },
     "individual": {
         name: "THE INDIVIDUAL",
-        concepts: ["emotional resilience", "personal autonomy", "self-determination", "intrinsic fulfillment", "financial independence", "creative self-expression", "personal liberty", "career self-selection", "individual accountability", "private decision-making", "life satisfaction indices", "psychological sovereignty"],
+        concepts: ["exercise personal autonomy", "attain financial independence", "foster self-reliance", "pursue career goals", "freedom of choice", "assume personal responsibility", "develop self-discipline", "personal development index", "private lifestyle choices", "improve self-esteem", "nurture intrinsic interests", "attain professional fulfillment", "creative self-expression", "individual accountability"],
         chains: [
             {
                 title: "Career Autonomy → Job Satisfaction",
@@ -1196,7 +1196,7 @@ const lensesData = {
     },
     "media": {
         name: "MEDIA & INFORMATION",
-        concepts: ["sensationalist journalism", "digital echo chambers", "editorial independence", "media consumption habits", "fake news dissemination", "public opinion manipulation", "investigative reporting", "algorithmic filtering", "press censorship", "information overload", "cognitive biases", "advertising regulations"],
+        concepts: ["manipulate public opinion", "broadcast sensationalist news", "spread fake news", "editorial independence standards", "media consumption habits", "censor sensitive information", "expose institutional corruption", "digital echo chambers", "algorithmic filtering effects", "influence consumer choices", "unrestricted press freedom", "information overload risks", "public awareness enhancement", "journalistic integrity standards"],
         chains: [
             {
                 title: "Sensational Journalism → Public Anxiety",
@@ -1280,7 +1280,7 @@ const lensesData = {
     },
     "global": {
         name: "GLOBAL VS. LOCAL",
-        concepts: ["cultural homogenization", "multinational corporations", "local market erosion", "global trade deregulation", "cultural preservation", "preservation of languages", "local supply chains", "standardized consumerism", "international cooperation", "brain drain effects", "economic sovereignty", "indigenous heritage protection"],
+        concepts: ["multinational corporation expansions", "global trade agreements", "erode local businesses", "homogenize consumer tastes", "trigger brain drain", "economic interdependence levels", "promote global cooperation", "cross-border collaboration", "preserve local heritage", "loss of national identity", "international tourism impacts", "standardize global markets", "protect domestic industries", "global labor arbitrage"],
         chains: [
             {
                 title: "Corporate Expansion → Local Business Loss",
@@ -1364,7 +1364,7 @@ const lensesData = {
     },
     "science": {
         name: "SCIENCE & ETHICS",
-        concepts: ["scientific breakthrough", "ethical boundaries", "research funding", "genetic engineering", "space exploration", "medical diagnostics", "technological breakthroughs", "cloning regulations", "clinical trial standards", "corporate commercial exploitation", "unintended consequences", "human longevity"],
+        concepts: ["scientific research funding", "genetic engineering breakthroughs", "ethical boundary standards", "clinical trial regulations", "patient safety protocols", "eradicate hereditary diseases", "corporate scientific exploitation", "unintended ecological impacts", "technological frontier expansion", "medical diagnostic advances", "prolong human life expectancy", "science education curricula", "academic research grants", "technological risk assessment"],
         chains: [
             {
                 title: "Genetic Editing → Eradication of Diseases",
