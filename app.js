@@ -216,9 +216,17 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>`;
             
         topic.chains.forEach((chain, index) => {
+            const parts = chain.title.split('→');
+            const action = parts[0] ? parts[0].trim() : '';
+            const outcome = parts[1] ? parts[1].trim() : '';
+            const thesisText = `Proves how initiating <strong>${action}</strong> directly establishes a logical mechanism that drives <strong>${outcome}</strong>.`;
+
             html += `
             <div class="card">
-                <h4 style="color: var(--text-primary); margin-bottom: 20px; font-size: 1.3rem;">Chain ${index + 1}: ${chain.title}</h4>
+                <h4 style="color: var(--text-primary); margin-bottom: 5px; font-size: 1.3rem;">Chain ${index + 1}: ${chain.title}</h4>
+                <div style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 20px; font-style: italic;">
+                    <i class="fa-solid fa-bullseye" style="color: var(--accent-color); margin-right: 6px;"></i> ${thesisText}
+                </div>
                 <div class="grid-2">
                     <!-- Left Column -->
                     <div style="display: flex; flex-direction: column; gap: 15px;">
