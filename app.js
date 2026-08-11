@@ -196,6 +196,138 @@ document.addEventListener('DOMContentLoaded', () => {
         contentBody.innerHTML = html;
     }
 
+    function getCustomTopicSentence(title) {
+        const map = {
+            // Social
+            "Community Service → Civic Responsibility": "Engaging in community service projects helps young citizens develop a strong sense of civic responsibility.",
+            "Public Parks → Community Cohesion": "Constructing green public spaces is a highly effective way to foster local community cohesion.",
+            "Youth Clubs → Decreased Delinquency": "Providing youth sports and social clubs plays a critical role in reducing juvenile delinquency.",
+            "Inclusive Workplaces → Social Mobility": "Promoting inclusive hiring protocols empowers marginalized demographics and supports upward social mobility.",
+            "Volunteering Programs → Social Integration": "Public volunteering programs connect diverse groups, helping to reduce social isolation.",
+            "Universal Design → Accessibility": "Implementing universal design principles guarantees physical accessibility and equal opportunities for disabled citizens.",
+
+            // Economic
+            "Education Investment → Economic Growth": "Heavily subsidizing higher education plays a vital role in stimulating long-term national economic growth.",
+            "Infrastructure Development → Job Creation": "Investing in public infrastructure projects generates immediate employment and boosts local economies.",
+            "Small Business Subsidies → Entrepreneurial Innovation": "Subsidizing start-up companies reduces initial overhead costs and fosters entrepreneurial innovation.",
+            "Trade Deregulation → Global Market Expansion": "Lowering trade barriers allows domestic businesses to expand their reach into global markets.",
+            "Vocational Training Programs → Skilled Labor Supply": "Funding vocational apprenticeships is essential for maintaining a steady supply of skilled technicians.",
+            "Green Technology Investment → Sustainable Industries": "Investing in clean technology serves as a key catalyst for the development of sustainable modern industries.",
+
+            // Environmental
+            "Renewable Energy → Sustainable Development": "Transitioning to renewable energy resources is a critical step toward achieving sustainable development.",
+            "Recycling → Waste Reduction": "Household recycling initiatives are highly effective at minimizing landfill waste and resource depletion.",
+            "Reforestation → Biodiversity Preservation": "Active reforestation efforts are vital for preserving native habitats and global biodiversity.",
+            "Sustainable Agriculture → Soil Conservation": "Adopting sustainable farming methods protects soil quality and prevents groundwater pollution.",
+            "Green Transportation → Clean Air": "Transitioning to electric vehicles is instrumental in reducing urban smog and improving air quality.",
+            "Eco-Tourism → Habitat Protection": "Responsible eco-tourism generates critical funding to protect fragile ecosystems and wild habitats.",
+
+            // Educational
+            "Practical Learning → Employability": "Incorporating vocational training into academic curriculums significantly enhances graduate employability.",
+            "Critical Thinking Skills → Independent Problem Solving": "Encouraging classroom debate cultivates critical thinking skills and fosters intellectual independence.",
+            "Inclusion of Arts → Creative Innovation": "Integrating creative arts into education is highly beneficial for nurturing divergent thinking in students.",
+            "Bilingual Education → Cognitive Flexibility": "Introducing foreign languages in early childhood stimulates cognitive flexibility and communication skills.",
+            "Universal Primary Education → Illiteracy Eradication": "Subsidizing primary classrooms in impoverished areas is the most reliable way to eradicate illiteracy.",
+            "Civic Education → Social Responsibility": "Teaching civic rights and duties helps students develop a strong sense of social responsibility.",
+
+            // Technological
+            "Automation → Workplace Efficiency": "Implementing automated systems streamlines corporate workflows and maximizes workplace efficiency.",
+            "Digital Communication → Global Connectivity": "Digital communication tools dismantle geographical barriers, fostering instant global connectivity.",
+            "Telemedicine → Healthcare Accessibility": "Virtual telemedicine consultations make health diagnostics accessible to remote populations.",
+            "E-Learning Platforms → Democratic Education": "Online educational portals play a key role in democratizing academic access for disadvantaged students.",
+            "Smart Cities → Energy Conservation": "Integrating smart sensors into urban grids helps optimize energy distribution and lower public costs.",
+            "Data Analytics → Personalized Services": "Leveraging data analytics allows businesses to deliver personalized consumer experiences.",
+
+            // Health
+            "Preventive Care → Reduced Healthcare Costs": "Promoting preventative healthcare measures dramatically reduces national medical expenditures.",
+            "Sugar Taxation → Reduced Obesity Rates": "Imposing taxes on sugary soft drinks is a proven policy for curbing childhood obesity rates.",
+            "Physical Education → Cardio Fitness": "Mandating physical education in schools is highly effective at boosting cardiovascular fitness in youth.",
+            "Mental Health Campaigns → Reduced Social Stigma": "Funding public awareness campaigns is essential for dismantling the social stigma surrounding mental health.",
+            "Clean Water Initiatives → Disease Prevention": "Installing clean water filtration systems in rural communities directly prevents waterborne diseases.",
+            "Sleep Hygiene Education → Sleep Quality": "Educating the public on proper sleep hygiene plays a vital role in improving sleep quality.",
+
+            // Psychological
+            "Financial Security → Peace of Mind": "Establishing a financial emergency fund alleviates stress and provides essential peace of mind.",
+            "Achievement → Self-Confidence": "Acquiring new competencies enables personal growth and boosts individual self-confidence.",
+            "Social Support → Emotional Stability": "Maintaining strong social connections provides emotional support and fosters mental resilience.",
+            "Work-Life Balance → Reduced Burnout": "Prioritizing a healthy work-life balance is a critical measure to prevent professional burnout.",
+            "Mindfulness Practice → Stress Reduction": "Engaging in mindfulness practices regulates emotional responses and reduces daily anxiety.",
+            "Creative Outlets → Self-Expression": "Pursuing creative hobbies offers a valuable channel for emotional self-expression.",
+
+            // Cultural
+            "International Travel → Open-mindedness": "Immersing oneself in foreign cultures helps dismantle preconceived stereotypes and fosters open-mindedness.",
+            "Heritage Preservation → Cultural Identity": "Restoring historical landmarks is vital for preserving a community's unique cultural identity.",
+            "Cultural Festivals → Intercultural Harmony": "Sponsoring multicultural festivals celebrates diversity and fosters intercultural harmony.",
+            "Language Revitalization → Indigenous Heritage": "Funding immersion programs to save endangered languages protects rich indigenous heritages.",
+            "Museum Subsidies → Public Education": "Subsidizing museums increases cultural literacy and enhances public education outside the classroom.",
+            "Global Exchange Programs → International Collaboration": "Sponsoring student exchange programs builds international friendships and joint academic research.",
+
+            // Government
+            "Taxation → Behavioral Change": "Implementing prohibitive taxes on harmful goods is highly effective at forcing behavioral changes.",
+            "Fines → Environmental Laws Enforce": "Imposing severe financial fines on industrial polluters enforces compliance with environmental laws.",
+            "Welfare Benefits → Reduced Poverty Rates": "Distributing welfare benefits to low-income households directly reduces poverty rates.",
+            "Public Infrastructure Funding → Traffic Reduction": "Allocating state funds to expand mass transit infrastructure is key to reducing traffic congestion.",
+            "Mandatory Labeling → Consumer Awareness": "Mandating nutrition labeling on food packages increases consumer awareness of healthy eating habits.",
+            "Rent Controls → Housing Affordability": "Enforcing rent control laws protects tenants from eviction and stabilizes housing affordability.",
+
+            // Infrastructure
+            "Public Transport → Reduced Congestion": "Expanding public transit networks is the most sustainable approach to mitigating traffic congestion.",
+            "Bicycle Lanes → Sustainable Commuting": "Constructing dedicated bicycle lanes guarantees cyclist safety and encourages sustainable commuting.",
+            "Affordable Housing → Reduced Homelessness": "Building affordable public housing projects provides shelter and reduces street homelessness.",
+            "Pedestrian Zones → Retail Growth": "Pedestrianizing downtown shopping streets increases foot traffic and boosts local retail growth.",
+            "Renewable Grids → Energy Independence": "Integrating solar and wind power into national grids supports long-term energy independence.",
+            "Waste Management Systems → Environmental Protection": "Upgrading municipal waste management facilities prevents soil contamination and protects the environment.",
+
+            // Consumerism
+            "Ethical Purchasing → Corporate Accountability": "Boycotting unethical products exerts financial pressure that forces corporate accountability.",
+            "Mass Advertising → Emotional Unsatisfaction": "Constant exposure to luxury advertising drives impulsive spending and emotional dissatisfaction.",
+            "Fast Fashion → Environmental Destruction": "The rapid production of cheap synthetic clothing increases landfill waste and drives environmental destruction.",
+            "Buy Local Campaigns → Regional Prosperity": "Supporting local businesses keeps capital inside the community and drives regional prosperity.",
+            "Minimalist Lifestyles → Financial Freedom": "Embracing a minimalist lifestyle curbs impulsive buying and fosters long-term financial freedom.",
+            "Single-Use Bans → Plastic Waste Reduction": "Banning single-use plastics minimizes marine pollution and protects aquatic ecosystems.",
+
+            // Individual
+            "Career Autonomy → Job Satisfaction": "Allowing workers to choose their own career trajectories boosts motivation and job satisfaction.",
+            "Personal Liberty → Creative Expression": "Protecting personal liberty encourages individuals to challenge orthodox views and drives creative expression.",
+            "Individual Choice → Academic Motivation": "Offering elective choices in school curricula nurtures intrinsic motivation and academic engagement.",
+            "Self-Determination → Financial Prudence": "Assuming personal accountability for one's choices promotes long-term financial prudence.",
+            "Life Freedom → Emotional Well-being": "The freedom to make private lifestyle choices reduces cognitive dissonance and improves emotional well-being.",
+            "Personal Responsibility → Character Resilience": "Bearing the consequences of one's decisions fosters self-discipline and builds character resilience.",
+
+            // Media
+            "Sensational Journalism → Public Anxiety": "Broadcasting sensationalist news stories distorts reality and heightens public anxiety.",
+            "Algorithmic Filtering → Polarization": "Deploying algorithmic content filtering confines users to digital echo chambers and increases political polarization.",
+            "Investigative Reporting → Political Accountability": "Conducting investigative journalism exposes corruption and enforces government accountability.",
+            "Targeted Advertising → Impulsive Consumerism": "Leveraging user data for targeted advertising triggers impulsive buying and consumerism.",
+            "Press Censorship → Authoritarian Control": "Imposing strict press censorship restricts public knowledge and consolidates authoritarian control.",
+            "Information Overload → Decision Paralysis": "Encountering endless flows of online news causes information overload and decision paralysis.",
+
+            // Global
+            "Corporate Expansion → Local Business Loss": "The rapid expansion of global retail chains undercuts local prices and erodes small businesses.",
+            "Globalized Brands → Cultural Homogenization": "Exporting globalized brands standardizes consumer tastes and causes cultural homogenization.",
+            "Global Trade → Economic Interdependence": "Lowering trade tariffs facilitates international commerce and increases economic interdependence.",
+            "International Tourism → Indigenous Heritage Income": "Attracting international tourism provides communities with revenues that support indigenous heritage preservation.",
+            "Global Labor Arbitrage → Brain Drain": "Offering high overseas salaries lures educated graduates away, triggering a systemic brain drain.",
+            "Global Standards → Standardized Education": "Adopting global educational standards dilutes local historical focus and standardizes classroom values.",
+
+            // Science
+            "Genetic Editing → Eradication of Diseases": "Harnessing gene-editing technologies like CRISPR makes it possible to eradicate hereditary diseases.",
+            "Commercial Scientific Focus → Ethical Violations": "Chasing corporate profits in commercial laboratories can compromise patient safety and lead to ethical violations.",
+            "Space Exploration → Resource Innovation": "Funding space exploration programs drives research that develops critical spin-off technologies for daily life.",
+            "Artificial Cloning → Loss of Biodiversity": "Cloning elite agricultural livestock homogenizes animal genomes and risks a loss of biodiversity.",
+            "Clinical Trial Regulations → Patient Safety": "Enforcing strict clinical trial regulations protects patients from toxic side effects of experimental drugs.",
+            "Cognitive AI Research → Workplace Disruption": "Advancing cognitive artificial intelligence displaces white-collar workers and causes workplace disruption."
+        };
+        
+        if (map[title]) {
+            return map[title];
+        }
+        const parts = title.split('→');
+        const action = parts[0] ? parts[0].trim() : '';
+        const outcome = parts[1] ? parts[1].trim() : '';
+        return `Prioritizing ${action.toLowerCase()} plays a vital role in driving ${outcome.toLowerCase()}.`;
+    }
+
     function renderSingleLens(topic, id) {
         if(!topic) {
             contentBody.innerHTML = '<p>Lens data being compiled...</p>';
@@ -216,16 +348,13 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>`;
             
         topic.chains.forEach((chain, index) => {
-            const parts = chain.title.split('→');
-            const action = parts[0] ? parts[0].trim() : '';
-            const outcome = parts[1] ? parts[1].trim() : '';
-            const topicSentence = `Specifically, prioritizing <strong>${action.toLowerCase()}</strong> plays a pivotal role in driving <strong>${outcome.toLowerCase()}</strong>.`;
+            const topicSentence = getCustomTopicSentence(chain.title);
 
             html += `
             <div class="card">
                 <h4 style="color: var(--text-primary); margin-bottom: 5px; font-size: 1.3rem;">Chain ${index + 1}: ${chain.title}</h4>
                 <div style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 20px; font-style: italic;">
-                    <i class="fa-solid fa-bullseye" style="color: var(--accent-color); margin-right: 6px;"></i> Topic Sentence: "${topicSentence}"
+                    <i class="fa-solid fa-bullseye" style="color: var(--accent-color); margin-right: 6px;"></i> ${topicSentence}
                 </div>
                 <div class="grid-2">
                     <!-- Left Column -->
