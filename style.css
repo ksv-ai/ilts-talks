@@ -213,7 +213,6 @@ body {
 }
 
 .nav-item i {
-    display: none; /* Hide icons in expanded sidebar */
     width: 20px;
     text-align: center;
     color: var(--text-secondary);
