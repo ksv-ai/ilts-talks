@@ -418,6 +418,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // Expose loadContent globally so dashboard onclick can trigger it
     window.loadIeltsContent = loadContent;
 
+    function getMatchedLenses(lensStr) {
+        if (!lensStr) return [];
+        const normalized = lensStr.toLowerCase();
+        const possibleKeys = [
+            "social", "economic", "environmental", "educational", "technological", 
+            "health", "psychological", "cultural", "government", "infrastructure", 
+            "consumerism", "individual", "media", "global", "science"
+        ];
+        
+        return possibleKeys.filter(key => {
+            if (key === "educational" && (normalized.includes("education") || normalized.includes("educational"))) return true;
+            if (key === "technological" && (normalized.includes("techno") || normalized.includes("technology"))) return true;
+            if (key === "government" && (normalized.includes("govern") || normalized.includes("policy"))) return true;
+            if (key === "science" && (normalized.includes("science") || normalized.includes("ethical") || normalized.includes("ethics"))) return true;
+            return normalized.includes(key);
+        });
+    }
+
     function renderTask2Essays(data) {
         if(!data) return;
         pageTitle.innerText = data.title;
@@ -429,6 +447,41 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>`;
 
         data.examples.forEach((ex, index) => {
+            const matchedKeys = getMatchedLenses(ex.lens);
+            let lensesHtml = '';
+            
+            if (window.ieltsData && window.ieltsData.task2.lenses) {
+                const lenses = window.ieltsData.task2.lenses;
+                matchedKeys.forEach(key => {
+                    const lens = lenses[key];
+                    if (lens) {
+                        lensesHtml += `
+                        <details style="background: rgba(56, 189, 248, 0.03); border: 1px solid var(--border-color); border-radius: 8px; padding: 12px; margin-bottom: 15px;">
+                            <summary style="font-weight: 600; cursor: pointer; color: var(--accent-color); font-size: 0.9rem;">
+                                <i class="fa-solid fa-lightbulb"></i> How to Use <strong>${lens.name}</strong> Lens Mechanisms
+                            </summary>
+                            <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 10px;">
+                                ${lens.chains.map(chain => {
+                                    const topicSentence = getCustomTopicSentence(chain.title);
+                                    return `
+                                    <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-color); padding: 10px; border-radius: 6px; font-size: 0.85rem;">
+                                        <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 4px;">${chain.title}</div>
+                                        <div style="color: #ffffff; margin-bottom: 6px; font-size: 0.8rem; font-style: italic;">
+                                            "${topicSentence}"
+                                        </div>
+                                        <div style="color: var(--text-secondary); font-size: 0.78rem; line-height: 1.4;">
+                                            <strong style="color: var(--accent-color);">Flow:</strong> ${chain.steps.join(' &rarr; ')}
+                                        </div>
+                                    </div>
+                                    `;
+                                }).join('')}
+                            </div>
+                        </details>
+                        `;
+                    }
+                });
+            }
+
             html += `
             <div class="card">
                 <h3>Example ${index + 1}: ${ex.title}</h3>
@@ -436,6 +489,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div style="margin-bottom: 15px;">
                     <span class="badge"><i class="fa-solid fa-glasses"></i> Lens: ${ex.lens}</span>
                 </div>
+                ${lensesHtml}
                 <div class="blueprint-box" style="margin-bottom: 20px;">
                     <strong>THE CONVERSATION:</strong><br/>
                     ${ex.conversation.map(c => {
